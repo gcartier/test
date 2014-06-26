@@ -1,0 +1,7 @@
+(module jazz scheme
+  (export (scheme))
+  (export (jazz.object))
+  (export (jazz.dialect (phase syntax)))
+  (export (jazz.language.syntax (phase syntax)))
+  (export (jazz.language.runtime))
+  (export (jazz.dialect.classes.jazz)))

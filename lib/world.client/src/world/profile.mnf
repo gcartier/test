@@ -1,0 +1,8 @@
+(manifest world.profile
+
+  (version 207012)
+  (digest "892ba7b41981f53428f3bc9c0b8725889a8af7ed")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.literals construct-dimension construct-point)
+              (jazz.profile.Profile Profile)))

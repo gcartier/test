@@ -1,0 +1,7 @@
+(manifest jazz.ui.tree.Tree-Highlight
+
+  (version 207012)
+  (digest "9697ec29fc84995029e7b31bf92763554eb6c50a")
+  (references (jazz.language.runtime.functional Object-Class is-not?)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize))
+              (scheme.language.runtime.kernel = eq?)))

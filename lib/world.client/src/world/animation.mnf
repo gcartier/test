@@ -1,0 +1,18 @@
+(manifest world.animation
+
+  (version 207012)
+  (digest "662963ba1b36605ba9120505463f1ab34a860036")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class element flmodulo)
+              (jazz.language.runtime.kernel f32vector-set! f64vector-ref make-f32vector new unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.assertion allege)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros site unless when)
+              (scheme.language.runtime.kernel * + - / < <= = > >= apply car equal? length make-vector not vector-length vector-ref vector-set!)
+              (world.geometry euler-radian->degree make-identity-matrix make-identity-matrix! matrix-multiply! matrix-translation matrix-transpose-3x3! quaternion-euler quaternion-matrix! quaternion-slerp! translate-matrix!)
+              (world.geometry.base vertex- vertex-scalar*!)
+              (world.geometry.classes make-matrix make-quaternion make-vertex matrix-copy! matrix-ref matrix-set! present-quaternion present-vertex quaternion quaternion-copy! quaternion-init! vertex-copy! vertex-init! vertex-x vertex-x-set! vertex-y vertex-y-set! vertex-z vertex-z-set!)
+              (world.geometry.syntax fx& make-fx& make-identity-matrix& make-matrix& make-quaternion& make-vertex& quaternion& vertex&)
+              (world.homogeneous fx-init! fx-ref fx-set! make-fx)
+              (world.support get-debug-animations?)))

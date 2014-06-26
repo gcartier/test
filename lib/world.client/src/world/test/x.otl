@@ -1,0 +1,7 @@
+(module world.test.x jazz
+  (definition public (foo))
+  (class X extends Object
+    (slot a accessors generate)
+    (method protected final (f))
+    (method public virtual (g))
+    (method public virtual (h))))

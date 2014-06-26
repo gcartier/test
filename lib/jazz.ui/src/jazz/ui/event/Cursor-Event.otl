@@ -1,0 +1,4 @@
+(module jazz.ui.event.Cursor-Event jazz
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Cursor-Event extends Mouse-Event))

@@ -1,0 +1,6 @@
+(package jazz.debugger
+  
+  (root "src")
+  (products (jazz.debugger (update jazz.debugger)
+                           (dependencies jazz)))
+  (project ".project"))

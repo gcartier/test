@@ -1,0 +1,17 @@
+(manifest jazz.ui.preference.Style-Preferences
+
+  (version 207012)
+  (digest "167d0177685506b30126dd50ad6608872d25818c")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new specified?)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.preference.Exemplar-Preferences Exemplar-Preferences (Exemplar-Preferences ->exemplar) (Exemplar-Preferences base) Exemplar-Preferences-Descriptor (Exemplar-Preferences-Descriptor~Class get-class-form) (Exemplar-Preferences-Descriptor~Class get-class-forms) (Exemplar-Preferences-Descriptor~Class set-class-form) (Exemplar-Preferences~Class get-class-descriptor) (Exemplar-Preferences~Class get-class-form) (Exemplar-Preferences~Class get-class-forms) (Exemplar-Preferences~Class set-class-form))
+              (jazz.ui.text.Style Style)
+              (scheme.language.runtime.kernel apply cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,9 @@
+(manifest jazz.library.utility.Box
+
+  (version 207012)
+  (digest "4da13f6d6a3d4af5c9812147c6bc1658b115cbf4")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print))
+              (scheme.language.runtime.kernel not)))

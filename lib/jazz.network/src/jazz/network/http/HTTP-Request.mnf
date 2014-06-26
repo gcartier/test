@@ -1,0 +1,17 @@
+(manifest jazz.network.http.HTTP-Request
+
+  (version 207012)
+  (digest "5d1d8518a84eef24212d86e4134e9777461f7a02")
+  (references (irregex irregex-fold irregex-match-substring string->irregex)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) empty? find subseq substitute)
+              (jazz.language.runtime.kernel force-output get-output-u8vector new open-output-u8vector read-all u8vector->list unspecified)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros prog1 unless when)
+              (jazz.network.http split-header-line url-decode url-encode)
+              (jazz.network.http.Cookie Cookie)
+              (jazz.network.http.HTTP-Message HTTP-Message (HTTP-Message add-cookie) (HTTP-Message content) (HTTP-Message crlf!) (HTTP-Message get-header) (HTTP-Message initialize) (HTTP-Message print-headers) (HTTP-Message send))
+              (jazz.network.smtp base64-string->ascii-string)
+              (scheme.language.runtime.kernel + assoc car cdr cons display integer->char list list->string map not null? read-line reverse string-length string=? values)))

@@ -1,0 +1,10 @@
+(manifest jazz.ui.search.History-Search-Item
+
+  (version 207012)
+  (digest "44ee1585f284d9e1b1194ffcc1218fe006da3348")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object (Object initialize))
+              (jazz.library.history.History-Item History-Item (History-Item open-item) (History-Item present))
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel caar null?)))

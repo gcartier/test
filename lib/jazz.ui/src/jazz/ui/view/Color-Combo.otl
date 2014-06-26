@@ -1,0 +1,20 @@
+(module jazz.ui.view.Color-Combo jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.library.exemplar))
+  (import (jazz.ui))
+  (class Color-Combo extends Combo-Box
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (form-model form))
+    (method public final (get-color))
+    (method public final (set-color color))
+    (method protected final (set-color-value color))
+    (method protected override (content-change origin))
+    (method protected override (button-action))
+    (method protected final (on-color-picked evt))
+    (method protected override (layout)))
+  (class Color-View extends View
+    (method protected override (draw surface context))))

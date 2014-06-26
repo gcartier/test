@@ -1,0 +1,6 @@
+(manifest jazz.editor.lisp.catalog.Lisp-File-Entry
+
+  (version 207012)
+  (digest "0f2514f38ff7660f6f62831a6f7cd555d7dfca05")
+  (references (jazz.catalog.entry.File-Entry File-Entry)
+              (jazz.language.runtime.functional Object-Class)))

@@ -1,0 +1,13 @@
+(manifest jazz.library.canvas.Canvas
+
+  (version 207012)
+  (digest "e2c9bbbb10dafae2b78039e6c0fc9c3830e5e341")
+  (references (jazz.language.runtime.format format format-plural)
+              (jazz.language.runtime.functional List-Factory Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component Component (Component get-integrity-manager) (Component get-presentation-property))
+              (jazz.library.integrity.Integrity-Manager Integrity-Manager)
+              (jazz.library.integrity.Violations-Manager Violations-Manager)
+              (jazz.ui.view message-box select-docked singleton-docked)
+              (scheme.language.runtime.kernel length null?)))

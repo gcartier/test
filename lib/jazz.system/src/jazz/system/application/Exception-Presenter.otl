@@ -1,0 +1,10 @@
+(module jazz.system.application.Exception-Presenter jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Exception-Presenter extends Object)
+  (class Context-Border extends Border-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Context-Tree extends Tree-View))

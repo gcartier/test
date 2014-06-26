@@ -1,0 +1,11 @@
+(manifest jazz.ui.text.Name-Text-View
+
+  (version 207012)
+  (digest "10465d1bd50a3f94e5f5fa2671c34fea95dd4294")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Plain-Text-View Plain-Text-View (Plain-Text-View new-model))
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View get-context-menu) (Text-View new-text-context-menu))))

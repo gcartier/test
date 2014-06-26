@@ -1,0 +1,14 @@
+(module jazz.network.http.Web-Server jazz
+  (import (jazz.network))
+  (import (jazz.network.http.Dispatcher))
+  (import (jazz.network.http.Session-Manager))
+  (import (webserver))
+  (class Web-Server extends Object
+    (slot dispatcher accessors generate)
+    (slot session-manager accessors generate)
+    (slot port-number accessors generate)
+    (slot gambit-webserver accessors generate)
+    (slot server-thread accessors generate)
+    (method protected override (initialize (port: port (unspecified))))
+    (method public final (start))
+    (method public final (stop))))

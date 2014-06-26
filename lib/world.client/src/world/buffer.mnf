@@ -1,0 +1,11 @@
+(manifest world.buffer
+
+  (version 207012)
+  (digest "d119c86f6d777b58150f274c7d5df796d8f5be49")
+  (references (jazz.graphic.opengl.glew.foreign glBufferDataFloat* glGenBuffers* glVertexAttribPointer*)
+              (jazz.graphic.opengl.glew.header GL_ARRAY_BUFFER GL_FALSE GL_STATIC_DRAW GL_TRIANGLES glBindBuffer glDisableVertexAttribArray glDrawArrays glEnableVertexAttribArray)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object destroy))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel / not)
+              (world.foreign glDeleteBuffers*)))

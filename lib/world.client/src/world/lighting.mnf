@@ -1,0 +1,14 @@
+(manifest world.lighting
+
+  (version 207012)
+  (digest "fa733bdc87dfdd3e6ad542e5fe98684e1f609a8d")
+  (references (jazz.graphic.opengl.glew.foreign gl-light gl-light-model gl-material-shininess gl-material-specular)
+              (jazz.graphic.opengl.glew.header GL_AMBIENT GL_CONSTANT_ATTENUATION GL_DIFFUSE GL_FRONT GL_LIGHT0 GL_LIGHT1 GL_LIGHT2 GL_LIGHT3 GL_LIGHT4 GL_LIGHT5 GL_LIGHT6 GL_LIGHT7 GL_LIGHTING GL_LIGHT_MODEL_AMBIENT GL_LINEAR_ATTENUATION GL_POSITION GL_QUADRATIC_ATTENUATION glDisable glEnable glLightf)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.loop loop)
+              (scheme.language.runtime.kernel - > car cdr not null?)
+              (world.dye dye dye-alpha dye-blue dye-green dye-red)
+              (world.geometry.classes vertex)))

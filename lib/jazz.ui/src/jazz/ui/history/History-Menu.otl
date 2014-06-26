@@ -1,0 +1,10 @@
+(module jazz.ui.history.History-Menu jazz
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.history))
+  (class History-Menu extends Context-Menu
+    (property manager accessors generate)
+    (property direction accessors generate)
+    (method protected override (finish rest))
+    (method protected final (on-action evt))))

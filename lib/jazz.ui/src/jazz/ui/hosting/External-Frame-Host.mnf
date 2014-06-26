@@ -1,0 +1,9 @@
+(manifest jazz.ui.hosting.External-Frame-Host
+
+  (version 207012)
+  (digest "833dc60c370458fb35467b4e044693db93be0d32")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.hosting.Frame-Host Frame-Host (Frame-Host close-host))
+              (jazz.ui.view.View (View player) (View set-title))
+              (jazz.ui.window.Window (Window set-title))))

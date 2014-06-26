@@ -1,0 +1,3 @@
+(module jazz.designer.row.Reference-Row jazz
+  (import (jazz.designer))
+  (class Reference-Row extends Combo-Row))

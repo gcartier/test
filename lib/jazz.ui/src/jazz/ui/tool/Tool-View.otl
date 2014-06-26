@@ -1,0 +1,7 @@
+(module jazz.ui.tool.Tool-View jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Tool-View extends Layout-View
+    (method protected override (install-in-host host))
+    (method protected override (confirm-close . rest))
+    (method protected override (save-session))))

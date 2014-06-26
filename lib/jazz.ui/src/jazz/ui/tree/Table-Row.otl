@@ -1,0 +1,6 @@
+(module jazz.ui.tree.Table-Row jazz
+  (class Table-Row extends Object
+    (slot protected children)
+    (slot protected sons getter generate)
+    (method protected override (initialize children . sons))
+    (method protected override (print output readably))))

@@ -1,0 +1,13 @@
+(module world.interface.color jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world.interface.pane))
+  (class World-Color-Chooser extends Color-Choose
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (find-pane))
+    (method protected override (mouse-down evt))
+    (method protected override (drag-move evt))
+    (method protected override (drag-up evt . rest))))

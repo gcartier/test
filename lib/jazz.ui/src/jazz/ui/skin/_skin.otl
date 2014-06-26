@@ -1,0 +1,12 @@
+(module jazz.ui.skin jazz
+  (import (jazz.jml))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (definition public (get-skin))
+  (definition public (set-skin skin))
+  (definition package (skin-update))
+  (definition public (get-skins))
+  (definition public (prepare-skins))
+  (definition package (default-skins))
+  (definition package (default-skin))
+  (definition public (find-look name)))

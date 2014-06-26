@@ -1,0 +1,12 @@
+(module jazz.ide.application.IDE-Text-View jazz
+  (import (jazz.editor.jazz))
+  (import (jazz.ui))
+  (import (jazz.system))
+  (class IDE-Text-View extends Code-Text-View
+    (method protected override (new-model))
+    (method protected override (new-syntax))
+    (method protected override (current-history-item))
+    (method protected override (match-backwards? char))
+    (method protected override (match-forwards? char))
+    (method protected override (context-menu evt))
+    (method protected override (get-context-menu))))

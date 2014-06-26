@@ -1,0 +1,6 @@
+(manifest world.test.x
+
+  (version 207012)
+  (digest "66895a080c4fa2f92760826560753bc545292073")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

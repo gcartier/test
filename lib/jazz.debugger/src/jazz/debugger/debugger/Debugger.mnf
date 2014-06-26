@@ -1,0 +1,7 @@
+(manifest jazz.debugger.debugger.Debugger
+
+  (version 207012)
+  (digest "ec81254b9224755d5f717bd8d9d3af1c7dae934f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)))

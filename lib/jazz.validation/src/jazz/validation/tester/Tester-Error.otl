@@ -1,0 +1,7 @@
+(module jazz.validation.tester.Tester-Error jazz
+  (class Tester-Error extends Error
+    (slot form getter generate)
+    (slot string?)
+    (method protected override (initialize form (string? (unspecified))))
+    (method protected override (get-message))
+    (method protected override (present-message . rest))))

@@ -1,0 +1,15 @@
+(module jazz.schema.data.Data-Object jazz
+  (import (jazz.library))
+  (import (jazz.schema))
+  (class Data-Object extends Object
+    (slot name accessors generate)
+    (slot parent accessors generate)
+    (slot properties getter generate)
+    (method protected override (initialize (name: name (unspecified)) (parent: parent (unspecified)) (properties: properties (unspecified))))
+    (method protected override (print output readably))
+    (method public virtual (get-kind))
+    (method public virtual (property-names))
+    (method public virtual (present-property property value))
+    (method public final (has-property? property))
+    (method public virtual (get-property keyword (not-found (unspecified))))
+    (method public virtual (set-property keyword value))))

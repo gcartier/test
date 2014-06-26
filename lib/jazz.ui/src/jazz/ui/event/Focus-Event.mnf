@@ -1,0 +1,8 @@
+(manifest jazz.ui.event.Focus-Event
+
+  (version 207012)
+  (digest "22353a01591658ca7c6f2bb96899318dc254b60b")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object print-unreadable)
+              (jazz.library.event.Event Event (Event initialize) (Event print))))

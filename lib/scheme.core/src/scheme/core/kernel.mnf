@@ -1,0 +1,5 @@
+(manifest scheme.core.kernel
+
+  (version 207012)
+  (digest "6d2d2cc17dcfbfe62872e23c25ad34919be291f2")
+  (references))

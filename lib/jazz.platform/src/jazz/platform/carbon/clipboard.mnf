@@ -1,0 +1,6 @@
+(manifest jazz.platform.carbon.clipboard
+
+  (version 207012)
+  (digest "0dbf1b618db7dc020d843cdbdccf43c540b311d2")
+  (references (jazz.platform.carbon.carbon-types PasteboardRef)
+              (jazz.platform.types scheme-object void)))

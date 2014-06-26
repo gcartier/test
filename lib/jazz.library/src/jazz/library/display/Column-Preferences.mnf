@@ -1,0 +1,16 @@
+(manifest jazz.library.display.Column-Preferences
+
+  (version 207012)
+  (digest "af6b1db1024c7aed002550083d470f9d6d1cefa1")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name memq?)
+              (jazz.language.runtime.kernel field-name new unspecified)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.display.Display-Column Display-Column)
+              (jazz.ui.preference.Preferences Preferences Preferences-Descriptor (Preferences-Descriptor component-get-presentation) (Preferences-Descriptor component-presentation-property?) (Preferences-Descriptor component-set-presentation) (Preferences-Descriptor~Class get-class-form) (Preferences-Descriptor~Class get-class-forms) (Preferences-Descriptor~Class set-class-form) (Preferences~Class get-class-descriptor))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,2 @@
+(module jazz.ui.listener.Listener jazz
+  (interface Listener))

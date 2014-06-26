@@ -1,0 +1,10 @@
+(module jazz.ui.search.Projects-Search jazz
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Projects-Search extends Search
+    (slot domain getter generate)
+    (method protected override (initialize domain find replace))
+    (method protected override (install-results results-view results categorized?))
+    (method protected override (get-icon))
+    (method protected override (supports-drill-down?))
+    (method protected override (dynamic-search? categorized?))))

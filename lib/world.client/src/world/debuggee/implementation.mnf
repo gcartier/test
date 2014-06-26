@@ -1,0 +1,9 @@
+(manifest world.debuggee.implementation
+
+  (version 207012)
+  (digest "b0b71aa3cb857e4f6834823df842c6343e091c8d")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (jazz.ui.window.platform.independant execute-event)
+              (world.client.window position-world-window restore-world-window)
+              (world.debug set-target-property)))

@@ -1,0 +1,6 @@
+(manifest jazz.ui.text.Text-Highlight
+
+  (version 207012)
+  (digest "d038095803c0bc014f5cbba517a218a0e19e5095")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.text.Text-Mark Text-Mark (Text-Mark initialize))))

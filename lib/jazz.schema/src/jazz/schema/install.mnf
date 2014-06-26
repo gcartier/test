@@ -1,0 +1,5 @@
+(manifest jazz.schema.install
+
+  (version 207012)
+  (digest "a59d09d0b8316071c6069b541688e30dbd8e812d")
+  (references))

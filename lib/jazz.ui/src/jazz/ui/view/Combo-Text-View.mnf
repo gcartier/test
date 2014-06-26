@@ -1,0 +1,17 @@
+(manifest jazz.ui.view.Combo-Text-View
+
+  (version 207012)
+  (digest "d20b528e4fefa6dcad1d4e08db9ed76c7558e902")
+  (references (jazz.language.runtime.functional Object-Class di=? memq? neq? prefix)
+              (jazz.language.runtime.geometry Cell Range$Cell$)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.component.Component (Component parent) (Component surrogate))
+              (jazz.ui find-actions)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Symbol-Completer Symbol-Completer (Symbol-Completer complete))
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View Text-View (Text-View auto-complete?) (Text-View complete-name?) (Text-View completion-name) (Text-View completions-prefix) (Text-View drag-up) (Text-View focus-actions) (Text-View get-char) (Text-View get-end) (Text-View get-string) (Text-View has-selection?) (Text-View mouse-down) (Text-View mouse-leave) (Text-View new-model) (Text-View previous-cell) (Text-View return-press) (Text-View selectable?) (Text-View symbol-completions) (Text-View syntax))
+              (jazz.ui.view.View (View close-popups) (View invalidate-view) (View mouse-activate?) (View mouse-enter))
+              (scheme.language.runtime.kernel >= cons map not)))

@@ -1,0 +1,5 @@
+(manifest jazz.graphic.font
+
+  (version 207012)
+  (digest "e9f12d8393a57a0ecbc3038a2e2d15134ad7baff")
+  (references (jazz.graphic.font.platform.freetype create-cairo-font-face create-font-handle destroy-cairo-font-face destroy-font-handle)))

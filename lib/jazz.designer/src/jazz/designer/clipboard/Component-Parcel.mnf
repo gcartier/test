@@ -1,0 +1,10 @@
+(manifest jazz.designer.clipboard.Component-Parcel
+
+  (version 207012)
+  (digest "c1c008431a2c68e88e062958f9ab072fda68e1c3")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel resolve-runtime-reference)
+              (jazz.library.component imports-locator)
+              (jazz.ui.clipboard (Clipboard-Parcel content) (Clipboard-Parcel initialize))
+              (jazz.ui.entity.Entity-Parcel Entity-Parcel)
+              (scheme.language.runtime.kernel car)))

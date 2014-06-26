@@ -1,0 +1,4 @@
+(unit core.class
+  (require (core.base))
+  (require (core.class.syntax (phase syntax)))
+  (require (core.class.runtime)))

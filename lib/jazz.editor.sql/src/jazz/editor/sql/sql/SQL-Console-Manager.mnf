@@ -1,0 +1,6 @@
+(manifest jazz.editor.sql.sql.SQL-Console-Manager
+
+  (version 207012)
+  (digest "110ca3c36235aef958f0b7fffb855c5ff5309f5a")
+  (references (jazz.console.Console-Manager Console-Manager (Console-Manager~Class external-name) (Console-Manager~Class host-title))
+              (jazz.language.runtime.functional Object-Class)))

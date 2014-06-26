@@ -1,0 +1,6 @@
+(manifest jazz.language.syntax.ecase
+
+  (version 207012)
+  (digest "2501b8b6aaebafe075bfd475378f20d0b3c52f55")
+  (references (jazz.language.runtime.kernel with-uniqueness)
+              (scheme.language.runtime.kernel cadr car cddr cdr cons desourcify eq? integer? list map null? pair? source-code sourcify-if)))

@@ -1,0 +1,19 @@
+(module jazz.ui.view.Content-View jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Content-View extends Layout-View
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (method protected override (size-change size))
+    (method protected override (add-child child))
+    (method protected override (remove-child child))
+    (method public final (get-container))
+    (method public final (get-client))
+    (method protected override (inner? view))
+    (method protected override (inner-widget))
+    (method protected override (get-scroll-client)))
+  (class Content-View-Descriptor extends Layout-View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

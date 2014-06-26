@@ -1,0 +1,4 @@
+(unit core.generic
+  (require (core.class))
+  (require (core.generic.syntax (phase syntax)))
+  (require (core.generic.runtime)))

@@ -1,0 +1,6 @@
+(manifest jazz.media.platform.glfw
+
+  (version 207012)
+  (digest "eb71a70d7cca27686f3310878f862d94a3da73b8")
+  (references (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.platform bell)))

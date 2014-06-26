@@ -1,0 +1,8 @@
+(module jazz.library.template.Template-Expander jazz
+  (import (jazz.io))
+  (class Template-Expander extends Object
+    (slot delimiter-escape)
+    (slot delimiter-start)
+    (slot delimiter-end)
+    (method protected override (initialize (delimiter-escape: delimiter-escape (unspecified)) (delimiter-start: delimiter-start (unspecified)) (delimiter-end: delimiter-end (unspecified))))
+    (method public final (expand template associations output (printer: printer (unspecified))))))

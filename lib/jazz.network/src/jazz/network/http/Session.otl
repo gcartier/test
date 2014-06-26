@@ -1,0 +1,13 @@
+(module jazz.network.http.Session jazz
+  (import (jazz.library))
+  (class Session extends Object
+    (slot id getter generate)
+    (slot session-timeout accessors generate)
+    (slot last-access-time accessors generate)
+    (slot properties getter generate)
+    (method protected override (initialize id))
+    (method protected override (print printer readably))
+    (method public virtual (expired?))
+    (method public virtual (end-session))
+    (method public virtual (get-property name (error?: error? (unspecified))))
+    (method public virtual (set-property name value))))

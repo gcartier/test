@@ -1,0 +1,10 @@
+(module jazz.validate.suite.Walk-Tester jazz
+  (import (jazz.debuggee))
+  (import (jazz.jml))
+  (import (jazz.runtime))
+  (import (jazz.validation))
+  (class Walk-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (test))))

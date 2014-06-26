@@ -1,0 +1,9 @@
+(manifest jazz.editor.clojure.autoload
+
+  (version 207012)
+  (digest "59936351b13d447090dcd0021b85e1dd928c6866")
+  (references (jazz.editor.clojure.parser.Clojure-Parser Clojure-Parser)
+              (jazz.editor.clojure.text.Clojure-Explorer Clojure-Explorer)
+              (jazz.editor.clojure.text.Clojure-Syntax Clojure-Syntax)
+              (jazz.editor.clojure.text.Clojure-Text-Preferences Clojure-Text-Preferences)
+              (jazz.editor.clojure.text.Clojure-Text-View Clojure-Text-View)))

@@ -1,0 +1,10 @@
+(manifest jazz.ui.text.Formatted-Text
+
+  (version 207012)
+  (digest "38692393dfbe26617acca027a8f04239aa05e180")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list category-name find-keyword unbox-list)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.ui.text.Text Text (Text initialize) (Text paragraphs) (Text print))
+              (scheme.language.runtime.kernel apply)))

@@ -1,0 +1,12 @@
+(manifest jazz.library.event.Event
+
+  (version 207012)
+  (digest "11a1279626521db7f1d005d41eda8c2cbd0d4356")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class addf category-name getf neq?)
+              (jazz.language.runtime.kernel class-of new not-null?)
+              (jazz.language.runtime.object Object (Object copy-object) (Object initialize) (Object print))
+              (jazz.library alt-key? control-key? modifiers->keys shift-key?)
+              (jazz.library.literals construct-box)
+              (jazz.library.utility.Box Box)
+              (scheme.language.runtime.kernel apply values)))

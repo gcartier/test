@@ -1,0 +1,21 @@
+(module jazz.editor.clojure.text.Clojure-Text-View jazz
+  (import (jazz.editor.clojure))
+  (import (jazz.editor.lisp))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Clojure-Text-View extends Lisp-Text-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method protected override (preferences))
+    (method protected override (new-syntax))
+    (method protected override (install rest))
+    (method protected override (get-context-menu)))
+  (class Clojure-Text-Menu extends Context-Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

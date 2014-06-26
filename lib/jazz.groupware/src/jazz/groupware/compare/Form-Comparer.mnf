@@ -1,0 +1,10 @@
+(manifest jazz.groupware.compare.Form-Comparer
+
+  (version 207012)
+  (digest "4aa5c22f85292112b41f70912a302eda6eb8b3e9")
+  (references (jazz.groupware.compare.Tree-Comparer Tree-Comparer (Tree-Comparer compare-nodes/leaves) (Tree-Comparer create-item) (Tree-Comparer different?) (Tree-Comparer get-item-content) (Tree-Comparer get-item-type) (Tree-Comparer make-item))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional /= Object-Class for-each-property)
+              (jazz.language.runtime.kernel field-name field? is?)
+              (jazz.library.component.Form Form)
+              (scheme.language.runtime.kernel car cdr cons map not)))

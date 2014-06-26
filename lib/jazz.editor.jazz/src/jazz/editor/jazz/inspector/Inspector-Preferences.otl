@@ -1,0 +1,14 @@
+(module jazz.editor.jazz.inspector.Inspector-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Inspector-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property ordering accessors generate))
+  (class Inspector-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

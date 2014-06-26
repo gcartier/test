@@ -1,0 +1,8 @@
+(manifest jazz.editor.tex.autoload
+
+  (version 207012)
+  (digest "4d52d3391004b1115ee4ff4c1f454e02735b7eee")
+  (references (jazz.editor.tex.text.Tex-Explorer Tex-Explorer)
+              (jazz.editor.tex.text.Tex-Syntax Tex-Syntax)
+              (jazz.editor.tex.text.Tex-Text-Preferences Tex-Text-Preferences)
+              (jazz.editor.tex.text.Tex-Text-View Tex-Text-View)))

@@ -1,0 +1,10 @@
+(manifest jazz.ui.text.Format
+
+  (version 207012)
+  (digest "2c861b7cb8487a4e59c30bffe007e4b20983a13b")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel not-null? specified? unspecified)
+              (jazz.language.syntax.attributes attributes)
+              (jazz.library.exemplar Exemplar (Exemplar attribute=?) (Exemplar default-domain) (Exemplar get) (Exemplar get-ascendants) (Exemplar get-attribute) (Exemplar get-attribute-default) (Exemplar get-attribute-no-default) (Exemplar get-attributes) (Exemplar set) (Exemplar set-attribute))
+              (jazz.ui formats-domain)
+              (scheme.language.runtime.kernel car cdr)))

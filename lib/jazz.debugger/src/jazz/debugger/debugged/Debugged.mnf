@@ -1,0 +1,9 @@
+(manifest jazz.debugger.debugged.Debugged
+
+  (version 207012)
+  (digest "bf100d5e31173d5f0af367a2df23c5b177699a7c")
+  (references (jazz.debugger debugged-hash)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.runtime.object Object (Object hash-object) (Object initialize) (Object print) print-unreadable)))

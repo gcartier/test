@@ -1,0 +1,19 @@
+(module jazz.designer.row.Pathname-Row jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Pathname-Row extends Value-Row)
+  (class Pathname-Row-Editor extends Moniker-Widget
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property value-row accessors generate)
+    (method protected override (form-model form))
+    (method protected override (moniker-update)))
+  (class Pathname-Value-Text-View extends Moniker-Text-View
+    (property value-row accessors generate)
+    (method protected override (up-arrow-move extend? scroll?))
+    (method protected override (down-arrow-move extend? scroll?))
+    (method protected final (document-menu))
+    (method protected override (focus-lose))
+    (method protected override (focus-master))))

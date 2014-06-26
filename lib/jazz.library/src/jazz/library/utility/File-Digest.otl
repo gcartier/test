@@ -1,0 +1,8 @@
+(module jazz.library.utility.File-Digest jazz
+  (import (jazz.library))
+  (class File-Digest extends Object
+    (slot hash getter generate)
+    (slot time getter generate)
+    (method protected override (initialize hash time))
+    (method protected override (compare-object target))
+    (method protected override (print output readably))))

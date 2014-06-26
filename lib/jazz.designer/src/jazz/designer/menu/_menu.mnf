@@ -1,0 +1,18 @@
+(manifest jazz.designer.menu
+
+  (version 207012)
+  (digest "462b4911d774f3ab2636415ff052fc499dadd958")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.kernel is? new not-null? resolve-runtime-reference)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component Component (Component add-component-menu) (Component can-view-properties?))
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.locale localize)
+              (jazz.ui get-action-enabled?)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.action.Shortcut Shortcut)
+              (jazz.ui.literals construct-action construct-shortcut)
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Separator-Item Separator-Item)
+              (scheme.language.runtime.kernel = >= car cdr for-each length not)))

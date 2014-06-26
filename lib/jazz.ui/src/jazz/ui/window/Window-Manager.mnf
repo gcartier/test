@@ -1,0 +1,17 @@
+(manifest jazz.ui.window.Window-Manager
+
+  (version 207012)
+  (digest "d69917f86daa7398a885e3231e62b1dd6445f403")
+  (references (jazz.geometry fit-point)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension (Dimension get-height) (Dimension get-width) Point)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object)
+              (jazz.library.component.Component (Component set-visible?))
+              (jazz.literals construct-dimension construct-point)
+              (jazz.ui.view.Border-View Border-View)
+              (jazz.ui.view.Drawing (Drawing get-size))
+              (jazz.ui.view.View View (View get-player) (View set-parent) (View to-desktop))
+              (jazz.ui.window current-monitor)
+              (jazz.ui.window.Popup Popup)
+              (scheme.language.runtime.kernel +)))

@@ -1,0 +1,10 @@
+(manifest jazz.editor.scheme.autoload
+
+  (version 207012)
+  (digest "9772cbf1cae7b9306b37bd9115e089fe5b161f5a")
+  (references (jazz.editor.scheme.parser.Scheme-Parser Scheme-Parser)
+              (jazz.editor.scheme.syntax.Scheme-Syntax Scheme-Syntax)
+              (jazz.editor.scheme.text.Scheme-Explorer Scheme-Explorer)
+              (jazz.editor.scheme.text.Scheme-Text-Actions Scheme-Text-Actions)
+              (jazz.editor.scheme.text.Scheme-Text-Preferences Scheme-Text-Preferences)
+              (jazz.editor.scheme.text.Scheme-Text-View Scheme-Text-View)))

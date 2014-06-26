@@ -1,0 +1,18 @@
+(manifest jazz.validate.suite.Language-Tester
+
+  (version 207012)
+  (digest "587043c9a24453abc223ce8b11642ae9e4b5b6b8")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.exception Error System-Exception call-with-catch throw wrap-exception)
+              (jazz.language.runtime.functional List Object-Class String)
+              (jazz.language.runtime.kernel is? new unspecified with-exception-filter)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.ecase ecase)
+              (jazz.language.syntax.macros catch unless when)
+              (jazz.language.syntax.typecase typecase)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax error-occurred? validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel * + - = car cdr cons eq? equal? list list->table list? not procedure? values)
+              (scheme.syntax declaration-path)))

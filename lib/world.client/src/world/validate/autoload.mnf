@@ -1,0 +1,5 @@
+(manifest world.validate.autoload
+
+  (version 207012)
+  (digest "8060dd6a576b51308b8e6509ed8cfab7d1478c0e")
+  (references (world.validate.suite.Geometry-Tester Geometry-Tester)))

@@ -1,0 +1,18 @@
+(manifest jazz.ui.text.Entry-Text-View
+
+  (version 207012)
+  (digest "688b2f3099a7e287aeb59e76291b0f58a3641471")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule when)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Plain-Text-View Plain-Text-View (Plain-Text-View new-model))
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View down-arrow-move) (Text-View end-completion) (Text-View focus-gained) (Text-View focus-lose) (Text-View get-context-menu) (Text-View has-ambiguous-completion?) (Text-View new-text-context-menu) (Text-View return-press) (Text-View selectable?) (Text-View tab-press) (Text-View up-arrow-move) Text-View-Descriptor (Text-View-Descriptor~Class get-class-form) (Text-View-Descriptor~Class get-class-forms) (Text-View-Descriptor~Class set-class-form) (Text-View~Class get-class-descriptor) (Text-View~Class get-class-form) (Text-View~Class get-class-forms) (Text-View~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

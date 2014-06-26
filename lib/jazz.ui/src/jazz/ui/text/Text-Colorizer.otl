@@ -1,0 +1,10 @@
+(module jazz.ui.text.Text-Colorizer jazz
+  (import (jazz.ui))
+  (class Text-Colorizer extends Object
+    (slot model <Text-Model>)
+    (slot row <Integer+>)
+    (slot col <fx>)
+    (slot runs <List-Factory>)
+    (method protected override (initialize mdl <Object>))
+    (method public final (apply-style start <Cell> end <Cell> name/style <Object>))
+    (method public final (finish-current))))

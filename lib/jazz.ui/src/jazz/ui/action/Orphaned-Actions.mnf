@@ -1,0 +1,8 @@
+(manifest jazz.ui.action.Orphaned-Actions
+
+  (version 207012)
+  (digest "d273e3bbb62b39f30c4e2b716fca3e2eb473bfd5")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.ui.action.Actions Actions (Actions actions-orphaned?) Actions-Descriptor (Actions~Class get-class-descriptor))))

@@ -1,0 +1,10 @@
+(manifest jazz.validation
+
+  (version 207012)
+  (digest "19f656f772d8b32a330c7745f18579510ead6e04")
+  (references (jazz.validation.syntax error-occurred? validate)
+              (jazz.validation.tester.Tester Tester)
+              (jazz.validation.tester.Tester-Error Tester-Error)
+              (jazz.validation.validate.Validate Validate)
+              (jazz.validation.validate.Validation-Manager Validation-Manager)
+              (jazz.validation.validate.Validation-Suite Validation-Suite)))

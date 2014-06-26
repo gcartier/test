@@ -1,0 +1,7 @@
+(module jazz.network.http.Dispatcher jazz
+  (import (jazz.network.http.Default-404-Handler))
+  (class HTTP-Dispatcher extends Object
+    (slot default-404-handler)
+    (slot handlers accessors generate)
+    (method public final (dispatch request port server))
+    (method public final (add-handler handler))))

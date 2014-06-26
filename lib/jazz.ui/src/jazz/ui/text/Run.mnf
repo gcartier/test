@@ -1,0 +1,9 @@
+(manifest jazz.ui.text.Run
+
+  (version 207012)
+  (digest "920a7b3cf79c1cacb6341fb570736ded45449296")
+  (references (jazz.graphic.Surface Surface)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Class coerce-object) Object-Class String Subseq$string$ (Subseq$string$ get-size) cardinality coerce)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.ui.text.Style Style (Style draw-style) (Style get-height) (Style height-update) (Style run-width) (Style scan) (Style wrap))))

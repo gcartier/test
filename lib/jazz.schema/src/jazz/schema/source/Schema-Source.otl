@@ -1,0 +1,5 @@
+(module jazz.schema.source.Schema-Source jazz
+  (interface Schema-Source
+    (method public virtual (present))
+    (method public virtual (present-detailed))
+    (method public virtual (get-data-schema . rest))))

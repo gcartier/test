@@ -1,0 +1,7 @@
+(manifest jazz.project.resource.Resource-File
+
+  (version 207012)
+  (digest "0fdc0edc5b268e2a65d892b54efa084cff15e618")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.project.file.Project-File Project-File)))

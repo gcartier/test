@@ -1,0 +1,5 @@
+(manifest jazz.media
+
+  (version 207012)
+  (digest "7cbce5237f50cf4282762eab2a99e065894a69a4")
+  (references (jazz.media.platform.glfw close-music error-sound open-music pause-music play-music play-sound resume-music stop-music)))

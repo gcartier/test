@@ -1,0 +1,5 @@
+(manifest jazz.editor.c.install
+
+  (version 207012)
+  (digest "dae4d52c7d168b691ec78a60c18fbb79d81d0818")
+  (references))

@@ -1,0 +1,22 @@
+(module jazz.designer.entry.Boolean-Entry jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Boolean-Entry extends Property-Entry
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (preferred-size))
+    (method protected override (finish rest))
+    (method protected override (tab-view))
+    (method protected override (presentation-violation))
+    (method protected override (get-value))
+    (method protected override (set-value value))
+    (method protected override (get-modified?))
+    (method protected override (set-modified? value))
+    (method protected override (set-editable? value))
+    (method protected override (set-enabled? value)))
+  (class Entry-Check-Box extends Check-Box
+    (property editor accessors generate)
+    (method protected override (focus-gained))
+    (method protected override (focus-lose))))

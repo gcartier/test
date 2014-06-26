@@ -1,0 +1,9 @@
+(module world.widget jazz
+  (import (world.syntax (phase syntax)))
+  (definition public (ray-closest-widget orig <f64vector> dir <f64vector> widget))
+  (class Widget extends Object
+    (method protected virtual (draw-widget))
+    (method protected virtual (iterate-polygons proc))
+    (method protected virtual (widget-mouse-down h v))
+    (method protected virtual (widget-mouse-move h v))
+    (method protected virtual (widget-mouse-up h v))))

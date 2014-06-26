@@ -1,0 +1,6 @@
+(manifest jazz.designer.row.Matches-Row
+
+  (version 207012)
+  (digest "1ccd24f89e00e2e0a22185db50f1050069f70f01")
+  (references (jazz.designer.row.Value-Row Value-Row)
+              (jazz.language.runtime.functional Object-Class)))

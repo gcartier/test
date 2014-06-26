@@ -1,0 +1,6 @@
+(manifest jazz.io.literals
+
+  (version 207012)
+  (digest "f8b6980ffdc29c420535ce79e914d01bb52c166c")
+  (references (jazz.io Directory File)
+              (jazz.language.runtime.kernel new)))

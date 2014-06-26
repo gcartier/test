@@ -1,0 +1,7 @@
+(manifest jazz.ide.server.Server-Configuration
+
+  (version 207012)
+  (digest "75a2aef553c1f211d76b1586eef1a729fecd5d06")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component Component)
+              (scheme.language.runtime.kernel not)))

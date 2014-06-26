@@ -1,0 +1,13 @@
+(manifest jazz.ui.menu.Item
+
+  (version 207012)
+  (digest "c0d3a4ecd6e9983629b024ee35b5222adb196deb")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.component.Component (Component find-ascendant) (Component get-parent) (Component get-visible?) (Component parent))
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Menu Menu (Menu layout-menu))
+              (jazz.ui.menu.Menubar Menubar)
+              (jazz.ui.view.View View (View actionable-reachable?) (View close-popups) (View mouse-enter) (View mouse-leave) (View popup-initiator) (View record-actions?) (View view-enabled?))
+              (scheme.language.runtime.kernel eq? list)))

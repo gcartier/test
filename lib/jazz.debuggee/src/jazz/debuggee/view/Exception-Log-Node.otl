@@ -1,0 +1,10 @@
+(module jazz.debuggee.view.Exception-Log-Node jazz
+  (import (jazz.debuggee))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.log))
+  (import (jazz.system))
+  (class Exception-Log-Node extends Log-Node
+    (method protected override (node-image))
+    (method protected override (node-location))
+    (method protected override (edit-location tree))))

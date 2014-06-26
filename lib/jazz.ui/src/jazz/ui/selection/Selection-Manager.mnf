@@ -1,0 +1,9 @@
+(manifest jazz.ui.selection.Selection-Manager
+
+  (version 207012)
+  (digest "9699e23f44eec884fa54cecfad2bc321c05691f0")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros unwind-protect)
+              (scheme.language.runtime.kernel eq? not)))

@@ -1,0 +1,31 @@
+(module jazz.ide.showcase.Tree-Showcase jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Tree-Showcase extends View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-title))
+    (method meta protected override (host-position))
+    (method meta protected override (host-size))
+    (method protected override (install rest))
+    (method protected final (setup-tree))
+    (method protected override (guest-actions))
+    (method protected override (resize dh dv))
+    (method protected final (on-setting evt))
+    (method protected final (on-add-row evt))
+    (method protected final (on-remove-rows evt))
+    (method protected final (on-show-hide evt))
+    (method protected final (on-update-information evt))
+    (method protected final (update-information))
+    (method protected final (update-fields))
+    (method protected final (display-tree))
+    (method protected final (display-row tree row)))
+  (class Node-Column extends Tree-Node-Column
+    (method protected override (draw-data surface context row data width height)))
+  (class Middle-Column extends Tree-Column
+    (method protected override (draw-data surface context row data width height)))
+  (class Right-Column extends Tree-Column
+    (method protected override (draw-data surface context row data width height))))

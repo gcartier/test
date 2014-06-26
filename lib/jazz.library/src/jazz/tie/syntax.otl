@@ -1,0 +1,2 @@
+(module jazz.tie.syntax jazz
+  (macro public (tie . objects)))

@@ -1,0 +1,10 @@
+(module world.server.run jazz
+  (import (jazz.debuggee))
+  (import (jazz.graphic.opengl.window))
+  (import (jazz.system))
+  (import (world))
+  (import (world.autoload))
+  (import (world.io))
+  (import (world.server))
+  (import (world.syntax (phase syntax)))
+  (import (world.window)))

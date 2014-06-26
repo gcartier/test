@@ -1,0 +1,5 @@
+(module jazz.platform.carbon.clipboard jazz
+  (import (jazz.platform.carbon.carbon-types))
+  (definition public (carbon-initialize-clipboard))
+  (definition public (carbon-set-clipboard-text text))
+  (definition public (carbon-get-clipboard-text)))

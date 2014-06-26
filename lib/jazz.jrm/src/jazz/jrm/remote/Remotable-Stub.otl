@@ -1,0 +1,3 @@
+(module jazz.jrm.remote.Remotable-Stub jazz
+  (interface Remotable-Stub
+    (method public virtual (stub-reference))))

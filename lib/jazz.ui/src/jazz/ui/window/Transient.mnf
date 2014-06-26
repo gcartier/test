@@ -1,0 +1,6 @@
+(manifest jazz.ui.window.Transient
+
+  (version 207012)
+  (digest "3b38a08d5c29b9463e55466c55e65317ebb61357")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.window.Popup Popup)))

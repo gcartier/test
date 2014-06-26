@@ -1,0 +1,13 @@
+(module jazz.designer.card.Properties-Containment jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui.view))
+  (class Properties-Containment extends Properties-Manager
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method protected override (on-selected-change evt))
+    (method protected override (client-activate))
+    (method protected override (client-deactivate))
+    (method protected final (set-containment-editor editor))))

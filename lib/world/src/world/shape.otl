@@ -1,0 +1,11 @@
+(module world.shape jazz
+  (import (jazz.geometry))
+  (import (world))
+  (import (world.autoload))
+  (import (world.generate))
+  (import (world.geometry))
+  (import (world.syntax (phase syntax)))
+  (import (world.texture))
+  (definition public (triangle-generator (matrix: matrix (unspecified))))
+  (definition public (uv-sphere-generator slices <fx> stacks <fx> uv <f32vector>))
+  (definition public (generate-sphere-mesh slices stacks uv (matrix: matrix (unspecified)) (neighbors?: neighbors? (unspecified)) (smooth-normals?: smooth-normals? (unspecified)) (material: material (unspecified)))))

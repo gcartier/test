@@ -1,0 +1,10 @@
+(manifest jazz.ui.preference.Completions-Domain
+
+  (version 207012)
+  (digest "1c7e56f552a0f3b30a1cedd7eca0b7a423fad778")
+  (references (jazz.designer.domain.List-Domain List-Domain)
+              (jazz.designer.domain.String-Domain String-Domain (String-Domain present-value))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component finish))
+              (scheme.language.runtime.kernel car cdr)))

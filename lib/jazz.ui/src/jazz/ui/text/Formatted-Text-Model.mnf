@@ -1,0 +1,12 @@
+(manifest jazz.ui.text.Formatted-Text-Model
+
+  (version 207012)
+  (digest "6a9d183f6c68ec291972e2ae85d3d094d0e53311")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional (Class external-name) Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.text.Formatted-Text Formatted-Text)
+              (jazz.ui.text.Text-Model Text-Model (Text-Model empty-content) (Text-Model get-content) (Text-Model get-formatted-content) (Text-Model read-formatted) (Text-Model read-moniker) (Text-Model save-formatted) (Text-Model save-to) (Text-Model set-content) (Text-Model set-formatted-content) (Text-Model~Class get-class-form) (Text-Model~Class get-class-forms) (Text-Model~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

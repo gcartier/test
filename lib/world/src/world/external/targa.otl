@@ -1,0 +1,5 @@
+(module world.external.targa jazz
+  (import (jazz.graphic.opengl.glew))
+  (import (jazz.io))
+  (import (world.foreign))
+  (definition public (load-tga file (premultiply-alpha? (unspecified)))))

@@ -1,0 +1,6 @@
+(manifest jazz.designer.entry.Editor-Suite
+
+  (version 207012)
+  (digest "03aab4f2aaef547023cff865e51f48710d4b7327")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component Component)))

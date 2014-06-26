@@ -1,0 +1,17 @@
+(manifest jazz.designer.entry.Enumeration-Entry
+
+  (version 207012)
+  (digest "4ffa39992c4e94e20acdff0cd06afa99caeae22d")
+  (references (jazz.designer.entry.Property-Entry Property-Entry (Property-Entry domain) (Property-Entry get-presentation) (Property-Entry presentation-violation) (Property-Entry set-presentation) (Property-Entry setup-for-grid) (Property-Entry tab-view) (Property-Entry~Class get-class-form) (Property-Entry~Class get-class-forms) (Property-Entry~Class set-class-form))
+              (jazz.designer.property.Property-Editor (Property-Editor get-value) (Property-Editor set-editable?) (Property-Editor set-value))
+              (jazz.designer.property.Property-Violation Property-Violation)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional ->string Object-Class compose di=? member?)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.component.Component (Component finish) (Component locate))
+              (jazz.locale localize)
+              (jazz.ui.view.Entry-Combo-Box Entry-Combo-Box)
+              (jazz.ui.view.View (View get-modified?) (View set-modified?))
+              (scheme.language.runtime.kernel cadr cons list list->table not)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,8 @@
+(manifest jazz.designer.surrogate.Component-Surrogate
+
+  (version 207012)
+  (digest "99fd902c881d9a3108011e080b638571bdc917eb")
+  (references (jazz.language.runtime.functional Object-Class find memq?)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.library.component.Component Component (Component initialize))
+              (scheme.language.runtime.kernel list)))

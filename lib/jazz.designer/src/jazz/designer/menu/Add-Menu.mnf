@@ -1,0 +1,6 @@
+(manifest jazz.designer.menu.Add-Menu
+
+  (version 207012)
+  (digest "7432dffbaadbc4f3d81da956a459d37027ee4cc9")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.menu.Context-Menu Context-Menu)))

@@ -1,0 +1,15 @@
+(module jazz.network.host.Host jazz
+  (class Host extends Object
+    (slot name)
+    (slot address)
+    (slot ip)
+    (slot origin getter generate)
+    (method protected override (initialize (name: name (unspecified)) (address: address (unspecified)) (ip: ip (unspecified))))
+    (method protected override (compare-object target))
+    (method protected override (print output readably))
+    (method public final (get-name))
+    (method public final (get-address))
+    (method public final (get-ip))
+    (method public final (present))
+    (method public final (present-host))
+    (method public final (present-compact))))

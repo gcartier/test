@@ -1,0 +1,9 @@
+(module jazz.groupware.compare.Form-Comparer jazz
+  (import (jazz.groupware))
+  (import (jazz.library))
+  (class Form-Comparer extends Tree-Comparer
+    (method protected override (compare-nodes/leaves nodes leaves))
+    (method protected override (create-item item))
+    (method protected override (get-item-content item kind))
+    (method protected override (get-item-type item))
+    (method protected override (different? leaf1 leaf2 check-algorithm))))

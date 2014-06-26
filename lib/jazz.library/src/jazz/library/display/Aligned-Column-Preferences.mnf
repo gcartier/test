@@ -1,0 +1,8 @@
+(manifest jazz.library.display.Aligned-Column-Preferences
+
+  (version 207012)
+  (digest "0e77b93c46b469896cfc686026898d4af0503dac")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.display.Aligned-Column Aligned-Column)
+              (jazz.library.display.Column-Preferences Column-Preferences (Column-Preferences border) (Column-Preferences border-after) (Column-Preferences column-class) (Column-Preferences minimum) (Column-Preferences new-column))))

@@ -1,0 +1,13 @@
+(module jazz.library.component.Data jazz
+  (class Data extends Object
+    (slot version getter generate)
+    (slot dialect getter generate)
+    (slot imports getter generate)
+    (slot context getter generate)
+    (method protected override (initialize version dialect imports context))
+    (method protected override (copy-object object))
+    (method protected override (print output readably))
+    (method public final (set-version version))
+    (method package final (set-imports imports))
+    (method public final (add-import import))
+    (method public final (effective-imports))))

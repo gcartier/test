@@ -1,0 +1,7 @@
+(manifest jazz.debugger.snapshot.Stack-Snapshot
+
+  (version 207012)
+  (digest "b87ebf9523c125a3080b1f089f8f5793426521f5")
+  (references (jazz.graphic.Viewable Viewable)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

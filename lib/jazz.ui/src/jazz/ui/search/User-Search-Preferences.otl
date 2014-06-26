@@ -1,0 +1,14 @@
+(module jazz.ui.search.User-Search-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class User-Search-Preferences extends Search-View-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property active-domain accessors generate)
+    (property jazz-label accessors generate)
+    (property jazz-directories accessors generate)
+    (property jazz-extensions accessors generate)
+    (property user-label accessors generate)
+    (property user-directories accessors generate)
+    (property user-extensions accessors generate)))

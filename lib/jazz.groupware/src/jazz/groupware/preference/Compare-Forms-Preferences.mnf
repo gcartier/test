@@ -1,0 +1,13 @@
+(manifest jazz.groupware.preference.Compare-Forms-Preferences
+
+  (version 207012)
+  (digest "fb541775aa70e065954e5e021ef344906c6b726c")
+  (references (jazz.groupware.preference.Compare-Trees-Preferences Compare-Trees-Preferences)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.preference.Frame-Preferences (Frame-Preferences~Class get-class-form) (Frame-Preferences~Class get-class-forms) (Frame-Preferences~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

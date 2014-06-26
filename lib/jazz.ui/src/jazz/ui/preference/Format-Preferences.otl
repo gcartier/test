@@ -1,0 +1,22 @@
+(module jazz.ui.preference.Format-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Format-Preferences extends Exemplar-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property left-margin accessors generate)
+    (property right-margin accessors generate)
+    (property justification accessors generate)
+    (property bulleted? accessors generate)
+    (property bullet-outside accessors generate)
+    (property bullet-inside accessors generate)
+    (property keep-with-next? accessors generate)
+    (method protected override (->exemplar)))
+  (class Format-Preferences-Descriptor extends Exemplar-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

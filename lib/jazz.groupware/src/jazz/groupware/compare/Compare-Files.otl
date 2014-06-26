@@ -1,0 +1,5 @@
+(module jazz.groupware.compare.Compare-Files jazz
+  (import (jazz.groupware))
+  (class Compare-Files extends Compare-Texts
+    (method meta protected override (external-name . rest))
+    (method public final (install-configuration config))))

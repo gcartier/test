@@ -1,0 +1,7 @@
+(manifest jazz.debuggee.Debuggee-Restart
+
+  (version 207012)
+  (digest "280040948587454b58e0e05f64973320ea2650b3")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel object->serial)
+              (jazz.language.runtime.object Object (Object initialize))))

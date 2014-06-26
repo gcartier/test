@@ -1,0 +1,10 @@
+(manifest jazz.jml.parse
+
+  (version 207012)
+  (digest "6dbe05e58e54735816a24ae1dbb03e5f2263c026")
+  (references (jazz.language.runtime.functional cardinality ends-with? starts-with? subseq)
+              (jazz.language.runtime.kernel continuation-capture continuation-return not-null? unspecified)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when while)
+              (jazz.library parse-attributes)
+              (scheme.language.runtime.kernel - > cadr car cddr cdr eqv? string->symbol string-append string-length string? symbol->string symbol? values)))

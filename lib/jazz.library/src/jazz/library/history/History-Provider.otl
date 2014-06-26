@@ -1,0 +1,4 @@
+(module jazz.library.history.History-Provider jazz
+  (interface History-Provider
+    (method public virtual (current-history-item))
+    (method public virtual (update-history-actions))))

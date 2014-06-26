@@ -1,0 +1,5 @@
+(manifest jazz.platform.crash
+
+  (version 207012)
+  (digest "fcc011c99b6be8585f7e8f45920f1f1c3ed88475")
+  (references (jazz.platform.crash.mac setup-crash-handler)))

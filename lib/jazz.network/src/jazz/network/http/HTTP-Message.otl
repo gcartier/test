@@ -1,0 +1,16 @@
+(module jazz.network.http.HTTP-Message jazz
+  (class HTTP-Message extends Object
+    (slot protocol getter generate)
+    (slot headers getter generate)
+    (slot content getter generate)
+    (slot cookies getter generate)
+    (method protected override (initialize (content: content (unspecified)) (headers: headers (unspecified))))
+    (method protected final (crlf! port))
+    (method public final (get-header name (default (unspecified))))
+    (method public final (set-header! name value))
+    (method protected final (print-headers port))
+    (method protected final (print-header name value port))
+    (method protected virtual (parse port))
+    (method protected virtual (send port))
+    (method public final (get-cookie name))
+    (method public final (add-cookie cookie))))

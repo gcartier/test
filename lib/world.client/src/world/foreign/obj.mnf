@@ -1,0 +1,5 @@
+(manifest world.foreign.obj
+
+  (version 207012)
+  (digest "b8daded9c1b3149215a8d9bb880d73392c804bdc")
+  (references (jazz.platform.types char-string scheme-object)))

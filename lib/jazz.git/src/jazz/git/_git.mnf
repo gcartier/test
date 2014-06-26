@@ -1,0 +1,18 @@
+(manifest jazz.git
+
+  (version 207012)
+  (digest "855761598832ae58f00d252bc36675f42b3c6cb1")
+  (references (jazz.io File (Pathname create-directories) directory? extension=? extract-base extract-extension extract-name path-settings)
+              (jazz.language.runtime.debug debug)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) (Sequence sequence-last) cardinality collect-if empty-string? fifth find join last pipe search split split-lines starts-with? write-line)
+              (jazz.language.runtime.kernel close-port enqueue new new-queue open-process queue-list unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.runtime.parse parse-integer)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros unless when)
+              (jazz.system user-message)
+              (scheme.language.runtime.kernel + - < > call-with-input-file call-with-output-file car cdr cons current-output-port eq? equal? for-each get-output-string length list not number->string open-output-string read-char read-line reverse string-append substring values)))

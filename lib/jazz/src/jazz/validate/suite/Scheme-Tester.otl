@@ -1,0 +1,3 @@
+(module jazz.validate.suite.Scheme-Tester jazz
+  (import (jazz.validation))
+  (class Scheme-Tester extends Tester))

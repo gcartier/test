@@ -1,0 +1,9 @@
+(manifest world.scene
+
+  (version 207012)
+  (digest "d9cc943e4a107e9e7f9e8a854ba1dddba38373a4")
+  (references (jazz.language.runtime.functional Object-Class remove!)
+              (jazz.language.runtime.kernel not-null?)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component Component)
+              (scheme.language.runtime.kernel cons for-each)))

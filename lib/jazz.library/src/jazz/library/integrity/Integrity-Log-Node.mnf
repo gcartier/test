@@ -1,0 +1,15 @@
+(manifest jazz.library.integrity.Integrity-Log-Node
+
+  (version 207012)
+  (digest "1def95a9d7d7db09abc42d920c486dc049411684")
+  (references (jazz.debuggee.view.Log-Node Log-Node (Log-Node edit-location) (Log-Node node) (Log-Node node-image) (Log-Node node-location))
+              (jazz.designer.view open-class)
+              (jazz.language.runtime.exception signal-cancel)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class third)
+              (jazz.language.runtime.kernel deserialize-runtime-reference new resolve-runtime-reference)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.path.Path Path (Path follow-component))
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.view message-box)
+              (scheme.language.runtime.kernel car eq? list not pair?)))

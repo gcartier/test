@@ -1,0 +1,6 @@
+(manifest jazz.ui.event.Draw-Event
+
+  (version 207012)
+  (digest "b13303cb2ba507906f54f58368745f40833eefd5")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.event.Event Event (Event initialize))))

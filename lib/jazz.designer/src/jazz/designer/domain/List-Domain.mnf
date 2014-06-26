@@ -1,0 +1,8 @@
+(manifest jazz.designer.domain.List-Domain
+
+  (version 207012)
+  (digest "a72f69a6e4f8239784a79422121646f061bb2ee5")
+  (references (jazz.designer.domain.Domain (Domain add-violation) (Domain validate-value))
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.language.runtime.functional Object-Class)
+              (scheme.language.runtime.kernel list? not)))

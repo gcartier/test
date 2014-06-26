@@ -1,0 +1,4 @@
+(module jazz.ui.view.Radio-Set jazz
+  (class Radio-Set extends Object
+    (slot members getter generate)
+    (method public final (add-member member))))

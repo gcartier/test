@@ -1,0 +1,16 @@
+(module jazz.library.utility.Output-Log jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Output-Log extends Navigable-Results
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (method public final (log-line line (father: father (unspecified)) (state: state (unspecified)) (image: image (unspecified)) (user-data: user-data (unspecified))))
+    (method protected override (edit-selection forward?))
+    (method protected final (edit-document file line forward? focus?))))

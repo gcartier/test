@@ -1,0 +1,11 @@
+(manifest world.quad
+
+  (version 207012)
+  (digest "c78a86ef140280d636ca8f9d0117b4a787183370")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel f64vector-set! new)
+              (scheme.language.runtime.kernel + vector vector-ref)
+              (world.geometry matrix+-transform-3x4->offset! matrix+-transform-3x4-offset! matrix-transform-3x4 polygon-normal! polygon-radius transform-normal)
+              (world.geometry.classes copy-vertex)
+              (world.plane (Plane normal) (Plane origin))
+              (world.polygon Polygon (Polygon add-triangles) (Polygon copy-polygon) (Polygon element) (Polygon initialize) (Polygon iterate-triangles) (Polygon polygon-extract!) (Polygon polygon-move!) (Polygon radius) (Polygon transform-polygon) (Polygon triangle-count) (Polygon vertices))))

@@ -1,0 +1,13 @@
+(manifest jazz.ui.print.Page-Content
+
+  (version 207012)
+  (digest "7168f918c6e28b44baa65f5b902b50d53e7c003d")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.view.View View)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

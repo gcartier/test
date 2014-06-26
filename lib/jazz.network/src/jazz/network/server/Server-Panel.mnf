@@ -1,0 +1,18 @@
+(manifest jazz.network.server.Server-Panel
+
+  (version 207012)
+  (digest "fa0bc82ad51c091cf1610d76be480b1c80de7d53")
+  (references (jazz.debuggee detach-from-controller get-controller-debugger select-console setup-debuggee setup-local-process start-repl-thread)
+              (jazz.jrm get-remote-listener require-remote-listener)
+              (jazz.language.runtime.debug console-input-port console-output-port get-console-port)
+              (jazz.language.runtime.exception error with-system-exception-debugger)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-identifier empty-string?)
+              (jazz.language.runtime.kernel class-of continuation-capture continuation-return current-thread display-continuation-backtrace display-exception exit force-output os-exception? read-all repl terminal-port unspecified with-exception-catcher with-exception-handler)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.macros unless when)
+              (jazz.network encode-host/port localhost)
+              (jazz.system find-setting)
+              (jazz.system.access get-process)
+              (jazz.ui.window.platform.independant call-event post-event)
+              (scheme.language.runtime.kernel call-with-input-string car display eof-object? newline not null? read read-line string? symbol->string symbol?)))

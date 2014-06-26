@@ -1,0 +1,8 @@
+(manifest jazz.library.component.Restore-Form
+
+  (version 207012)
+  (digest "4f32d7c0ef8fa45ac9bfc08a7e49d833c8955e90")
+  (references (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.library.component.Form Form (Form initialize))
+              (scheme.language.runtime.kernel apply)))

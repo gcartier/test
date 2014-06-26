@@ -1,0 +1,11 @@
+(manifest jazz.ui.view.Threeway-Checkbox
+
+  (version 207012)
+  (digest "aa9f3e6653c9c5154d55885ff0f514a567ea5f43")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros unless)
+              (jazz.ui.view.Check-Box Check-Box (Check-Box change-state) (Check-Box draw-check))
+              (jazz.ui.view.View (View invalidate-view))
+              (scheme.language.runtime.kernel eq?)))

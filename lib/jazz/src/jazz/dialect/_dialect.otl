@@ -1,0 +1,7 @@
+(module jazz.dialect scheme
+  (require (foundation))
+  (require (jazz.dialect.runtime))
+  (require (jazz.backend.scheme))
+  (require (jazz.backend.scheme.runtime))
+  (export (jazz.language.syntax (phase syntax)))
+  (export (scheme)))

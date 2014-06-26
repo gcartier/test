@@ -1,0 +1,13 @@
+(manifest jazz.validate.suite.List-Tester
+
+  (version 207012)
+  (digest "80e7e2acf4804f9fb7976a140e669b718cfc7d26")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class associate ci=? second sort)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel < = append assoc cdr cons equal? list list->table not null? pair? reverse)
+              (scheme.syntax declaration-path)))

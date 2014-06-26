@@ -1,0 +1,16 @@
+(module world.interface.documents jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world))
+  (import (world.autoload))
+  (import (world.interface.frame))
+  (import (world.syntax (phase syntax)))
+  (definition public (open-document file (class: class (unspecified)) (location: location (unspecified)) (size: size (unspecified)) (editable?: editable? (unspecified))))
+  (class World-Document extends World-Frame
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class World-Formatted-Text-View extends Plain-Formatted-Text-View
+    (method protected override (new-model))
+    (method protected override (install rest))))

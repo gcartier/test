@@ -1,0 +1,12 @@
+(manifest world.commands
+
+  (version 207012)
+  (digest "e12c4f6a4569f94a180d70fb39c5c3d7ac5364c0")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Class marshall-object) (Class unmarshall-object) Object-Class Queue serialize-object)
+              (jazz.language.runtime.kernel class-of enqueue is? new new-queue queue-list)
+              (jazz.language.runtime.object Object (Object print) print-unreadable)
+              (jazz.language.syntax.bind bind-vector)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel cons map vector vector-ref)
+              (world.serialization deserialize serialize)))

@@ -1,0 +1,9 @@
+(manifest jazz.debugger.snapshot.Computer-Snapshot
+
+  (version 207012)
+  (digest "3b80d7e629cb3e8dc445dad8d11c9bdd9845d158")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.library.component.Component Component (Component print))
+              (scheme.language.runtime.kernel list)))

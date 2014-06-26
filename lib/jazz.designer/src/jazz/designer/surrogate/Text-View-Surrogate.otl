@@ -1,0 +1,18 @@
+(module jazz.designer.surrogate.Text-View-Surrogate jazz
+  (import (jazz.designer))
+  (class Text-View-Surrogate extends View-Surrogate
+    (slot edit?)
+    (method protected override (editing?))
+    (method protected final (start-edit))
+    (method protected final (stop-edit))
+    (method protected override (on-focus-gained evt))
+    (method protected override (on-focus-lose evt))
+    (method protected override (on-cursor-update evt))
+    (method protected override (on-mouse-down evt))
+    (method protected override (on-mouse-up evt))
+    (method protected override (on-drag-move evt))
+    (method protected override (on-drag-up evt))
+    (method protected override (on-double-click evt))
+    (method protected override (on-context-menu evt))
+    (method protected override (on-key-press evt))
+    (method protected override (on-return-press evt))))

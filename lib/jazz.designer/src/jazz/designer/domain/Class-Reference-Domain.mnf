@@ -1,0 +1,10 @@
+(manifest jazz.designer.domain.Class-Reference-Domain
+
+  (version 207012)
+  (digest "cb30ec85f2b7cb9975948068931281b20d676ede")
+  (references (jazz.designer.domain.Domain (Domain setup-entry))
+              (jazz.designer.domain.Value-Domain Value-Domain (Value-Domain present-value))
+              (jazz.designer.entry.Class-Reference-Entry Class-Reference-Entry)
+              (jazz.language.runtime.functional Object-Class Runtime-Reference category-name)
+              (jazz.language.runtime.kernel is? new resolve-runtime-reference)
+              (scheme.language.runtime.kernel symbol->string)))

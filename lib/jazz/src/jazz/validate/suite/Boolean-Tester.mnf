@@ -1,0 +1,13 @@
+(manifest jazz.validate.suite.Boolean-Tester
+
+  (version 207012)
+  (digest "b27befa12d5a9fdc919b21aec22dbf0d54434c90")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class ci=? nu/=? nu<? nu=?)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel cons list list->table not)
+              (scheme.syntax declaration-path)))

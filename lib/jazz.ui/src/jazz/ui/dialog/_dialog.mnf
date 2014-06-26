@@ -1,0 +1,7 @@
+(manifest jazz.ui.dialog
+
+  (version 207012)
+  (digest "fb3bda0354e8fb3755d9e9697e207baa2a34462d")
+  (references (jazz.language.syntax.macros when)
+              (jazz.system.access get-toplevel)
+              (jazz.ui.dialog.platform.glfw choose-directory choose-file choose-font choose-new-file)))

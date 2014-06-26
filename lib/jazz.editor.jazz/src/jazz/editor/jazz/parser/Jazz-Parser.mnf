@@ -1,0 +1,11 @@
+(manifest jazz.editor.jazz.parser.Jazz-Parser
+
+  (version 207012)
+  (digest "770dff8b0c9ebb4d0726a50996c8f07cac9068e4")
+  (references (jazz.editor.jazz.text.Jazz-Explorer Jazz-Explorer)
+              (jazz.editor.jazz.text.Jazz-Text-View Jazz-Text-View)
+              (jazz.editor.lisp.parser.Lisp-Parser Lisp-Parser (Lisp-Parser explorer-class) (Lisp-Parser text-view-class) (Lisp-Parser~Class get-constituent-test) (Lisp-Parser~Class iterate-references))
+              (jazz.language.runtime.functional Object-Class empty-string? jazz-constituent?)
+              (jazz.language.runtime.kernel string-find-reversed)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel + eqv? string-length string-ref substring)))

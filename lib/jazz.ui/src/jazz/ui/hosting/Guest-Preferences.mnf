@@ -1,0 +1,6 @@
+(manifest jazz.ui.hosting.Guest-Preferences
+
+  (version 207012)
+  (digest "95884c7a68a7678264a7169056add27c8488852c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.preference.Frame-Preferences Frame-Preferences)))

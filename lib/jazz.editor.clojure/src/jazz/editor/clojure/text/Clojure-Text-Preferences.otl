@@ -1,0 +1,9 @@
+(module jazz.editor.clojure.text.Clojure-Text-Preferences jazz
+  (import (jazz.editor.lisp))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Clojure-Text-Preferences extends Lisp-Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property metadata-style accessors generate)))

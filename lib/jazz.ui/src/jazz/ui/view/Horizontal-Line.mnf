@@ -1,0 +1,12 @@
+(manifest jazz.ui.view.Horizontal-Line
+
+  (version 207012)
+  (digest "4271356a52f22cb1847475ac88df9bb1b5060a39")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Rect)
+              (jazz.language.runtime.kernel new)
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.Drawing (Drawing draw) (Drawing get-width))
+              (jazz.ui.view.View View (View default-size))))

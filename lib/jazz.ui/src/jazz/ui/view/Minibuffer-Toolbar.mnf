@@ -1,0 +1,14 @@
+(manifest jazz.ui.view.Minibuffer-Toolbar
+
+  (version 207012)
+  (digest "eefbaae992635ba51ec744d8e82f4a59b3a0c95f")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.literals construct-rect)
+              (jazz.ui.command.Command-Shell Command-Shell)
+              (jazz.ui.view.Toolbar Toolbar (Toolbar~Class get-class-form) (Toolbar~Class get-class-forms) (Toolbar~Class set-class-form))
+              (jazz.ui.view.View (View~Class host-title))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

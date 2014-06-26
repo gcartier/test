@@ -1,0 +1,12 @@
+(module jazz.library.favorite.Favorite-Launch jazz
+  (import (jazz.library))
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (class Favorite-Launch extends Favorite
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property file accessors generate)
+    (method protected override (launch)))
+  (class Favorite-Launch-Descriptor extends Favorite-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

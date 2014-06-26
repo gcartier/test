@@ -1,0 +1,6 @@
+(manifest jazz.graphic.platform.glfw.Region
+
+  (version 207012)
+  (digest "1f10bc44ed97468530507317d08ec59b73e7376c")
+  (references (jazz.graphic.Rectangles-Region Rectangles-Region (Rectangles-Region needs-rectangles?))
+              (jazz.language.runtime.functional Object-Class)))

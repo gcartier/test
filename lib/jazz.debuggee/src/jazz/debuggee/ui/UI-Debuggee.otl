@@ -1,0 +1,9 @@
+(module jazz.debuggee.ui.UI-Debuggee jazz
+  (import (jazz.debuggee))
+  (import (jazz.debuggee.ui.stub))
+  (class UI-Debuggee extends Object
+    (slot spy?)
+    (slot debugger)
+    (method public final (start-spy debugger))
+    (method public final (stop-spy))
+    (method public final (spy-hook layer action arguments))))

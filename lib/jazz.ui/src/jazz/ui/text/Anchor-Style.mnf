@@ -1,0 +1,6 @@
+(manifest jazz.ui.text.Anchor-Style
+
+  (version 207012)
+  (digest "e4259b676a2ccd420ce5dfd82008f288619d5cf3")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.text.Text-Style Text-Style)))

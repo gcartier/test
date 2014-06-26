@@ -1,0 +1,8 @@
+(module jazz.system.access jazz
+  (definition public (get-process))
+  (definition public (get-application))
+  (definition package (set-process process))
+  (definition package (set-application application))
+  (definition package (activate-process))
+  (definition public (process-active?))
+  (definition public (get-toplevel)))

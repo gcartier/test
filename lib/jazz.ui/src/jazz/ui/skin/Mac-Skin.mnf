@@ -1,0 +1,10 @@
+(manifest jazz.ui.skin.Mac-Skin
+
+  (version 207012)
+  (digest "543fcfcec07f92795adddb6475a86698e59e394d")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Jazz-Skin Jazz-Skin (Jazz-Skin~Class get-class-form) (Jazz-Skin~Class get-class-forms) (Jazz-Skin~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

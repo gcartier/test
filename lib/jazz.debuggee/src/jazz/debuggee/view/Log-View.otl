@@ -1,0 +1,15 @@
+(module jazz.debuggee.view.Log-View jazz
+  (import (jazz.debuggee))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Log-View extends Layout-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property log accessors generate)
+    (method protected final (get-tree))
+    (method public final (clear))
+    (method public final (update (reload?: reload? (unspecified))))
+    (method protected virtual (extract-log-content log))
+    (method public final (view-log log))))

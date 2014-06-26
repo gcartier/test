@@ -1,0 +1,3 @@
+(module jazz.library.moniker.Category-Moniker jazz
+  (import (jazz.io))
+  (class Category-Moniker extends Moniker))

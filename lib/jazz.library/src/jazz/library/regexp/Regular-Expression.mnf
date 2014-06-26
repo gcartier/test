@@ -1,0 +1,12 @@
+(manifest jazz.library.regexp.Regular-Expression
+
+  (version 207012)
+  (digest "dcde8d541844c4dccf5faa092c5e5b61222d75e1")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional /= Object-Class (Sequence sequence-cardinality) (Sequence sequence-element) cardinality concatenate element ends-with? nu=? starts-with? subseq)
+              (jazz.language.runtime.kernel continuation-capture continuation-return new not-null? unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.runtime.parse parse-strings)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel + - < car eqv? for-each length map not)))

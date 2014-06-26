@@ -1,0 +1,10 @@
+(module jazz.validate.support.Test-Model jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Test-Model extends Trait
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Test-Model-Descriptor extends Trait-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

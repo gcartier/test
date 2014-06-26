@@ -1,0 +1,11 @@
+(module jazz.ui.entity.Entities-Controller jazz
+  (class Entities-Controller extends Object
+    (method public virtual (add-child child parent))
+    (method public virtual (remove-child child))
+    (method public virtual (set-name entity name))
+    (method public virtual (set-property entity property value))
+    (method public virtual (cut-entities entities))
+    (method public virtual (copy-entities entities))
+    (method public virtual (paste-parcels parcels parent))
+    (method public virtual (delete-entities entities))
+    (method public virtual (delete-entity entity))))

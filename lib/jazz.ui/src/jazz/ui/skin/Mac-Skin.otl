@@ -1,0 +1,7 @@
+(module jazz.ui.skin.Mac-Skin jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Mac-Skin extends Jazz-Skin
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

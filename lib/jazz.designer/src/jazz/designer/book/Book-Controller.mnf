@@ -1,0 +1,8 @@
+(manifest jazz.designer.book.Book-Controller
+
+  (version 207012)
+  (digest "f7d82bba88b98c76133dd2ce983863375d1034d4")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel continuation-capture continuation-return)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.document.Document-Controller Document-Controller (Document-Controller document) (Document-Controller get-modified?) (Document-Controller set-modified?) (Document-Controller update-status))))

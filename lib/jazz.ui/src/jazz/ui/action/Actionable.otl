@@ -1,0 +1,4 @@
+(module jazz.ui.action.Actionable jazz
+  (interface Actionable
+    (method public virtual (shortcut-update action-item))
+    (method public virtual (enabled-update action-item))))

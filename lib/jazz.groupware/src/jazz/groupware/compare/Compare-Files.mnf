@@ -1,0 +1,6 @@
+(manifest jazz.groupware.compare.Compare-Files
+
+  (version 207012)
+  (digest "bd230d00f95c8dcab9c9cb8ff00935e9195f400a")
+  (references (jazz.groupware.compare.Compare-Texts Compare-Texts (Compare-Texts install-monikers))
+              (jazz.language.runtime.functional (Class external-name) Object-Class)))

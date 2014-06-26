@@ -1,0 +1,4 @@
+(module jazz.system.log jazz
+  (definition public (log-event type event-id message))
+  (definition public (log-error-event message . rest))
+  (definition public (log-success-event message)))

@@ -1,0 +1,13 @@
+(module world.interface.caption jazz
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world.interface.pane))
+  (class World-Caption extends View
+    (method protected final (find-pane))
+    (method protected override (draw surface context))
+    (method protected override (mouse-down evt))
+    (method protected override (mouse-up evt))
+    (method protected override (drag-move evt))
+    (method protected override (drag-up evt . rest))
+    (method protected final (in-close? pos))))

@@ -1,0 +1,13 @@
+(manifest jazz.editor.lisp.autoload
+
+  (version 207012)
+  (digest "adec4d265ce34367b3d9accaf24f51ea01bc3557")
+  (references (jazz.editor.lisp.catalog.Lisp-Entry Lisp-Entry)
+              (jazz.editor.lisp.catalog.Lisp-File-Entry Lisp-File-Entry)
+              (jazz.editor.lisp.parser.Lisp-Parser Lisp-Parser)
+              (jazz.editor.lisp.text.Lisp-Console-Manager Lisp-Console-Manager)
+              (jazz.editor.lisp.text.Lisp-Explorer Lisp-Explorer)
+              (jazz.editor.lisp.text.Lisp-Syntax Lisp-Syntax)
+              (jazz.editor.lisp.text.Lisp-Text-Actions Lisp-Text-Actions)
+              (jazz.editor.lisp.text.Lisp-Text-Preferences Lisp-Text-Preferences Lisp-Text-Preferences-Descriptor)
+              (jazz.editor.lisp.text.Lisp-Text-View Lisp-Text-View)))

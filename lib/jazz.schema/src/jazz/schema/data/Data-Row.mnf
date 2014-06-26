@@ -1,0 +1,12 @@
+(manifest jazz.schema.data.Data-Row
+
+  (version 207012)
+  (digest "e1ed3bf7ee5d6b52a9337b1229a009da774ad243")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) ci=? element)
+              (jazz.language.runtime.kernel continuation-capture continuation-return)
+              (jazz.language.runtime.object (Object print) print-unreadable)
+              (jazz.language.syntax.macros when)
+              (jazz.schema.data.Data-Container Data-Container (Data-Container get) (Data-Container get-values) (Data-Container initialize) (Data-Container table))
+              (scheme.language.runtime.kernel car cdr for-each integer? map null? set-car! string?)))

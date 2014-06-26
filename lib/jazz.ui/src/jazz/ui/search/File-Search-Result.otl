@@ -1,0 +1,14 @@
+(module jazz.ui.search.File-Search-Result jazz
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class File-Search-Result extends Search-Result
+    (slot file getter generate)
+    (slot range getter generate)
+    (method protected override (initialize resultset file (position: position (unspecified)) (range: range (unspecified))))
+    (method protected override (get-icon))
+    (method protected override (present-name))
+    (method protected override (present-location))
+    (method protected override (present-type))
+    (method protected override (location-sort-value))
+    (method protected override (edit select (visible?: visible? (unspecified)) (activate-focus?: activate-focus? (unspecified))))))

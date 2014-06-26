@@ -1,0 +1,6 @@
+(manifest jazz.designer.row.Classpath-Row
+
+  (version 207012)
+  (digest "72ba2029fed204dffcaea7a51d06c3469eaffa07")
+  (references (jazz.designer.row.String-Row String-Row)
+              (jazz.language.runtime.functional Object-Class)))

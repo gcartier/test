@@ -1,0 +1,10 @@
+(module jazz.ui.text.Plain-Text-View jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Plain-Text-View extends Text-View
+    (method meta protected override (external-name . rest))
+    (method protected override (new-model))
+    (method protected override (host-workspaces))
+    (definition public headers)
+    (method protected override (get-headers))
+    (method protected override (preferences))))

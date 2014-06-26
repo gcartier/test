@@ -1,0 +1,5 @@
+(manifest gambit.dialect.kernel
+
+  (version 207012)
+  (digest "152ff2e1e8724020c67508bdfdedc5019a303a65")
+  (references))

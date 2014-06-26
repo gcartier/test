@@ -1,0 +1,18 @@
+(module jazz.doc.doc.Section-Doc jazz
+  (import (jazz.designer))
+  (import (jazz.doc))
+  (import (jazz.io))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Section-Doc extends Doc
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property sort? accessors generate)
+    (slot catalog)
+    (method protected override (get-catalog))
+    (method protected override (set-catalog cat))
+    (method protected final (html-output-file)))
+  (class Section-Doc-Descriptor extends Doc-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-sort-components? component))))

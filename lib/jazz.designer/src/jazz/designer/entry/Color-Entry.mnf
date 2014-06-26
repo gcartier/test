@@ -1,0 +1,14 @@
+(manifest jazz.designer.entry.Color-Entry
+
+  (version 207012)
+  (digest "3815cb1dd9d924a5e42c1deba20dea5ba558f5c5")
+  (references (jazz.designer.entry.Property-Entry Property-Entry (Property-Entry tab-view) (Property-Entry~Class get-class-form) (Property-Entry~Class get-class-forms) (Property-Entry~Class set-class-form))
+              (jazz.designer.property.Property-Editor (Property-Editor get-value) (Property-Editor set-editable?) (Property-Editor set-value))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component locate))
+              (jazz.ui.view.Color-Combo Color-Combo)
+              (jazz.ui.view.View (View get-modified?) (View set-modified?))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

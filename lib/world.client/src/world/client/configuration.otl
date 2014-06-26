@@ -1,0 +1,6 @@
+(module world.client.configuration jazz
+  (import (jazz.system))
+  (definition public (world-client-host))
+  (definition public (world-client-service))
+  (definition public (world-user))
+  (definition public (world-password)))

@@ -1,0 +1,8 @@
+(manifest jazz.editor.lisp.syntax
+
+  (version 207012)
+  (digest "0dec40d99d33278e0c1800d0dce80163ee8b7d3c")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional box-list find-keyword unbox-list)
+              (jazz.language.runtime.kernel not-null? unspecified)
+              (jazz.language.syntax.bind-keywords bind-keywords)))

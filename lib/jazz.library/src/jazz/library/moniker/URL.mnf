@@ -1,0 +1,10 @@
+(manifest jazz.library.moniker.URL
+
+  (version 207012)
+  (digest "5b53a9ddb4a5fd6e57f933c0518ba818883be7d6")
+  (references (jazz.io Pathname (Pathname get-name) (Pathname initialize) (Pathname parse))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional /= Object-Class find split subseq)
+              (jazz.language.runtime.object (Object print) print-unreadable)
+              (scheme.language.runtime.kernel + null? values)))

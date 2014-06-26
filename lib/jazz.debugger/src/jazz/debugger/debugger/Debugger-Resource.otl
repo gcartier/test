@@ -1,0 +1,13 @@
+(module jazz.debugger.debugger.Debugger-Resource jazz
+  (import (jazz.debugger))
+  (class Debugger-Resource extends Object
+    (slot process getter generate)
+    (slot thread getter generate)
+    (slot reference getter generate)
+    (slot close getter generate)
+    (slot closed? getter generate)
+    (slot persist? getter generate)
+    (method protected override (initialize process thread reference close))
+    (method protected override (print output readably))
+    (method protected final (close-resource))
+    (method protected final (persist-resource))))

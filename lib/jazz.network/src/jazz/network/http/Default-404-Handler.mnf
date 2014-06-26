@@ -1,0 +1,8 @@
+(manifest jazz.network.http.Default-404-Handler
+
+  (version 207012)
+  (digest "faf3b408bbb7c860fe0029a448c5f709d2a7ddc0")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.network.http.HTTP-Response HTTP-Response)
+              (jazz.network.http.Handler HTTP-Request-Handler (HTTP-Request-Handler handle-request))))

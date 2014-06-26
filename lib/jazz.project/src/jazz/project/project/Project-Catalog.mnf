@@ -1,0 +1,9 @@
+(manifest jazz.project.project.Project-Catalog
+
+  (version 207012)
+  (digest "c28c8eed0f25111a045ec0d49fa998ee6193f294")
+  (references (jazz.catalog.catalog.Catalog (Catalog get-active?))
+              (jazz.catalog.catalog.Filing-Catalog Filing-Catalog (Filing-Catalog get-extensions) (Filing-Catalog get-heuristics) (Filing-Catalog initialize) (Filing-Catalog iterate-content) (Filing-Catalog iterate-files) (Filing-Catalog setup-content))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel apply for-each)))

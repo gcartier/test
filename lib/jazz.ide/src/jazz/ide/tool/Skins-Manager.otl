@@ -1,0 +1,32 @@
+(module jazz.ide.tool.Skins-Manager jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.skin))
+  (import (jazz.ui.view))
+  (class Skins-Manager extends Canvas-Manager
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method meta protected override (host-icon))
+    (method protected override (form-model form))
+    (method protected override (host-workspaces))
+    (method protected override (focus-default))
+    (method protected override (install rest))
+    (method protected override (new-document-controller))
+    (method package final (on-edit-skins evt))
+    (method package final (on-save-skins evt))
+    (method package final (on-reload-skins evt)))
+  (class Skins-Manager-Controller extends Component-Editor-Controller
+    (method protected override (document-status)))
+  (class Skins-Editor extends Descendants-Editor
+    (method protected override (form-model form)))
+  (class Skins-Tree extends Descendants-Tree
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (update-selection expand-state selected-components))
+    (method protected override (row-state component update? level))))

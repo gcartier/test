@@ -1,0 +1,11 @@
+(module jazz.ui.text.Text-Combo jazz
+  (import (jazz.ui))
+  (class Text-Combo extends Combo-Box
+    (property client accessors generate)
+    (method protected override (context-menu-class))
+    (method protected virtual (client-update))
+    (method protected final (determine-name exemplar))
+    (method public virtual (selection-change))
+    (method protected override (record-actions?)))
+  (class Text-Combo-Menu extends Context-Menu
+    (method protected override (record-actions?))))

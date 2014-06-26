@@ -1,0 +1,10 @@
+(module jazz.validate.suite.Debugger-Tester jazz
+  (import (jazz.jml))
+  (import (jazz.validation))
+  (class Debugger-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (test))
+    (method protected final (test-error?))
+    (method protected final (test-assert))))

@@ -1,0 +1,5 @@
+(module jazz.library.utility.Loggable jazz
+  (interface Loggable
+    (method public virtual (log-info output))
+    (method public virtual (edit))
+    (method public virtual (edit-child child))))

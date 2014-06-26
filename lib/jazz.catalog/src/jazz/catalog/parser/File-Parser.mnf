@@ -1,0 +1,7 @@
+(manifest jazz.catalog.parser.File-Parser
+
+  (version 207012)
+  (digest "1debabecc50b924bd502120d2d16ef1828568667")
+  (references (jazz.language.runtime.functional Object-Class getf)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)))

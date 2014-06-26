@@ -1,0 +1,14 @@
+(module jazz.library.utility.Pulse jazz
+  (import (jazz.ui.window))
+  (class Pulse extends Object
+    (property name accessors generate)
+    (property delay accessors generate)
+    (property period accessors generate)
+    (property repeat? accessors generate)
+    (property execute accessors generate)
+    (slot thread)
+    (slot mutex)
+    (method protected override (initialize name period execute . rest))
+    (method protected override (destroy))
+    (method protected final (terminated?))
+    (method protected final (start-loop))))

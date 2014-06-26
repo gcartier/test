@@ -1,0 +1,17 @@
+(module jazz.ui.search.Search-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Search-Preferences extends Tool-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property active accessors generate))
+  (class Search-Preferences-Descriptor extends Tool-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-addable-base component))
+    (method protected override (component-get-addable-details component))))

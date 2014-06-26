@@ -1,0 +1,5 @@
+(module jazz.ui.skin.Stage-Look jazz
+  (import (jazz.ui))
+  (class Stage-Look extends Look
+    (property background accessors generate)
+    (property border accessors generate)))

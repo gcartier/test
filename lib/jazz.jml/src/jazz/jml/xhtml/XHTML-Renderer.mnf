@@ -1,0 +1,13 @@
+(manifest jazz.jml.xhtml.XHTML-Renderer
+
+  (version 207012)
+  (digest "ea50a840e6dfe6d7aa993c0d1d60b62892f8790b")
+  (references (jazz.jml.model.JML-Node JML-Node)
+              (jazz.jml.model.JML-Text JML-Text)
+              (jazz.jml.renderer.JML-Renderer JML-Renderer (JML-Renderer preferences) (JML-Renderer render) (JML-Renderer render-node))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class for-each-property is-not? iterate memq?)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.syntax.macros unless when)
+              (jazz.language.syntax.typecase typecase)
+              (scheme.language.runtime.kernel * + > apply car cdr char->integer eq? for-each not null? pair?)))

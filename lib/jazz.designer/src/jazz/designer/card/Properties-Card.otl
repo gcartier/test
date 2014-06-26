@@ -1,0 +1,17 @@
+(module jazz.designer.card.Properties-Card jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Properties-Card extends Card
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method public final (get-tree))
+    (method protected override (on-editor evt))
+    (method protected override (client-update))
+    (method protected override (call-refresh evt))
+    (method protected override (refresh component))
+    (method protected override (call-property-change evt))
+    (method protected override (property-change component property value))
+    (method protected override (enter-value property value (imports: imports (unspecified))))))

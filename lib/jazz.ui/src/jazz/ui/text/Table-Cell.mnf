@@ -1,0 +1,14 @@
+(manifest jazz.ui.text.Table-Cell
+
+  (version 207012)
+  (digest "3f60a61e5c6e551e44e6db96a7bb1db055b9a6df")
+  (references (jazz.graphic.font.Font Font)
+              (jazz.graphic.literals construct-font)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.text.Table-Text-View Table-Text-View)
+              (jazz.ui.view.Border-View Border-View (Border-View~Class get-class-form) (Border-View~Class get-class-forms) (Border-View~Class set-class-form))
+              (jazz.ui.view.Scroller-View Scroller-View)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

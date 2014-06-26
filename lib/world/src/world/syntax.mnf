@@ -1,0 +1,7 @@
+(manifest world.syntax
+
+  (version 207012)
+  (digest "71f1ea84471db86bfcffcb95b320b0302f5adbe7")
+  (references (jazz.language.runtime.functional naturals)
+              (jazz.language.runtime.kernel not-null?)
+              (scheme.language.runtime.kernel append caddr cadr car cddr cdr generate-symbol length map source-code sourcify-if string->symbol string-append symbol->string)))

@@ -1,0 +1,11 @@
+(module jazz.library.utility.Environment jazz
+  (import (jazz.library))
+  (class Environment extends Object implements Environment-Provider
+    (slot data getter generate)
+    (slot locator getter generate)
+    (method protected override (initialize data locator))
+    (method protected override (print output readably))
+    (method protected override (setup-context context))
+    (method protected override (get-reference symbol))
+    (method protected override (locate-reference symbol))
+    (method protected override (require-reference symbol))))

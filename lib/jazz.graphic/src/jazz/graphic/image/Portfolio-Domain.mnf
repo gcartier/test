@@ -1,0 +1,10 @@
+(manifest jazz.graphic.image.Portfolio-Domain
+
+  (version 207012)
+  (digest "7aec1569668e15cd45ecb90803a8ba23ac131ee8")
+  (references (jazz.designer.domain.Text-Domain Text-Domain (Text-Domain parse-presentation) (Text-Domain present-value))
+              (jazz.graphic.image.Portfolio Portfolio)
+              (jazz.language.runtime.functional Object-Class read-string-safe)
+              (jazz.language.runtime.kernel is?)
+              (jazz.library.component.Component (Component get-name))
+              (scheme.language.runtime.kernel symbol->string)))

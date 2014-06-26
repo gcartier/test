@@ -1,0 +1,11 @@
+(manifest jazz.ui.literals.styles
+
+  (version 207012)
+  (digest "dff707b8e3e982c65047538ac63b5baed6c9b440")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.font.Font Font)
+              (jazz.graphic.literals construct-color construct-font)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui register-style)
+              (jazz.ui.syntax define-text-style)
+              (jazz.ui.text.Text-Style Text-Style)))

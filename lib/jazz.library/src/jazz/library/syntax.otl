@@ -1,0 +1,7 @@
+(module jazz.library.syntax jazz
+  (macro public (define-setting name . rest))
+  (macro public (match expr . clauses))
+  (macro public (match-regexp str . clauses))
+  (macro public (<environment> data))
+  (macro public (define-form name form))
+  (macro public (define-trait name class trait)))

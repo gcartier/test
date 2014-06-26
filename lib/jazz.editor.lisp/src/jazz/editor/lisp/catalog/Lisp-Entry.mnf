@@ -1,0 +1,16 @@
+(manifest jazz.editor.lisp.catalog.Lisp-Entry
+
+  (version 207012)
+  (digest "05d865310b6c37f4caa4e3347d9b635df6e91840")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry edit-reference) (Catalog-Entry get-image) (Catalog-Entry parent) (Catalog-Entry present-identifier))
+              (jazz.catalog.entry.Indexed-Entry Indexed-Entry (Indexed-Entry column) (Indexed-Entry definitions) (Indexed-Entry edit) (Indexed-Entry end-column) (Indexed-Entry end-line) (Indexed-Entry get-name) (Indexed-Entry initialize) (Indexed-Entry line) (Indexed-Entry name) (Indexed-Entry present) (Indexed-Entry present-name) (Indexed-Entry present-noname) (Indexed-Entry print) (Indexed-Entry print-catalog) (Indexed-Entry print-definitions) (Indexed-Entry references) (Indexed-Entry update-index) (Indexed-Entry update-indexes))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name is-not? reference->name)
+              (jazz.language.runtime.geometry Range$Cell$)
+              (jazz.language.runtime.kernel class-of is? new)
+              (jazz.language.runtime.object print-unreadable)
+              (jazz.language.syntax.macros when)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.system user-message)
+              (scheme.language.runtime.kernel * apply equal? for-each not pair? string->symbol string-append string? values)))

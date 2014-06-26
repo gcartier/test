@@ -1,0 +1,7 @@
+(manifest jazz.groupware.compare.Compare-Syntax
+
+  (version 207012)
+  (digest "310191c6246c5f677cf40cb9b9c028e668fa3023")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.ui.syntax.Code-Syntax Code-Syntax (Code-Syntax colorize-syntax) (Code-Syntax recolorize-text))))

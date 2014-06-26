@@ -1,0 +1,12 @@
+(manifest jazz.validation.tester.Tester
+
+  (version 207012)
+  (digest "19968b229062de94a2d49e079cedded809d7914c")
+  (references (jazz.debuggee.view.Exception-Log-Node Exception-Log-Node)
+              (jazz.language.runtime.exception Exception (Exception get-message))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class serialize-class)
+              (jazz.language.runtime.kernel display-exception force-output is? make-parameter unspecified with-output-to-port)
+              (jazz.library.component.Component Component)
+              (jazz.snapshot snapshot-process)
+              (scheme.language.runtime.kernel get-output-string list open-output-string)))

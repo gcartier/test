@@ -1,0 +1,17 @@
+(manifest jazz.doc.doc.Definition-Doc
+
+  (version 207012)
+  (digest "f90a7405096b9eb4760bbc7279c86e23301f7d57")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.String-Domain String-Domain)
+              (jazz.doc.doc.Doc (Doc get-effective-title) (Doc present) (Doc present-parameters) (Doc present-result-type) (Doc present-text))
+              (jazz.doc.doc.Element-Doc Element-Doc Element-Doc-Descriptor (Element-Doc-Descriptor~Class get-class-form) (Element-Doc-Descriptor~Class get-class-forms) (Element-Doc-Descriptor~Class set-class-form) (Element-Doc~Class get-class-descriptor))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class empty-string?)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component name))
+              (scheme.language.runtime.kernel cons list list->table not)
+              (scheme.syntax declaration-path)))

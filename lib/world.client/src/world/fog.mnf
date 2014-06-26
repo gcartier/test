@@ -1,0 +1,6 @@
+(manifest world.fog
+
+  (version 207012)
+  (digest "f7de05e06b018c8c62bd4d89cd42427dd97eb0ca")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)))

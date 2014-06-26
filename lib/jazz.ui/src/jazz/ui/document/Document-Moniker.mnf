@@ -1,0 +1,13 @@
+(manifest jazz.ui.document.Document-Moniker
+
+  (version 207012)
+  (digest "dce4e0abbd2ff73e12c90ceb4a975fa35a1c4acf")
+  (references (jazz.io File Moniker (Moniker get-name) (Moniker load-form) (Moniker load-lines) (Moniker present) (Moniker-Class get-protocol))
+              (jazz.io.protocol moniker-new)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of new)
+              (jazz.language.runtime.object (Object initialize) (Object print))
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel null?)))

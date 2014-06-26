@@ -1,0 +1,12 @@
+(module jazz.ui.tree.Tree-Label jazz
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class Tree-Label extends Tree-Data
+    (slot protected title)
+    (slot protected font accessors generate)
+    (slot protected color accessors generate)
+    (method protected override (initialize . rest))
+    (method protected override (print output readably))
+    (method protected virtual (get-title))
+    (method public virtual (set-title value))
+    (method protected override (get-sort-value))))

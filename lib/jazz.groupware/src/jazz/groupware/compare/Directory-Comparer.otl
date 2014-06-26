@@ -1,0 +1,13 @@
+(module jazz.groupware.compare.Directory-Comparer jazz
+  (import (jazz.groupware))
+  (import (jazz.io))
+  (import (jazz.library))
+  (import (time))
+  (class Directory-Comparer extends Tree-Comparer
+    (slot scanned-date)
+    (method protected override (create-item moniker))
+    (method protected override (get-item-type item))
+    (method protected override (get-item-content item kind))
+    (method protected override (compare-leaf-values parent leaf1 content1 leaf2 content2 ignored-nodes ignored-leaves ignored-extensions check-algorithm feedback has-differences?))
+    (method protected override (different? leaf1 leaf2 check-algorithm))
+    (method protected override (scanned-values))))

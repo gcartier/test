@@ -1,0 +1,8 @@
+(manifest jazz.ui.dialog.Symbol-Request
+
+  (version 207012)
+  (digest "f8cffa4e6550904bb88bd7f5608acc742eafb0c4")
+  (references (jazz.ide.application.IDE-Text-View IDE-Text-View)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model))
+              (jazz.ui.dialog.String-Request String-Request)))

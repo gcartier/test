@@ -1,0 +1,13 @@
+(manifest world.profiling
+
+  (version 207012)
+  (digest "900088c3416f95503a2531dfb01eec4f876f8281")
+  (references (jazz.language.runtime.debug advise debug-string unadvise)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string /= Call-Site (Call-Site get-name) (Call-Site get-profile) (Call-Site set-profile) Object-Class empty-table fxround insert-ordered! nu<? registered-site registered-sites set-site-callback sort table-keys)
+              (jazz.language.runtime.kernel bytes-allocated! current-seconds current-seconds! enumerator->symbol f64vector f64vector-ref f64vector-set! iterate-table-safe make-f64vector new symbol->enumerator)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.increase decrease! increase!)
+              (jazz.language.syntax.macros prog1 when)
+              (profiler with-profile)
+              (scheme.language.runtime.kernel * + - / = > apply car cdr eq? equal? for-each iterate-table list make-table not procedure? set-cdr! table-ref table-set!)))

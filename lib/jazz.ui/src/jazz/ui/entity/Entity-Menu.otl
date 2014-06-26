@@ -1,0 +1,13 @@
+(module jazz.ui.entity.Entity-Menu jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class Entity-Menu extends Context-Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (finish rest)))
+  (class Add-Menu extends Context-Menu
+    (method protected final (add-entities client))
+    (method protected final (on-add evt))))

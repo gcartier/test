@@ -1,0 +1,9 @@
+(manifest jazz.object
+
+  (version 207012)
+  (digest "708bd927b7b5daf1b171a752d7ed75dee694c2a5")
+  (references (dialect.core define-walker-special)
+              (jazz.dialect.classes.foundation Any Expression)
+              (scheme.core define-class define-method)
+              (scheme.core.kernel add-core-method-node emit emit-expressions find-nextmethod new-code new-special-form register-binding walk-list)
+              (scheme.language.runtime.kernel cdr eq? make-table strip-syntactic-closures)))

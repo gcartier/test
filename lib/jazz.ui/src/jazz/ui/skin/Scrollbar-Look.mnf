@@ -1,0 +1,6 @@
+(manifest jazz.ui.skin.Scrollbar-Look
+
+  (version 207012)
+  (digest "57d3c96b6180fa2bcaa6bffa36f733d197776783")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Look Look)))

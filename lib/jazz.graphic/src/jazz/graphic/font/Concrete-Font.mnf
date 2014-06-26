@@ -1,0 +1,17 @@
+(manifest jazz.graphic.font.Concrete-Font
+
+  (version 207012)
+  (digest "0525a9876ce7cd146dc571ad37899b087ed9aa47")
+  (references (jazz.graphic.Font-Metrics Font-Metrics)
+              (jazz.graphic.Memory-Surface Memory-Surface)
+              (jazz.graphic.font.platform.freetype create-cairo-font-face create-font-handle destroy-cairo-font-face destroy-font-handle)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize))
+              (jazz.language.syntax.macros prog1 unless when)
+              (jazz.literals construct-dimension)
+              (jazz.platform.cairo CAIRO_ANTIALIAS_DEFAULT CAIRO_ANTIALIAS_GRAY CAIRO_ANTIALIAS_NONE CAIRO_ANTIALIAS_SUBPIXEL CAIRO_HINT_METRICS_DEFAULT CAIRO_HINT_METRICS_OFF CAIRO_HINT_METRICS_ON CAIRO_HINT_STYLE_DEFAULT CAIRO_HINT_STYLE_FULL CAIRO_HINT_STYLE_MEDIUM CAIRO_HINT_STYLE_NONE CAIRO_HINT_STYLE_SLIGHT CAIRO_SUBPIXEL_ORDER_BGR CAIRO_SUBPIXEL_ORDER_DEFAULT CAIRO_SUBPIXEL_ORDER_RGB CAIRO_SUBPIXEL_ORDER_VBGR CAIRO_SUBPIXEL_ORDER_VRGB cairo_font_options_create cairo_font_options_destroy cairo_font_options_set_antialias cairo_font_options_set_hint_metrics cairo_font_options_set_hint_style cairo_font_options_set_subpixel_order cairo_matrix_init_identity cairo_matrix_init_scale cairo_matrix_t-free cairo_matrix_t-make cairo_scaled_font_create cairo_scaled_font_destroy)
+              (jazz.platform.cairo.cairo-freetype cairo_glyph_index)
+              (jazz.system find-setting)
+              (scheme.language.runtime.kernel < > char->integer eqv? make-table symbol? table-ref table-set! vector-ref)))

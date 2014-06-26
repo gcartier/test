@@ -1,0 +1,14 @@
+(manifest world.mark
+
+  (version 207012)
+  (digest "31b8eb33b7b8d64fc7969fe959844aaf209cd198")
+  (references (jazz.graphic.opengl.glew.header GL_DEPTH_TEST GL_LIGHTING GL_LINES glBegin glDisable glEnable glEnd glVertex3f)
+              (jazz.language.runtime.functional (Class marshall-object) (Class unmarshall-object) Object-Class serialize-object)
+              (jazz.language.runtime.kernel class-of unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.bind bind-vector)
+              (scheme.language.runtime.kernel + - vector vector-ref)
+              (world.dyes blue-dye green-dye red-dye)
+              (world.geometry.classes copy-vertex vertex-x vertex-y vertex-z)
+              (world.opengl gl-colorize-dye)
+              (world.serialization deserialize serialize)))

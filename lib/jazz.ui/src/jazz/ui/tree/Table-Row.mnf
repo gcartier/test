@@ -1,0 +1,8 @@
+(manifest jazz.ui.tree.Table-Row
+
+  (version 207012)
+  (digest "0ce170c0ef694a0c12eb29b73c1fabc4aa07ad2d")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print))))

@@ -1,0 +1,8 @@
+(manifest jazz.project.project.Project-Designer
+
+  (version 207012)
+  (digest "eec9addb904011900a41f3e09c7c2b59c463649f")
+  (references (jazz.designer.designer.Designer Designer (Designer reference))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object (Object print) print-unreadable)))

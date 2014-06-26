@@ -1,0 +1,3 @@
+(module jazz.platform.crash.mac jazz
+  (import (jazz.snapshot))
+  (definition package (setup-crash-handler)))

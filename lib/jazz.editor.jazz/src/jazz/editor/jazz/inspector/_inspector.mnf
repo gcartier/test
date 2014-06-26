@@ -1,0 +1,11 @@
+(manifest jazz.editor.jazz.inspector
+
+  (version 207012)
+  (digest "eeebe65ed0820840210e74712f003f48c0902d73")
+  (references (jazz.jrm gc-protect)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string (Class coerce-object) List (Sequence sequence-cardinality) (Sequence sequence-element) cardinality category-identifier category-name coerce concatenate di<? memq? naturals null/pair? safe-present-object safe-present-property second sequence? sort subseq)
+              (jazz.language.runtime.kernel class-of field-name get-object-slot kind-fields kind-length not-null? object->serial object? structure-kind structure-ref structure? table-length)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros constant)
+              (scheme.language.runtime.kernel + - > >= append car cdr cons eq? length list make-table map not null? pair? string? symbol? table->list table-ref table-set! table?)))

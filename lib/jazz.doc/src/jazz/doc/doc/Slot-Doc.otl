@@ -1,0 +1,12 @@
+(module jazz.doc.doc.Slot-Doc jazz
+  (import (jazz.doc))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Slot-Doc extends Definition-Doc
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (method protected override (present-text)))
+  (class Slot-Doc-Descriptor extends Definition-Doc-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

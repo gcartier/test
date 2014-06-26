@@ -1,0 +1,6 @@
+(manifest jazz.library.resource.Icon-Resource
+
+  (version 207012)
+  (digest "948d4ba3e3597fe6ec145eb2af85e8c962d47d3f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.resource.Resource Resource)))

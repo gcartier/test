@@ -1,0 +1,14 @@
+(module jazz.ui.view.Push-Icon jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Push-Icon extends Push-Tool
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method public final (get-combo))
+    (method protected override (get-enabled?))
+    (method protected override (get-state))
+    (method protected override (mouse-enter))
+    (method protected override (mouse-leave))
+    (method protected override (mouse-down evt))
+    (method protected override (drag-up evt . rest))))

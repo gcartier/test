@@ -1,0 +1,6 @@
+(manifest jazz.doc.transformation.Doc-Transformation
+
+  (version 207012)
+  (digest "0379d1bf73d180f339d9d493902ef5afb40bea80")
+  (references (jazz.jml.transformation.JML-Transformation JML-Transformation)
+              (jazz.language.runtime.functional Object-Class)))

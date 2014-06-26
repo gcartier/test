@@ -1,0 +1,13 @@
+(manifest world.external.nbt
+
+  (version 207012)
+  (digest "5a484f97e646c042d383c4fb61de6a87d6cfbfe7")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel close-port get-output-u8vector open-u8vector u8vector-length unspecified write-string)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.ecase ecase)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros constant)
+              (scheme.language.runtime.kernel + - < = > assoc cadr car cddr cdr cons eqv? length make-vector not null? set-cdr! vector-length vector-ref vector-set!)
+              (world.external Binary-Stream (Binary-Stream <-double-big-endian) (Binary-Stream <-float-big-endian) (Binary-Stream <-s16-big-endian) (Binary-Stream <-s32-big-endian) (Binary-Stream <-s64-big-endian) (Binary-Stream <-s8) (Binary-Stream <-u8) (Binary-Stream <-u8vector) (Binary-Stream <-utf-8-string) Binary-Writer (Binary-Writer ->double-big-endian) (Binary-Writer ->float-big-endian) (Binary-Writer ->s16-big-endian) (Binary-Writer ->s32-big-endian) (Binary-Writer ->s64-big-endian) (Binary-Writer ->s8) (Binary-Writer ->u8) (Binary-Writer ->u8vector))))

@@ -1,0 +1,15 @@
+(manifest jazz.log
+
+  (version 207012)
+  (digest "a3dda88507fd829d9dbb9b9183d77353e7972b26")
+  (references (jazz.io Directory path-settings timestamped-file)
+              (jazz.io.literals construct-directory)
+              (jazz.jml parse-jml)
+              (jazz.jml.model.JML-Element JML-Element (JML-Element add-properties) (JML-Element set-property))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional List-Factory Object-Class for-each-property keyword->symbol memq?)
+              (jazz.language.runtime.kernel force-output make-mutex make-parameter mutex-lock! mutex-unlock! new unimplemented with-jazz-readtable)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros prog1 unless unwind-protect when)
+              (scheme.language.runtime.kernel call-with-input-file call-with-output-file eof-object? get-output-string newline not open-output-string read)))

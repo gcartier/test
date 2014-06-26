@@ -1,0 +1,9 @@
+(manifest jazz.ui.window.Overlapped
+
+  (version 207012)
+  (digest "f44659294190fde9d8d5d3c023d849261a6683df")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.window register-overlapped unregister-overlapped)
+              (jazz.ui.window.View-Player View-Player (View-Player destroy))
+              (jazz.ui.window.Window (Window conclude))
+              (scheme.language.runtime.kernel cons list not)))

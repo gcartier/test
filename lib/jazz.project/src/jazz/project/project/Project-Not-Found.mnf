@@ -1,0 +1,14 @@
+(manifest jazz.project.project.Project-Not-Found
+
+  (version 207012)
+  (digest "b4efaacafe7d010bfd1d7fe2daa782d26431df3d")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.project.project.Project Project Project-Descriptor (Project-Descriptor~Class get-class-form) (Project-Descriptor~Class get-class-forms) (Project-Descriptor~Class set-class-form) (Project~Class get-class-descriptor))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

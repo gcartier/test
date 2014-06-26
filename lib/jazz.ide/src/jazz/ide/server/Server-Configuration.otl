@@ -1,0 +1,9 @@
+(module jazz.ide.server.Server-Configuration jazz
+  (import (jazz.library))
+  (class Server-Configuration extends Component
+    (property unit accessors generate)
+    (property class accessors generate)
+    (property port accessors generate)
+    (property description accessors generate)
+    (property debug? accessors generate)
+    (method public final (toggle-debug?))))

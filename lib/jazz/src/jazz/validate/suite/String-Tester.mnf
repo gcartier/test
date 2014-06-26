@@ -1,0 +1,13 @@
+(manifest jazz.validate.suite.String-Tester
+
+  (version 207012)
+  (digest "02597edb8d31a2a03606556902a57cb50f2a8301")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) (Sequence sequence-set-element!) element nu=? set-element! wi=?)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel cons list list->table not string-copy)
+              (scheme.syntax declaration-path)))

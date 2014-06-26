@@ -1,0 +1,13 @@
+(manifest jazz.io.protocol
+
+  (version 207012)
+  (digest "5d899299f1e185d1fbd3e4dc2b0e728c31f74bd9")
+  (references (jazz.io Directory Directory-Class File-Class Moniker-Class)
+              (jazz.language.runtime.functional box-list find-keyword unbox-list)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.library.moniker.Directory-Group Directory-Group Directory-Group-Class)
+              (jazz.ui.dialog.Directories-Request Directories-Request)
+              (jazz.ui.dialog.platform.glfw choose-directory choose-file choose-new-file)
+              (jazz.ui.view get-modal)
+              (scheme.language.runtime.kernel apply car map)))

@@ -1,0 +1,17 @@
+(manifest jazz.graphic.image.Portfolio
+
+  (version 207012)
+  (digest "33221aa487cbfd6f5be6cccf82bc7b2f7a7c15a3")
+  (references (jazz.geometry size-rect)
+              (jazz.graphic.Memory-Surface Memory-Surface)
+              (jazz.graphic.Surface (Surface draw-surface) (Surface fill-rect))
+              (jazz.graphic.image load-image)
+              (jazz.language.runtime.functional Object-Class table-values)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.language.runtime.object (Object destroy-mandatory))
+              (jazz.language.syntax.typecase typecase)
+              (jazz.library.component.Component Component (Component destroy) (Component finish))
+              (jazz.library.resource.Icon-Resource Icon-Resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.platform.cairo cairo_surface_destroy get-cairo-image-surface-size)
+              (scheme.language.runtime.kernel cons equal? for-each make-table table-ref table-set!)))

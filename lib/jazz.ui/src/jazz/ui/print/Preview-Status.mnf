@@ -1,0 +1,16 @@
+(manifest jazz.ui.print.Preview-Status
+
+  (version 207012)
+  (digest "4f3d2cce6936bd90cc9af4435f02dffbc6bbe91d")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.Status-Label Status-Label)
+              (jazz.ui.view.Status-Toolbar Status-Toolbar (Status-Toolbar~Class get-class-form) (Status-Toolbar~Class get-class-forms) (Status-Toolbar~Class host-title) (Status-Toolbar~Class set-class-form))
+              (jazz.ui.view.View (View~Class host-icon))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

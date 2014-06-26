@@ -1,0 +1,14 @@
+(manifest jazz.schema.data.Data-Object
+
+  (version 207012)
+  (digest "c94d8ccc86c88d789d28fbf1938f30e0fc3afcaa")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class append! getf getprop neq?)
+              (jazz.language.runtime.kernel is? unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.typecase typecase)
+              (jazz.library.literals construct-box)
+              (jazz.library.utility.Box Box)
+              (jazz.schema.data.Datatype Datatype (Datatype present))
+              (scheme.language.runtime.kernel cdr cons list null? set-car!)))

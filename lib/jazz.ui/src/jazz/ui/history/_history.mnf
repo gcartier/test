@@ -1,0 +1,9 @@
+(manifest jazz.ui.history
+
+  (version 207012)
+  (digest "d8231a7edab676d1c8f97b506fe9791939bc99f4")
+  (references (jazz.language.runtime.geometry Point)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.platform bell)
+              (jazz.ui.history.History-Menu History-Menu)
+              (scheme.language.runtime.kernel null?)))

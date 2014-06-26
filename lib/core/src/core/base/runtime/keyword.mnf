@@ -1,0 +1,5 @@
+(manifest core.base.runtime.keyword
+
+  (version 207012)
+  (digest "c0b9598561d32950ac77d61b0ae335fe662a93d2")
+  (references))

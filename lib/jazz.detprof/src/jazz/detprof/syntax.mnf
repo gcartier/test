@@ -1,0 +1,6 @@
+(manifest jazz.detprof.syntax
+
+  (version 207012)
+  (digest "9ed72da33263abd5afe9d12657b9294ae14bcb79")
+  (references (jazz.language.runtime.functional getf make-list)
+              (scheme.language.runtime.kernel append apply cadr cddr not source-code sourcify-if)))

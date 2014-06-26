@@ -1,0 +1,9 @@
+(module jazz.schema.data.Data-Entity jazz
+  (import (jazz.schema))
+  (class Data-Entity extends Data-Object
+    (slot owner getter generate)
+    (method protected override (initialize . rest))
+    (method public virtual (get-children))
+    (method public virtual (get-categorized-children))
+    (method public virtual (create kind name))
+    (method public virtual (add kind object))))

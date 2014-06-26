@@ -1,0 +1,18 @@
+(module world.buffer jazz
+  (import (jazz.graphic.opengl.glew))
+  (import (world.foreign))
+  (class Buffer extends Object
+    (slot buffer <int+> getter generate)
+    (slot floats <int+> getter generate)
+    (slot indices <int+> getter generate)
+    (method public final (bind))
+    (method public final (unbind))
+    (method public final (empty?))
+    (method public final (set-data content size floats-per-indice))
+    (method public final (enable-vertex-attrib location))
+    (method public final (disable-vertex-attrib location))
+    (method public final (draw))
+    (method public final (set-attrib-pointer location size type stride offset))
+    (method public final (generate-buffer))
+    (method public final (free-buffer))
+    (method protected override (destroy))))

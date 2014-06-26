@@ -1,0 +1,6 @@
+(manifest jazz.editor.sql.sql.SQL-Explorer
+
+  (version 207012)
+  (digest "7a8ba6ae5a1e49354a5e8516a75d86e6d3f41e97")
+  (references (jazz.editor.c.text.C-Explorer C-Explorer)
+              (jazz.language.runtime.functional Object-Class)))

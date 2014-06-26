@@ -1,0 +1,10 @@
+(manifest jazz.jrm.remote.IOR
+
+  (version 207012)
+  (digest "059d4e3c4bd089ba3ce2a51fe5307e5798ec421e")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Class marshall-object) (Class unmarshall-object) Object-Class category-name serialize-object)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print))
+              (jazz.language.syntax.state state)
+              (scheme.language.runtime.kernel vector vector-ref)))

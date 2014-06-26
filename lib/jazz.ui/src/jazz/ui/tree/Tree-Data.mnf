@@ -1,0 +1,7 @@
+(manifest jazz.ui.tree.Tree-Data
+
+  (version 207012)
+  (digest "4b1f7c88314c64f44f994d9cc440f1f45344e81d")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

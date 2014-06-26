@@ -1,0 +1,9 @@
+(manifest jazz.validation.autoload
+
+  (version 207012)
+  (digest "4a0b5becf5038f271203155e90ccaa8958685cf8")
+  (references (jazz.validation.tester.Tester Tester)
+              (jazz.validation.tester.Tester-Error Tester-Error)
+              (jazz.validation.validate.Validate Validate)
+              (jazz.validation.validate.Validation-Manager Validation-Manager)
+              (jazz.validation.validate.Validation-Suite Validation-Suite)))

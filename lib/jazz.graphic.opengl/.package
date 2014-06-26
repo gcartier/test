@@ -1,0 +1,14 @@
+(package jazz.graphic.opengl
+
+  (root "src")
+  (products (opengl (alias jazz.graphic.opengl))
+            (jazz.graphic.opengl (unit jazz.graphic.opengl.product)
+                                 (update (cond
+                                           (windows jazz.graphic.opengl))
+                                         jazz.graphic.opengl.glew
+                                         jazz.graphic.opengl.glfw
+                                         jazz.graphic.opengl.platform
+                                         jazz.graphic.opengl.product
+                                         jazz.graphic.opengl.window)
+                                 (dependencies jazz)))
+  (project ".project"))

@@ -1,0 +1,3 @@
+(module jazz.ui.context.Context-Provider jazz
+  (interface Context-Provider
+    (method public virtual (get-context-text))))

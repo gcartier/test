@@ -1,0 +1,15 @@
+(manifest jazz.ui.view.Push-Icon
+
+  (version 207012)
+  (digest "29f54cf4fc98b41a90eb909993d35abc227ae8be")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.library.component.Component (Component parent) (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.Push-Tool Push-Tool)
+              (jazz.ui.view.Tool-Button (Tool-Button drag-up) (Tool-Button get-state) (Tool-Button mouse-down) (Tool-Button mouse-enter) (Tool-Button mouse-leave))
+              (jazz.ui.view.View (View get-enabled?))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

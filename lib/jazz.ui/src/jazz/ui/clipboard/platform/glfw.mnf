@@ -1,0 +1,5 @@
+(manifest jazz.ui.clipboard.platform.glfw
+
+  (version 207012)
+  (digest "41729ca1cd28bc1c860d2ce3c9e61f0f753453bd")
+  (references (jazz.language.runtime.kernel unspecified)))

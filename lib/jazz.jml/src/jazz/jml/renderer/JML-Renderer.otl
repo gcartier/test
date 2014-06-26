@@ -1,0 +1,6 @@
+(module jazz.jml.renderer.JML-Renderer jazz
+  (class JML-Renderer extends Object
+    (slot preferences)
+    (method protected override (initialize preferences))
+    (method public virtual (render jml output))
+    (method public virtual (render-node context jml simple? mix? level output))))

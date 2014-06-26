@@ -1,0 +1,11 @@
+(module world.parameters jazz
+  (import (world.syntax (phase syntax)))
+  (definition public (register-parameter name parameter))
+  (definition public (registered-parameter name))
+  (definition public (world-parameter name))
+  (definition public (world-parameter-set! name value))
+  (class World-Parameter extends Object
+    (slot getter getter generate)
+    (slot setter getter generate)
+    (slot view accessors generate)
+    (method protected override (initialize getter (setter (unspecified))))))

@@ -1,0 +1,18 @@
+(manifest jazz.graphic.opengl.window
+
+  (version 207012)
+  (digest "861be85c1d27f3d9ca1918270048562974c6f67e")
+  (references (jazz.graphic.opengl.glew.foreign gluPerspective)
+              (jazz.graphic.opengl.glew.header GLEW_OK GL_COLOR_MATERIAL GL_DEPTH_TEST GL_FILL GL_FRONT_AND_BACK GL_LEQUAL GL_LINE_SMOOTH GL_MODELVIEW GL_NICEST GL_PERSPECTIVE_CORRECTION_HINT GL_POLYGON_SMOOTH GL_PROJECTION GL_SMOOTH glClearColor glClearDepth glDepthFunc glEnable glHint glLoadIdentity glMatrixMode glPolygonMode glShadeModel glViewport glewInit)
+              (jazz.graphic.opengl.window.glfw adjust-opengl-context create-opengl-window delete-context disable-vsync enable-vsync make-context-current opengl-fullscreen? platform-restore-from-fullscreen platform-restore-windowed-mode platform-set-fullscreen-mode platform-set-fullscreen-windowed-mode release-current-context swap-buffers)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class fxround)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.utility.Pulse Pulse)
+              (jazz.ui.window.Toplevel Toplevel (Toplevel close-window) (Toplevel size-change))
+              (jazz.ui.window.View-Player (View-Player paint) (View-Player prepare))
+              (jazz.ui.window.Window (Window get-placement) (Window handle) (Window invalidate-rect) (Window opened?) (Window opengl?) (Window scroll-window))
+              (jazz.ui.window.platform.glfw close-requested set-window-placement with-platform-painting)
+              (scheme.language.runtime.kernel / = not)))

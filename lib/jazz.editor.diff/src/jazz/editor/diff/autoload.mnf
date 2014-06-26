@@ -1,0 +1,7 @@
+(manifest jazz.editor.diff.autoload
+
+  (version 207012)
+  (digest "745543e347001dfbc023f48ea8ccd42e14d7589c")
+  (references (jazz.editor.diff.text.Diff-Syntax Diff-Syntax)
+              (jazz.editor.diff.text.Diff-Text-Preferences Diff-Text-Preferences)
+              (jazz.editor.diff.text.Diff-Text-View Diff-Text-View)))

@@ -1,0 +1,10 @@
+(manifest jazz.editor.commonlisp.text.CommonLisp-Syntax
+
+  (version 207012)
+  (digest "fee9bebe40700719e1d5cb053a2f4b75c4a32b08")
+  (references (jazz.editor.commonlisp.text.CommonLisp-Explorer CommonLisp-Explorer)
+              (jazz.editor.lisp.text.Lisp-Syntax Lisp-Syntax (Lisp-Syntax declaration-style))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.system get-preferences)
+              (jazz.ui.syntax.Code-Syntax (Code-Syntax explorer-class))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax default-extension) (Text-Syntax extensions) (Text-Syntax preferences))))

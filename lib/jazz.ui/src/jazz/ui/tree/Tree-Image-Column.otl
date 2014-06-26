@@ -1,0 +1,6 @@
+(module jazz.ui.tree.Tree-Image-Column jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Tree-Image-Column extends Tree-Label-Column
+    (method protected override (draw-data surface context row data width height))
+    (method protected override (sort-value row data))))

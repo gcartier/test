@@ -1,0 +1,11 @@
+(manifest jazz.jrm.syntax
+
+  (version 207012)
+  (digest "8ccfecf867348db07c99653d8c7a48b66d31e21a")
+  (references (jazz.dialect.classes.foundation Any)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.kernel enqueue enqueue-list new-queue not-null? queue-list specified? string->keyword)
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.macros when)
+              (scheme.core.kernel current-declaration current-resume current-walker parse-keywords parse-modifiers)
+              (scheme.language.runtime.kernel > car cdr eq? for-each not null? string->symbol string-append string-length string=? strip-syntactic-closures substring symbol->string symbol? values)))

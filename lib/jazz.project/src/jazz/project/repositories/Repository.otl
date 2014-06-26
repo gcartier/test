@@ -1,0 +1,19 @@
+(module jazz.project.repositories.Repository jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.project))
+  (class Repository extends Component
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property title accessors generate)
+    (property directory accessors generate)
+    (method protected override (print output readably)))
+  (class Repository-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-set-presentation component designer presentation))
+    (method protected override (component-addable-class? component class))
+    (method protected override (component-get-categorized-addable-classes component))))

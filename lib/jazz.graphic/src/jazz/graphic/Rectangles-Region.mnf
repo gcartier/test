@@ -1,0 +1,14 @@
+(manifest jazz.graphic.Rectangles-Region
+
+  (version 207012)
+  (digest "81b7b05aa3a781b928fceeaa81514e82c83c1c6b")
+  (references (jazz.geometry offset-rect! rect-intersect? rect-union)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.macros when)
+              (jazz.literals construct-rect)
+              (scheme.language.runtime.kernel append for-each list not)))

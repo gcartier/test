@@ -1,0 +1,9 @@
+(manifest jazz.jml.syntax
+
+  (version 207012)
+  (digest "ba85926e10e7d064a2b150a85eb7538c623a4d16")
+  (references (jazz.jml.parse parse-jml-expr)
+              (jazz.language.runtime.functional (Sequence sequence-last) for-each-property last memq? memv?)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless)
+              (scheme.language.runtime.kernel car cdr cons eq? for-each make-table map string->symbol string-append symbol->string table->list table-set!)))

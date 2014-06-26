@@ -1,0 +1,13 @@
+(manifest jazz.designer.editor.Component-Editor-Controller
+
+  (version 207012)
+  (digest "b16e88df8bd38b26dea0b1cb80e5b14381a2f1af")
+  (references (jazz.io file?)
+              (jazz.language.runtime.exception signal-cancel)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class Runtime-Reference (Sequence sequence-element) category-name third)
+              (jazz.language.runtime.kernel is? serialize-runtime-reference unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.document.Document-Controller Document-Controller (Document-Controller confirm-close) (Document-Controller document) (Document-Controller effective-newname) (Document-Controller get-modified?) (Document-Controller name-status) (Document-Controller save) (Document-Controller save-all) (Document-Controller save-as) (Document-Controller update-moniker-time))
+              (jazz.ui.view message-box)
+              (scheme.language.runtime.kernel not symbol->string)))

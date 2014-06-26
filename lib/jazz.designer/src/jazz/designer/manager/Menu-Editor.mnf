@@ -1,0 +1,9 @@
+(manifest jazz.designer.manager.Menu-Editor
+
+  (version 207012)
+  (digest "5cf6b762dae90c15d01120554567cbbdcb397666")
+  (references (jazz.designer.editor.Component-Editor (Component-Editor~Class host-title))
+              (jazz.designer.editor.View-Editor View-Editor (View-Editor~Class host-position) (View-Editor~Class host-size))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.literals construct-dimension construct-point)))

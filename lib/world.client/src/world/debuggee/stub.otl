@@ -1,0 +1,20 @@
+(module world.debuggee.stub jazz
+  (import (jazz.jrm.syntax (phase syntax)))
+  (import (jazz.jrm))
+  (class World-Debuggee-Stub-Interface extends Stub-Interface
+    (method protected override (local-class))
+    (method protected override (remote-class)))
+  (interface World-Debuggee-Stub metaclass World-Debuggee-Stub-Interface extends Remotable-Stub
+    (method public virtual (position-world __mode))
+    (method public virtual (restore-world))
+    (method public virtual (set-property __property __value)))
+  (class World-Debuggee-Local-Proxy extends Local-Proxy implements World-Debuggee-Stub
+    (method protected override (stub-reference))
+    (method protected override (position-world __mode))
+    (method protected override (restore-world))
+    (method protected override (set-property __property __value)))
+  (class World-Debuggee-Remote-Proxy extends Remote-Proxy implements World-Debuggee-Stub
+    (method protected override (stub-reference))
+    (method protected override (position-world __mode))
+    (method protected override (restore-world))
+    (method protected override (set-property __property __value))))

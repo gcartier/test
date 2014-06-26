@@ -1,0 +1,4 @@
+(module jazz.ui.skin.Skins jazz
+  (import (jazz.library))
+  (class Skins extends Component
+    (property active accessors generate)))

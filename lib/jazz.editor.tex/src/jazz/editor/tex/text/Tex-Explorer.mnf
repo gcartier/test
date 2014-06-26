@@ -1,0 +1,6 @@
+(manifest jazz.editor.tex.text.Tex-Explorer
+
+  (version 207012)
+  (digest "d6db88526d296ae5809f6af73cd7052d3d2885c2")
+  (references (jazz.editor.c.text.C-Explorer C-Explorer)
+              (jazz.language.runtime.functional Object-Class)))

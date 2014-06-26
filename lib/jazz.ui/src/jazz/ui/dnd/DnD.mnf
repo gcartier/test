@@ -1,0 +1,7 @@
+(manifest jazz.ui.dnd.DnD
+
+  (version 207012)
+  (digest "f21f34c3ccfdddfc446d74d39ac02f657e9b0a70")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

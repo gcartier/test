@@ -1,0 +1,16 @@
+(manifest yownu.start
+
+  (version 207012)
+  (digest "57c0ad44ae2870f39113c2abb4d45ff95da7bc3b")
+  (references (jazz.graphic.opengl.glew.foreign glGetInteger*)
+              (jazz.graphic.opengl.glew.header GL_MAX_3D_TEXTURE_SIZE GL_MAX_FRAGMENT_UNIFORM_COMPONENTS GL_MAX_LIGHTS GL_MAX_TEXTURE_IMAGE_UNITS GL_MAX_TEXTURE_SIZE GL_MAX_VERTEX_UNIFORM_COMPONENTS GL_VERSION glGetString glewIsSupported)
+              (jazz.graphic.opengl.window new-opengl-window)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.kernel command-argument terminal)
+              (jazz.platform.glfw system-message)
+              (scheme.language.runtime.kernel string-append)
+              (world load-point)
+              (world.boot boot-client)
+              (world.io open-world/zone)
+              (yownu.client Yownu-Client)
+              (yownu.run set-yownu-start)))

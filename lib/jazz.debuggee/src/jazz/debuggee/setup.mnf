@@ -1,0 +1,5 @@
+(manifest jazz.debuggee.setup
+
+  (version 207012)
+  (digest "510b84d65581ddd6ce6a55fd73a46ce75235ec73")
+  (references (jazz.debuggee setup-debuggee)))

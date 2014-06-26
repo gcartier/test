@@ -1,0 +1,15 @@
+(manifest jazz.ui.view.Tooltip-Text-View
+
+  (version 207012)
+  (digest "f474370780090670afb656b7f839c9c659e8fdf3")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.font.Font Font)
+              (jazz.graphic.literals construct-color construct-font)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.literals construct-format construct-text-style)
+              (jazz.ui.text.Format Format)
+              (jazz.ui.text.Formatted-Text-Model Formatted-Text-Model)
+              (jazz.ui.text.Formatted-Text-View Formatted-Text-View (Formatted-Text-View get-context-menu) (Formatted-Text-View new-model))
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View add-format) (Text-View add-style) (Text-View install) (Text-View new-text-context-menu))))

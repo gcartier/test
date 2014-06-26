@@ -1,0 +1,5 @@
+(manifest jazz.backend.scheme.runtime.core.base64
+
+  (version 207012)
+  (digest "3b667f28b364101e08b6e5d6ebcdc2aadfb64fed")
+  (references))

@@ -1,0 +1,5 @@
+(manifest core.base.runtime.reader
+
+  (version 207012)
+  (digest "ce03c935f9cfc82b0d46a73b294d05233de68230")
+  (references))

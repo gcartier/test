@@ -1,0 +1,7 @@
+(module jazz.ui.effect.Wipe-Effect jazz
+  (import (jazz.ui))
+  (class Wipe-Effect extends Effect
+    (slot direction)
+    (slot delay)
+    (method protected override (initialize (direction: direction (unspecified)) (delay: delay (unspecified))))
+    (method protected override (animate src dst pos size))))

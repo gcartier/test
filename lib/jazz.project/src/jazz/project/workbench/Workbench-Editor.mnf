@@ -1,0 +1,8 @@
+(manifest jazz.project.workbench.Workbench-Editor
+
+  (version 207012)
+  (digest "f5c34a76fde48eca7ca631a7e0b74d48e6bf7dd5")
+  (references (jazz.designer.editor.Descendants-Editor Descendants-Editor)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model))
+              (jazz.project.workbench.Workbench-Tree Workbench-Tree)))

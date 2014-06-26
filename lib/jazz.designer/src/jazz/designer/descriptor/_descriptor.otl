@@ -1,0 +1,8 @@
+(module jazz.designer.descriptor jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (definition public Component-Meta-Descriptor)
+  (definition public Properties-Meta-Descriptor)
+  (definition public Property-Meta-Descriptor)
+  (definition public Children-Meta-Descriptor))

@@ -1,0 +1,21 @@
+(module jazz.editor.sql.sql.SQL-Text-View jazz
+  (import (jazz.editor.sql))
+  (import (jazz.editor.sql.view))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class SQL-Text-View extends Code-Text-View
+    (method meta protected override (external-name . rest))
+    (method protected override (install rest))
+    (method protected override (new-syntax))
+    (method protected override (preferences))
+    (method protected override (host-workspaces))
+    (method protected override (get-context-menu))
+    (method protected override (return-press evt))
+    (method protected override (evaluate-selection)))
+  (class SQL-Text-Menu extends Context-Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

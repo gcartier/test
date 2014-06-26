@@ -1,0 +1,15 @@
+(manifest jazz.ui.layout.Border-Layout
+
+  (version 207012)
+  (digest "2aada61509a0fb59b11bb7d76f0fe89dafe7fb66")
+  (references (jazz.language.runtime.functional Object-Class collect-if)
+              (jazz.language.runtime.geometry Dimension Point Rect (Rect get-bottom) (Rect get-left) (Rect get-right) (Rect get-top))
+              (jazz.language.runtime.kernel is? new unspecified)
+              (jazz.language.syntax.increase decrease! increase!)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component get-visible?))
+              (jazz.literals construct-rect)
+              (jazz.ui.layout layout-fill layout-fill-horizontal layout-fill-vertical)
+              (jazz.ui.layout.Figure Figure)
+              (jazz.ui.layout.Layout Layout (Layout layout))
+              (scheme.language.runtime.kernel + - eq? for-each reverse)))

@@ -1,0 +1,6 @@
+(manifest jazz.ui.skin.Border-Look
+
+  (version 207012)
+  (digest "e31f2d23b661b6ab6ebb9837a9e61aec482321a7")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Look Look)))

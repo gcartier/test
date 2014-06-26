@@ -1,0 +1,9 @@
+(module world.interface.inventory jazz
+  (import (jazz.jml))
+  (import (world.interface.frame))
+  (class World-Inventory extends World-Frame
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (conclude initargs))
+    (method protected final (view-inventory))))

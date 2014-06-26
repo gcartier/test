@@ -1,0 +1,11 @@
+(module jazz.ui.dialog.platform.glfw jazz
+  (import (jazz.library))
+  (import (jazz.platform))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (import (jazz.ui.window))
+  (definition public (choose-file (title: title (unspecified)) (directory: directory (unspecified)) (filenames: filenames (unspecified)) (extensions: extensions (unspecified)) (multiple-selection?: multiple-selection? (unspecified)) (anchors: anchors (unspecified))))
+  (definition public (choose-new-file (title: title (unspecified)) (directory: directory (unspecified)) (filenames: filenames (unspecified)) (extensions: extensions (unspecified)) (initial-filename: initial-filename (unspecified)) (default-extension: default-extension (unspecified)) (anchors: anchors (unspecified))))
+  (definition public (choose-directory (title: title (unspecified)) (directory: directory (unspecified)) (anchors: anchors (unspecified))))
+  (definition public (choose-font (initial-font: initial-font (unspecified)) (initial-color: initial-color (unspecified)))))

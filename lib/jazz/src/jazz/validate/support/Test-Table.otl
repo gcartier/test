@@ -1,0 +1,13 @@
+(module jazz.validate.support.Test-Table jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Test-Table extends Component
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property description accessors generate)
+    (property no accessors generate))
+  (class Test-Table-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

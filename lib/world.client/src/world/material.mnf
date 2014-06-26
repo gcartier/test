@@ -1,0 +1,9 @@
+(manifest world.material
+
+  (version 207012)
+  (digest "3ade83bf21851be8abf41abdb6ac2d04cb18e025")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (world.texture Image-Texture)))

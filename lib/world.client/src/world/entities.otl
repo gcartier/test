@@ -1,0 +1,6 @@
+(module world.entities jazz
+  (import (world.enemy))
+  (import (world.model))
+  (import (world.models))
+  (import (world.sphere))
+  (definition public (register-entity-classes (force? (unspecified)))))

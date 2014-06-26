@@ -1,0 +1,15 @@
+(manifest jazz.groupware.compare.Directory-Comparer
+
+  (version 207012)
+  (digest "8a10dafef4196771ce8d51949c745c706bc2b66d")
+  (references (jazz.groupware.compare.Tree-Comparer Tree-Comparer (Tree-Comparer compare-leaf-values) (Tree-Comparer create-item) (Tree-Comparer different?) (Tree-Comparer get-item-content) (Tree-Comparer get-item-type) (Tree-Comparer leaf-feedback) (Tree-Comparer make-item) (Tree-Comparer new-entry) (Tree-Comparer scanned-values))
+              (jazz.io Directory File)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional ->string Object-Class naturals)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.syntax.macros when)
+              (jazz.language.syntax.typecase typecase)
+              (jazz.library different-file-content-no-whitespace? different-file-content? different-times?)
+              (jazz.library.moniker.Directory-Group Directory-Group)
+              (scheme.language.runtime.kernel > eq? length map not procedure? set-car! string-append)
+              (time time->seconds)))

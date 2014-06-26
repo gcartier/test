@@ -1,0 +1,7 @@
+(module jazz.ui.activity jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.window))
+  (definition public (get-activity-manager (visible?: visible? (unspecified))))
+  (definition package (manager-position))
+  (definition package (destroy-manager)))

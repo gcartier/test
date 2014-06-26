@@ -1,0 +1,6 @@
+(manifest jazz.designer.descriptor.Child-Descriptor
+
+  (version 207012)
+  (digest "631dcbc9244c23abc73fe2360ff4276651866844")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component Component)))

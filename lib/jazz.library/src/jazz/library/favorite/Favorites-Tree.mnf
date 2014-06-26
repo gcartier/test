@@ -1,0 +1,16 @@
+(manifest jazz.library.favorite.Favorites-Tree
+
+  (version 207012)
+  (digest "7f41f387562f8c70c8ec034f5fd990aa0a41be6f")
+  (references (jazz.designer.editor.Components-Viewer (Components-Viewer context-menu) (Components-Viewer update-selection))
+              (jazz.designer.editor.Descendants-Tree Descendants-Tree (Descendants-Tree double-click) (Descendants-Tree row-state) (Descendants-Tree~Class get-class-form) (Descendants-Tree~Class get-class-forms) (Descendants-Tree~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is? unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.library.favorite.Favorites-Manager Favorites-Manager (Favorites-Manager new-favorites-menu))
+              (jazz.ui.tree.Tree-View (Tree-View with-context-click))
+              (jazz.ui.view.View (View get-host) (View return-press) (View track-popup-menu))
+              (scheme.language.runtime.kernel < cons list list->table)
+              (scheme.syntax declaration-path)))

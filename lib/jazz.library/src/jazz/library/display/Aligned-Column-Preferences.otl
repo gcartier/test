@@ -1,0 +1,6 @@
+(module jazz.library.display.Aligned-Column-Preferences jazz
+  (import (jazz.library))
+  (class Aligned-Column-Preferences extends Column-Preferences
+    (property alignment accessors generate)
+    (method protected override (column-class))
+    (method protected override (new-column display))))

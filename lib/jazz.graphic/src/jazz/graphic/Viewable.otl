@@ -1,0 +1,4 @@
+(module jazz.graphic.Viewable jazz
+  (interface Viewable
+    (method public virtual (get-title))
+    (method public virtual (get-viewer-class))))

@@ -1,0 +1,14 @@
+(manifest jazz.library.history.History-Manager
+
+  (version 207012)
+  (digest "0378bef1b48991ded1844277a165f9f5a1eafebf")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-tail) box-list collect-if find-keyword tail unbox-list)
+              (jazz.language.runtime.kernel class-of dispatch not-null? unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.runtime.platform bell)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.increase decrease!)
+              (jazz.language.syntax.macros when while ~)
+              (jazz.system user-message)
+              (scheme.language.runtime.kernel - > >= append apply car cdr cons length list not null? set-cdr!)))

@@ -1,0 +1,18 @@
+(module jazz.designer.surrogate.Component-Surrogate jazz
+  (import (jazz.library))
+  (class Component-Surrogate extends Component
+    (slot protected client accessors generate)
+    (slot protected editor getter generate)
+    (method protected override (initialize (client: client (unspecified)) (editor: editor (unspecified))))
+    (method public virtual (install-handlers))
+    (method public virtual (remove-handlers))
+    (method public final (outer-client))
+    (method public virtual (invalidate-border))
+    (method public virtual (redraw-border))
+    (method public virtual (select rank focus?))
+    (method public virtual (unselect))
+    (method public final (get-selected?))
+    (method public final (selection-rank))
+    (method public final (get-selection))
+    (method public final (set-selection selection))
+    (method public final (acquire-selection))))

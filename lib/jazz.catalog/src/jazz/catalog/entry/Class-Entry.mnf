@@ -1,0 +1,14 @@
+(manifest jazz.catalog.entry.Class-Entry
+
+  (version 207012)
+  (digest "a037af0250d25966a4cf74db06bb01c96040d66c")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry get-image))
+              (jazz.catalog.entry.Category-Entry Category-Entry (Category-Entry extends) (Category-Entry initialize) (Category-Entry insert-interfaces) (Category-Entry insert-interfaces-list) (Category-Entry update-indexes))
+              (jazz.catalog.entry.Hierarchical-Entry (Hierarchical-Entry modifiers) (Hierarchical-Entry print-catalog))
+              (jazz.catalog.entry.Indexed-Entry (Indexed-Entry column) (Indexed-Entry definitions) (Indexed-Entry end-column) (Indexed-Entry end-line) (Indexed-Entry line) (Indexed-Entry name) (Indexed-Entry update-index))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-last) category-name last)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel * + for-each)))

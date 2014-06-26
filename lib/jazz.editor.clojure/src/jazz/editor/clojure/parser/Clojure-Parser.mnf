@@ -1,0 +1,8 @@
+(manifest jazz.editor.clojure.parser.Clojure-Parser
+
+  (version 207012)
+  (digest "be4eafde390e18c3a801dabb252796cc65d4fbce")
+  (references (jazz.editor.clojure.text.Clojure-Explorer Clojure-Explorer)
+              (jazz.editor.clojure.text.Clojure-Text-View Clojure-Text-View)
+              (jazz.editor.lisp.parser.Lisp-Parser Lisp-Parser (Lisp-Parser explorer-class) (Lisp-Parser text-view-class) (Lisp-Parser~Class get-constituent-test))
+              (jazz.language.runtime.functional Object-Class c-constituent?)))

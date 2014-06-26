@@ -1,0 +1,8 @@
+(manifest jazz.library.utility.Reference
+
+  (version 207012)
+  (digest "f4dfdbce6539de99e14445c0bbe07370c2927dc4")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) (Object setup-context) (Object walk-references))))

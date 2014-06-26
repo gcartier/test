@@ -1,0 +1,16 @@
+(module jazz.version jazz
+  (class Version extends Object
+    (slot major getter generate)
+    (slot minor getter generate)
+    (slot stage getter generate)
+    (slot revision getter generate)
+    (slot build getter generate)
+    (method protected override (initialize major minor (revision (unspecified)) (build (unspecified)) (stage (unspecified))))
+    (method protected override (compare-object target))
+    (method protected override (print output readably))
+    (method protected final (present-string))
+    (method public final (present))
+    (method public final (compatible? version))
+    (method public final (->64-bit-integer)))
+  (definition public (jazz-version))
+  (definition public (64-bit-integer->version version)))

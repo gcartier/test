@@ -1,0 +1,8 @@
+(module jazz.designer.details.Details-Card jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Details-Card extends Layout-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

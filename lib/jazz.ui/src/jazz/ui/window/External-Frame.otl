@@ -1,0 +1,8 @@
+(module jazz.ui.window.External-Frame jazz
+  (import (jazz.ui))
+  (import (jazz.ui.window))
+  (class External-Frame extends Overlapped
+    (method protected override (default-parent))
+    (method protected override (new-root))
+    (method protected final (get-host))
+    (method protected override (close-window))))

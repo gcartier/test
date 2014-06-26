@@ -1,0 +1,10 @@
+(module world.server.client jazz
+  (import (world.commands))
+  (import (world.player))
+  (class Server-Client extends Object
+    (slot name getter generate)
+    (slot client getter generate)
+    (slot avatar accessors generate)
+    (slot commands getter generate)
+    (method protected override (initialize client))
+    (method protected final (reset-commands))))

@@ -1,0 +1,14 @@
+(manifest world.interface.skin
+
+  (version 207012)
+  (digest "d03fc827aa11cfda2c0b0a22b224c0e6e6b1884e")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.Gradient Gradient)
+              (jazz.graphic.font.Font Font)
+              (jazz.graphic.literals construct-color construct-font construct-gradient)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Default-Skin Default-Skin (Default-Skin~Class get-class-form) (Default-Skin~Class get-class-forms) (Default-Skin~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

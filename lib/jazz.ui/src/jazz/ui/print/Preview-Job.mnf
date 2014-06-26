@@ -1,0 +1,6 @@
+(manifest jazz.ui.print.Preview-Job
+
+  (version 207012)
+  (digest "88d64480c44dbce4cb079151ca3fa6fd4ed4546b")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.print.Print-Job Print-Job (Print-Job page-setup) (Print-Job print-orientation) (Print-Job printed-page))))

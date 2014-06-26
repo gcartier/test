@@ -1,0 +1,14 @@
+(module jazz.library.favorite.Favorite-Directory jazz
+  (import (jazz.io))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (class Favorite-Directory extends Favorite
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property directory accessors generate)
+    (method protected override (launch)))
+  (class Favorite-Directory-Descriptor extends Favorite-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

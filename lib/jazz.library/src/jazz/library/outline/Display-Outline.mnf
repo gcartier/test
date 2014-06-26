@@ -1,0 +1,10 @@
+(manifest jazz.library.outline.Display-Outline
+
+  (version 207012)
+  (digest "7c1f3f62646d3b7e65f60484053111927b386a63")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel continuation-capture continuation-return unspecified)
+              (jazz.language.syntax.increase decrease! increase!)
+              (jazz.language.syntax.macros when while)
+              (jazz.library.outline.Outline Outline (Outline call-with-v->line) (Outline follow) (Outline get-row) (Outline get-row-from) (Outline position-in-row) (Outline root-row) (Outline row-spacing) (Outline update-displayed))
+              (scheme.language.runtime.kernel + - < <= > >= not)))

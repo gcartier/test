@@ -1,0 +1,17 @@
+(manifest jazz.ide.application.IDE-Text-View
+
+  (version 207012)
+  (digest "6b826c54d9eea3325fc823311898c3992799d14c")
+  (references (jazz.editor.jazz.syntax.Jazz-Syntax Jazz-Syntax)
+              (jazz.language.runtime.functional Object-Class memq?)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.language.syntax.macros when)
+              (jazz.language.syntax.typecase typecase)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.outline.Outline-View (Outline-View model))
+              (jazz.ui.text.Code-Text-View Code-Text-View (Code-Text-View context-menu) (Code-Text-View current-history-item) (Code-Text-View edit-definitions) (Code-Text-View edit-references) (Code-Text-View match-backwards?) (Code-Text-View match-forwards?) (Code-Text-View new-model) (Code-Text-View new-syntax))
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View context-menu-click) (Text-View editable?) (Text-View get-context-menu) (Text-View new-text-context-menu) (Text-View syntax))
+              (jazz.ui.view.View (View view-enabled?))
+              (scheme.language.runtime.kernel not)))

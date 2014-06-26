@@ -1,0 +1,15 @@
+(module jazz.library.reporter.Reporter jazz
+  (interface Reporter
+    (method public virtual (section-title title))
+    (method public virtual (set-message msg))
+    (method public virtual (user-message fmt . rest))
+    (method public virtual (user-feedback fmt . rest))
+    (method public virtual (set-range range))
+    (method public virtual (set-pos pos))
+    (method public virtual (delta-pos increment))
+    (method public virtual (set-step increment))
+    (method public virtual (step-it))
+    (method public virtual (set-done))
+    (method public virtual (disable-cancel))
+    (method public virtual (cancel-requested?))
+    (method public virtual (test-cancelled))))

@@ -1,0 +1,7 @@
+(module jazz.graphic.Memory-Surface jazz
+  (import (jazz.graphic))
+  (import (jazz.platform.cairo))
+  (class Memory-Surface extends Surface
+    (slot size getter generate)
+    (method protected override (initialize compatibility size))
+    (method package final (renew-context))))

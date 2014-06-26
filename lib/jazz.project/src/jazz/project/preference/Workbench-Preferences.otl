@@ -1,0 +1,15 @@
+(module jazz.project.preference.Workbench-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Workbench-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property active-project accessors generate)
+    (property active-traits accessors generate))
+  (class Workbench-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

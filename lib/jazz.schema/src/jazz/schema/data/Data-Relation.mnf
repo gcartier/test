@@ -1,0 +1,12 @@
+(manifest jazz.schema.data.Data-Relation
+
+  (version 207012)
+  (digest "39d06e839e4a14ee88f290ea88b54f7573b286e4")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list category-name find-keyword unbox-list)
+              (jazz.language.runtime.kernel class-of not-null? unspecified)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.schema.data.Data-Entity Data-Entity (Data-Entity initialize))
+              (jazz.schema.data.Data-Object (Data-Object get-kind) (Data-Object get-property) (Data-Object name) (Data-Object parent) (Data-Object properties) (Data-Object property-names) (Data-Object set-property))
+              (scheme.language.runtime.kernel apply)))

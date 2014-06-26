@@ -1,0 +1,16 @@
+(module jazz.ide.application.IDE-Toolbar jazz
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.clipboard))
+  (import (jazz.ui.history))
+  (import (jazz.ui.view))
+  (class IDE-Toolbar extends Toolbar
+    (method protected final (on-clipboard-menu evt))
+    (method protected final (on-backward-menu evt))
+    (method protected final (on-forward-menu evt)))
+  (class Clipboards-Menu extends Context-Menu
+    (property clipboards accessors generate)
+    (method protected override (finish rest))
+    (method protected final (insert-item clipboard))
+    (method protected final (on-action evt))))

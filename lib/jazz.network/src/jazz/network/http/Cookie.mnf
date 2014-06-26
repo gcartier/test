@@ -1,0 +1,7 @@
+(manifest jazz.network.http.Cookie
+
+  (version 207012)
+  (digest "5c2a47135bb063bdfcdfc25b59abe03f82395c9c")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

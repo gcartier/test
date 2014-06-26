@@ -1,0 +1,11 @@
+(manifest jazz.catalog.entry.Import-Entry
+
+  (version 207012)
+  (digest "61309dc36f3c1490ab35b09e64048b94cbff5769")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry get-image))
+              (jazz.catalog.entry.Hierarchical-Entry Hierarchical-Entry (Hierarchical-Entry qualified))
+              (jazz.catalog.entry.Indexed-Entry (Indexed-Entry present-name) (Indexed-Entry references) (Indexed-Entry update-index) (Indexed-Entry update-indexes))
+              (jazz.language.runtime.functional Object-Class join)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel for-each)))

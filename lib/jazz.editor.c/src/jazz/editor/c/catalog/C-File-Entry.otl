@@ -1,0 +1,9 @@
+(module jazz.editor.c.catalog.C-File-Entry jazz
+  (import (jazz.catalog))
+  (import (jazz.editor.c))
+  (class C-File-Entry extends File-Entry
+    (slot header? getter generate)
+    (slot includes getter generate)
+    (method protected override (initialize catalog file time dialect definitions))
+    (method protected override (get-title))
+    (method public final (get-source?))))

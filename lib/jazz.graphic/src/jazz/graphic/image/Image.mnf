@@ -1,0 +1,15 @@
+(manifest jazz.graphic.image.Image
+
+  (version 207012)
+  (digest "47f6bfe3618187c1bdcd1450b8fbab61de5d93ff")
+  (references (jazz.graphic.image load-image)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize))
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.macros when)
+              (jazz.literals construct-point)
+              (jazz.platform.cairo cairo_surface_destroy get-cairo-image-surface-size)
+              (scheme.language.runtime.kernel + not)))

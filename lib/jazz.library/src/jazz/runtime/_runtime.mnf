@@ -1,0 +1,16 @@
+(manifest jazz.runtime
+
+  (version 207012)
+  (digest "376e00c84bc3e0f59459ec6fc15af97f89d3f234")
+  (references (jazz.dialect.classes.foundation Module-Declaration get-access-lookup private-access public-access)
+              (jazz.dialect.classes.jazz Class-Declaration)
+              (jazz.io File (Pathname anchorize) tokenise-filename)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Sequence sequence-element) first memq? second serialize-class serialize-reference sort table-keys)
+              (jazz.language.runtime.kernel cond-expanded-product-descriptor-dependencies cond-expanded-product-descriptor-update deserialize-runtime-reference enqueue expand-unit find-declaration find-declaration-child find-unit-src for-each-subunit get-catalog-entry get-product-descriptor get-repositories global-bound? global-unbind! image-load-counter interpreted-load-counter is? load-runtime load-unit new new-queue not-null? object-load-counter outline-unit package-products queue-list remove-declaration-child repository-binary? repository-packages resource-pathname serialize-runtime-reference split-reference table-clear walk-unit)
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.utility.Environment Environment)
+              (jazz.library.utility.Reference Reference (Reference setup-context))
+              (scheme.language.runtime.kernel apply assq car cdr compose-reference cons eq? for-each list make-table not null? reverse string->symbol string<? symbol->string symbol? table-set! values)))

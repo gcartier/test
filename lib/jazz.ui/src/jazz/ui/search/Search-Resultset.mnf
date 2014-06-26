@@ -1,0 +1,7 @@
+(manifest jazz.ui.search.Search-Resultset
+
+  (version 207012)
+  (digest "0aa3056ec3697a389f31899d8f153e0c3c61e6ad")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel enqueue new-queue queue-list)
+              (jazz.language.runtime.object Object (Object initialize))))

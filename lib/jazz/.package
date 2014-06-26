@@ -1,0 +1,87 @@
+(package jazz
+  
+  (root "src")
+  (install jazz.install)
+  (products (jazz (test jazz.validate.run)
+                  (update jazz
+                          jazz.development
+                          jazz.install
+                          jazz.literals
+                          jazz.object
+                          jazz.validate)
+                  (dependencies scheme
+                                irregex
+                                jazz.backend.scheme))
+            (test (title "Test")
+                  (unit jazz.test.product)
+                  (update jazz.test)
+                  (run jazz.test.run))
+            (walk (run jazz.script.walk))
+            (preinstalled (dependencies jazz
+                                        jazz.backend
+                                        jazz.catalog
+                                        jazz.console
+                                        jazz.core
+                                        jazz.database
+                                        (cond
+                                          (windows jazz.database.ado
+                                                   jazz.database.sqlserver))
+                                        jazz.debuggee
+                                        jazz.debugger
+                                        jazz.debugger.gambit
+                                        jazz.debugger.jazz
+                                        jazz.designer
+                                        jazz.detprof
+                                        jazz.doc
+                                        jazz.git
+                                        jazz.graphic
+                                        jazz.groupware
+                                        jazz.ide
+                                        jazz.io
+                                        jazz.jml
+                                        jazz.jrm
+                                        jazz.json
+                                        jazz.editor.c
+                                        jazz.editor.clojure
+                                        jazz.editor.commonlisp
+                                        jazz.editor.diff
+                                        jazz.editor.jazz
+                                        jazz.editor.scheme
+                                        jazz.editor.sql
+                                        jazz.editor.tex
+                                        jazz.foreign
+                                        jazz.library
+                                        jazz.media
+                                        jazz.network
+                                        jazz.platform
+                                        jazz.profile
+                                        jazz.project
+                                        jazz.recorder
+                                        jazz.schema
+                                        jazz.system
+                                        jazz.ui
+                                        jazz.validation
+                                        jazz.website
+                                        gambit
+                                        contrib.fmt
+                                        contrib.irregex
+                                        contrib.statprof
+                                        srfi-1
+                                        srfi-13
+                                        srfi-14
+                                        srfi-19
+                                        srfi-26
+                                        srfi-69
+                                        profiler))
+            (samples (dependencies jazz.sample
+                                   jazz.sample.c4
+                                   jazz.sample.fib
+                                   jazz.sample.game
+                                   jazz.sample.gameserver
+                                   jazz.sample.gomoku
+                                   jazz.sample.mandelbrot
+                                   jazz.sample.paradigms
+                                   jazz.sample.world))
+            (all (dependencies preinstalled
+                               samples)))
+  (project ".project"))

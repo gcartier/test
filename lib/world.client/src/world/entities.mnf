@@ -1,0 +1,9 @@
+(manifest world.entities
+
+  (version 207012)
+  (digest "6e4daa145ff2d101089cf193fdcf0e07b4bf5620")
+  (references (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel not)
+              (world.enemy Spider Wolf)
+              (world.model registered-model)
+              (world.sphere Sphere)))

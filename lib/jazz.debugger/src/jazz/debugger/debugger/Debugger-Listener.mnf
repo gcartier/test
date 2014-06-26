@@ -1,0 +1,5 @@
+(manifest jazz.debugger.debugger.Debugger-Listener
+
+  (version 207012)
+  (digest "449d91e64e23c471350990de291faca3d819a8f6")
+  (references))

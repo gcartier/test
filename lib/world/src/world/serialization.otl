@@ -1,0 +1,4 @@
+(module world.serialization jazz
+  (import (world.syntax (phase syntax)))
+  (definition public (serialize obj))
+  (definition public (deserialize obj)))

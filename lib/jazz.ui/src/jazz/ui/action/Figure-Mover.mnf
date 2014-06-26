@@ -1,0 +1,8 @@
+(manifest jazz.ui.action.Figure-Mover
+
+  (version 207012)
+  (digest "c2b33366837e02f89bfb569c8750b1042df72a72")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component Component (Component child))
+              (scheme.language.runtime.kernel -)))

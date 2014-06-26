@@ -1,0 +1,9 @@
+(manifest jazz.schema.data.Logical-Datatype
+
+  (version 207012)
+  (digest "0dab1952a117c4f6509f05d9894ae7a38c1189cd")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name is-not?)
+              (jazz.language.runtime.kernel class-of not-null?)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel = null?)))

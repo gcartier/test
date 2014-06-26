@@ -1,0 +1,11 @@
+(manifest jazz.library.display.Indented-Column
+
+  (version 207012)
+  (digest "505771ff6fc2303fb871fd08706c5e9901e613d0")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.library.display.Display-Column Display-Column (Display-Column border) (Display-Column border-after) (Display-Column content) (Display-Column empty-replacement) (Display-Column factory) (Display-Column initialize) (Display-Column minimum) (Display-Column prepare-print) (Display-Column print-to) (Display-Column put-data))
+              (scheme.language.runtime.kernel * + - apply car cdr cons for-each length max)))

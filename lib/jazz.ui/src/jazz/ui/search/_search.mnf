@@ -1,0 +1,15 @@
+(manifest jazz.ui.search
+
+  (version 207012)
+  (digest "c572ed17ec38ec4f15b8e14eb119c6ec18a67bf4")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.kernel new)
+              (jazz.system.access get-application)
+              (jazz.ui.search.Definition-Search-Result Definition-Search-Result)
+              (jazz.ui.search.Reference-Search-Result Reference-Search-Result)
+              (jazz.ui.search.Search-Resultset Search-Resultset (Search-Resultset add-result))
+              (jazz.ui.search.Text-Search Text-Search)
+              (jazz.ui.search.Text-Search-Result Text-Search-Result)
+              (jazz.ui.text.Indicator Indicator)
+              (scheme.language.runtime.kernel for-each)))

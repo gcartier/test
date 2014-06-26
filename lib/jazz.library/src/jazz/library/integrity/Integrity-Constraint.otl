@@ -1,0 +1,4 @@
+(module jazz.library.integrity.Integrity-Constraint jazz
+  (class Integrity-Constraint extends Object
+    (method meta public virtual (register-constraints manager))
+    (method public virtual (validate component root editor context manager))))

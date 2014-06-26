@@ -1,0 +1,11 @@
+(module jazz.designer.validate jazz
+  (import (jazz.debuggee))
+  (import (jazz.jml))
+  (import (jazz.runtime))
+  (import (jazz.validation))
+  (class Designer-Descriptors-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property repositories accessors generate)
+    (method protected override (test))))

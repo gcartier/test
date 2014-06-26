@@ -1,0 +1,20 @@
+(module jazz.debugger.preference.Debug-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Debug-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property evaluate-when accessors generate)
+    (property focused-mode? accessors generate)
+    (property debug-depot? accessors generate)
+    (property toplevel-state accessors generate)
+    (property toplevel-monitor accessors generate)
+    (property toplevel-position accessors generate)
+    (property toplevel-size accessors generate))
+  (class Debug-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

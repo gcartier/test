@@ -1,0 +1,13 @@
+(module jazz.ui.context.Context-Combo jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Context-Combo extends Combo-Box
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (finish rest))
+    (method protected final (update))
+    (method protected final (selection-change))
+    (method protected override (combo-choice))))

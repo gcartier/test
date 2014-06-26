@@ -1,0 +1,3 @@
+(module jazz.editor.jazz.registry.Type-Viewer jazz
+  (import (jazz.ui))
+  (class Type-Viewer extends Layout-View))

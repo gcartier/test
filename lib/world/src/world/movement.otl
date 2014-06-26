@@ -1,0 +1,15 @@
+(module world.movement jazz
+  (import (world.geometry.base))
+  (import (world.geometry.classes))
+  (import (world.geometry.syntax (phase syntax)))
+  (import (world.homogeneous))
+  (import (world.syntax (phase syntax)))
+  (class Movement extends Object
+    (slot origin <f64vector> getter generate)
+    (slot vector <f64vector> getter generate)
+    (slot normal <f64vector> getter generate)
+    (slot length <fl> getter generate)
+    (method protected override (initialize orig <f64vector> vec <f64vector>))
+    (method protected override (print output readably))
+    (method public final (set-origin orig <f64vector>) <void>)
+    (method public final (set-vector vec <f64vector>) <void>)))

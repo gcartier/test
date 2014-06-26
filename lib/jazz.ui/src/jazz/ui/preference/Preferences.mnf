@@ -1,0 +1,17 @@
+(manifest jazz.ui.preference.Preferences
+
+  (version 207012)
+  (digest "61d5f7abb6fd28edd5e14a69c64e0bf81ee5548f")
+  (references (jazz.designer.descriptor.Component-Descriptor Component-Descriptor (Component-Descriptor component-get-component-image) (Component-Descriptor component-get-presentation) (Component-Descriptor component-presentation-property?) (Component-Descriptor component-set-presentation) (Component-Descriptor~Class get-class-form) (Component-Descriptor~Class get-class-forms) (Component-Descriptor~Class set-class-form))
+              (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class memq?)
+              (jazz.language.runtime.kernel field-name new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component Component (Component children) (Component~Class get-class-descriptor))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel cons for-each list list->table)
+              (scheme.syntax declaration-path)))

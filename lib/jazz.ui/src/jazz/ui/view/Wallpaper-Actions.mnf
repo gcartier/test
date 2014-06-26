@@ -1,0 +1,16 @@
+(manifest jazz.ui.view.Wallpaper-Actions
+
+  (version 207012)
+  (digest "af1b47d467ee3f996cdcb4493710bcd8fa5bd07a")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.library.literals construct-event-handler)
+              (jazz.ui.action.Action-Item Action-Item)
+              (jazz.ui.action.Actions Actions)
+              (jazz.ui.action.Shortcut Shortcut)
+              (jazz.ui.literals construct-shortcut)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

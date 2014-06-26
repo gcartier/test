@@ -1,0 +1,12 @@
+(manifest jazz.library.display.Columns-Display
+
+  (version 207012)
+  (digest "49ab7488e6f454d7af14ab21c3d223792a1e101e")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional /= Object-Class append! find insert!)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel + - < for-each list null?)))

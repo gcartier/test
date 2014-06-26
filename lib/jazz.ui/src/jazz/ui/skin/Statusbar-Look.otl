@@ -1,0 +1,3 @@
+(module jazz.ui.skin.Statusbar-Look jazz
+  (import (jazz.ui))
+  (class Statusbar-Look extends Toolbar-Look))

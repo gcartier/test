@@ -1,0 +1,17 @@
+(manifest jazz.designer.entry.Handler-Entry
+
+  (version 207012)
+  (digest "0f325e2e5addbdc40ad95747e6a39f77736bdb18")
+  (references (jazz.designer.entry.Property-Entry Property-Entry (Property-Entry domain) (Property-Entry tab-view) (Property-Entry~Class get-class-form) (Property-Entry~Class get-class-forms) (Property-Entry~Class set-class-form))
+              (jazz.designer.property.Property-Editor (Property-Editor get-value) (Property-Editor set-editable?) (Property-Editor set-value))
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component finish) (Component locate))
+              (jazz.ui.text.Entry-Text-View Entry-Text-View)
+              (jazz.ui.view.Scroller-View Scroller-View)
+              (jazz.ui.view.View (View get-modified?) (View set-modified?))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

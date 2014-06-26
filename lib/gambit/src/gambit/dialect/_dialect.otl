@@ -1,0 +1,5 @@
+(module gambit.dialect scheme
+  (require (dialect))
+  (require (scheme (phase syntax)))
+  (require (gambit.dialect.runtime))
+  (export (gambit.dialect.kernel)))

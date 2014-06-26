@@ -1,0 +1,9 @@
+(manifest jazz.version
+
+  (version 207012)
+  (digest "42fcf9e17f09248d79ffb21ed7a19b8f2f7f4d99")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional /= Object-Class category-name is-not?)
+              (jazz.language.runtime.kernel arithmetic-shift class-of kernel-version new split-version)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel * + < = > modulo not)))

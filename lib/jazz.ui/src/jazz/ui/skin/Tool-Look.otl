@@ -1,0 +1,8 @@
+(module jazz.ui.skin.Tool-Look jazz
+  (import (jazz.ui))
+  (class Tool-Look extends Look
+    (property active-background accessors generate)
+    (property inactive-background accessors generate)
+    (property highlight accessors generate)
+    (property focused-text-color accessors generate)
+    (property unfocused-text-color accessors generate)))

@@ -1,0 +1,6 @@
+(manifest world.foreign
+
+  (version 207012)
+  (digest "1a511d9e956e9eef1acf4191248a876e7d6606bd")
+  (references (jazz.graphic.opengl.glew.header GLdouble GLenum GLfloat GLhandleARB GLint GLsizei GLuint)
+              (jazz.platform.types bool char-string int scheme-object void void*)))

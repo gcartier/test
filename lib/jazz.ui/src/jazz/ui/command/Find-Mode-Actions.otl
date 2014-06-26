@@ -1,0 +1,8 @@
+(module jazz.ui.command.Find-Mode-Actions jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Find-Mode-Actions extends Actions
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

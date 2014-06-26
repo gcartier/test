@@ -1,0 +1,12 @@
+(module jazz.ui.text.Text-Mark jazz
+  (class Text-Mark extends Object
+    (slot text getter generate)
+    (slot range <Range$Cell$> getter generate)
+    (slot strict? getter generate)
+    (slot change-proc getter generate)
+    (method protected override (initialize text range (strict?: strict? (unspecified)) (change-proc: change-proc (unspecified))))
+    (method protected override (print output readably))
+    (method public final (get-start))
+    (method public final (get-end))
+    (method public final (set-range r))
+    (method protected final (adjust start end caret))))

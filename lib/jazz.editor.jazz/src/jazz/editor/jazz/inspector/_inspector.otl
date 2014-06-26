@@ -1,0 +1,7 @@
+(module jazz.editor.jazz.inspector jazz
+  (import (jazz.jrm))
+  (definition public (package-unbound))
+  (definition public (package-info value (kind: kind (unspecified)) (mutable?: mutable? (unspecified)) (max-width: max-width (unspecified))))
+  (definition public inspect-max-width)
+  (definition public inspect-max-content)
+  (definition public (inspect-value value (max-width: max-width (unspecified)) (max-content: max-content (unspecified)) (packager: packager (unspecified)))))

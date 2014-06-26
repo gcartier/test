@@ -1,0 +1,5 @@
+(module jazz.language.runtime.platform jazz.dialect
+  (import (jazz.language.runtime.kernel))
+  (import (jazz.language.runtime.format))
+  (import (jazz.language.runtime.functional))
+  (definition public (bell . rest)))

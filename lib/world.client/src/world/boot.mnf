@@ -1,0 +1,18 @@
+(manifest world.boot
+
+  (version 207012)
+  (digest "d788416a2c24190edb0a1854bf6ff543f64e6a20")
+  (references (jazz.debuggee set-default-context)
+              (jazz.graphic.opengl.glew.header glewIsSupported)
+              (jazz.io initialize-aliases)
+              (jazz.language.runtime.kernel new run-loop?)
+              (jazz.language.syntax.macros when)
+              (jazz.system.access get-application get-toplevel)
+              (jazz.ui.window.platform.glfw set-cursor)
+              (world *current-world* *current-world-window* load-point load-total set-current-world-window)
+              (world.live World)
+              (world.profiling setup-profiling)
+              (world.settings world-setting)
+              (world.support set-arb-multisample? set-framebuffer-blit? set-framebuffer-multisample? set-framebuffer-objects? set-texture-arrays?)
+              (world.syntax current-world current-world-window)
+              (world.window World-Window (World-Window set-window-cursor))))

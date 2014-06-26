@@ -1,0 +1,3 @@
+(module jazz.designer.row.Period-Row jazz
+  (import (jazz.designer))
+  (class Period-Row extends Value-Row))

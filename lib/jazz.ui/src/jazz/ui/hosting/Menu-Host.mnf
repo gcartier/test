@@ -1,0 +1,11 @@
+(manifest jazz.ui.hosting.Menu-Host
+
+  (version 207012)
+  (digest "bd5a3a05cefa6c35a39aaf47c218f04647ca0697")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.hosting.Host-View Host-View)
+              (jazz.ui.skin find-look)
+              (jazz.ui.view.Drawing (Drawing get-bounds))
+              (jazz.ui.view.View (View draw-background))))

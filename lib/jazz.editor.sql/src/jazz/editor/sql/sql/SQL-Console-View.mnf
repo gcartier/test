@@ -1,0 +1,8 @@
+(manifest jazz.editor.sql.sql.SQL-Console-View
+
+  (version 207012)
+  (digest "8579bed300e27b0204b858309cb72266070689f6")
+  (references (jazz.console.Console-View Console-View)
+              (jazz.editor.sql.sql.SQL-Console-Text-View SQL-Console-Text-View)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model))))

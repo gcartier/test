@@ -1,0 +1,3 @@
+(module jazz.designer.row.Matches-Row jazz
+  (import (jazz.designer))
+  (class Matches-Row extends Value-Row))

@@ -1,0 +1,6 @@
+(manifest jazz.network.host.TCP-Client
+
+  (version 207012)
+  (digest "f1653c2abf08c00dc76a5737d08542bfe820340e")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

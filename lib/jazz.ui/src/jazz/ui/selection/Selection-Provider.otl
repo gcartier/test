@@ -1,0 +1,2 @@
+(module jazz.ui.selection.Selection-Provider jazz
+  (interface Selection-Provider))

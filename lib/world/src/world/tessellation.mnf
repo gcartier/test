@@ -1,0 +1,17 @@
+(manifest world.tessellation
+
+  (version 207012)
+  (digest "05bae39a847074695895fad0b8f0d63fd9d8a4e8")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class fxfloor)
+              (jazz.language.runtime.kernel bitwise-xor f32vector make-u8vector new u8vector-ref u8vector-set! unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel * + - / < <= = > car cdr cons equal? even? list list->vector make-vector map max min modulo not quotient reverse sqrt vector vector->list vector-length vector-ref vector-set!)
+              (world *current-world*)
+              (world.atlas (Atlas image-rect))
+              (world.geometry.classes vertex vertex-x vertex-y vertex-z)
+              (world.live World (World get-block-atlas) (World get-earth?))
+              (world.procedural Perlin-Generator (Perlin-Generator get-value))
+              (world.syntax current-world)
+              (world.texture uv-bottom uv-depth uv-left uv-right uv-top uv/bottom uv/left uv/right uv/top)))

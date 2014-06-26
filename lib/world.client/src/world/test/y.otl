@@ -1,0 +1,4 @@
+(module world.test.y jazz
+  (import (world.test.x))
+  (class Y extends X
+    (method protected override (g))))

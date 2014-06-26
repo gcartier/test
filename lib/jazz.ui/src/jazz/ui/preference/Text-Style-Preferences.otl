@@ -1,0 +1,19 @@
+(module jazz.ui.preference.Text-Style-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Text-Style-Preferences extends Style-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property font accessors generate)
+    (property color accessors generate)
+    (property highlight accessors generate)
+    (property frame accessors generate)
+    (method protected override (->exemplar)))
+  (class Text-Style-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

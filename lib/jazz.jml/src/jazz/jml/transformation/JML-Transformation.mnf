@@ -1,0 +1,12 @@
+(manifest jazz.jml.transformation.JML-Transformation
+
+  (version 207012)
+  (digest "ac0411a5304633e4a14a41681ed5ca288b9c0b2c")
+  (references (jazz.jml.model.JML-Element JML-Element (JML-Element get-tag))
+              (jazz.jml.model.JML-Text JML-Text (JML-Text get-text))
+              (jazz.jml.parse name->tag)
+              (jazz.jml.parser.JML-Parser JML-Parser)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel class-of find-dispatch is? new)
+              (jazz.language.runtime.object Object (Object initialize))
+              (scheme.language.runtime.kernel map)))

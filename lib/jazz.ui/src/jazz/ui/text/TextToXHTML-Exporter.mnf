@@ -1,0 +1,17 @@
+(manifest jazz.ui.text.TextToXHTML-Exporter
+
+  (version 207012)
+  (digest "161f58c11bea53c738732a4edd8eebf04212b53e")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class accumulate)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.typecase typecase)
+              (jazz.ui.text.Image-Style Image-Style)
+              (jazz.ui.text.Link-Style Link-Style)
+              (jazz.ui.text.Paragraph Paragraph)
+              (jazz.ui.text.Text-Style Text-Style (Text-Style get-color) (Text-Style get-font))
+              (jazz.ui.text.Text-View Text-View)
+              (jazz.ui.text.View-Style View-Style (View-Style get-view))
+              (scheme.language.runtime.kernel map)))

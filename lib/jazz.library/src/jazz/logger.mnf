@@ -1,0 +1,10 @@
+(manifest jazz.logger
+
+  (version 207012)
+  (digest "1aee3c3343cc1752b7018f99e1b203c2a26e424a")
+  (references (jazz.io Directory path-settings timestamped-file)
+              (jazz.io.literals construct-directory)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.kernel display-continuation-backtrace display-exception)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel apply call-with-output-file not)))

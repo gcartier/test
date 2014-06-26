@@ -1,0 +1,5 @@
+(manifest core.base.runtime.error
+
+  (version 207012)
+  (digest "e7b97fc791a048dd7a5c8d04344c11aa86a5afe5")
+  (references))

@@ -1,0 +1,7 @@
+(module jazz.ide.ui.UI-Debugger jazz
+  (import (jazz.ide))
+  (import (jazz.ide.ui.stub))
+  (class UI-Debugger extends Object
+    (slot view)
+    (method protected final (set-view view))
+    (method public final (spy-hook layer action arguments))))

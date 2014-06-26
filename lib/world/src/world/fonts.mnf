@@ -1,0 +1,8 @@
+(manifest world.fonts
+
+  (version 207012)
+  (digest "c4b1db53b12ce3cf2ab0cda8a674bf35f30cdd77")
+  (references (jazz.graphic register-font)
+              (jazz.graphic.font.Font Font)
+              (jazz.graphic.syntax define-font)
+              (jazz.language.runtime.kernel new)))

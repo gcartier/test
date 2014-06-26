@@ -1,0 +1,6 @@
+(module jazz.ui.event.Focus-Event jazz
+  (import (jazz.library))
+  (class Focus-Event extends Event
+    (slot focus getter generate)
+    (method protected override (initialize kind sender modifiers focus))
+    (method protected override (print output readably))))

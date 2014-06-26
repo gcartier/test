@@ -1,0 +1,7 @@
+(manifest jazz.ui.history.History-Document-Item
+
+  (version 207012)
+  (digest "1f161bd8efd1e62a2bc616bc4df9b5ef26e08141")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object (Object initialize))
+              (jazz.library.history.History-Item History-Item (History-Item open-item) (History-Item present) (History-Item valid?))))

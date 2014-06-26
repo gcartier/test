@@ -1,0 +1,11 @@
+(manifest jazz.validation.validate.Validation-Manager
+
+  (version 207012)
+  (digest "ce0291f6cc7ce8469fb16a19cd63295a286c74cd")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of new)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (jazz.log Log)
+              (scheme.language.runtime.kernel apply for-each null?)))

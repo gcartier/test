@@ -1,0 +1,16 @@
+(manifest jazz.schema.data.Data-Sources
+
+  (version 207012)
+  (digest "fac4d982f38c07181d5e84188c745b467449248f")
+  (references (jazz.database.view.Data-Group Data-Group)
+              (jazz.designer.descriptor.Component-Descriptor Component-Descriptor (Component-Descriptor component-get-categorized-addable-classes) (Component-Descriptor component-get-presentation) (Component-Descriptor~Class get-class-form) (Component-Descriptor~Class get-class-forms) (Component-Descriptor~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.group.Group Group (Group~Class get-class-descriptor))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

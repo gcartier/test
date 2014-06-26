@@ -1,0 +1,14 @@
+(manifest world.plane
+
+  (version 207012)
+  (digest "aec4ea9f1a18109ea043524678e0cb40a912b212")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Class marshall-object) (Class unmarshall-object) Object-Class serialize-object)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.bind bind-vector)
+              (scheme.language.runtime.kernel vector vector-ref)
+              (world.geometry.base vertex-normalize!)
+              (world.geometry.classes make-vertex present-vertex vertex-copy!)
+              (world.serialization deserialize serialize)
+              (world.syntax debug-allocation)))

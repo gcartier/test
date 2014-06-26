@@ -1,0 +1,8 @@
+(module jazz.editor.c.catalog.C-Category-Entry jazz
+  (import (jazz.editor.c))
+  (import (jazz.library))
+  (class C-Category-Entry extends C-Entry
+    (method protected override (initialize name))
+    (method protected override (print-catalog level output))
+    (method protected override (get-image))
+    (method protected override (update-indexes definitions-index references-index))))

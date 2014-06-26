@@ -1,0 +1,14 @@
+(manifest jazz.catalog.entry.Variable-Entry
+
+  (version 207012)
+  (digest "6876704488328b13f7837e8da39b35dade3f9c9e")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry get-image))
+              (jazz.catalog.entry.Definition-Entry Definition-Entry (Definition-Entry type))
+              (jazz.catalog.entry.Hierarchical-Entry (Hierarchical-Entry modifiers) (Hierarchical-Entry print-catalog))
+              (jazz.catalog.entry.Indexed-Entry (Indexed-Entry column) (Indexed-Entry end-column) (Indexed-Entry end-line) (Indexed-Entry line) (Indexed-Entry name) (Indexed-Entry references))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel *)))

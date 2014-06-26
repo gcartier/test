@@ -1,0 +1,11 @@
+(manifest jazz.jrm.protocol
+
+  (version 207012)
+  (digest "b4e6f990a864760a513139071ee0fdf949ac209f")
+  (references (jazz.language.runtime.exception Exception (Exception get-message) (Exception print) error throw)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class category-name deserialize-class naturals read-string-element)
+              (jazz.language.runtime.kernel arithmetic-shift class-of exception-reason force-output is? make-serialized make-u8vector new object->u8vector object? read-subu8vector read-u8 serialized-class serialized-content serialized? u8vector->object u8vector-length walk-for with-exception-filter with-jazz-readtable write-subu8vector write-u8)
+              (jazz.language.runtime.object (Object initialize) print-unreadable)
+              (jazz.version 64-bit-integer->version)
+              (scheme.language.runtime.kernel + char->integer eof-object? eq? for-each length map modulo newline not pair? read string-ref values write)))

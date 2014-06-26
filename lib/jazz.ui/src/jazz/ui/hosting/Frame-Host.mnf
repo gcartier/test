@@ -1,0 +1,16 @@
+(manifest jazz.ui.hosting.Frame-Host
+
+  (version 207012)
+  (digest "4214af46c5ad01cc28ced1c7357174b00c75f6ab")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel class-of dispatch is? unspecified)
+              (jazz.language.runtime.object (Object destroy-mandatory))
+              (jazz.language.syntax.macros when ~)
+              (jazz.library.component.Component (Component confirm-close) (Component get-surrogate) (Component remove-surrogate))
+              (jazz.system.access get-application)
+              (jazz.ui.document.Document Document (Document get-document-controller))
+              (jazz.ui.hosting.Host-View Host-View (Host-View guest))
+              (jazz.ui.view for-each-docked set-active-frame)
+              (jazz.ui.view.View (View close-popups) (View close-with-confirm) (View conclude) (View destroy) (View get-player))
+              (jazz.ui.window bring-frame-to-front register-frame unregister-frame)
+              (scheme.language.runtime.kernel apply)))

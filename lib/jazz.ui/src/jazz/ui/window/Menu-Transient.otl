@@ -1,0 +1,4 @@
+(module jazz.ui.window.Menu-Transient jazz
+  (import (jazz.ui))
+  (class Menu-Transient extends Transient
+    (method protected override (new-root))))

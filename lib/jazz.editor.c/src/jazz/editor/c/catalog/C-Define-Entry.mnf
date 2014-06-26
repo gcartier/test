@@ -1,0 +1,6 @@
+(manifest jazz.editor.c.catalog.C-Define-Entry
+
+  (version 207012)
+  (digest "0907dcfbf863c755fce48f620445f754e669326f")
+  (references (jazz.editor.c.catalog.C-Definition-Entry C-Definition-Entry)
+              (jazz.language.runtime.functional Object-Class)))

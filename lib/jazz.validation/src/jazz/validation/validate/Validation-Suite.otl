@@ -1,0 +1,6 @@
+(module jazz.validation.validate.Validation-Suite jazz
+  (import (jazz.validation))
+  (class Validation-Suite extends Object
+    (slot title getter generate)
+    (slot testers getter generate)
+    (method protected override (initialize title testers))))

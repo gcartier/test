@@ -1,0 +1,7 @@
+(manifest jazz.editor.clojure.forms
+
+  (version 207012)
+  (digest "28ed6d65535e35f1cc031f00689ceab98f72bb33")
+  (references (jazz.editor.lisp Expression-Syntax register-expression-syntax)
+              (jazz.editor.lisp.syntax define-expression)
+              (jazz.language.runtime.kernel new)))

@@ -1,0 +1,8 @@
+(module jazz.designer.domain.Cell-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Cell-Domain extends Literal-Domain
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

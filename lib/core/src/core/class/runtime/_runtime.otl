@@ -1,0 +1,4 @@
+(unit core.class.runtime
+  (require (core.class.runtime.runtime))
+  (require (core.class.runtime.output-hook))
+  (require (core.class.runtime.output)))

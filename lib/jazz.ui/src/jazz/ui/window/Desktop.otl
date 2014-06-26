@@ -1,0 +1,4 @@
+(module jazz.ui.window.Desktop jazz
+  (import (jazz.ui))
+  (class Desktop extends Window
+    (method protected override (initially-visible?))))

@@ -1,0 +1,7 @@
+(module jazz.library.exception.Explore-Error jazz
+  (class Explore-Error extends Error
+    (slot source getter generate)
+    (slot start getter generate)
+    (slot end getter generate)
+    (method protected override (initialize source . rest))
+    (method public final (get-range))))

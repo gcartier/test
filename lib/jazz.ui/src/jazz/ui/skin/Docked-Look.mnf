@@ -1,0 +1,9 @@
+(manifest jazz.ui.skin.Docked-Look
+
+  (version 207012)
+  (digest "084430eec6418083e7eb06ab669af25735db3608")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.Gradient Gradient)
+              (jazz.graphic.literals construct-color construct-gradient)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Look Look)))

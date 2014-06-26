@@ -1,0 +1,10 @@
+(manifest jazz.debuggee.view.Exception-Log-Node
+
+  (version 207012)
+  (digest "bc59dc1fa2a8b9fb0bf324ff0711646da6718ae7")
+  (references (jazz.debuggee.view.Log-Node Log-Node (Log-Node edit-location) (Log-Node node) (Log-Node node-image) (Log-Node node-location))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.platform bell)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.system.access get-application)))

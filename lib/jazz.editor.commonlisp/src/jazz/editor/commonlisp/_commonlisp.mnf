@@ -1,0 +1,9 @@
+(manifest jazz.editor.commonlisp
+
+  (version 207012)
+  (digest "7e42e163f6695bddc55096cf23b9d6af09070d58")
+  (references (jazz.editor.commonlisp.parser.CommonLisp-Parser CommonLisp-Parser)
+              (jazz.editor.commonlisp.text.CommonLisp-Explorer CommonLisp-Explorer)
+              (jazz.editor.commonlisp.text.CommonLisp-Syntax CommonLisp-Syntax)
+              (jazz.editor.commonlisp.text.CommonLisp-Text-Preferences CommonLisp-Text-Preferences)
+              (jazz.editor.commonlisp.text.CommonLisp-Text-View CommonLisp-Text-View)))

@@ -1,0 +1,4 @@
+(module jazz.ui.hosting.Guest-Preferences jazz
+  (import (jazz.ui))
+  (class Guest-Preferences extends Frame-Preferences
+    (property initargs accessors generate)))

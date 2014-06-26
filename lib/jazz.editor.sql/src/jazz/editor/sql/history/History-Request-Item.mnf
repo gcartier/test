@@ -1,0 +1,10 @@
+(manifest jazz.editor.sql.history.History-Request-Item
+
+  (version 207012)
+  (digest "0303cfd15bbf979c6dac0bae5871d9c5471d0eb4")
+  (references (jazz.editor.sql.view get-sql-console-text)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object (Object initialize))
+              (jazz.language.runtime.platform bell)
+              (jazz.library.history.History-Item History-Item (History-Item open-item) (History-Item present))
+              (scheme.language.runtime.kernel null?)))

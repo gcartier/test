@@ -1,0 +1,5 @@
+(manifest world.external.minecraft-syntax
+
+  (version 207012)
+  (digest "472c35fdbebf3043b2bffe2d3f373195110ac944")
+  (references (scheme.language.runtime.kernel caddr cadr cdddr source-code sourcify-if)))

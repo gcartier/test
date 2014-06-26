@@ -1,0 +1,6 @@
+(manifest jazz.jrm.remote.Proxy
+
+  (version 207012)
+  (digest "342eb89a0c9aa3029f06949964bb833abfbc0e86")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

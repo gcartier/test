@@ -1,0 +1,16 @@
+(module world.gravity jazz
+  (import (world.gadget))
+  (import (world.geometry))
+  (import (world.serialization))
+  (import (world.syntax (phase syntax)))
+  (definition public default-gravity)
+  (definition public default-jump)
+  (interface Gravity-Well
+    (method protected virtual (well-mass)))
+  (class Gravity extends Gadget implements Gravity-Well
+    (method meta protected override (marshall-object obj))
+    (method meta protected override (unmarshall-object content))
+    (property mass <fl> accessors generate)
+    (method protected override (prepare rest))
+    (method protected override (print output readably))
+    (method protected override (well-mass))))

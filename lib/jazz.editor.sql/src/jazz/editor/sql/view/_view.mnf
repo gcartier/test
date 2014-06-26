@@ -1,0 +1,9 @@
+(manifest jazz.editor.sql.view
+
+  (version 207012)
+  (digest "652d0f79f1fe418c12f7873e155fc32828168d5a")
+  (references (jazz.editor.sql.sql.SQL-Connections-Manager SQL-Connections-Manager)
+              (jazz.editor.sql.sql.SQL-Console-Manager SQL-Console-Manager)
+              (jazz.editor.sql.sql.SQL-Text-Output SQL-Text-Output)
+              (jazz.editor.sql.sql.SQL-Tree-Output SQL-Tree-Output)
+              (jazz.ui.view singleton-docked)))

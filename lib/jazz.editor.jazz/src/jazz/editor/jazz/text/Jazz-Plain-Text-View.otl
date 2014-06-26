@@ -1,0 +1,6 @@
+(module jazz.editor.jazz.text.Jazz-Plain-Text-View jazz
+  (import (jazz.editor.jazz))
+  (import (jazz.ui))
+  (class Jazz-Plain-Text-View extends Plain-Text-View
+    (method protected override (new-syntax))
+    (method protected override (install rest))))

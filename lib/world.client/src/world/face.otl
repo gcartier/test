@@ -1,0 +1,14 @@
+(module world.face jazz
+  (import (world.material))
+  (import (world.polygon))
+  (definition public (make-face material <Material> texture-coordinates <f32vector> texture-depth <fl> polygon <Polygon>))
+  (class Face extends Object
+    (slot material <Material> getter generate)
+    (slot texture-coordinates <f32vector> getter generate)
+    (slot texture-depth <fl> getter generate)
+    (slot polygon <Polygon> getter generate)
+    (slot indice <fx+> accessors generate)
+    (method protected override (initialize material <Material> texture-coordinates <f32vector> texture-depth <fl> polygon <Polygon>))
+    (method protected override (print output readably))
+    (method public final (triangle-count) <fx>)
+    (method public final (add-triangles add))))

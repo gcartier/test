@@ -1,0 +1,18 @@
+(module jazz.ui.text.Image-Style-Dialog jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Image-Style-Dialog extends View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-title))
+    (property image-style accessors generate)
+    (method protected override (finish rest))
+    (method protected override (focus-default))
+    (method protected override (get-modal-result))
+    (method protected override (get-tab-stops))
+    (method protected override (on-return-press evt))
+    (method protected override (on-escape-press evt))
+    (method protected override (draw surface context))))

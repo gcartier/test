@@ -1,0 +1,15 @@
+(manifest jazz.editor.tex.text.Tex-Syntax
+
+  (version 207012)
+  (digest "0aa7556b336d5ede222a907a5f5a3bc7635dd640")
+  (references (jazz.editor.tex tex-constituent?)
+              (jazz.editor.tex.text.Tex-Explorer Tex-Explorer)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) (Sequence sequence-element) cardinality element read-string-element search some?)
+              (jazz.language.runtime.geometry Cell)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros constant unless when)
+              (jazz.library.automata build-search-automata)
+              (jazz.system get-preferences)
+              (jazz.ui.syntax.Code-Syntax Code-Syntax (Code-Syntax apply-coloring) (Code-Syntax colorize-keyword) (Code-Syntax colorize-line-comment) (Code-Syntax colorize-type) (Code-Syntax compute-syntax-automata) (Code-Syntax compute-syntax-targets) (Code-Syntax explorer-class) (Code-Syntax syntax-automata) (Code-Syntax syntax-targets))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax comment-style?) (Text-Syntax favorite-completions) (Text-Syntax get-constituent-test) (Text-Syntax get-first-special?) (Text-Syntax get-headers) (Text-Syntax model) (Text-Syntax name-at) (Text-Syntax preferences) (Text-Syntax symbol-completions))
+              (scheme.language.runtime.kernel + > append cdr eqv? list map)))

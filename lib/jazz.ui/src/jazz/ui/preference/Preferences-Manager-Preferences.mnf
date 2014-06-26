@@ -1,0 +1,14 @@
+(manifest jazz.ui.preference.Preferences-Manager-Preferences
+
+  (version 207012)
+  (digest "7cadd8b930e085f1c91672bdb9e3cab38d024082")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.literals construct-dimension construct-point)
+              (jazz.ui.preference.Frame-Preferences Frame-Preferences (Frame-Preferences~Class get-class-form) (Frame-Preferences~Class get-class-forms) (Frame-Preferences~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

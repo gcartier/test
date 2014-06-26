@@ -1,0 +1,14 @@
+(module jazz.library.utility.Locator jazz
+  (import (time))
+  (class Locator extends Object
+    (slot prefix getter generate)
+    (slot reset-time)
+    (slot max-delay)
+    (method protected override (initialize (max-delay: max-delay (unspecified))))
+    (method public final (setup string))
+    (method public final (enter key))
+    (method protected final (validate string))
+    (method public final (locate target))
+    (method public virtual (iterate proc))
+    (method public virtual (select rank))
+    (method public final (reset))))

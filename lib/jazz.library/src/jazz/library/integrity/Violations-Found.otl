@@ -1,0 +1,7 @@
+(module jazz.library.integrity.Violations-Found jazz
+  (class Violations-Found extends Signal
+    (slot design-file getter generate)
+    (slot architecture getter generate)
+    (slot violations getter generate)
+    (method protected override (initialize design-file architecture violations))
+    (method protected final (forwardable?))))

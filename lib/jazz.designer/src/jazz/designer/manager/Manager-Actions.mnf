@@ -1,0 +1,6 @@
+(manifest jazz.designer.manager.Manager-Actions
+
+  (version 207012)
+  (digest "bc9da97c031cd22b33944e0ca5cd4ee6f7f948fd")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.action.Actions Actions)))

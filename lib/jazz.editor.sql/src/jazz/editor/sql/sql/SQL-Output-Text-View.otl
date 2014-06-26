@@ -1,0 +1,4 @@
+(module jazz.editor.sql.sql.SQL-Output-Text-View jazz
+  (import (jazz.ui))
+  (class SQL-Output-Text-View extends Text-View
+    (method protected override (new-model))))

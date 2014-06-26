@@ -1,0 +1,13 @@
+(module scheme.core scheme
+  (require (core.class))
+  (export (scheme.core.kernel))
+  (import (dialect.core))
+  (import (scheme.core.kernel))
+  (import (scheme.syntax (phase syntax)))
+  (import (jazz.dialect.classes.foundation))
+  (native jazz:class-info)
+  (native jazz:get-class-info-all-slot-names)
+  (native jazz:object-size)
+  (native jazz:make-class-info)
+  (native jazz:add-slot)
+  (native jazz:codes-forms))

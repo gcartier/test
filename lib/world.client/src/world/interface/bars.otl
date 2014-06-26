@@ -1,0 +1,9 @@
+(module world.interface.bars jazz
+  (import (jazz.system))
+  (import (world))
+  (import (world.autoload))
+  (import (world.interface.actions))
+  (import (world.syntax (phase syntax)))
+  (definition public (install-bars bars))
+  (definition public (find-bar name))
+  (definition public (find-button bar-name name)))

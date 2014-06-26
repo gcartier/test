@@ -1,0 +1,6 @@
+(manifest jazz.jrm.literals
+
+  (version 207012)
+  (digest "0e77afa083e547af9fba0e0249dda74c1fa93619")
+  (references (jazz.jrm.remote.IOR IOR)
+              (jazz.language.runtime.kernel new)))

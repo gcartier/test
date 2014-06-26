@@ -1,0 +1,16 @@
+(manifest jazz.ui.tree.Tree-Embedded-Search-Text-View
+
+  (version 207012)
+  (digest "6833f17b565b78cb173f6b0cb21de316e19e6cb5")
+  (references (jazz.ide.application.IDE-Text-View IDE-Text-View)
+              (jazz.language.runtime.functional Object-Class neq?)
+              (jazz.language.runtime.geometry Cell)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.platform bell)
+              (jazz.language.syntax.macros when)
+              (jazz.ui find-actions)
+              (jazz.ui.text.Code-Text-View (Code-Text-View down-arrow-move) (Code-Text-View focus-actions) (Code-Text-View left-arrow-move) (Code-Text-View right-arrow-move) (Code-Text-View tab-press) (Code-Text-View up-arrow-move) (Code-Text-View upward-compound))
+              (jazz.ui.text.Text-View (Text-View end-completion) (Text-View focus-lose) (Text-View has-completion?) (Text-View return-press))
+              (jazz.ui.view.View (View get-guest) (View player))
+              (jazz.ui.window.platform.independant delay-event)
+              (scheme.language.runtime.kernel + - = cons modulo not null? values)))

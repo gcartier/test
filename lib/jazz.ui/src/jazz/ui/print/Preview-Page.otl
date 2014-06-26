@@ -1,0 +1,17 @@
+(module jazz.ui.print.Preview-Page jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (import (jazz.ui.window))
+  (class Preview-Page extends View
+    (property client accessors generate)
+    (property no accessors generate)
+    (slot dragging?)
+    (slot start-position)
+    (method protected final (get-pane))
+    (method protected override (cursor-update evt))
+    (method protected override (mouse-down evt))
+    (method protected override (drag-move evt))
+    (method protected override (drag-up evt . rest))
+    (method protected override (double-click evt))
+    (method protected override (draw surface context))))

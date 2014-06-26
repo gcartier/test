@@ -1,0 +1,18 @@
+(module jazz.designer.domain.Enumeration-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (class Enumeration-Domain extends Domain
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property choices accessors generate)
+    (property choices-handler accessors generate)
+    (property condensed? accessors generate)
+    (property strict? accessors generate)
+    (property limit accessors generate)
+    (method protected override (validate-value value (validation-context (unspecified))))
+    (method protected override (present-value value))
+    (method protected final (collect-choices client))
+    (method protected override (setup-entry view client))))

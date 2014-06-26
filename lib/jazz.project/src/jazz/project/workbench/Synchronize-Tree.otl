@@ -1,0 +1,28 @@
+(module jazz.project.workbench.Synchronize-Tree jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Synchronize-Border extends Border-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Synchronize-Tree extends Tree-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (on-double-click evt))
+    (method protected final (toggle-marked)))
+  (class Synchronize-Item-Column extends Tree-Column
+    (method protected override (draw-data surface context row data width height))
+    (method protected virtual (present? data))
+    (method protected virtual (present-image data)))
+  (class Synchronize-Left-Column extends Synchronize-Item-Column
+    (method protected override (present? data))
+    (method protected override (present-image data)))
+  (class Synchronize-Action-Column extends Tree-Column
+    (method protected override (draw-data surface context row data width height)))
+  (class Synchronize-Right-Column extends Synchronize-Item-Column
+    (method protected override (present? data))
+    (method protected override (present-image data))))

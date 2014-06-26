@@ -1,0 +1,5 @@
+(manifest core.base.syntax.macros
+
+  (version 207012)
+  (digest "ba423d815681c7ece8744c5ae5eba7afdb07433e")
+  (references))

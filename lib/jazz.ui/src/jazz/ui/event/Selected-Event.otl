@@ -1,0 +1,8 @@
+(module jazz.ui.event.Selected-Event jazz
+  (import (jazz.library))
+  (class Selected-Event extends Event
+    (slot owner getter generate)
+    (slot old getter generate)
+    (slot selected getter generate)
+    (slot force? getter generate)
+    (method protected override (initialize kind sender modifiers owner old selected (force?: force? (unspecified)) (user-origin: user-origin (unspecified))))))

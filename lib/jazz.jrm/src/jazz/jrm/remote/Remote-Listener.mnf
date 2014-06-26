@@ -1,0 +1,9 @@
+(manifest jazz.jrm.remote.Remote-Listener
+
+  (version 207012)
+  (digest "c45eb6ba8623817f25a22f543f4931109c92071f")
+  (references (jazz.jrm process-remote)
+              (jazz.language.runtime.exception new-system-thread)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.network.host.TCP-Server TCP-Server (TCP-Server accept-connection) (TCP-Server connection-name) (TCP-Server create-thread) (TCP-Server server-name) (TCP-Server server-title))
+              (scheme.language.runtime.kernel apply)))

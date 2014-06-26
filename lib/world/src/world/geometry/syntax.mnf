@@ -1,0 +1,5 @@
+(manifest world.geometry.syntax
+
+  (version 207012)
+  (digest "3c8c069035ac4da7b50926c17a0ecdf46ba73d31")
+  (references (scheme.language.runtime.kernel caddr cadr cdr generate-symbol source-code sourcify-if)))

@@ -1,0 +1,2 @@
+(module jazz.doc jazz
+  (export (jazz.doc.autoload)))

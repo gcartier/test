@@ -1,0 +1,16 @@
+(manifest world.shader
+
+  (version 207012)
+  (digest "5d1fbebbf58a6158a7e40a9c5c10565386c44008")
+  (references (jazz.graphic.opengl.glew gl-check-error)
+              (jazz.graphic.opengl.glew.foreign glGetAttribLocation* glGetProgramiv* glGetShaderiv* glGetUniformLocation*)
+              (jazz.graphic.opengl.glew.header GL_COMPILE_STATUS GL_FRAGMENT_SHADER GL_INFO_LOG_LENGTH GL_LINK_STATUS GL_TRUE GL_VERTEX_SHADER glAttachShader glCompileShader glCreateProgram glCreateShader glDetachShader glLinkProgram glShaderSource glUseProgram)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional /= Object-Class)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel > equal? list make-table not table-ref table-set!)
+              (world validate-shaders?)
+              (world.foreign glGetInfoLogARB*)))

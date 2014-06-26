@@ -1,0 +1,12 @@
+(manifest jazz.ui.action.Shortcut
+
+  (version 207012)
+  (digest "075699e1e831a0f669bc365761856e914fa6afd5")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class category-name is-not? memq? upcase)
+              (jazz.language.runtime.kernel class-of not-null?)
+              (jazz.language.runtime.object Object (Object compare-object) (Object hash-object) (Object initialize) (Object object-upcase) (Object print))
+              (jazz.language.syntax.macros when)
+              (jazz.locale localize)
+              (jazz.ui shortcut-hash)
+              (scheme.language.runtime.kernel = assq cdr char? cons not string-append)))

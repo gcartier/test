@@ -1,0 +1,13 @@
+(manifest jazz.library.template.Template-Expander
+
+  (version 207012)
+  (digest "9cfdcb1912f22f4c04bda0d0da49d60a924bef0c")
+  (references (jazz.io get-eol-encoding)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class sequence?)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object close) (Object initialize))
+              (jazz.language.syntax.macros when)
+              (jazz.language.syntax.with with)
+              (scheme.language.runtime.kernel assv cdr dynamic-wind eof-object? eqv? get-output-string list not open-input-file open-input-string open-output-string peek-char read-char string->symbol write-char)))

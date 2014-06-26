@@ -1,0 +1,14 @@
+(module jazz.doc.doc.Element-Doc jazz
+  (import (jazz.doc))
+  (import (jazz.jml))
+  (import (jazz.designer))
+  (class Element-Doc extends Doc
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property access accessors generate)
+    (property examples accessors generate)
+    (property package-name accessors generate)
+    (method protected override (install-child form creator creator-branch restore-form)))
+  (class Element-Doc-Descriptor extends Doc-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

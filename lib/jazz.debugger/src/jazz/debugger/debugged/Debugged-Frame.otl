@@ -1,0 +1,9 @@
+(module jazz.debugger.debugged.Debugged-Frame jazz
+  (import (jazz.debugger))
+  (class Debugged-Frame extends Debugged
+    (method protected override (same? debugged))
+    (method public final (get-name))
+    (method public final (get-interpreted?))
+    (method public final (get-hidden?))
+    (method public final (get-location))
+    (method public final (get-variables kind))))

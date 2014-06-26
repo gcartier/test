@@ -1,0 +1,5 @@
+(module jazz.ui.search.User-Search jazz
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class User-Search extends Search
+    (method protected override (get-icon))))

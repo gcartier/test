@@ -1,0 +1,9 @@
+(manifest jazz.runtime.ui
+
+  (version 207012)
+  (digest "ca33f8ff549ed64f45f558d69c5272c429035425")
+  (references (jazz.language.runtime.format format-plural)
+              (jazz.language.runtime.kernel outline-feedback unspecified)
+              (jazz.language.syntax.increase increase!)
+              (jazz.runtime load-all outline-all walk-all)
+              (jazz.system user-feedback)))

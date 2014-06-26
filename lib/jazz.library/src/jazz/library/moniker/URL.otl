@@ -1,0 +1,10 @@
+(module jazz.library.moniker.URL jazz
+  (import (jazz.io))
+  (definition public (extract-url-name url))
+  (class URL-Class extends Pathname-Class)
+  (class URL metaclass URL-Class extends Pathname
+    (slot title getter generate)
+    (method protected override (initialize lst (title: title (unspecified))))
+    (method protected override (get-name))
+    (method protected override (print output readably))
+    (method public final (split))))

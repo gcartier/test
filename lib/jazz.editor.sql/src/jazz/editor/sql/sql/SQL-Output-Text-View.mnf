@@ -1,0 +1,10 @@
+(manifest jazz.editor.sql.sql.SQL-Output-Text-View
+
+  (version 207012)
+  (digest "ce5119b05178e9211514cb3d66292dc9f68b5b57")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View Text-View (Text-View new-model))))

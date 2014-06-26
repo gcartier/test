@@ -1,0 +1,6 @@
+(package jazz.media
+  
+  (root "src")
+  (products (jazz.media (update jazz.media)
+                        (dependencies jazz)))
+  (project ".project"))

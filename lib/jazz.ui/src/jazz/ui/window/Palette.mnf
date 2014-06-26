@@ -1,0 +1,16 @@
+(manifest jazz.ui.window.Palette
+
+  (version 207012)
+  (digest "286947b60044e8ed94557ebccbf9ec7d41eeb40c")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.hosting.Palette-Host Palette-Host)
+              (jazz.ui.window palette-parent)
+              (jazz.ui.window.Overlapped Overlapped)
+              (jazz.ui.window.View-Player (View-Player new-root))
+              (jazz.ui.window.Window (Window default-parent) (Window mouse-activate?))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

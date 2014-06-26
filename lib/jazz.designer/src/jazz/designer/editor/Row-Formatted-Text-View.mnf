@@ -1,0 +1,13 @@
+(manifest jazz.designer.editor.Row-Formatted-Text-View
+
+  (version 207012)
+  (digest "4aeade71b650479a1370fdd7bfa2cc6efcf39e06")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.component.Component (Component child))
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Formatted-Text-Model Formatted-Text-Model)
+              (jazz.ui.text.Formatted-Text-View Formatted-Text-View (Formatted-Text-View get-context-menu) (Formatted-Text-View new-model))
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View focus-lose))
+              (jazz.ui.view.View (View focus-master))))

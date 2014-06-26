@@ -1,0 +1,13 @@
+(module jazz.ui.print.Preview-Toolbar jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Preview-Toolbar extends Toolbar
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (method protected final (on-zoom-change evt))))

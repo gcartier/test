@@ -1,0 +1,9 @@
+(manifest jazz.ui.print.Page-Footer
+
+  (version 207012)
+  (digest "f5294c8aecc826e2280d69f7ee3cc5de18b9d626")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class getf)
+              (jazz.ui.print.Page-Text-View Page-Text-View)
+              (jazz.ui.text.Text-View (Text-View get-drawing-background))))

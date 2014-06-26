@@ -1,0 +1,9 @@
+(manifest jazz.library.resource.Resource
+
+  (version 207012)
+  (digest "82de7475a32cf416b295c4c9e8918baec737bb3f")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name is-not?)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel =)))

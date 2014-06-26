@@ -1,0 +1,10 @@
+(module jazz.debugger.debugged.Debugged-Stop jazz
+  (import (jazz.debugger))
+  (class Debugged-Stop extends Debugged
+    (method protected override (same? debugged))
+    (method public virtual (get-kind))
+    (method public virtual (get-reason))
+    (method public virtual (get-detail))
+    (method public virtual (get-location))
+    (method public virtual (get-restarts))
+    (method public virtual (get-frames))))

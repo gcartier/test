@@ -1,0 +1,6 @@
+(manifest world.option
+
+  (version 207012)
+  (digest "4d074188cd37ce09c016c7219c7b995ffee4fc90")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component Component)))

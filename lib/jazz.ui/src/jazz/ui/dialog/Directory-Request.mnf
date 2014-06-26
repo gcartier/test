@@ -1,0 +1,13 @@
+(manifest jazz.ui.dialog.Directory-Request
+
+  (version 207012)
+  (digest "9aa4261b3ccbd6de78b0156ca57f4a36b59d71ec")
+  (references (jazz.io directory?)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component locate))
+              (jazz.ui.dialog.Pathname-Request Pathname-Request (Pathname-Request add-pathname) (Pathname-Request default-action) (Pathname-Request directory) (Pathname-Request down) (Pathname-Request get-tree) (Pathname-Request selected-pathname) (Pathname-Request update-buttons) (Pathname-Request update-content) (Pathname-Request~Class get-class-form) (Pathname-Request~Class get-class-forms) (Pathname-Request~Class set-class-form))
+              (jazz.ui.view.View (View~Class host-title))
+              (scheme.language.runtime.kernel cons for-each list list->table)
+              (scheme.syntax declaration-path)))

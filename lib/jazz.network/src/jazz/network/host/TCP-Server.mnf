@@ -1,0 +1,16 @@
+(manifest jazz.network.host.TCP-Server
+
+  (version 207012)
+  (digest "fbda816e9654fd32adccf0e61b3e5ce5802ae533")
+  (references (jazz.language.runtime.exception error throw)
+              (jazz.language.runtime.functional ->string Object-Class box-list exit-thread find-keyword new-thread unbox-list)
+              (jazz.language.runtime.kernel close-port make-condition not-null? open-tcp-server socket-info-address socket-info-port-number tcp-server-socket-info thread-sleep! thread-start! unspecified with-exception-filter)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize))
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros unwind-protect when)
+              (jazz.library.literals construct-version)
+              (jazz.network resolve-host resolve-service)
+              (jazz.network.server.Server Server)
+              (jazz.version Version)
+              (scheme.language.runtime.kernel apply list read)))

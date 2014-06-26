@@ -1,0 +1,13 @@
+(manifest jazz.editor.c.catalog.C-Category-Entry
+
+  (version 207012)
+  (digest "373c420413f509ed4b28c7167e0e82cdadb2ceef")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry get-image))
+              (jazz.catalog.entry.Indexed-Entry (Indexed-Entry initialize) (Indexed-Entry name) (Indexed-Entry print-catalog) (Indexed-Entry update-index) (Indexed-Entry update-indexes))
+              (jazz.editor.c.catalog.C-Entry C-Entry)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel *)))

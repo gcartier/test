@@ -1,0 +1,8 @@
+(module jazz.editor.c.text.C-Text-Preferences jazz
+  (import (jazz.editor.clike))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class C-Text-Preferences extends CLike-Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

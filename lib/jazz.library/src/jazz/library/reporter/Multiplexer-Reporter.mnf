@@ -1,0 +1,10 @@
+(manifest jazz.library.reporter.Multiplexer-Reporter
+
+  (version 207012)
+  (digest "8af0c78915b329c7dc7a792d297ef0a5ab9be918")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel class-of dispatch)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros ~)
+              (jazz.library.reporter.Reporter Reporter)
+              (scheme.language.runtime.kernel apply car for-each)))

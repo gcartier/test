@@ -1,0 +1,14 @@
+(module jazz.catalog.catalog.Catalog jazz
+  (class Catalog extends Object
+    (slot name getter generate)
+    (method protected override (initialize name))
+    (method protected override (print output readably))
+    (method public virtual (present))
+    (method protected virtual (get-active?))
+    (method protected virtual (set-active? flag))
+    (method public virtual (activate . rest))
+    (method public virtual (deactivate))
+    (method public virtual (get-definitions name))
+    (method public virtual (get-file-entry file))
+    (method public virtual (get-references name))
+    (method public virtual (add-completions dest target))))

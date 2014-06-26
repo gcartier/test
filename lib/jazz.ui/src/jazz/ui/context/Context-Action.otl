@@ -1,0 +1,8 @@
+(module jazz.ui.context.Context-Action jazz
+  (import (jazz.library))
+  (class Context-Action extends Component
+    (property image accessors generate)
+    (property title accessors generate)
+    (property handler accessors generate)
+    (method protected override (initialize image title handler))
+    (method protected override (print output readably))))

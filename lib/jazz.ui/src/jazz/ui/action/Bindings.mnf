@@ -1,0 +1,6 @@
+(manifest jazz.ui.action.Bindings
+
+  (version 207012)
+  (digest "b6c61b0f9fba427f751b46c76d76a6ab927da951")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component Component)))

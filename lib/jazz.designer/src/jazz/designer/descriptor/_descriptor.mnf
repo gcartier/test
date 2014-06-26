@@ -1,0 +1,15 @@
+(manifest jazz.designer.descriptor
+
+  (version 207012)
+  (digest "d06d66a4336fb60dd5adbc5d809f6df3e3f3e686")
+  (references (jazz.designer.descriptor.Children-Descriptor Children-Descriptor)
+              (jazz.designer.descriptor.Component-Descriptor Component-Descriptor)
+              (jazz.designer.descriptor.Properties-Descriptor Properties-Descriptor)
+              (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form locators-ref)
+              (jazz.jml.syntax <form>)
+              (jazz.library.literals construct-image-resource construct-reference)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.library.utility.Reference Reference)
+              (scheme.language.runtime.kernel cons list list->table)))

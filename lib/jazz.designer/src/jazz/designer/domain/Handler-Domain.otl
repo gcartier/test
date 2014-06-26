@@ -1,0 +1,11 @@
+(module jazz.designer.domain.Handler-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Handler-Domain extends Domain
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (present-value value))
+    (method protected override (parse-presentation text))
+    (method protected override (setup-entry view client))))

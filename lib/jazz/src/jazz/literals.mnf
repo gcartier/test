@@ -1,0 +1,8 @@
+(manifest jazz.literals
+
+  (version 207012)
+  (digest "69a5d72ebed32dd248217d677e504dac3282e6d6")
+  (references (jazz.dialect.classes.foundation Walk-Location)
+              (jazz.language.runtime.exception Exception-Detail)
+              (jazz.language.runtime.geometry Cell Dimension Distance Point Range Rect)
+              (jazz.language.runtime.kernel new)))

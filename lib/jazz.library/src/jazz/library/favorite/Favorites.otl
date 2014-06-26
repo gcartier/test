@@ -1,0 +1,10 @@
+(module jazz.library.favorite.Favorites jazz
+  (import (jazz.library))
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (class Favorites extends Group
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Favorites-Descriptor extends Group-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

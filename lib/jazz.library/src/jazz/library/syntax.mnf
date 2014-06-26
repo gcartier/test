@@ -1,0 +1,8 @@
+(manifest jazz.library.syntax
+
+  (version 207012)
+  (digest "afd1f90e884c5e24b8450484c01d802fd46fae22")
+  (references (jazz.language.runtime.functional naturals)
+              (jazz.language.runtime.kernel compose-identifier)
+              (jazz.language.syntax.bind bind)
+              (scheme.language.runtime.kernel + > car cdr cons eq? eqv? generate-symbol length make-table map null? pair? string-length string-ref symbol->string symbol? table->list table-set!)))

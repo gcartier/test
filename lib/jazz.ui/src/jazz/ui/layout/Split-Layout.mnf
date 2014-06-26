@@ -1,0 +1,11 @@
+(manifest jazz.ui.layout.Split-Layout
+
+  (version 207012)
+  (digest "13585a7df0ef970a07d26c84b008c751776b6706")
+  (references (jazz.language.runtime.functional Object-Class fxround neq? percent)
+              (jazz.language.runtime.geometry Dimension Point Rect)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.layout.Figure Figure)
+              (jazz.ui.layout.Layout Layout (Layout layout))
+              (scheme.language.runtime.kernel + - < > abs eq? for-each negative? not positive? quotient)))

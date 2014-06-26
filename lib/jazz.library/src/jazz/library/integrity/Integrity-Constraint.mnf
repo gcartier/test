@@ -1,0 +1,7 @@
+(manifest jazz.library.integrity.Integrity-Constraint
+
+  (version 207012)
+  (digest "bfa443813811683f81dd3ab3c8ea76a2a0ce4bb6")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)))

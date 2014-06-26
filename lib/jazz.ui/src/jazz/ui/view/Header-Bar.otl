@@ -1,0 +1,17 @@
+(module jazz.ui.view.Header-Bar jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Header-Bar extends Base-Container
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property flat? accessors generate)
+    (property shown? accessors generate)
+    (slot client accessors generate)
+    (method protected override (layout))
+    (method protected final (content-position size))
+    (method protected final (content-size size))
+    (method public virtual (get-header-height)))
+  (class Header-Bar-Descriptor extends Layout-View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

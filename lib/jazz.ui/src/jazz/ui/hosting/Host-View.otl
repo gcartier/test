@@ -1,0 +1,17 @@
+(module jazz.ui.hosting.Host-View jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Host-View extends Focus-Container
+    (property content accessors generate)
+    (property guest accessors generate)
+    (property icon accessors generate)
+    (method protected override (destroy-component))
+    (method protected override (layout))
+    (method public virtual (invalidate-caption))
+    (method protected override (get-host))
+    (method protected final (install-guest))
+    (method protected final (uninstall-guest))
+    (method protected override (focus-host))
+    (method public virtual (activate-focus))
+    (method public virtual (deactivate-focus))
+    (method protected virtual (install-tools))))

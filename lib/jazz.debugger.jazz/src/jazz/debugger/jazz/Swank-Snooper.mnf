@@ -1,0 +1,11 @@
+(manifest jazz.debugger.jazz.Swank-Snooper
+
+  (version 207012)
+  (digest "3ffbb58c889d97d950e7a2381814a1ccbcbc0177")
+  (references (jazz.io get-eol-encoding)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class exit-thread new-thread pp read-string-element)
+              (jazz.language.runtime.kernel close-port continuation-capture force-output open-tcp-client open-tcp-server read-substring thread-join! thread-start! with-exception-catcher)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel = call-with-output-file display list make-string newline read string->number)))

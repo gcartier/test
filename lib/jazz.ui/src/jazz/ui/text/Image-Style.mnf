@@ -1,0 +1,13 @@
+(manifest jazz.ui.text.Image-Style
+
+  (version 207012)
+  (digest "a0ee035fc629733bcd62ac680f7b1fbdae8b0bb4")
+  (references (jazz.graphic.Surface Surface)
+              (jazz.graphic.image.Image Image)
+              (jazz.language.runtime.functional Object-Class Sequence)
+              (jazz.language.runtime.kernel new not-null? specified? unspecified)
+              (jazz.language.syntax.attributes attributes)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.exemplar (Exemplar get-ascendants))
+              (jazz.ui.text.Style Style (Style attribute=?) (Style default-scan) (Style draw-style) (Style get) (Style get-attribute) (Style get-attribute-default) (Style get-attribute-no-default) (Style get-attributes) (Style get-height) (Style get-width) (Style justify-element) (Style propagate?) (Style run-width) (Style scan) (Style set) (Style set-attribute) (Style wrap))
+              (scheme.language.runtime.kernel + car cdr not)))

@@ -1,0 +1,6 @@
+(manifest jazz.debugger.snapshot.Thread-Snapshot
+
+  (version 207012)
+  (digest "534ea3e6cf027617381164e6c2c95106ea41ef1e")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component Component)))

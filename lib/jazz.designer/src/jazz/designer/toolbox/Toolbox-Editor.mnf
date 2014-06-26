@@ -1,0 +1,8 @@
+(manifest jazz.designer.toolbox.Toolbox-Editor
+
+  (version 207012)
+  (digest "9d2b1091349f8feeb7d0728ff1fc3ca2cbfc01fe")
+  (references (jazz.designer.editor.Descendants-Editor Descendants-Editor)
+              (jazz.designer.toolbox.Toolbox-Tree Toolbox-Tree)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model))))

@@ -1,0 +1,6 @@
+(manifest jazz.ide.showcase.Scaled-View
+
+  (version 207012)
+  (digest "3375be921dd7437130c72291a4a75ad11ce62e57")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.view.View View)))

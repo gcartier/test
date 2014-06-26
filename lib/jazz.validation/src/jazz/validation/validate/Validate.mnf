@@ -1,0 +1,8 @@
+(manifest jazz.validation.validate.Validate
+
+  (version 207012)
+  (digest "5ba8a5bfadc4b62af360315a46a202248b396f9c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.system.process.Process Process (Process exit-process) (Process start-process))
+              (jazz.validation.validate.Validation-Suite Validation-Suite)))

@@ -1,0 +1,5 @@
+(manifest jazz.dialect.runtime
+
+  (version 207012)
+  (digest "65675b528a05b07af9d6164cf7a1e0ffc1d83ff6")
+  (references))

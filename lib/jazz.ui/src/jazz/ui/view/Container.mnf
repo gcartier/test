@@ -1,0 +1,16 @@
+(manifest jazz.ui.view.Container
+
+  (version 207012)
+  (digest "ca5b16d61eb2bca9d6d6801c8b807f7c5b322b48")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component child) (Component find-component) (Component inner-widget) (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.view.Content-View Content-View)
+              (jazz.ui.view.Layout-View Layout-View (Layout-View inner?) Layout-View-Descriptor (Layout-View-Descriptor~Class get-class-form) (Layout-View-Descriptor~Class get-class-forms) (Layout-View-Descriptor~Class set-class-form) (Layout-View~Class get-class-descriptor))
+              (scheme.language.runtime.kernel cons eq? list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,18 @@
+(manifest gambit.log.plot
+
+  (version 207012)
+  (digest "eaa778a2f8a3cfb172fd9411d1c60f778fa0fb51")
+  (references (gambit.log.implementation.logview-jazz current-surface plot-click plot-draw plot-key plot-move plot-resize plot-setup plot-view plot-view-ref)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.view new-frame)
+              (jazz.ui.view.Drawing (Drawing draw))
+              (jazz.ui.view.View View (View key-press) (View mouse-down) (View mouse-move) (View mouse-up) (View size-change))
+              (scheme.language.runtime.kernel char->integer cons list list->table)
+              (scheme.syntax declaration-path)))

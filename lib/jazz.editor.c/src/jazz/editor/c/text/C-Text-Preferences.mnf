@@ -1,0 +1,12 @@
+(manifest jazz.editor.c.text.C-Text-Preferences
+
+  (version 207012)
+  (digest "7fff9f8f5e866e743399d0e7419228663eba77d6")
+  (references (jazz.editor.clike.text.CLike-Text-Preferences CLike-Text-Preferences (CLike-Text-Preferences~Class get-class-form) (CLike-Text-Preferences~Class get-class-forms) (CLike-Text-Preferences~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Text-Style Text-Style)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

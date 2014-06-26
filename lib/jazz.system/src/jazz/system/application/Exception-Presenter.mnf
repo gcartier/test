@@ -1,0 +1,17 @@
+(manifest jazz.system.application.Exception-Presenter
+
+  (version 207012)
+  (digest "2fe4a04b2cf7fc38e5edde2aabee099b2f1a79e5")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (jazz.ui.tree.Tree-Header Tree-Header)
+              (jazz.ui.tree.Tree-Node-Column Tree-Node-Column)
+              (jazz.ui.tree.Tree-View Tree-View)
+              (jazz.ui.view.Border-View Border-View (Border-View~Class get-class-form) (Border-View~Class get-class-forms) (Border-View~Class set-class-form))
+              (jazz.ui.view.Scroller-View Scroller-View)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

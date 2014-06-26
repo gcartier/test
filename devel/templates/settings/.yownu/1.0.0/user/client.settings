@@ -1,0 +1,158 @@
+;;;==============
+;;;  JazzScheme
+;;;==============
+;;;
+;;;; Yownu Client Settings
+;;;
+
+
+;;;
+;;;; Yownu
+;;;
+
+
+yownu.radius                     250.
+yownu.density                    5
+yownu.planet-min-size            5.
+yownu.planet-max-size            50.
+yownu.planet-trees               10.
+
+
+;;;
+;;;; World
+;;;
+
+
+;; Window
+world.fullscreen?                default
+world.borderless?                default
+world.position                   {Point 50 50}
+world.size                       {Dimension 1200 800}
+
+;; Video
+world.block-shader               phong
+world.sector-size                16
+world.view-distance              13
+world.dynamic-lights             8
+world.texture-arrays?            default
+world.framebuffer-objects?       default
+world.framebuffer-blit?          default
+world.framebuffer-multisample?   default
+world.arb-multisample?           default
+world.post-processing?           #t
+world.multisampling              2
+world.perspective-fov            45.
+world.perspective-near           0.1
+world.perspective-far            10000.0
+world.ambient-color              #f
+world.sun-color                  #f
+world.sun-cycle?                 #t
+world.start-time                 default ;; day night
+world.default-lights?            #t
+world.skybox                     #f
+world.fog?                       #t
+world.fog-density                default
+world.fog-color                  default
+world.earth?                     #t
+
+;; Audio
+world.music?                     #t
+world.sounds?                    #t
+world.selection-sounds?          #t
+world.gc-sound?                  default
+
+;; Interface
+world.start-interface?           #t
+world.interface-target?          #f
+world.interface-script?          #f
+world.confirmation-dialogs?      #t
+world.axes?                      #f
+world.axes-graduation?           #f
+world.recenter-mouse?            #t
+world.track-sensitivity          200.
+world.random-seed                #f
+world.user-assets?               default
+
+;; Tick
+world.tick-pulse                 .01
+
+;; Game
+world.free-aim?                  #t
+
+;; History
+world.history?                   #t
+world.history-max                100
+world.evaluate-future?           #f
+world.inhibit-slicing?           #f
+
+;; Debug
+world.validate-opengl?           #t
+world.validate-shaders?          #t
+world.testing                    #f
+world.gc-report?                 #f
+world.debug-w3d?                 #f
+world.debug-ms3d?                #f
+world.debug-meshes?              #f
+world.debug-lightmap?            #f
+world.debug-textures?            #f
+world.debug-animations?          #f
+world.info-display               #f
+world.profiler-display           #f
+
+;; Collision
+world.debug-collisions?          #f
+
+;; Camera
+world.camera-move-speed          .5
+world.camera-blink-speed         2.
+world.camera-warp-speed          4.
+world.camera-strafe-speed        0.1
+world.camera-rotate-speed        0.035
+
+;; Network
+world.client.host                #u8(192 168 1 101)
+world.client.service             50000
+world.client.auto-connect?       #f
+world.client.user                #f
+world.client.password            #f
+world.client.player-name         "Anonymous"
+world.client.player-avatar       {Color Red}
+world.client.debug?              #f
+
+;; Test
+world.test1                      #f
+world.test2                      #f
+world.test3                      #f
+world.test4                      #f
+world.test5                      #f
+world.test6                      #f
+world.test7                      #f
+world.test8                      #f
+world.test9                      #f
+world.test0                      #f
+
+
+;;;
+;;;; Minecraft
+;;;
+
+
+minecraft.tile-resolution        32
+minecraft.generate-mipmap?       32
+
+
+;;;
+;;;; Jazz
+;;;
+
+
+jazz.render-pulse                .01
+jazz.evaluation-mode             interpret
+
+
+;;;
+;;;; OpenGL
+;;;
+
+
+jazz.opengl.debug-output?        #f

@@ -1,0 +1,7 @@
+(module jazz.validate.suite.Error-Tester jazz
+  (import (jazz.jml))
+  (import (jazz.validation))
+  (class Error-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

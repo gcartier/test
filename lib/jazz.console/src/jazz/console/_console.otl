@@ -1,0 +1,7 @@
+(module jazz.console jazz
+  (export (jazz.console.autoload))
+  (import (jazz.editor.lisp))
+  (import (jazz.ui.view))
+  (definition public (get-console-manager))
+  (definition public (get-console-text))
+  (definition package (get-console-text-manager text)))

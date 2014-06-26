@@ -1,0 +1,12 @@
+(manifest jazz.debugger.debugger.Location-Indicator
+
+  (version 207012)
+  (digest "f287ac959778ab8b5f1bf43dd77832b7c62a4bd6")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Cell)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.bind bind)
+              (jazz.project container->file)
+              (jazz.system.access get-application)
+              (jazz.ui.text.Indicator Indicator (Indicator edit))
+              (scheme.language.runtime.kernel + car cdr not values)))

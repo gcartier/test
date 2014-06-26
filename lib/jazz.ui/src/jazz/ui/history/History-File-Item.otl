@@ -1,0 +1,9 @@
+(module jazz.ui.history.History-File-Item jazz
+  (import (jazz.library))
+  (import (jazz.system))
+  (class History-File-Item extends History-Item
+    (slot file)
+    (slot selection)
+    (method protected override (initialize file selection))
+    (method protected override (open-item))
+    (method protected override (present))))

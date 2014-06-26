@@ -1,0 +1,11 @@
+(module jazz.designer.editor.Component-Editor-Controller jazz
+  (import (jazz.io))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Component-Editor-Controller extends Document-Controller
+    (method protected override (save))
+    (method protected override (save-as))
+    (method protected override (name-status))
+    (method protected override (confirm-close))
+    (method protected override (update-moniker-time moniker))))

@@ -1,0 +1,21 @@
+(module jazz.groupware.favorite.Favorite-Compare-Directories jazz
+  (import (jazz.designer))
+  (import (jazz.groupware))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui.view))
+  (class Favorite-Compare-Directories extends Favorite
+    (method meta protected override (get-domain property))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property mode accessors generate)
+    (property left accessors generate)
+    (property right accessors generate)
+    (property ignored-nodes accessors generate)
+    (property ignored-leaves accessors generate)
+    (property ignored-extensions accessors generate)
+    (property check-algorithm accessors generate)
+    (method protected override (launch)))
+  (class Favorite-Compare-Directories-Descriptor extends Favorite-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

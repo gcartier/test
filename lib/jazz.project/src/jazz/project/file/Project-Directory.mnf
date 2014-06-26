@@ -1,0 +1,15 @@
+(manifest jazz.project.file.Project-Directory
+
+  (version 207012)
+  (digest "2776d760003f20cbaab849a8643b7d9f654ff24d")
+  (references (jazz.designer.descriptor.Component-Descriptor (Component-Descriptor component-get-presentation))
+              (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Directory-Domain Directory-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel class-of new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.project.file.Project-Group Project-Group Project-Group-Descriptor (Project-Group-Descriptor~Class get-class-form) (Project-Group-Descriptor~Class get-class-forms) (Project-Group-Descriptor~Class set-class-form) (Project-Group~Class get-class-descriptor))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

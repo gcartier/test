@@ -1,0 +1,5 @@
+(manifest jazz.schema.source.Schema-Source
+
+  (version 207012)
+  (digest "f7786bd1711601bb4c212396941de798479d8436")
+  (references))

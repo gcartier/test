@@ -1,0 +1,3 @@
+(module jazz.graphic.opengl.glfw jazz
+  (export (jazz.graphic.opengl.glfw.foreign))
+  (import (jazz.graphic.opengl.glfw.foreign)))

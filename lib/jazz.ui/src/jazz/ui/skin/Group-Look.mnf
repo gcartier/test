@@ -1,0 +1,6 @@
+(manifest jazz.ui.skin.Group-Look
+
+  (version 207012)
+  (digest "a56cd3e0688fbca929290ea309e6e101a8d65818")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Look Look)))

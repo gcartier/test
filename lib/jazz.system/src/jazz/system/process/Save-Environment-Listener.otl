@@ -1,0 +1,4 @@
+(module jazz.system.process.Save-Environment-Listener jazz
+  (import (jazz.ui))
+  (interface Save-Environment-Listener extends Listener
+    (method public virtual (save-environment))))

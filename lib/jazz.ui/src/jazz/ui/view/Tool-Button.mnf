@@ -1,0 +1,18 @@
+(manifest jazz.ui.view.Tool-Button
+
+  (version 207012)
+  (digest "15ac906a549ca329d4f79f4e2faec58b75f0fdae")
+  (references (jazz.geometry expand-rect)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class memq?)
+              (jazz.language.runtime.geometry Dimension (Rect get-bottom) (Rect get-right))
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.syntax.macros unwind-protect when)
+              (jazz.literals construct-dimension)
+              (jazz.ui.skin find-look)
+              (jazz.ui.view mouse-down-view mouse-down?)
+              (jazz.ui.view.Drawing (Drawing draw) (Drawing get-bounds))
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.View (View default-size) (View drag-up) (View draw-background) (View get-look) (View invalidate-view) (View mouse-activate?) (View mouse-down) (View mouse-enter) (View mouse-leave) (View set-enabled?) (View view-enabled?))
+              (scheme.language.runtime.kernel - eq? not)))

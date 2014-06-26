@@ -1,0 +1,17 @@
+(module jazz.graphic.image.Image jazz
+  (import (jazz.graphic.image))
+  (import (jazz.platform.cairo))
+  (class Image extends Object
+    (slot position accessors generate)
+    (slot size accessors generate)
+    (slot fill-mode accessors generate)
+    (slot background accessors generate)
+    (slot portfolio accessors generate)
+    (slot resource accessors generate)
+    (slot moniker accessors generate)
+    (slot handle accessors generate)
+    (method protected override (initialize (position: position (unspecified)) (size: size (unspecified)) (fill-mode: fill-mode (unspecified)) (background: background (unspecified)) (portfolio: portfolio (unspecified)) (resource: resource (unspecified)) (moniker: moniker (unspecified)) (handle: handle (unspecified))))
+    (method protected override (destroy))
+    (method public final (draw-at surface context h v))
+    (method public final (fill-at surface context h v rect))
+    (method public final (image-size) <Dimension>)))

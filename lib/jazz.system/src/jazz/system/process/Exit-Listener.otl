@@ -1,0 +1,4 @@
+(module jazz.system.process.Exit-Listener jazz
+  (import (jazz.ui))
+  (interface Exit-Listener extends Listener
+    (method public virtual (prepare-exit))))

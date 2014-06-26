@@ -1,0 +1,12 @@
+(module jazz.ui.print.Page-Toolbar jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Page-Toolbar extends Toolbar
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (method protected override (client-activate))))

@@ -1,0 +1,11 @@
+(module jazz.debugger.debugged.Debugged jazz
+  (import (jazz.debugger))
+  (class Debugged extends Object
+    (slot debugger getter generate)
+    (slot process getter generate)
+    (slot reference getter generate)
+    (method protected override (initialize debugger process reference))
+    (method protected override (hash-object))
+    (method protected override (print output readably))
+    (method public final (shared-process? debugged))
+    (method public virtual (same? debugged))))

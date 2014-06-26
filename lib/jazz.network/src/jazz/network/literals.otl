@@ -1,0 +1,3 @@
+(module jazz.network.literals jazz
+  (import (jazz.network))
+  (definition package (construct-host . rest)))

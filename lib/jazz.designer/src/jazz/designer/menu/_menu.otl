@@ -1,0 +1,6 @@
+(module jazz.designer.menu jazz
+  (import (jazz.designer))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (definition package (update-component-menu menu components reference-categories add-component named-children add-named-child)))

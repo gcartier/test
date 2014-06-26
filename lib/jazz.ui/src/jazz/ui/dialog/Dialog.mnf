@@ -1,0 +1,12 @@
+(manifest jazz.ui.dialog.Dialog
+
+  (version 207012)
+  (digest "8fbc82b3b25415aa5048836522c567fdb71d8eac")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.hosting.Dialog-Host Dialog-Host)
+              (jazz.ui.window.Overlapped Overlapped (Overlapped destroy))
+              (jazz.ui.window.View-Player (View-Player new-root) (View-Player root))
+              (jazz.ui.window.Window (Window close-window))
+              (jazz.ui.window.platform.glfw processed)
+              (jazz.ui.window.platform.independant delay-event)))

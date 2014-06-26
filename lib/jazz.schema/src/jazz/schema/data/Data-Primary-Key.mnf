@@ -1,0 +1,8 @@
+(manifest jazz.schema.data.Data-Primary-Key
+
+  (version 207012)
+  (digest "34b36f56fc336dce3fac2192e43fb4d5254063e6")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.schema.data.Data-Object Data-Object (Data-Object get-kind) (Data-Object name) (Data-Object properties) (Data-Object property-names))))

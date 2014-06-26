@@ -1,0 +1,25 @@
+(module jazz.validate.suite.Form-Tester jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.validation))
+  (class Form-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (test-form))
+    (method protected final (test-fields)))
+  (class F extends Component
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property f1 accessors generate))
+  (class X extends Component
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property x1 accessors generate)
+    (property x2 accessors generate))
+  (class Y extends X
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

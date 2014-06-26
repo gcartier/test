@@ -1,0 +1,12 @@
+(module jazz.ui.action.Shortcut jazz
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class Shortcut extends Object
+    (slot modifiers getter generate)
+    (slot key getter generate)
+    (method protected override (initialize modifiers key))
+    (method protected override (hash-object))
+    (method protected override (compare-object target))
+    (method protected override (print output readably))
+    (method public final (present))
+    (method public final (present-shortcut))))

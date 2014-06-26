@@ -1,0 +1,5 @@
+(manifest jazz.jrm.remote.Stub-Interface
+
+  (version 207012)
+  (digest "fad917deab71654e01f0dfa6d7c5d02db6b8da30")
+  (references (jazz.language.runtime.functional Interface Object-Class)))

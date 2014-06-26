@@ -1,0 +1,6 @@
+(manifest jazz.language.syntax.bind
+
+  (version 207012)
+  (digest "5498969b9b6b00317c00f4fa1b26a857b960d6a6")
+  (references (jazz.language.runtime.kernel binding-specifier with-uniqueness)
+              (scheme.language.runtime.kernel cadr car cddr cdr desourcify generate-symbol length map null? pair? source-code sourcify-if symbol?)))

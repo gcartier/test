@@ -1,0 +1,13 @@
+(module jazz.validation.tester.Tester jazz
+  (import (jazz.library))
+  (import (jazz.snapshot))
+  (import (jazz.debuggee))
+  (class Tester extends Component
+    (property manager accessors generate)
+    (property suite accessors generate)
+    (property title accessors generate)
+    (method public virtual (test))
+    (method protected final (invoke section proc))
+    (method protected final (validation-failed-with-snapshot exception (message (unspecified))))
+    (method protected final (validate-failed message location))
+    (method protected final (validation-failed message (class: class (unspecified)) (location: location (unspecified)) (properties: properties (unspecified))))))

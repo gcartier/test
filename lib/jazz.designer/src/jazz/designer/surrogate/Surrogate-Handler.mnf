@@ -1,0 +1,8 @@
+(manifest jazz.designer.surrogate.Surrogate-Handler
+
+  (version 207012)
+  (digest "3561c44da81a8954bd6e2b66174b229a936a7ea7")
+  (references (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.library.handler.Event-Handler Event-Handler (Event-Handler initialize))
+              (scheme.language.runtime.kernel apply)))

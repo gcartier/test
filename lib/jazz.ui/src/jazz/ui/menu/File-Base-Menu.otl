@@ -1,0 +1,9 @@
+(module jazz.ui.menu.File-Base-Menu jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class File-Base-Menu extends Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

@@ -1,0 +1,9 @@
+(manifest jazz.library.utility.File-Digest
+
+  (version 207012)
+  (digest "073c99b8de292310f589338c734f152abba8d32f")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name is-not?)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel = string=?)))

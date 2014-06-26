@@ -1,0 +1,15 @@
+(module jazz.ui.preference.Prop-Text-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Prop-Text-Preferences extends Code-Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property title-style accessors generate)
+    (property comment-style accessors generate))
+  (class Prop-Text-Preferences-Descriptor extends Document-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

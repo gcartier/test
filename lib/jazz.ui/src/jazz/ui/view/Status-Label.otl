@@ -1,0 +1,17 @@
+(module jazz.ui.view.Status-Label jazz
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.locale))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.skin))
+  (class Status-Label extends View
+    (property icon accessors generate)
+    (method protected override (mouse-activate?))
+    (method protected override (set-title title))
+    (method protected override (mouse-up evt))
+    (method protected override (draw-background surface context))
+    (method protected override (draw surface context))
+    (method protected final (draw-icon surface context))
+    (method protected final (draw-body surface))
+    (method protected override (get-look))))

@@ -1,0 +1,14 @@
+(module jazz.designer.domain.Literal-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.designer.domain.Domain))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Literal-Domain extends Value-Domain
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property is)
+    (method protected override (validate-value value (validation-context (unspecified))))
+    (method protected override (setup-entry view client)))
+  (class Literal-Domain-Descriptor extends Domain-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

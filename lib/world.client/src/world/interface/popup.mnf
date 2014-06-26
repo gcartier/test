@@ -1,0 +1,6 @@
+(manifest world.interface.popup
+
+  (version 207012)
+  (digest "47b3227719c6b6b553f3a0425a6bdbf3b461d826")
+  (references (jazz.language.runtime.functional Object-Class)
+              (world.interface.pane World-Pane)))

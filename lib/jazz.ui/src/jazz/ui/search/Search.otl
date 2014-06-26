@@ -1,0 +1,16 @@
+(module jazz.ui.search.Search jazz
+  (import (jazz.library))
+  (class Search extends Object
+    (slot find getter generate)
+    (slot replace getter generate)
+    (slot expression? accessors generate)
+    (method protected override (initialize find replace))
+    (method protected final (set-find obj))
+    (method protected final (set-replace repl))
+    (method protected final (collect-find))
+    (method public final (empty?))
+    (method protected virtual (install-results results-view results categorized?))
+    (method public virtual (get-icon))
+    (method public final (present))
+    (method protected virtual (supports-drill-down?))
+    (method protected virtual (dynamic-search? categorized?))))

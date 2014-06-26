@@ -1,0 +1,5 @@
+(module jazz.ui.print.Page-Footer jazz
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (class Page-Footer extends Page-Text-View
+    (method protected override (get-drawing-background context))))

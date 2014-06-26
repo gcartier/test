@@ -1,0 +1,10 @@
+(manifest jazz.language.runtime.debug
+
+  (version 207012)
+  (digest "29dd99891a2469fae550495b7f774e2dc13987bf")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional register-printer)
+              (jazz.language.runtime.kernel continuation-capture continuation-creator force-output get-continuation-dynamic-environment get-continuation-lexical-environment get-continuation-stack make-mutex module-ref mutex-lock! mutex-unlock! procedure-name reference-name terminal-port terminal-string unspecified)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros prog1)
+              (scheme.language.runtime.kernel append apply car cdr cons eq? get-output-string list make-table map not open-output-string symbol? table-ref table-set! write)))

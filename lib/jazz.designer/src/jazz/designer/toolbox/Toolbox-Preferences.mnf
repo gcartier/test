@@ -1,0 +1,14 @@
+(manifest jazz.designer.toolbox.Toolbox-Preferences
+
+  (version 207012)
+  (digest "b1c64e02f542a58bfe8d2abc3843e83a0c94c5da")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component name) (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.preference.Docked-Preferences Docked-Preferences (Docked-Preferences create-host))
+              (jazz.ui.view named-singleton-docked)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

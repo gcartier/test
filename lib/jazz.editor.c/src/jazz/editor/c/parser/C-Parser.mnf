@@ -1,0 +1,15 @@
+(manifest jazz.editor.c.parser.C-Parser
+
+  (version 207012)
+  (digest "7fe65447fd8af81eed9dd2e3cbed0b94dfd40f5b")
+  (references (jazz.catalog.parser.File-Parser File-Parser (File-Parser catalog) (File-Parser char-encoding) (File-Parser get-heuristic) (File-Parser parse) (File-Parser~Class get-constituent-test))
+              (jazz.editor.c.catalog.C-Category-Entry C-Category-Entry)
+              (jazz.editor.c.catalog.C-Define-Entry C-Define-Entry)
+              (jazz.editor.c.catalog.C-Export-Entry C-Export-Entry)
+              (jazz.editor.c.catalog.C-File-Entry C-File-Entry)
+              (jazz.editor.c.catalog.C-Include-Entry C-Include-Entry)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Object-Class (Sequence sequence-element) c-constituent? cardinality element member? skip skip-whitespace subseq)
+              (jazz.language.runtime.kernel continuation-capture continuation-return new unspecified)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel + - < <= > >= eq? eqv? list->vector not string-length string-ref string=? substring vector-ref)))

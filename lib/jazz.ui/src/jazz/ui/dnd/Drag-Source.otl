@@ -1,0 +1,7 @@
+(module jazz.ui.dnd.Drag-Source jazz
+  (class Drag-Source extends Object
+    (slot view getter generate)
+    (slot position getter generate)
+    (slot image getter generate)
+    (method protected override (initialize (view: view (unspecified)) (position: position (unspecified)) (image: image (unspecified))))
+    (method protected override (print output readably))))

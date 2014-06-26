@@ -1,0 +1,18 @@
+(manifest jazz.ui.dialog.Color-Request
+
+  (version 207012)
+  (digest "4526c796672d0ec8f0b9bcc382e7a2b3c26f3085")
+  (references (jazz.graphic symbolize-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.library.literals construct-event-handler)
+              (jazz.literals construct-dimension construct-point)
+              (jazz.ui.view.Color-Choose Color-Choose (Color-Choose get-color) (Color-Choose on-escape-press) (Color-Choose symbolize?) (Color-Choose~Class get-class-form) (Color-Choose~Class get-class-forms) (Color-Choose~Class set-class-form))
+              (jazz.ui.view.Horizontal-Line Horizontal-Line)
+              (jazz.ui.view.Push-Button Push-Button)
+              (jazz.ui.view.View (View get-host) (View get-modal-result) (View on-return-press) (View~Class host-size) (View~Class host-title))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

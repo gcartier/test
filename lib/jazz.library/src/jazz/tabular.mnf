@@ -1,0 +1,9 @@
+(manifest jazz.tabular
+
+  (version 207012)
+  (digest "ae4904bdaf0c6a908ba5219f5863f677ac6328bd")
+  (references (jazz.io path-settings)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) ends-with? split starts-with? subseq)
+              (jazz.language.runtime.kernel new unimplemented unspecified)
+              (jazz.language.syntax.macros while)
+              (scheme.language.runtime.kernel - call-with-input-file map not read-line string string-length)))

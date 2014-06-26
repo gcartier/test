@@ -1,0 +1,12 @@
+(module jazz.groupware.compare.Compare-Entry jazz
+  (class Compare-Entry extends Object
+    (slot protected parent getter generate)
+    (slot protected kind getter generate)
+    (slot protected left accessors generate)
+    (slot protected left-value accessors generate)
+    (slot protected right accessors generate)
+    (slot protected right-value accessors generate)
+    (slot protected action accessors generate)
+    (slot protected children accessors generate)
+    (method protected override (initialize parent kind left left-value right right-value))
+    (method protected override (print output readably))))

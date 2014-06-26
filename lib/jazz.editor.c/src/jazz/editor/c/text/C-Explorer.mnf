@@ -1,0 +1,10 @@
+(manifest jazz.editor.c.text.C-Explorer
+
+  (version 207012)
+  (digest "036a64475196d9e9b5dba3143b8a56babb7bfd6d")
+  (references (jazz.language.runtime.functional Object-Class whitespace?)
+              (jazz.language.runtime.object (Object object-whitespace?))
+              (jazz.language.syntax.macros when)
+              (jazz.ui.text.Code-Explorer Code-Explorer)
+              (jazz.ui.text.Text-Explorer (Text-Explorer char-forward) (Text-Explorer forward) (Text-Explorer forward-word) (Text-Explorer next-paragraph))
+              (scheme.language.runtime.kernel eqv?)))

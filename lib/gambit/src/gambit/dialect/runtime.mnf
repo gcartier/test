@@ -1,0 +1,5 @@
+(manifest gambit.dialect.runtime
+
+  (version 207012)
+  (digest "2cc05c46f52167c76cdb559f6c0f64c2b983ffcf")
+  (references))

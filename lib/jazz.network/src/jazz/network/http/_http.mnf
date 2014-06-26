@@ -1,0 +1,12 @@
+(manifest jazz.network.http
+
+  (version 207012)
+  (digest "711b3ffb66e14f81b17f9dc258a09973dd5c3b04")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Sequence sequence-cardinality) (Sequence sequence-element) cardinality concatenate element empty? find-in memv? neq? second subseq zip)
+              (jazz.language.runtime.kernel bitwise-xor digest-string u8vector->list unspecified)
+              (jazz.language.runtime.parse parse-hexadecimal)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros while)
+              (scheme.language.runtime.kernel + - < > append assq cadr car cdr char->integer cons eq? equal? eqv? for-each get-output-string integer->char list->string make-string map null? open-output-string string->list string-length write-char)))

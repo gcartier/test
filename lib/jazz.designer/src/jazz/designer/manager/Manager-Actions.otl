@@ -1,0 +1,3 @@
+(module jazz.designer.manager.Manager-Actions jazz
+  (import (jazz.ui))
+  (class Manager-Actions extends Actions))

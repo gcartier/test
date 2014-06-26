@@ -1,0 +1,12 @@
+(module jazz.ui.search.Definition-Search-Result jazz
+  (import (jazz.editor.lisp))
+  (import (jazz.ui))
+  (class Definition-Search-Result extends Search-Result
+    (slot entry getter generate)
+    (method protected override (initialize resultset entry))
+    (method protected override (get-icon))
+    (method protected override (present-name))
+    (method protected override (present-location))
+    (method protected override (present-type))
+    (method protected override (location-sort-value))
+    (method protected override (edit select (visible?: visible? (unspecified)) (activate-focus?: activate-focus? (unspecified))))))

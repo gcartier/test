@@ -1,0 +1,36 @@
+(module jazz.ide.application.IDE-Status jazz
+  (import (jazz.debugger))
+  (import (jazz.ide))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.activity))
+  (import (jazz.ui.skin))
+  (import (jazz.ui.workspace))
+  (class IDE-Status extends Status-Toolbar
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-icon))
+    (method protected virtual (on-mouse-down evt))
+    (method protected virtual (on-context-menu evt))
+    (method protected override (install rest))
+    (method public final (update-focused-process)))
+  (class Processes-Menu extends Context-Menu
+    (method protected override (install rest))
+    (method protected final (insert-processes))
+    (method protected final (on-action evt)))
+  (class Workspaces-Menu extends Context-Menu
+    (method protected override (install rest))
+    (method protected final (on-action evt)))
+  (class Activities-Menu extends Context-Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (on-open evt))
+    (method protected final (on-close evt))
+    (method protected final (on-clear-done evt)))
+  (class Skin-Menu extends Context-Menu
+    (method protected override (install rest))
+    (method protected final (on-action evt))))

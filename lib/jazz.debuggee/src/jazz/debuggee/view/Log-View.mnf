@@ -1,0 +1,14 @@
+(manifest jazz.debuggee.view.Log-View
+
+  (version 207012)
+  (digest "61feeab7ed17604623bf025f6a1b4fcda324aaf9")
+  (references (jazz.debuggee.view.Log-Tree Log-Tree)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component locate) (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.tree.Tree-Header Tree-Header)
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.Scroller-View Scroller-View)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

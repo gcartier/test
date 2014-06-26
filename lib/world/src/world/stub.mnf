@@ -1,0 +1,13 @@
+(manifest world.stub
+
+  (version 207012)
+  (digest "e12be3505d3e5b853fc9bfa440efcb1a91c9254b")
+  (references (jazz.jrm call-remote exec-remote post-remote)
+              (jazz.jrm.remote.Local-Proxy Local-Proxy (Local-Proxy object) (Local-Proxy proxy-values))
+              (jazz.jrm.remote.Remotable-Stub Remotable-Stub)
+              (jazz.jrm.remote.Remote-Proxy Remote-Proxy (Remote-Proxy proxy-value))
+              (jazz.jrm.remote.Stub-Interface Stub-Interface (Stub-Interface local-class) (Stub-Interface remote-class))
+              (jazz.jrm.syntax remotable-stub)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (scheme.language.runtime.kernel append list)))

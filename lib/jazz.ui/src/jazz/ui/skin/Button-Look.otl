@@ -1,0 +1,4 @@
+(module jazz.ui.skin.Button-Look jazz
+  (import (jazz.ui))
+  (class Button-Look extends Look
+    (property background accessors generate)))

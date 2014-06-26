@@ -1,0 +1,17 @@
+(module jazz.ui.document.Document jazz
+  (interface Document
+    (method public virtual (get-document-controller))
+    (method public virtual (new-document-controller))
+    (method public virtual (load-content moniker))
+    (method public virtual (save-content moniker))
+    (method public virtual (verify-reload))
+    (method public virtual (reload-moniker moniker))
+    (method public virtual (default-extension))
+    (method public virtual (extensions))
+    (method public virtual (focus-document))
+    (method public virtual (install-scroller?))
+    (method public virtual (tool-update tool?))
+    (method public virtual (console-update console?))
+    (method public virtual (current-history-item))
+    (method public virtual (compare-moniker moniker))
+    (method public virtual (frame-guest?))))

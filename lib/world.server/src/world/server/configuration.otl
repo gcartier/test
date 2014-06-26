@@ -1,0 +1,4 @@
+(module world.server.configuration jazz
+  (import (jazz.system))
+  (definition public (world-server-host))
+  (definition public (world-server-service)))

@@ -1,0 +1,7 @@
+(manifest jazz.project.resource.Bitmap-File
+
+  (version 207012)
+  (digest "b463e08f6b0b7aa66ae08d00d0eb026833331d8e")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.project.resource.Resource-File Resource-File (Resource-File resource-class) (Resource-File resource-marker))))

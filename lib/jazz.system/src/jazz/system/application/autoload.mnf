@@ -1,0 +1,10 @@
+(manifest jazz.system.application.autoload
+
+  (version 207012)
+  (digest "638fc39db3b5f108891cae5debac53cf3e6e83e3")
+  (references (jazz.system.application.Application Application)
+              (jazz.system.application.Application-Actions Application-Actions)
+              (jazz.system.application.Application-Bindings Application-Bindings)
+              (jazz.system.application.Application-Event Application-Event)
+              (jazz.system.application.Application-Preferences Application-Preferences)
+              (jazz.system.application.Exception-Presenter Exception-Presenter)))

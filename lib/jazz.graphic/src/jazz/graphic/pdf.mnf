@@ -1,0 +1,16 @@
+(manifest jazz.graphic.pdf
+
+  (version 207012)
+  (digest "67798f44012752a8ba09c8ba550e1081f4c0b90f")
+  (references (jazz.graphic default-resolution)
+              (jazz.graphic.Surface Surface (Surface context) (Surface draw-rectangle) (Surface frame-rect) (Surface initialize) (Surface painting-tree-algorithm) (Surface set-color) (Surface set-line-width) (Surface show-page) (Surface stroke))
+              (jazz.language.runtime.functional Object-Class fxceiling)
+              (jazz.language.runtime.geometry Dimension Rect)
+              (jazz.language.runtime.kernel fixnum->flonum new unspecified)
+              (jazz.language.runtime.object Object (Object close))
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.with with)
+              (jazz.platform.cairo cairo_pdf_surface_create cairo_show_page)
+              (jazz.ui.print.Page-Setup Page-Setup)
+              (jazz.ui.print.Print-Job Print-Job (Print-Job end-page) (Print-Job print-orientation) (Print-Job print-page) (Print-Job surface) (Print-Job with-page))
+              (scheme.language.runtime.kernel * / dynamic-wind)))

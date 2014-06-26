@@ -1,0 +1,9 @@
+(manifest jazz.platform.freetype
+
+  (version 207012)
+  (digest "6de460a1d1d1a44f7942d4f8870ec1986dae4f42")
+  (references (jazz.foreign.syntax c-external)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros prog1)
+              (jazz.platform.types bool char-string int long void)
+              (scheme.language.runtime.kernel + < cons list null? set-cdr!)))

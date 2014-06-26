@@ -1,0 +1,7 @@
+(manifest jazz.language.runtime.object
+
+  (version 207012)
+  (digest "16d1b685646449f845748d5835111aaf23ec6e86")
+  (references (jazz.language.runtime.kernel class-of make-mutex make-will mutex-lock! mutex-unlock! object->serial object? reference-name unspecified with-exception-catcher)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel cons display eq? eqv? get-output-string make-table open-output-string string=? table-ref table-set! write)))

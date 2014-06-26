@@ -1,0 +1,5 @@
+(manifest jazz.debugger.jazz.stub-autoload
+
+  (version 207012)
+  (digest "4ae71c9bfaa28d5abf6ae51672bcf4a207dc01e9")
+  (references (jazz.debugger.jazz.stub Jazz-Debugger-Stub)))

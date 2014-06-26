@@ -1,0 +1,6 @@
+(manifest jazz.validation.syntax
+
+  (version 207012)
+  (digest "1c8a42fdad16bc91f098bdd15cf415947941d30c")
+  (references (jazz.language.runtime.functional ->string (Sequence sequence-element) second)
+              (scheme.language.runtime.kernel cdr desourcify locat->container/line/col source-code source-locat sourcify-if)))

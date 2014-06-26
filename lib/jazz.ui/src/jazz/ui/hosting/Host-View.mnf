@@ -1,0 +1,15 @@
+(manifest jazz.ui.hosting.Host-View
+
+  (version 207012)
+  (digest "ddfcda34ecf423ebbdbf09dd7305204da8bedf44")
+  (references (jazz.language.runtime.functional Object-Class neq?)
+              (jazz.language.runtime.geometry Point)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.literals construct-point)
+              (jazz.system.access get-application)
+              (jazz.ui get-guest-actions)
+              (jazz.ui.hosting.Focus-Container Focus-Container (Focus-Container focus-host) (Focus-Container get-focused))
+              (jazz.ui.view.Drawing (Drawing get-size) (Drawing layout))
+              (jazz.ui.view.View (View acquire-focus) (View destroy-component) (View get-guest) (View get-host) (View layout-view))
+              (scheme.language.runtime.kernel not)))

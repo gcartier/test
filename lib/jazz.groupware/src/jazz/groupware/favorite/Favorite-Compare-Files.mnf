@@ -1,0 +1,17 @@
+(manifest jazz.groupware.favorite.Favorite-Compare-Files
+
+  (version 207012)
+  (digest "c90d61a7a38e6a0d2e5587abe2f0904d95437b26")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.File-Domain File-Domain)
+              (jazz.groupware.compare.Compare-Files Compare-Files)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component launch))
+              (jazz.library.favorite.Favorite Favorite Favorite-Descriptor (Favorite-Descriptor~Class get-class-form) (Favorite-Descriptor~Class get-class-forms) (Favorite-Descriptor~Class set-class-form) (Favorite~Class get-class-descriptor))
+              (jazz.ui.view new-frame)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

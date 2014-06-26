@@ -1,0 +1,10 @@
+(manifest jazz.editor.jazz.text.Jazz-Plain-Text-View
+
+  (version 207012)
+  (digest "e327f05facbcc4fb2b76b3beddf04668bb01011a")
+  (references (jazz.editor.jazz.text.Jazz-Plain-Syntax Jazz-Plain-Syntax)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.outline.Outline-View (Outline-View model))
+              (jazz.ui.text.Plain-Text-View Plain-Text-View (Plain-Text-View preferences))
+              (jazz.ui.text.Text-View (Text-View add-style) (Text-View install) (Text-View new-syntax))))

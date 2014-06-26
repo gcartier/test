@@ -1,0 +1,20 @@
+(module jazz.debuggee.ui.stub jazz
+  (import (jazz.jrm.syntax (phase syntax)))
+  (import (jazz.jrm))
+  (class UI-Debuggee-Stub-Interface extends Stub-Interface
+    (method protected override (local-class))
+    (method protected override (remote-class)))
+  (interface UI-Debuggee-Stub metaclass UI-Debuggee-Stub-Interface extends Remotable-Stub
+    (method public virtual (start-spy __debugger))
+    (method public virtual (stop-spy))
+    (method public virtual (spy-hook __layer __action __arguments)))
+  (class UI-Debuggee-Local-Proxy extends Local-Proxy implements UI-Debuggee-Stub
+    (method protected override (stub-reference))
+    (method protected override (start-spy __debugger))
+    (method protected override (stop-spy))
+    (method protected override (spy-hook __layer __action __arguments)))
+  (class UI-Debuggee-Remote-Proxy extends Remote-Proxy implements UI-Debuggee-Stub
+    (method protected override (stub-reference))
+    (method protected override (start-spy __debugger))
+    (method protected override (stop-spy))
+    (method protected override (spy-hook __layer __action __arguments))))

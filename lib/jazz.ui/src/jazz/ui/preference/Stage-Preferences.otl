@@ -1,0 +1,22 @@
+(module jazz.ui.preference.Stage-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (import (jazz.designer))
+  (class Stage-Preferences extends Figure-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property maximized? accessors generate)
+    (property guest-model accessors generate)
+    (slot stage)
+    (method protected override (apply-root player))
+    (method protected override (apply-preferences (parent (unspecified))))
+    (method protected final (apply-to stage-border))
+    (method protected final (remember-stage)))
+  (class Stage-Preferences-Descriptor extends Figure-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

@@ -1,0 +1,9 @@
+(module jazz.ui.skin.Docked-Look jazz
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (class Docked-Look extends Look
+    (property active-background accessors generate)
+    (property inactive-background accessors generate)
+    (property frame-color accessors generate)
+    (property focused-text-color accessors generate)
+    (property unfocused-text-color accessors generate)))

@@ -1,0 +1,13 @@
+(module world.gadget jazz
+  (import (world))
+  (import (world.autoload))
+  (import (world.entity))
+  (import (world.syntax (phase syntax)))
+  (definition public (registered-gadgets))
+  (definition public (registered-gadget-classes))
+  (definition public (registered-gadget class))
+  (definition public (register-gadget class proc))
+  (definition public (unregister-gadget class))
+  (class Gadget extends Entity
+    (method protected override (gadget?))
+    (method protected override (element-visible?))))

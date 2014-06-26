@@ -1,0 +1,13 @@
+(module jazz.schema.data.Data-Column jazz
+  (import (jazz.schema))
+  (class Data-Column extends Data-Object
+    (slot datatype getter generate)
+    (slot width getter generate)
+    (method protected override (initialize (name: name (unspecified)) (parent: parent (unspecified)) (datatype: datatype (unspecified)) (width: width (unspecified)) (properties: properties (unspecified))))
+    (method protected final (print-schema output))
+    (method protected override (get-kind))
+    (method protected override (property-names))
+    (method protected override (get-property keyword . rest))
+    (method protected override (set-property keyword value))
+    (method public final (auto-generate?))
+    (method public final (get-prefered-width))))

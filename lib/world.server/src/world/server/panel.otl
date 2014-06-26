@@ -1,0 +1,5 @@
+(module world.server.panel jazz
+  (import (jazz.network))
+  (import (jazz.system))
+  (class World-Server-Panel extends Server-Panel
+    (method protected override (output-server-info output))))

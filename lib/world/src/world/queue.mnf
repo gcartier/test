@@ -1,0 +1,14 @@
+(manifest world.queue
+
+  (version 207012)
+  (digest "1eeb072f67bcb825995996699566b010d8e4dfd2")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class element naturals)
+              (jazz.language.runtime.kernel condition-signal! eof-object make-condition make-mutex mutex-lock! mutex-unlock! new unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.increase decrease! increase!)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros prog1)
+              (scheme.language.runtime.kernel + < <= = > >= length list->vector make-vector map modulo not vector-ref vector-set!)
+              (world.sector Sector (Sector set-generating?))))

@@ -1,0 +1,17 @@
+(module jazz.ui.dialog.User-Reporter jazz
+  (import (jazz.library))
+  (import (jazz.system))
+  (class User-Reporter extends Object implements Reporter
+    (method protected override (section-title title))
+    (method protected override (set-message msg update?))
+    (method protected override (user-message fmt . rest))
+    (method protected override (user-feedback fmt . rest))
+    (method protected override (set-range range))
+    (method protected override (set-pos pos))
+    (method protected override (delta-pos increment))
+    (method protected override (set-step increment))
+    (method protected override (step-it))
+    (method protected override (set-done))
+    (method protected override (disable-cancel))
+    (method protected override (cancel-requested?))
+    (method protected override (test-cancelled))))

@@ -1,0 +1,13 @@
+(manifest world.area
+
+  (version 207012)
+  (digest "0fc9035ba83ee7d8a621c0a92faba78133af759b")
+  (references (jazz.language.runtime.format format format-plural)
+              (jazz.language.runtime.functional /= Object-Class neq?)
+              (jazz.language.runtime.kernel f64vector-length make-f64vector subf64vector-move! subvector-move! unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel * + / < = for-each length make-vector not vector-length vector-ref vector-set!)
+              (world.polygon polygon-float-size)))

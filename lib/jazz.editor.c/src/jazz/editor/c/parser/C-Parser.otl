@@ -1,0 +1,6 @@
+(module jazz.editor.c.parser.C-Parser jazz
+  (import (jazz.catalog))
+  (import (jazz.editor.c))
+  (class C-Parser extends File-Parser
+    (method meta protected override (get-constituent-test))
+    (method protected override (parse file digest dialect))))

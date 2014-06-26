@@ -1,0 +1,9 @@
+(manifest jazz.designer.domain.Symbol-Domain
+
+  (version 207012)
+  (digest "e219ab516f14ba184adaf461cfea4cc16a03a6af")
+  (references (jazz.designer.domain.Domain (Domain add-violation) (Domain validate-value))
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros unless)
+              (scheme.language.runtime.kernel symbol?)))

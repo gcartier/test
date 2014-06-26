@@ -1,0 +1,8 @@
+(module world.debuggee.implementation jazz
+  (import (jazz.ui.window))
+  (import (world.debug))
+  (import (world.client.window))
+  (class World-Debuggee extends Object
+    (method public final (position-world rect))
+    (method public final (restore-world))
+    (method public final (set-property property value))))

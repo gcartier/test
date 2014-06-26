@@ -1,0 +1,10 @@
+(manifest world.external.targa
+
+  (version 207012)
+  (digest "6d007e52c53333ae75602d54930579e48a0ec6b9")
+  (references (jazz.graphic.opengl.glew.header GL_RGB GL_RGBA)
+              (jazz.io path-settings)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.kernel make-u8vector read-subu8vector subu8vector u8vector-ref)
+              (scheme.language.runtime.kernel * + / call-with-input-file equal? input-port-byte-position not values)
+              (world.foreign BGRA-premultiply-alpha)))

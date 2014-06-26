@@ -1,0 +1,5 @@
+(manifest world.foreign.triangulate
+
+  (version 207012)
+  (digest "25cb2adf5ad4fa03877c2bdab59bd5627ba965d7")
+  (references (jazz.platform.types int scheme-object)))

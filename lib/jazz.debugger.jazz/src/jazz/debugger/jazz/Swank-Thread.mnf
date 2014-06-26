@@ -1,0 +1,6 @@
+(manifest jazz.debugger.jazz.Swank-Thread
+
+  (version 207012)
+  (digest "4c7e2aecc7ac1033ce951177223d043c9ff491c0")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))))

@@ -1,0 +1,15 @@
+(manifest jazz.ui.view.Toggle-Tool
+
+  (version 207012)
+  (digest "951cf6cf1118380b4299798d0ae3289af472e61f")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class memq? neq?)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.syntax.macros when)
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.Drawing (Drawing get-bounds))
+              (jazz.ui.view.Image-Tool Image-Tool (Image-Tool draw-image) (Image-Tool draw-tool))
+              (jazz.ui.view.Tool-Button (Tool-Button default-size) (Tool-Button draw-background) (Tool-Button draw-frame) (Tool-Button draw-pushed) (Tool-Button get-state) (Tool-Button up))
+              (jazz.ui.view.View (View invalidate-view) (View process-action))
+              (scheme.language.runtime.kernel eq? not)))

@@ -1,0 +1,7 @@
+(module jazz.groupware.compare.Compare-Item jazz
+  (class Compare-Item extends Object
+    (slot protected moniker getter generate)
+    (slot protected name getter generate)
+    (slot protected value getter generate)
+    (method protected override (initialize moniker name value))
+    (method protected override (print output readably))))

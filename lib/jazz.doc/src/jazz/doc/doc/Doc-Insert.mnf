@@ -1,0 +1,6 @@
+(manifest jazz.doc.doc.Doc-Insert
+
+  (version 207012)
+  (digest "f951fd9626017113c1b82cac76ca84908cbe38dc")
+  (references (jazz.doc.doc.Doc Doc)
+              (jazz.language.runtime.functional Object-Class)))

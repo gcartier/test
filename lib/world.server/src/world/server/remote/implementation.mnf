@@ -1,0 +1,8 @@
+(manifest world.server.remote.implementation
+
+  (version 207012)
+  (digest "803ab2d87a5414b1625a48fc358fb10dab2d54b0")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (jazz.system.access get-process)
+              (jazz.ui.window.platform.independant call-event execute-event)))

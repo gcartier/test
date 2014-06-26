@@ -1,0 +1,8 @@
+(manifest jazz.ui.view.Entry-Combo-Box
+
+  (version 207012)
+  (digest "4d15da7a6250ac1b2e2e55c53ca22a076636aaf3")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model))
+              (jazz.ui.view.Combo-Box Combo-Box)
+              (jazz.ui.view.Entry-Combo-Text-View Entry-Combo-Text-View)))

@@ -1,0 +1,9 @@
+(manifest jazz.ui.view.Connector-Surrogate
+
+  (version 207012)
+  (digest "60b20eaa29421550c79daf4912a7f0c6467020d5")
+  (references (jazz.designer.surrogate.Component-Surrogate (Component-Surrogate client))
+              (jazz.designer.surrogate.View-Surrogate (View-Surrogate draw) (View-Surrogate draw-selected) (View-Surrogate draw-showed-property) (View-Surrogate move-client?) (View-Surrogate redraw-border) (View-Surrogate select) (View-Surrogate size-client?))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.ui.view.Line-Surrogate Line-Surrogate)))

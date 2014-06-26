@@ -1,0 +1,13 @@
+(manifest world.interface.panel
+
+  (version 207012)
+  (digest "5920598a14874bd5e337baedf608d817fc8e7d00")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)
+              (world.interface.pane World-Pane)))

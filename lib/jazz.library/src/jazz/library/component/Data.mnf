@@ -1,0 +1,10 @@
+(manifest jazz.library.component.Data
+
+  (version 207012)
+  (digest "7ecfe5ea4f5ef2ad6880aa746079e7b740aab57d")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class member?)
+              (jazz.language.runtime.kernel listify new)
+              (jazz.language.runtime.object Object (Object copy-object) (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros unless)
+              (scheme.language.runtime.kernel car cons eq? symbol?)))

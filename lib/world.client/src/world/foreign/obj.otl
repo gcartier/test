@@ -1,0 +1,4 @@
+(module world.foreign.obj jazz
+  (import (jazz.platform.types))
+  (definition public c-test)
+  (definition public parse-obj))

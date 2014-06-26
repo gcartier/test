@@ -1,0 +1,13 @@
+(manifest jazz.ui.preference.Palette-Preferences
+
+  (version 207012)
+  (digest "7f4f4fe950f089267b8515ebba1373ae202319a9")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.preference.Figure-Preferences Figure-Preferences (Figure-Preferences apply-preferences))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

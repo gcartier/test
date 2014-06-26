@@ -1,0 +1,15 @@
+(manifest jazz.ui.view.Frame-Button
+
+  (version 207012)
+  (digest "4ed79f95bb7793d9cd432d368a569a1daf64b470")
+  (references (jazz.geometry center)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unwind-protect when)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.view mouse-down-view mouse-down?)
+              (jazz.ui.view.Drawing (Drawing draw) (Drawing get-height))
+              (jazz.ui.view.View View (View drag-up) (View invalidate-view) (View mouse-activate?) (View mouse-down) (View mouse-enter) (View mouse-leave) (View process-action) (View view-enabled?))
+              (scheme.language.runtime.kernel + eq? not)))

@@ -1,0 +1,17 @@
+(manifest jazz.designer.entry.Boolean-Entry
+
+  (version 207012)
+  (digest "850b8bf1ffe5ba776d755509f6d1c5a1911aa2aa")
+  (references (jazz.designer.entry.Property-Entry Property-Entry (Property-Entry presentation-violation) (Property-Entry tab-view) (Property-Entry~Class get-class-form) (Property-Entry~Class get-class-forms) (Property-Entry~Class set-class-form))
+              (jazz.designer.property.Property-Editor (Property-Editor get-value) (Property-Editor set-editable?) (Property-Editor set-value))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component finish) (Component locate))
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.Check-Box Check-Box (Check-Box focus-gained) (Check-Box selectable?))
+              (jazz.ui.view.View (View focus-lose) (View get-modified?) (View preferred-size) (View set-enabled?) (View set-modified?))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

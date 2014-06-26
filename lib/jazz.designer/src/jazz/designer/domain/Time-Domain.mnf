@@ -1,0 +1,6 @@
+(manifest jazz.designer.domain.Time-Domain
+
+  (version 207012)
+  (digest "87de43149b4668619bd9f8a3691bf36728ef01f1")
+  (references (jazz.designer.domain.Domain Domain)
+              (jazz.language.runtime.functional Object-Class)))

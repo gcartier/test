@@ -1,0 +1,6 @@
+(manifest yownu.run
+
+  (version 207012)
+  (digest "ce607ddf89dc95faaa41241cae02e220b699d482")
+  (references (jazz.language.runtime.kernel load-unit register-product-run)
+              (world load-base)))

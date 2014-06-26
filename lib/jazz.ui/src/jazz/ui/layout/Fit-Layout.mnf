@@ -1,0 +1,12 @@
+(manifest jazz.ui.layout.Fit-Layout
+
+  (version 207012)
+  (digest "c63ea8456c367a68ef15e15a1b1ffa7f7f3d7e4a")
+  (references (jazz.geometry rect-position)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Rect (Rect get-bottom) (Rect get-left) (Rect get-right) (Rect get-top))
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros when)
+              (jazz.literals construct-rect)
+              (jazz.ui.layout.Layout Layout (Layout layout))
+              (scheme.language.runtime.kernel +)))

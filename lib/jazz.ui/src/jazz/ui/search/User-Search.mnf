@@ -1,0 +1,8 @@
+(manifest jazz.ui.search.User-Search
+
+  (version 207012)
+  (digest "b94b6087aa77bc65dcd3f2055d8ff812adc2351f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.search.Search Search (Search get-icon))))

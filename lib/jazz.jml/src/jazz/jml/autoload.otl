@@ -1,0 +1,10 @@
+(module jazz.jml.autoload jazz
+  (export (jazz.jml.model.JML-Element (autoload JML-Element JML-Element)))
+  (export (jazz.jml.model.JML-Node (autoload JML-Node JML-Node)))
+  (export (jazz.jml.model.JML-Text (autoload JML-Text JML-Text)))
+  (export (jazz.jml.parser.JML-Parser (autoload JML-Parser JML-Parser)))
+  (export (jazz.jml.preference.JML-Preferences (autoload JML-Preferences JML-Preferences)))
+  (export (jazz.jml.renderer.JML-Renderer (autoload JML-Renderer JML-Renderer)))
+  (export (jazz.jml.transformation.JML-Transformation (autoload JML-Transformation JML-Transformation)))
+  (export (jazz.jml.xhtml.XHTML-Parser (autoload XHTML-Parser XHTML-Parser)))
+  (export (jazz.jml.xhtml.XHTML-Renderer (autoload XHTML-Renderer XHTML-Renderer))))

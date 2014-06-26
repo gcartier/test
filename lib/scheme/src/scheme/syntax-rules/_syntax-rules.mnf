@@ -1,0 +1,5 @@
+(manifest scheme.syntax-rules
+
+  (version 207012)
+  (digest "87724a2eaf7fb69e54436a57bd6fb0ac4ed2fe41")
+  (references (scheme.language.runtime.kernel + - <= = >= append caar caddr cadr car cdddr cddr cdr cons eq? identifier=? identifier? list make-syntactic-closure map not null? number->string pair? rsc-macro-transformer string-append symbol->string syntactic-closure? unwrap-syntactic-closure vector->list vector?)))

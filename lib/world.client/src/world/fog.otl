@@ -1,0 +1,11 @@
+(module world.fog jazz
+  (import (jazz.graphic))
+  (import (world.syntax (phase syntax)))
+  (definition public default-fog-density)
+  (definition public default-fog-color)
+  (definition public (get-fog?))
+  (definition public (set-fog? flag))
+  (definition public (get-fog-density))
+  (definition public (set-fog-density density))
+  (definition public (get-fog-color))
+  (definition public (set-fog-color color)))

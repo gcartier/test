@@ -1,0 +1,11 @@
+(manifest jazz.debuggee.view
+
+  (version 207012)
+  (digest "80613eeed016bcbb5b75af0102f96181cedd7dc6")
+  (references (jazz.designer.designer.Designer Designer (Designer save))
+              (jazz.designer.editor.View-Editor View-Editor)
+              (jazz.designer.view open-component)
+              (jazz.language.runtime.functional category-name class?)
+              (jazz.language.runtime.kernel class-of new unspecified)
+              (jazz.system.access get-application)
+              (jazz.ui.view new-frame)))

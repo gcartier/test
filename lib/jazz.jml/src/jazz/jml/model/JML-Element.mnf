@@ -1,0 +1,14 @@
+(manifest jazz.jml.model.JML-Element
+
+  (version 207012)
+  (digest "579dd4dc8195d927697a429c21d6a4b9d47230a4")
+  (references (jazz.jml.model.JML-Node JML-Node (JML-Node ->jml) (JML-Node get-child-location) (JML-Node initialize))
+              (jazz.jml.model.JML-Text JML-Text)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Object-Class append! every? find-if for-each-property get-rank getf memq? neq? remove! symbol->keyword symbolize-property)
+              (jazz.language.runtime.kernel is? new not-null?)
+              (jazz.language.runtime.object (Object print) print-unreadable)
+              (jazz.language.syntax.macros when)
+              (jazz.library.literals construct-box)
+              (jazz.library.utility.Box Box)
+              (scheme.language.runtime.kernel + = append cadr car cddr cdr eq? equal? for-each length list map not null? set-car! string->symbol)))

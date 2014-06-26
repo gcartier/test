@@ -1,0 +1,14 @@
+(manifest jazz.ui.skin
+
+  (version 207012)
+  (digest "df5d303f01c6d0a277a596418509dbb3f9244a80")
+  (references (jazz.jml construct-form locators-ref)
+              (jazz.jml.syntax <form>)
+              (jazz.language.syntax.macros when)
+              (jazz.system find-setting)
+              (jazz.system.access get-application get-process)
+              (jazz.ui.skin.Default-Skin Default-Skin)
+              (jazz.ui.skin.Jazz-Skin Jazz-Skin)
+              (jazz.ui.skin.Skins Skins)
+              (jazz.ui.skin.Windows-Skin Windows-Skin)
+              (scheme.language.runtime.kernel cons list list->table)))

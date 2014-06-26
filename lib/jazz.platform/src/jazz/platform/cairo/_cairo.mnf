@@ -1,0 +1,13 @@
+(manifest jazz.platform.cairo
+
+  (version 207012)
+  (digest "8cc4b86e4945e5bc6810090e719cdcbcce24974c")
+  (references (jazz.foreign.syntax c-enumeration c-external c-structure)
+              (jazz.language.runtime.functional fxfloor)
+              (jazz.language.runtime.geometry Dimension Point Rect)
+              (jazz.language.runtime.kernel f64vector f64vector-ref flonum->fixnum make-f64vector new)
+              (jazz.platform.cairo.cairo-base CAIRO_FORMAT_A1 CAIRO_FORMAT_A8 CAIRO_FORMAT_ARGB32 CAIRO_FORMAT_RGB24 cairo_font_face_t cairo_font_face_t* cairo_format_t cairo_image_surface_create cairo_scaled_font_t cairo_scaled_font_t* cairo_surface_t cairo_surface_t*)
+              (jazz.platform.cairo.cairo-freetype cairo_font_face_destroy cairo_ft_font_face_create_for_ft_face cairo_ft_font_face_create_for_pattern cairo_ft_scaled_font_lock_face cairo_ft_scaled_font_unlock_face cairo_glyph_index)
+              (jazz.platform.cairo.cairo-quartz create-cairo-image-surface)
+              (jazz.platform.types F64PTR UTF-8-string char-string double double* int scheme-object uchar* ulong void void*)
+              (scheme.language.runtime.kernel - values)))

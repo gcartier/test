@@ -1,0 +1,10 @@
+(manifest jazz.debugger.debugger.Debugger-Resource
+
+  (version 207012)
+  (digest "caaf6e34fdd3d3df9116a8c893b4072a1aabbf89")
+  (references (jazz.debugger unregister-debugger-resource)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel not)))

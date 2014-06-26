@@ -1,0 +1,9 @@
+(module jazz.ui.layout.Flow-Layout jazz
+  (import (jazz.geometry))
+  (import (jazz.ui))
+  (class Flow-Layout extends Layout
+    (property insets <Rect> accessors generate)
+    (property justification accessors generate)
+    (property padding <fx> accessors generate)
+    (property fill? <bool> accessors generate)
+    (method protected override (layout figures width height . rest))))

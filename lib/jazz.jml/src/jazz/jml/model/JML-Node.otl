@@ -1,0 +1,16 @@
+(module jazz.jml.model.JML-Node jazz
+  (import (jazz.jml))
+  (class JML-Node extends Object
+    (slot parent)
+    (method protected override (initialize parent))
+    (method public final (get-parent))
+    (method public final (set-parent value))
+    (method public final (append-parent value))
+    (method public final (set-parent-value value))
+    (method public final (get-toplevel))
+    (method public final (for-each-parent proc <procedure>))
+    (method public final (for-each-ancestor proc <procedure>))
+    (method public final (get-location))
+    (method public virtual (get-child-location child))
+    (method public virtual (->jml))
+    (method public final (pretty-print printer (base: base (unspecified)) (indent-first?: indent-first? (unspecified)) (space-tag?: space-tag? (unspecified)) (space-name?: space-name? (unspecified))))))

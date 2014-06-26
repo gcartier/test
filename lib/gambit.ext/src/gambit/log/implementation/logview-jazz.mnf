@@ -1,0 +1,10 @@
+(manifest gambit.log.implementation.logview-jazz
+
+  (version 207012)
+  (digest "a2f6c98c20386282e39cd9c0258329935241a932")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.language.runtime.kernel make-parameter new)
+              (jazz.platform.types char-string int void)
+              (scheme.language.runtime.kernel + - = quotient)))

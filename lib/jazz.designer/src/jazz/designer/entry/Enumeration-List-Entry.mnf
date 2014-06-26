@@ -1,0 +1,6 @@
+(manifest jazz.designer.entry.Enumeration-List-Entry
+
+  (version 207012)
+  (digest "205c4690ad7bd0fb5c08b5ff2d5b26b52c08bc11")
+  (references (jazz.designer.entry.Property-Entry Property-Entry)
+              (jazz.language.runtime.functional Object-Class)))

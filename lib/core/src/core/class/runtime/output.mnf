@@ -1,0 +1,5 @@
+(manifest core.class.runtime.output
+
+  (version 207012)
+  (digest "cbcc73a47f2112590bf285a0ce1fc3855e3837a5")
+  (references))

@@ -1,0 +1,11 @@
+(module jazz.platform.cairo.cairo-freetype jazz
+  (import (jazz.foreign))
+  (import (jazz.platform.types))
+  (import (jazz.platform.freetype))
+  (import (jazz.platform.cairo.cairo-base))
+  (definition public cairo_ft_scaled_font_lock_face)
+  (definition public cairo_ft_scaled_font_unlock_face)
+  (definition package cairo_ft_font_face_create_for_ft_face)
+  (definition package cairo_ft_font_face_create_for_pattern)
+  (definition package (cairo_glyph_index font char))
+  (definition public cairo_font_face_destroy))

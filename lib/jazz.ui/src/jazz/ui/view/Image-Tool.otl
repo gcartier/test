@@ -1,0 +1,20 @@
+(module jazz.ui.view.Image-Tool jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Image-Tool extends Tool-Button
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property portfolio accessors generate)
+    (property resource accessors generate)
+    (property disabled-resource accessors generate)
+    (slot image)
+    (slot disabled-image)
+    (method protected override (set-background color))
+    (method protected override (draw-tool surface context))
+    (method protected final (draw-image surface context h v)))
+  (class Image-Tool-Descriptor extends Layout-View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

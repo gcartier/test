@@ -1,0 +1,6 @@
+(module jazz.schema.data.Data-Primary-Key jazz
+  (import (jazz.schema))
+  (class Data-Primary-Key extends Data-Object
+    (method protected final (print-schema output))
+    (method protected override (get-kind))
+    (method protected override (property-names))))

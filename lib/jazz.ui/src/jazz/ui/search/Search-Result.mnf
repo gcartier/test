@@ -1,0 +1,12 @@
+(manifest jazz.ui.search.Search-Result
+
+  (version 207012)
+  (digest "d152beaf642582df657cc60aaccec005f6c56d11")
+  (references (irregex irregex-match irregex-match-substring)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) (Sequence sequence-element) capitalize cardinality downcase element empty-string? lower-case? search-context-regexp upcase upper-case?)
+              (jazz.language.runtime.geometry Range$Cell$)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object object-capitalize) (Object object-downcase) (Object object-lower-case?) (Object object-upcase) (Object object-upper-case?))
+              (jazz.language.syntax.macros when while)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel + - = >= apply car cdr char->integer cons eq? eqv? not pair? reverse string-append string-length string-ref substring)))

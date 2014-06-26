@@ -1,0 +1,17 @@
+(module jazz.debuggee.Debuggee-Stop jazz
+  (import (jazz.debuggee))
+  (import (jazz.debuggee.stub))
+  (class Debuggee-Stop extends Object
+    (slot thread accessors generate)
+    (slot kind accessors generate)
+    (slot reason accessors generate)
+    (slot detail accessors generate)
+    (slot location accessors generate)
+    (slot exception accessors generate)
+    (slot continuation accessors generate)
+    (slot restarts accessors generate)
+    (slot stack accessors generate)
+    (slot stepper accessors generate)
+    (method protected override (initialize thread kind reason detail exc continuation restarts locat stepper))
+    (method public final (get-id))
+    (method public final (get-frames))))

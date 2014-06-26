@@ -1,0 +1,5 @@
+(manifest gambit.product
+
+  (version 207012)
+  (digest "b6e9ea7843ad1b9a61ff28128c0eb9d65f5f0d0b")
+  (references))

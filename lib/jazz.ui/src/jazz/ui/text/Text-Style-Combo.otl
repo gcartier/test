@@ -1,0 +1,7 @@
+(module jazz.ui.text.Text-Style-Combo jazz
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Text-Style-Combo extends Text-Combo
+    (method protected override (client-update))
+    (method protected override (selection-change))
+    (method protected override (combo-choice))))

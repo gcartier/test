@@ -1,0 +1,7 @@
+(manifest jazz.catalog.entry.Code-Location
+
+  (version 207012)
+  (digest "433b139930b024a7b9fe1aca2394670e4c7eb937")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)))

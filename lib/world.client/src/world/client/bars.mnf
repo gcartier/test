@@ -1,0 +1,14 @@
+(manifest world.client.bars
+
+  (version 207012)
+  (digest "d51d3af9aa83ddc92af5223814ec53039ea78587")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.literals construct-action)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)
+              (world.interface.actions World-Action-Button World-Actionbar (World-Actionbar~Class get-class-form) (World-Actionbar~Class get-class-forms) (World-Actionbar~Class set-class-form) World-Ongoing-Button World-Parameter-Button)))

@@ -1,0 +1,14 @@
+(module jazz.validate.support.Test-Architecture jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.validate))
+  (import (jazz.designer))
+  (class Test-Architecture extends Component
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property author accessors generate))
+  (class Test-Architecture-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-addable-default-trait component))
+    (method protected override (component-get-categorized-addable-classes component))))

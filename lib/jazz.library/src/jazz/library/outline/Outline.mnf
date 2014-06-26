@@ -1,0 +1,10 @@
+(manifest jazz.library.outline.Outline
+
+  (version 207012)
+  (digest "e96dc29ef31472791a4a8e6f8d212f8aca540087")
+  (references (jazz.language.runtime.functional Object-Class (Sequence sequence-element) first)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.increase decrease!)
+              (jazz.language.syntax.macros while)
+              (scheme.language.runtime.kernel + - < > not values)))

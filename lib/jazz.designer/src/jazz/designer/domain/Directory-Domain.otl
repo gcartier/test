@@ -1,0 +1,5 @@
+(module jazz.designer.domain.Directory-Domain jazz
+  (import (jazz.designer))
+  (class Directory-Domain extends Domain
+    (method protected override (present-value value))
+    (method protected override (setup-entry view client))))

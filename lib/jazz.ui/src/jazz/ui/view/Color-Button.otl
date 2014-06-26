@@ -1,0 +1,8 @@
+(module jazz.ui.view.Color-Button jazz
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (class Color-Button extends Push-Icon
+    (property color accessors generate)
+    (method protected override (action-properties))
+    (method protected override (draw-tool surface context))))

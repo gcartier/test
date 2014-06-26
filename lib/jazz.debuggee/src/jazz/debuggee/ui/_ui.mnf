@@ -1,0 +1,8 @@
+(manifest jazz.debuggee.ui
+
+  (version 207012)
+  (digest "9e8b241ee94c1d149ce26bc1f3d9760da0681103")
+  (references (jazz.debuggee.ui.UI-Debuggee UI-Debuggee)
+              (jazz.debuggee.ui.stub UI-Debuggee-Local-Proxy)
+              (jazz.jrm get-local-register)
+              (jazz.language.runtime.kernel new)))

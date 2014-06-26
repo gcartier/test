@@ -1,0 +1,17 @@
+(module jazz.library.reporter.Log-Reporter jazz
+  (import (jazz.library))
+  (class Log-Reporter extends Object implements Reporter
+    (slot log)
+    (method protected override (initialize log))
+    (method protected override (section-title title))
+    (method protected override (set-message msg))
+    (method protected override (user-message fmt . rest))
+    (method protected override (set-range range))
+    (method protected override (set-pos pos))
+    (method protected override (delta-pos increment))
+    (method protected override (set-step increment))
+    (method protected override (step-it))
+    (method protected override (set-done))
+    (method protected override (disable-cancel))
+    (method protected override (cancel-requested?))
+    (method protected override (test-cancelled))))

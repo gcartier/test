@@ -1,0 +1,15 @@
+(manifest jazz.ui.print.Print-Job
+
+  (version 207012)
+  (digest "9fa0b240dd811eadd0d5dee9073b4ac6bb9430e9")
+  (references (jazz.geometry PI PI/2 rect-height rect-width)
+              (jazz.graphic default-resolution)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) element fxceiling naturals)
+              (jazz.language.runtime.kernel is? unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.document.Document Document (Document get-document-controller))
+              (scheme.language.runtime.kernel * + - / > for-each length list min not)))

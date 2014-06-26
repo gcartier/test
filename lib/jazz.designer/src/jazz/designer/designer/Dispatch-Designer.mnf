@@ -1,0 +1,6 @@
+(manifest jazz.designer.designer.Dispatch-Designer
+
+  (version 207012)
+  (digest "95de7e87ec6ef2372a9a5c1655a894dac407ce78")
+  (references (jazz.designer.designer.Designer Designer)
+              (jazz.language.runtime.functional Object-Class)))

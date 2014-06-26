@@ -1,0 +1,11 @@
+(manifest world.client.remote.implementation
+
+  (version 207012)
+  (digest "a1cdfc86c70f9161062877b3222b1404d1c1131f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (jazz.system.access get-application)
+              (jazz.ui.window.platform.independant execute-event)
+              (world *current-world*)
+              (world.live World (World server-test) (World server-tick) (World world-enter) (World world-exit) (World world-update))
+              (world.syntax current-world)))

@@ -1,0 +1,5 @@
+(manifest jazz.system.access
+
+  (version 207012)
+  (digest "872c1e556c0857519c6ac65d6afdf4aa32af2aba")
+  (references (jazz.language.syntax.macros when)))

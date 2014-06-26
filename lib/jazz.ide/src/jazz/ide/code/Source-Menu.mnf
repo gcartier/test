@@ -1,0 +1,18 @@
+(manifest jazz.ide.code.Source-Menu
+
+  (version 207012)
+  (digest "019abcee1bc048ede3afb9c466c9ef81a8a899e0")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.literals construct-action)
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Menu Menu (Menu~Class get-class-form) (Menu~Class get-class-forms) (Menu~Class set-class-form))
+              (jazz.ui.menu.Separator-Item Separator-Item)
+              (jazz.ui.text.Column-Menu Column-Menu)
+              (jazz.ui.text.Format-Menu Format-Menu)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

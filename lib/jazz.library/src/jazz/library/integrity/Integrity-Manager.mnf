@@ -1,0 +1,12 @@
+(manifest jazz.library.integrity.Integrity-Manager
+
+  (version 207012)
+  (digest "73c85b64323bf58c2b23bfe1a2a6c441eb754d77")
+  (references (jazz.language.runtime.format format format-cardinality format-plural)
+              (jazz.language.runtime.functional List-Factory Object-Class concatenate)
+              (jazz.language.runtime.kernel continuation-capture continuation-return field-name is? new unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.integrity.Integrity-Violation Integrity-Violation)
+              (scheme.language.runtime.kernel apply car cdr cons eq? for-each length list null?)))

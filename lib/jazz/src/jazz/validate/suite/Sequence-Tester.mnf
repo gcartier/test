@@ -1,0 +1,13 @@
+(manifest jazz.validate.suite.Sequence-Tester
+
+  (version 207012)
+  (digest "5fb8c68a12610169e3541ff111aa560870eaed49")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class String accumulate collect-if count count-if every? fill! find find-if find-in identity insert! join mismatch numeric? prefix? replace! replace-subseq! replace-subseq!string search some? split string-find subseq substitute upper-case?)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel cadr car cons equal? even? list list->table map not odd? string-copy)
+              (scheme.syntax declaration-path)))

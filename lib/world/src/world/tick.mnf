@@ -1,0 +1,6 @@
+(manifest world.tick
+
+  (version 207012)
+  (digest "da5aa3e7adc3c52e3be62aadd9fc018d87c151a1")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))))

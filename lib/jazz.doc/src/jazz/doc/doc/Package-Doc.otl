@@ -1,0 +1,11 @@
+(module jazz.doc.doc.Package-Doc jazz
+  (import (jazz.doc))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Package-Doc extends Element-Doc
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Package-Doc-Descriptor extends Element-Doc-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

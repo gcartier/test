@@ -1,0 +1,7 @@
+(module world.sphere jazz
+  (import (world.entity))
+  (import (world.geometry))
+  (import (world.syntax (phase syntax)))
+  (class Sphere extends Entity
+    (method protected override (prepare rest))
+    (method protected override (inside? r vert))))

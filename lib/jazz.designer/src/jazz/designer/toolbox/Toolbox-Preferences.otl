@@ -1,0 +1,11 @@
+(module jazz.designer.toolbox.Toolbox-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Toolbox-Preferences extends Docked-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property toolbox accessors generate)
+    (method protected override (create-host class))))

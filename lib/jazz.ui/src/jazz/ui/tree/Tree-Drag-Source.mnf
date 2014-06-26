@@ -1,0 +1,10 @@
+(manifest jazz.ui.tree.Tree-Drag-Source
+
+  (version 207012)
+  (digest "ca49daf377bd0ba7de919fca22ca3bd7f5f8d36b")
+  (references (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.runtime.geometry Cell)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.ui.dnd.Drag-Source Drag-Source (Drag-Source initialize) (Drag-Source view))
+              (scheme.language.runtime.kernel apply)))

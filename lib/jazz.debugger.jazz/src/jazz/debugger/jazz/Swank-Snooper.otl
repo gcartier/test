@@ -1,0 +1,5 @@
+(module jazz.debugger.jazz.Swank-Snooper jazz
+  (import (jazz.io))
+  (class Swank-Snooper extends Object
+    (method protected final (start feedback))
+    (method protected final (stop feedback))))

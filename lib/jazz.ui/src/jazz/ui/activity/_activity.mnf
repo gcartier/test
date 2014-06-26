@@ -1,0 +1,11 @@
+(manifest jazz.ui.activity
+
+  (version 207012)
+  (digest "3aecd539879fd53ffdd3e04046168276f06f9eee")
+  (references (jazz.language.runtime.geometry Point)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unless)
+              (jazz.system.access get-toplevel)
+              (jazz.ui.activity.Activity-Manager Activity-Manager)
+              (jazz.ui.window get-desktop)
+              (scheme.language.runtime.kernel -)))

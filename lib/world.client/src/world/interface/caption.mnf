@@ -1,0 +1,18 @@
+(manifest world.interface.caption
+
+  (version 207012)
+  (digest "62f000027b3aed2d1b08480676982c7c833a4ba5")
+  (references (jazz.geometry center in-rect?)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.font.Font Font)
+              (jazz.graphic.literals construct-color construct-font)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.component.Component (Component find-ascendant))
+              (jazz.ui.layout.Figure (Figure size))
+              (jazz.ui.view.Drawing (Drawing draw) (Drawing get-height) (Drawing get-width))
+              (jazz.ui.view.View View (View drag-move) (View drag-up) (View mouse-down) (View mouse-up) (View title))
+              (scheme.language.runtime.kernel -)
+              (world.interface.pane World-Pane)))

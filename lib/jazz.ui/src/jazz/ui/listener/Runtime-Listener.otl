@@ -1,0 +1,10 @@
+(module jazz.ui.listener.Runtime-Listener jazz
+  (import (jazz.ui))
+  (interface Runtime-Listener extends Listener
+    (method public virtual (on-thread-added evt))
+    (method public virtual (on-thread-removed evt))
+    (method public virtual (on-gc-marking evt))
+    (method public virtual (on-gc-sweeping evt))
+    (method public virtual (on-gc-completed evt))
+    (method public virtual (on-zone-expanded evt))
+    (method public virtual (on-zone-shrinked evt))))

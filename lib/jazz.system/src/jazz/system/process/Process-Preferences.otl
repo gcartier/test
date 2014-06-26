@@ -1,0 +1,21 @@
+(module jazz.system.process.Process-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.system.process))
+  (import (jazz.ui))
+  (class Process-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property active-context accessors generate)
+    (property current-directory accessors generate)
+    (property protocols accessors generate))
+  (class Process-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Protocols-Domain extends List-Domain
+    (method protected override (finish rest)))
+  (class Protocol-Domain extends Value-Domain
+    (method protected override (present-value model))))

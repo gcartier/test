@@ -1,0 +1,15 @@
+(module jazz.library.moniker.Directory-Group jazz
+  (import (jazz.io))
+  (class Directory-Group-Class extends Directory-Class
+    (method protected override (get-protocol)))
+  (class Directory-Group metaclass Directory-Group-Class extends Directory
+    (method protected override (validate-components lst))
+    (method protected override (print output readably))
+    (method protected override (present))
+    (method protected override (get-name))
+    (method protected override (get-directory))
+    (method protected override (get-content . rest))
+    (method protected override (get-modification-time))
+    (method protected override (create))
+    (method protected override (delete-directory (overwrite-read-only?: overwrite-read-only? (unspecified)) (feedback: feedback (unspecified))))
+    (method protected override (iterate-directory proc (full?: full? (unspecified)) (files?: files? (unspecified)) (directories?: directories? (unspecified)) (recursive?: recursive? (unspecified)) (ignored-toplevel-dirnames: ignored-toplevel-dirnames (unspecified)) (ignored-dirnames: ignored-dirnames (unspecified))))))

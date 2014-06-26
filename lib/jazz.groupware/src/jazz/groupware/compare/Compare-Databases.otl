@@ -1,0 +1,9 @@
+(module jazz.groupware.compare.Compare-Databases jazz
+  (import (jazz.groupware))
+  (import (jazz.jml))
+  (class Compare-Databases extends Compare-Forms
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method meta protected override (host-title))))

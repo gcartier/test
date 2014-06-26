@@ -1,0 +1,9 @@
+(manifest jazz.jml.model.JML-Text
+
+  (version 207012)
+  (digest "1cc66b3a63fc4cc40d986923c1b91a5e60236d13")
+  (references (jazz.jml.model.JML-Node JML-Node (JML-Node ->jml) (JML-Node initialize))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class find-in)
+              (jazz.language.runtime.object (Object print) print-unreadable)
+              (scheme.language.runtime.kernel not)))

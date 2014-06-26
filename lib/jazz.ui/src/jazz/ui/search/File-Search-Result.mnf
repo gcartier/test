@@ -1,0 +1,15 @@
+(manifest jazz.ui.search.File-Search-Result
+
+  (version 207012)
+  (digest "68d21eab0e8e2e7c3e9e65f30ff965f11d4e20d1")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Cell Range$Cell$)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.language.syntax.macros when)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.literals construct-cell)
+              (jazz.system.access get-application)
+              (jazz.ui.search.Search-Result Search-Result (Search-Result edit) (Search-Result get-icon) (Search-Result initialize) (Search-Result location-sort-value) (Search-Result present-location) (Search-Result present-name) (Search-Result present-type) (Search-Result search))
+              (jazz.ui.text.Text-View Text-View (Text-View select-expr) (Text-View set-selection))
+              (scheme.language.runtime.kernel cons values)))

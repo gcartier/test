@@ -1,0 +1,12 @@
+(module jazz.designer.toolbox.Toolbox-Form jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Toolbox-Form extends Toolbox-Model
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (method public final (resolve-form))
+    (method protected override (get-class)))
+  (class Toolbox-Form-Descriptor extends Toolbox-Model-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

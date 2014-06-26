@@ -1,0 +1,6 @@
+(manifest jazz.debugger.jazz.Swank-Restart
+
+  (version 207012)
+  (digest "41326d8cbae40f4d825932f4c57244d23c80012f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))))

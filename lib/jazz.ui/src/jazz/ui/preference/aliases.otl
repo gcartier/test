@@ -1,0 +1,31 @@
+(module jazz.ui.preference.aliases jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Aliases-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Aliases-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-categorized-addable-classes component))
+    (method protected override (component-get-addable-details component)))
+  (class Alias-Configuration extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-domain property))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property alias accessors generate)
+    (property directory accessors generate))
+  (class Alias-Configuration-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-set-presentation component designer presentation))))

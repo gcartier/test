@@ -1,0 +1,6 @@
+(manifest jazz.ui.command.Highlight-Mode-Actions
+
+  (version 207012)
+  (digest "243c8be16e6a95a4cdc54df17f59d88aebf46c92")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.command.Search-Mode-Actions Search-Mode-Actions)))

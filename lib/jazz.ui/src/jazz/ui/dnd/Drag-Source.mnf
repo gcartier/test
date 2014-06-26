@@ -1,0 +1,7 @@
+(manifest jazz.ui.dnd.Drag-Source
+
+  (version 207012)
+  (digest "2762a7b74d47ab08f59f52faaabbc9ed7de17409")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

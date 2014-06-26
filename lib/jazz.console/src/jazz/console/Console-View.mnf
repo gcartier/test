@@ -1,0 +1,13 @@
+(manifest jazz.console.Console-View
+
+  (version 207012)
+  (digest "5c9bb85ac7eb1d820b33411c6665b75f5332f7c6")
+  (references (jazz.console.Console-Text-View Console-Text-View)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component locate))
+              (jazz.ui.view.Container (Base-Container~Class get-class-form) (Base-Container~Class get-class-forms) (Base-Container~Class set-class-form))
+              (jazz.ui.view.Scroller-View Scroller-View)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

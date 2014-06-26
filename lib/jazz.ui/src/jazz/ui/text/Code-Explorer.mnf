@@ -1,0 +1,10 @@
+(manifest jazz.ui.text.Code-Explorer
+
+  (version 207012)
+  (digest "075ce159ea8041209dda250d0ea97e2c7a9554ec")
+  (references (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Object-Class some?)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.syntax.increase decrease!)
+              (jazz.language.syntax.macros when while)
+              (jazz.ui.text.Text-Explorer Text-Explorer (Text-Explorer backward-constituent) (Text-Explorer forward-constituent) (Text-Explorer get-mark) (Text-Explorer kind))
+              (scheme.language.runtime.kernel >= car cddr cdr cons pair?)))

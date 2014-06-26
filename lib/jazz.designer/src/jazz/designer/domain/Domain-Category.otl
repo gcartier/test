@@ -1,0 +1,7 @@
+(module jazz.designer.domain.Domain-Category jazz
+  (class Domain-Category extends Object
+    (slot name getter generate)
+    (slot rank getter generate)
+    (slot image getter generate)
+    (method protected override (initialize name rank image))
+    (method protected override (print output readably))))

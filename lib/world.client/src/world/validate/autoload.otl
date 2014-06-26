@@ -1,0 +1,2 @@
+(module world.validate.autoload jazz
+  (export (world.validate.suite.Geometry-Tester (autoload Geometry-Tester Geometry-Tester))))

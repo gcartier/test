@@ -1,0 +1,11 @@
+(module jazz.platform.glfw jazz
+  (import (jazz.foreign))
+  (import (jazz.platform.types))
+  (definition public getpid)
+  (definition public (current-process-id))
+  (definition protected (bell-internal))
+  (definition public (milliseconds-since-startup))
+  (definition public (milliseconds-at-last-input))
+  (definition public (system-message text . rest))
+  (definition public (get-temporary-directory))
+  (definition public (get-temporary-file . rest)))

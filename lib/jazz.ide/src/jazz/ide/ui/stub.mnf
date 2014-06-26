@@ -1,0 +1,12 @@
+(manifest jazz.ide.ui.stub
+
+  (version 207012)
+  (digest "c7d2bb33705a50cf395a829ef7757c2f2ac60012")
+  (references (jazz.jrm exec-remote)
+              (jazz.jrm.remote.Local-Proxy Local-Proxy (Local-Proxy object))
+              (jazz.jrm.remote.Remotable-Stub Remotable-Stub)
+              (jazz.jrm.remote.Remote-Proxy Remote-Proxy)
+              (jazz.jrm.remote.Stub-Interface Stub-Interface (Stub-Interface local-class) (Stub-Interface remote-class))
+              (jazz.jrm.syntax remotable-stub)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)))

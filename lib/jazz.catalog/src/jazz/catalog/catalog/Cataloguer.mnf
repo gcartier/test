@@ -1,0 +1,14 @@
+(manifest jazz.catalog.catalog.Cataloguer
+
+  (version 207012)
+  (digest "cb35337d66504ca184fdec23722d92e769637a3f")
+  (references (jazz.catalog.entry.Category-Entry Category-Entry)
+              (jazz.catalog.entry.Constructor-Entry Constructor-Entry)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) (List-Factory put-sequence) Object-Class append! collect-if is-not? memq? remove! table-keys)
+              (jazz.language.runtime.kernel continuation-capture continuation-return is? new not-null?)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.macros unless when)
+              (jazz.ui.view message-box)
+              (scheme.language.runtime.kernel = car eq? equal? for-each length list make-table table-ref table-set!)))

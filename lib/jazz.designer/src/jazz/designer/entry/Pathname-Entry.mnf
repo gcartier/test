@@ -1,0 +1,16 @@
+(manifest jazz.designer.entry.Pathname-Entry
+
+  (version 207012)
+  (digest "48fcad8ae991e3301e1e18986effd8b9cc1218e7")
+  (references (jazz.designer.entry.Property-Entry Property-Entry (Property-Entry tab-view) (Property-Entry~Class get-class-form) (Property-Entry~Class get-class-forms) (Property-Entry~Class set-class-form))
+              (jazz.designer.property.Property-Editor (Property-Editor get-value) (Property-Editor set-editable?) (Property-Editor set-value))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component locate))
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.library.literals construct-event-handler)
+              (jazz.ui.view.View (View get-modified?) (View set-modified?))
+              (jazz.ui.widget.Moniker-Widget Moniker-Widget)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

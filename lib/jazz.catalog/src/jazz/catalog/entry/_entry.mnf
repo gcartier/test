@@ -1,0 +1,14 @@
+(manifest jazz.catalog.entry
+
+  (version 207012)
+  (digest "1dae54a3d751bf90e974d0e5e9504ccbd736d8a5")
+  (references (jazz.catalog.entry.Indexed-Entry Indexed-Entry (Indexed-Entry get-start))
+              (jazz.editor.lisp.catalog.Lisp-Entry Lisp-Entry (Lisp-Entry get-kind))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional ->string collect-if read-string-element remove-false)
+              (jazz.language.runtime.kernel enqueue is? listify new-queue not-null? queue-list)
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel - < >= assv car cdr cons eq? for-each list map not)))

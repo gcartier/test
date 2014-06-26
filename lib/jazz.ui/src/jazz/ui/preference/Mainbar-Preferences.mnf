@@ -1,0 +1,11 @@
+(manifest jazz.ui.preference.Mainbar-Preferences
+
+  (version 207012)
+  (digest "913c291fb01f7e7816ed21bd4c012945c71284e3")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.preference.Splitter-Preferences Splitter-Preferences (Splitter-Preferences~Class get-class-form) (Splitter-Preferences~Class get-class-forms) (Splitter-Preferences~Class set-class-form))
+              (jazz.ui.preference.Toolbar-Preferences Toolbar-Preferences)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,13 @@
+(manifest jazz.ui.search.Reference-Search-Result
+
+  (version 207012)
+  (digest "f27ff85ce210424727e9aa998b48522afaacaaf9")
+  (references (jazz.language.runtime.functional ->search-set Object-Class sort)
+              (jazz.language.runtime.kernel class-of dispatch new)
+              (jazz.language.syntax.macros ~)
+              (jazz.system.access get-application)
+              (jazz.ui.search make-reference-search-resultset)
+              (jazz.ui.search.Definition-Search-Result Definition-Search-Result (Definition-Search-Result edit) (Definition-Search-Result entry))
+              (jazz.ui.search.Projects-Search Projects-Search)
+              (jazz.ui.search.Search-Result (Search-Result drill-down))
+              (scheme.language.runtime.kernel apply string<?)))

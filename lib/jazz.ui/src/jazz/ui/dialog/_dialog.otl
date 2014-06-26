@@ -1,0 +1,9 @@
+(module jazz.ui.dialog jazz
+  (export (jazz.ui.dialog.platform.glfw))
+  (import (jazz.system))
+  (definition public (current-modal))
+  (definition public (set-current-modal dialog))
+  (definition public (in-modal?))
+  (definition public (current-window))
+  (definition public (end-modal-dialog result))
+  (definition public (close-modal-dialog (action (unspecified)))))

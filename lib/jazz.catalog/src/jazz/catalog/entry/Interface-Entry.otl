@@ -1,0 +1,7 @@
+(module jazz.catalog.entry.Interface-Entry jazz
+  (import (jazz.catalog))
+  (import (jazz.library))
+  (class Interface-Entry extends Category-Entry
+    (method protected override (print-catalog level output))
+    (method protected override (get-image))
+    (method protected override (insert-ascendants tree father))))

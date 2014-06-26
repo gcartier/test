@@ -1,0 +1,11 @@
+(module world.server.remote.implementation jazz
+  (import (jazz.system))
+  (import (jazz.ui.window))
+  (class World-Remote-Server extends Object
+    (method public final (register-client client))
+    (method public final (unregister-client client))
+    (method public final (enter-world client player-name player-avatar))
+    (method public final (exit-world client player-name))
+    (method public final (update-client client))
+    (method public final (client-tick client commands elapse))
+    (method public final (client-test client argument))))

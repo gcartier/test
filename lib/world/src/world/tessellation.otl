@@ -1,0 +1,17 @@
+(module world.tessellation jazz
+  (import (world))
+  (import (world.autoload))
+  (import (world.geometry))
+  (import (world.syntax (phase syntax)))
+  (import (world.texture))
+  (import (world.procedural))
+  (native vector-shrink!)
+  (native append-vectors)
+  (definition public (ico-sphere-generator-old N <fx> uv <f32vector>))
+  (class PlaneT extends Object
+    (slot N <fx> getter generate)
+    (slot radius <fx> getter generate)
+    (slot vertices <vector> getter generate)
+    (slot voxels <vector> getter generate)
+    (method protected override (initialize N radius vertices voxels)))
+  (definition public (ico-sphere-generator N <fx> uv <f32vector>)))

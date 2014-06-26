@@ -1,0 +1,6 @@
+(manifest jazz.debugger.debugged.Debugged-Continuation-Stop
+
+  (version 207012)
+  (digest "e366bcd674fe8c4810002596588d4f7457811d0c")
+  (references (jazz.debugger.debugged.Debugged-Stop Debugged-Stop (Debugged-Stop get-restarts))
+              (jazz.language.runtime.functional Object-Class)))

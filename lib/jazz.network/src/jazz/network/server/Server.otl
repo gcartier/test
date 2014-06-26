@@ -1,0 +1,18 @@
+(module jazz.network.server.Server jazz
+  (import (jazz.library))
+  (import (jazz.network))
+  (import (jazz.version))
+  (interface Server
+    (method public virtual (get-state))
+    (method public virtual (start))
+    (method public virtual (stop))
+    (method public virtual (restart))
+    (method public virtual (wait-started (error?: error? (unspecified))))
+    (method public virtual (wait-stopped (error?: error? (unspecified))))
+    (method public virtual (server-name))
+    (method public virtual (server-title))
+    (method public virtual (server-version))
+    (method public virtual (server-host))
+    (method public virtual (server-service))
+    (method public virtual (server-hits))
+    (method public virtual (server-debug?))))

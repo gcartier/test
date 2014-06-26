@@ -1,0 +1,5 @@
+(manifest jazz.ui.tree
+
+  (version 207012)
+  (digest "db6f737e91538f9d5d329b5203d70ff4e28997dc")
+  (references (jazz.ui.tree.Tree-Label Tree-Label)))

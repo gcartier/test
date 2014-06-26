@@ -1,0 +1,13 @@
+(manifest jazz.ui.view.Action-Icon
+
+  (version 207012)
+  (digest "bdcfc9402cfece5ef5629daaa800255a8f386a5c")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.Push-Tool Push-Tool)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,22 @@
+(module jazz.ui.text.Entry-Text-View jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Entry-Text-View extends Plain-Text-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property editor accessors generate)
+    (method protected override (new-model))
+    (method protected override (focus-gained))
+    (method protected override (focus-lose))
+    (method protected override (up-arrow-move extend? scroll?))
+    (method protected override (down-arrow-move extend? scroll?))
+    (method protected override (tab-press evt))
+    (method protected override (return-press evt))
+    (method protected override (get-context-menu)))
+  (class Entry-Text-View-Descriptor extends Text-View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

@@ -1,0 +1,6 @@
+(manifest jazz.library.utility.Period
+
+  (version 207012)
+  (digest "a01cf5284f03d30ed0f5935c1ee626a4d31d8eca")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Range)))

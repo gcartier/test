@@ -1,0 +1,23 @@
+(module jazz.ui.preference.Docked-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (import (jazz.designer))
+  (class Docked-Preferences extends Figure-Preferences
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property identifier accessors generate)
+    (property model accessors generate)
+    (property caption? accessors generate)
+    (property zoomable? accessors generate)
+    (method protected override (apply-preferences (parent (unspecified))))
+    (method protected virtual (create-host class))
+    (method protected virtual (setup-host host)))
+  (class Docked-Preferences-Descriptor extends Figure-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-component-image component))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-set-presentation component designer title))))

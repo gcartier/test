@@ -1,0 +1,6 @@
+(manifest jazz.ui.skin.Statusbar-Look
+
+  (version 207012)
+  (digest "9d283760b8c215a0c8d1e87b725dcb20734ef7e6")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Toolbar-Look Toolbar-Look)))

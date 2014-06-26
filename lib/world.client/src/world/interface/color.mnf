@@ -1,0 +1,15 @@
+(manifest world.interface.color
+
+  (version 207012)
+  (digest "a7a8e47e80f60768e2cdc64fbed114dd20503110")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component find-ascendant))
+              (jazz.ui.view.Color-Choose Color-Choose (Color-Choose~Class get-class-form) (Color-Choose~Class get-class-forms) (Color-Choose~Class set-class-form))
+              (jazz.ui.view.View (View drag-move) (View drag-up) (View mouse-down))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)
+              (world.interface.pane World-Pane)))

@@ -1,0 +1,9 @@
+(module world.procedural jazz
+  (import (jazz.geometry))
+  (class Perlin-Generator extends Object
+    (property detail-level <fl> accessors generate)
+    (property clamp-height <fl> accessors generate)
+    (property gradient-table <f64vector>)
+    (method protected override (initialize detail-level clamp-height))
+    (method protected final (raw-value x <fl> y <fl>) <fl>)
+    (method public final (get-value x <fl> y <fl>) <fl>)))

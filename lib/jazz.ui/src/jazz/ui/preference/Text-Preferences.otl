@@ -1,0 +1,22 @@
+(module jazz.ui.preference.Text-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Text-Preferences extends Document-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property background accessors generate)
+    (property base-format accessors generate)
+    (property default-format accessors generate)
+    (property base-style accessors generate)
+    (property default-style accessors generate)
+    (property pulse-caret? accessors generate)
+    (property auto-complete? accessors generate)
+    (property auto-complete-minimum accessors generate))
+  (class Text-Preferences-Descriptor extends Document-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

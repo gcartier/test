@@ -1,0 +1,19 @@
+(module jazz.designer.toolbox.Toolbox-Model jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Toolbox-Model extends Toolbox-Addable
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property unit accessors generate)
+    (property model accessors generate)
+    (method protected override (copy-object deep?))
+    (method protected override (get-class))
+    (method public final (get-reference))
+    (method protected override (print output readably)))
+  (class Toolbox-Model-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-set-presentation component designer presentation))))

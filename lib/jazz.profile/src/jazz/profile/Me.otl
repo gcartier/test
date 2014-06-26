@@ -1,0 +1,5 @@
+(module jazz.profile.Me jazz
+  (import (jazz.library))
+  (import (jazz.profile))
+  (import (jazz.system))
+  (class Me extends Profile))

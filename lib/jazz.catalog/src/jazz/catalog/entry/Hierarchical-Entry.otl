@@ -1,0 +1,10 @@
+(module jazz.catalog.entry.Hierarchical-Entry jazz
+  (import (jazz.catalog))
+  (class Hierarchical-Entry extends Indexed-Entry
+    (slot modifiers)
+    (slot qualified accessors generate)
+    (method protected override (initialize modifiers qualified . rest))
+    (method protected override (print-catalog level output))
+    (method protected final (get-modifiers))
+    (method public final (has-modifier? modifier))
+    (method public final (get-visibility))))

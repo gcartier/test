@@ -1,0 +1,10 @@
+(manifest jazz.editor.c.catalog.C-File-Entry
+
+  (version 207012)
+  (digest "222d00b52123a857654a825e79a50bfa8abc3507")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry get-title))
+              (jazz.catalog.entry.File-Entry File-Entry (File-Entry initialize))
+              (jazz.editor.c.catalog.C-Include-Entry C-Include-Entry)
+              (jazz.language.runtime.functional Object-Class collect-if member?)
+              (jazz.language.runtime.kernel is?)
+              (scheme.language.runtime.kernel not)))

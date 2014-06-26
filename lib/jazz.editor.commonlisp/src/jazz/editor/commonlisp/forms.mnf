@@ -1,0 +1,7 @@
+(manifest jazz.editor.commonlisp.forms
+
+  (version 207012)
+  (digest "84106d0d81dbd4a48c946dca6750cdfcb5e9847e")
+  (references (jazz.editor.lisp Expression-Syntax register-expression-syntax)
+              (jazz.editor.lisp.syntax define-expression)
+              (jazz.language.runtime.kernel new)))

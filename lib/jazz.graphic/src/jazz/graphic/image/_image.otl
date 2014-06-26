@@ -1,0 +1,9 @@
+(module jazz.graphic.image jazz
+  (import (jazz.library))
+  (import (jazz.platform.cairo))
+  (import (jazz.system))
+  (definition public (load-image type image))
+  (definition public (load-image-from-u8vector u8vector))
+  (definition public (resize-image handle new-width new-height))
+  (class Image-Load-Error extends Error
+    (method protected override (get-message))))

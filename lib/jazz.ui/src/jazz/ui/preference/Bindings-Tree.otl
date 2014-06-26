@@ -1,0 +1,19 @@
+(module jazz.ui.preference.Bindings-Tree jazz
+  (import (jazz.ui))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Bindings-Tree extends Tree-View
+    (method protected final (view-bindings designer bindings what kind))
+    (method protected final (present-shortcut shortcut))
+    (method protected final (shortcut-owner-image designer component))
+    (method protected final (default-owner-image))
+    (method protected final (root-owner-image))
+    (method protected final (trait-owner-image)))
+  (class BindingsByActions-Tree extends Bindings-Tree
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class BindingsByShortcuts-Tree extends Bindings-Tree
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

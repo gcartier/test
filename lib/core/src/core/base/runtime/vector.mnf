@@ -1,0 +1,5 @@
+(manifest core.base.runtime.vector
+
+  (version 207012)
+  (digest "2d9c9c8fe5e6984f49a7779bda40cc6eb78d1eec")
+  (references))

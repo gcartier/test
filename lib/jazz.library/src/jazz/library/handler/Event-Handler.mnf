@@ -1,0 +1,13 @@
+(manifest jazz.library.handler.Event-Handler
+
+  (version 207012)
+  (digest "7c2304284038fd6fd6e91c5a1ea86efbc3d550a7")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list category-name find-keyword getf unbox-list)
+              (jazz.language.runtime.kernel class-of dispatch is?)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.library hook-action)
+              (jazz.library.consumer.Event-Consumer Event-Consumer (Event-Consumer get-event-consumer))
+              (jazz.library.handler.Handler Handler (Handler execute) (Handler find-target) (Handler form) (Handler initialize) (Handler invoke) (Handler method-name) (Handler print) (Handler target) (Handler target-name))
+              (scheme.language.runtime.kernel apply eq? not null?)))

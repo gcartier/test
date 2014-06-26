@@ -1,0 +1,8 @@
+(module jazz.ui.skin.Text-Look jazz
+  (import (jazz.ui))
+  (class Text-Look extends Look
+    (property background accessors generate)
+    (property caret-color accessors generate)
+    (property active-selection-color accessors generate)
+    (property inactive-selection-color accessors generate)
+    (property completion-color accessors generate)))

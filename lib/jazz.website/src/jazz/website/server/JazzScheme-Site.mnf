@@ -1,0 +1,6 @@
+(manifest jazz.website.server.JazzScheme-Site
+
+  (version 207012)
+  (digest "7f84e396ae476129215770d1bb4aa72cd9690ca8")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

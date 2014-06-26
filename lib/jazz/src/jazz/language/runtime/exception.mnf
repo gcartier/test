@@ -1,0 +1,11 @@
+(manifest jazz.language.runtime.exception
+
+  (version 207012)
+  (digest "a9bb009574f6b4e6cc9942e390b9b349a65cca73")
+  (references (jazz.language.runtime.format format format-gender)
+              (jazz.language.runtime.functional Object-Class box-list category-identifier category-name collect-if find-if find-keyword new-thread unbox-list)
+              (jazz.language.runtime.geometry Range)
+              (jazz.language.runtime.kernel class-of continuation-capture continuation-return invoke-exception-hook is? make-parameter new not-null? object? raise system-exception-hook with-exception-filter)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (scheme.language.runtime.kernel apply car cons eq? list procedure? string?)))

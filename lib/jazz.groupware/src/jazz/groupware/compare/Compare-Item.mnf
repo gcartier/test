@@ -1,0 +1,7 @@
+(manifest jazz.groupware.compare.Compare-Item
+
+  (version 207012)
+  (digest "5b919af64774944c5d3eca6fbe414f41b16ee1d1")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

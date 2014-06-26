@@ -1,0 +1,10 @@
+(manifest jazz.schema.data.Data-Column
+
+  (version 207012)
+  (digest "3394e91a9884ae7cfd200807590d1977396eb222")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list category-name find-keyword unbox-list)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.schema.data.Data-Object Data-Object (Data-Object get-kind) (Data-Object get-property) (Data-Object has-property?) (Data-Object initialize) (Data-Object name) (Data-Object parent) (Data-Object properties) (Data-Object property-names) (Data-Object set-property))
+              (scheme.language.runtime.kernel apply)))

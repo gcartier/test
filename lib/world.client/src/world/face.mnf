@@ -1,0 +1,13 @@
+(manifest world.face
+
+  (version 207012)
+  (digest "68e0ec2553c5f7255bc6d15e86acf1f42324a967")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.assertion assert)
+              (scheme.language.runtime.kernel not)
+              (world.material Material)
+              (world.polygon Polygon (Polygon add-triangles) (Polygon triangle-count))))

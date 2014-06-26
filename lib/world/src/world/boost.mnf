@@ -1,0 +1,11 @@
+(manifest world.boost
+
+  (version 207012)
+  (digest "9bd411e3e55b05c65d485cde6167e12ed48cb2b9")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (world.draw draw-sphere)
+              (world.element (Element draw) (Element element-radius) (Element get-x) (Element get-y) (Element get-z))
+              (world.entity Entity (Entity element-radiuses))
+              (world.geometry.classes vertex)))

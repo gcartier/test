@@ -1,0 +1,6 @@
+(manifest jazz.ui.window.Desktop
+
+  (version 207012)
+  (digest "472d7907060f85f1fbaf7a0c137c5b6c1b31bae9")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.window.Window Window (Window initially-visible?))))

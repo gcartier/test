@@ -1,0 +1,24 @@
+(module jazz.library.group.Group jazz
+  (import (jazz.jml))
+  (import (jazz.designer))
+  (import (jazz.library))
+  (class Group extends Component
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property title accessors generate)
+    (property icon accessors generate)
+    (property classes accessors generate)
+    (property sort? accessors generate)
+    (method protected override (print output readably)))
+  (class Group-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-component-image component))
+    (method protected override (component-get-custom-card component))
+    (method protected override (component-sort-components? component))
+    (method protected override (component-get-categorized-addable-classes component))
+    (method protected override (component-get-classes component)))
+  (class Classes-Domain extends List-Domain
+    (method protected override (finish rest)))
+  (class Class-Domain extends Enumeration-Domain
+    (method protected override (finish rest))))

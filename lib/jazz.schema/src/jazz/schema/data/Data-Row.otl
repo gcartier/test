@@ -1,0 +1,9 @@
+(module jazz.schema.data.Data-Row jazz
+  (import (jazz.schema))
+  (class Data-Row extends Data-Container
+    (slot values)
+    (method protected override (initialize table state values))
+    (method protected override (print output readably))
+    (method protected override (get-values))
+    (method protected override (get name/rank))
+    (method public final (set name value))))

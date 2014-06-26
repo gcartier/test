@@ -1,0 +1,8 @@
+(manifest jazz.project.workbench.Workbench-Cataloguer
+
+  (version 207012)
+  (digest "2df8421ef45909e94f7c039e92679c1cffd48ad9")
+  (references (jazz.catalog.catalog.Cataloguer Cataloguer (Cataloguer add-catalog) (Cataloguer find-catalogs) (Cataloguer for-each-active-catalog) (Cataloguer remove-catalog))
+              (jazz.language.runtime.functional Object-Class remove)
+              (jazz.project get-workbench)
+              (scheme.language.runtime.kernel cons make-table table-ref table-set!)))

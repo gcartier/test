@@ -1,0 +1,10 @@
+(manifest world.server.client
+
+  (version 207012)
+  (digest "7029095e34b00d262cac6a01ed506b965dabd9c2")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel not)
+              (world.commands Commands)))

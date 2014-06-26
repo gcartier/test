@@ -1,0 +1,9 @@
+(manifest jazz.editor.clojure.text.Clojure-Explorer
+
+  (version 207012)
+  (digest "739dd51033e16c8ced0e07f78ef5d32a8b145507")
+  (references (jazz.editor.lisp.text.Lisp-Explorer Lisp-Explorer (Lisp-Explorer enter-list) (Lisp-Explorer exit-list) (Lisp-Explorer find-named-walker) (Lisp-Explorer forward-delimited-string) (Lisp-Explorer forward-expr) (Lisp-Explorer forward-string) (Lisp-Explorer forward-whites) (Lisp-Explorer walk-expressions) (Lisp-Explorer walk-parameters))
+              (jazz.language.runtime.functional Object-Class starts-with? starts-with?stringstring)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.text.Text-Explorer (Text-Explorer char-forward) (Text-Explorer end) (Text-Explorer forward) (Text-Explorer get-end) (Text-Explorer get-marked) (Text-Explorer get-start) (Text-Explorer kind) (Text-Explorer start))
+              (scheme.language.runtime.kernel eq? eqv? string=?)))

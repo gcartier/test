@@ -1,0 +1,15 @@
+(manifest jazz.ui.widget.Entry-Widget
+
+  (version 207012)
+  (digest "f8b7f8cf5862d8607b52d1d2700cbdb7103002b1")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.literals construct-dimension)
+              (jazz.ui.text.Entry-Text-View Entry-Text-View)
+              (jazz.ui.view.Border-View Border-View (Border-View~Class get-class-form) (Border-View~Class get-class-forms) (Border-View~Class set-class-form))
+              (jazz.ui.view.Scroller-View Scroller-View)
+              (jazz.ui.view.View (View default-size))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

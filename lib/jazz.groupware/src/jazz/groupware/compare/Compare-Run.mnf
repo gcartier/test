@@ -1,0 +1,10 @@
+(manifest jazz.groupware.compare.Compare-Run
+
+  (version 207012)
+  (digest "c49cc721a33cb5483f5138d4ad6b8523a6ad2b75")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Cell Range$Cell$)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (scheme.language.runtime.kernel + - =)))

@@ -1,0 +1,4 @@
+(module jazz.ui.event.Keyboard-Event jazz
+  (import (jazz.library))
+  (class Keyboard-Event extends Event
+    (method public final (get-key))))

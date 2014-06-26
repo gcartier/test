@@ -1,0 +1,3 @@
+(unit core.generic.runtime
+  (require (core.generic.runtime.specific))
+  (require (core.generic.runtime.generic)))

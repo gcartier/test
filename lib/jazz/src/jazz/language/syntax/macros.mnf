@@ -1,0 +1,7 @@
+(manifest jazz.language.syntax.macros
+
+  (version 207012)
+  (digest "9499a19ce126b6fd47770ec9815611cf698ac580")
+  (references (jazz.language.runtime.kernel parse-specifier with-uniqueness)
+              (scheme.language.runtime.kernel cadr car cddr cdr cons desourcify eq? generate-symbol list map not null? pair? source-code sourcify-if string-append symbol? unwrap-syntactic-closure)
+              (scheme.syntax-rules syntax-rules)))

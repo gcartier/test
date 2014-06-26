@@ -1,0 +1,8 @@
+(manifest jazz.editor.scheme.parser.Scheme-Parser
+
+  (version 207012)
+  (digest "9c18e42c682f59397bddd7e80a298c3bc228c3a2")
+  (references (jazz.editor.lisp.parser.Lisp-Parser Lisp-Parser (Lisp-Parser explorer-class) (Lisp-Parser text-view-class))
+              (jazz.editor.scheme.text.Scheme-Explorer Scheme-Explorer)
+              (jazz.editor.scheme.text.Scheme-Text-View Scheme-Text-View)
+              (jazz.language.runtime.functional Object-Class)))

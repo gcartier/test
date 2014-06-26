@@ -1,0 +1,6 @@
+(module jazz.debugger.debugged.Debugged-Restart jazz
+  (import (jazz.debugger))
+  (class Debugged-Restart extends Debugged
+    (method protected override (same? debugged))
+    (method public final (get-name))
+    (method public final (get-message))))

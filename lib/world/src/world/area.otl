@@ -1,0 +1,18 @@
+(module world.area jazz
+  (import (world.polygon))
+  (import (world.syntax (phase syntax)))
+  (class Area extends Object
+    (slot index <vector> getter generate)
+    (slot polygons <vector+> accessors generate)
+    (slot polygons-elements <vector+> accessors generate)
+    (slot blocks <list> accessors generate)
+    (slot actors <list> accessors generate)
+    (slot entities <list> accessors generate)
+    (slot gadgets <list> accessors generate)
+    (slot visit <fx> accessors generate)
+    (method protected override (initialize index))
+    (method protected override (print output readably))
+    (method protected final (iterate-polygons proc))
+    (method protected final (add-polygons element lst matrix))
+    (method protected final (remove-polygons element))
+    (method protected final (iterate-entities proc))))

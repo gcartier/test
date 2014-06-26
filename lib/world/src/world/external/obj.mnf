@@ -1,0 +1,11 @@
+(manifest world.external.obj
+
+  (version 207012)
+  (digest "a71f8612139b207dadfad79af72e5f6c957b4a03")
+  (references (jazz.language.runtime.kernel f32vector-length new)
+              (scheme.language.runtime.kernel vector)
+              (world.buffer (Buffer set-data))
+              (world.foreign.obj parse-obj)
+              (world.material Material)
+              (world.mesh Mesh (Mesh allocate-vertices) (Mesh get-vertices-buffer) (Mesh set-material))
+              (world.model Model (Model set-meshes))))

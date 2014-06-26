@@ -1,0 +1,8 @@
+(manifest jazz.designer.surrogate.Text-View-Surrogate
+
+  (version 207012)
+  (digest "71ea0895ca6fa1cab64307ab4aa24696d9b21561")
+  (references (jazz.designer.surrogate.Component-Surrogate (Component-Surrogate client) (Component-Surrogate editor))
+              (jazz.designer.surrogate.View-Surrogate View-Surrogate (View-Surrogate editing?) (View-Surrogate on-context-menu) (View-Surrogate on-cursor-update) (View-Surrogate on-double-click) (View-Surrogate on-drag-move) (View-Surrogate on-drag-up) (View-Surrogate on-focus-gained) (View-Surrogate on-focus-lose) (View-Surrogate on-key-press) (View-Surrogate on-mouse-down) (View-Surrogate on-mouse-up) (View-Surrogate on-return-press) (View-Surrogate select?))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros when)))

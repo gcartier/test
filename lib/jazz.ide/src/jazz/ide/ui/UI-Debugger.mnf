@@ -1,0 +1,7 @@
+(manifest jazz.ide.ui.UI-Debugger
+
+  (version 207012)
+  (digest "5d2d9788abc42dfdd78b2f0777ba32ec5a21b1ab")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.macros when)))

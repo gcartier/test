@@ -1,0 +1,18 @@
+(manifest jazz.library.favorite.Favorite-Handler
+
+  (version 207012)
+  (digest "33e1286a548b6ce954cc2a6bc70d183c0c1139e9")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule when)
+              (jazz.library.component.Component (Component launch))
+              (jazz.library.favorite.Favorite Favorite Favorite-Descriptor (Favorite-Descriptor~Class get-class-form) (Favorite-Descriptor~Class get-class-forms) (Favorite-Descriptor~Class set-class-form) (Favorite~Class get-class-descriptor))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui notify-handler)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

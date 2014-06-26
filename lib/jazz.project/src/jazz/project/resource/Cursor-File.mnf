@@ -1,0 +1,7 @@
+(manifest jazz.project.resource.Cursor-File
+
+  (version 207012)
+  (digest "d1e8dffb082503f704b797b9c0f9ba3455c9008c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.resource.Cursor-Resource Cursor-Resource)
+              (jazz.project.resource.Resource-File Resource-File (Resource-File resource-class) (Resource-File resource-marker))))

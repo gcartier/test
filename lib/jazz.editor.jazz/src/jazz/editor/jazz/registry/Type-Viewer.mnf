@@ -1,0 +1,6 @@
+(manifest jazz.editor.jazz.registry.Type-Viewer
+
+  (version 207012)
+  (digest "bb357b02066e09a6776b9b06516d58ca064dbea4")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.view.Layout-View Layout-View)))

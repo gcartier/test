@@ -1,0 +1,4 @@
+(unit core.generic.syntax
+  (require (core.generic.syntax.expander))
+  (require (core.generic.syntax.generic))
+  (require (core.generic.syntax.specific)))

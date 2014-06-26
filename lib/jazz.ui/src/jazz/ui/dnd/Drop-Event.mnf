@@ -1,0 +1,8 @@
+(manifest jazz.ui.dnd.Drop-Event
+
+  (version 207012)
+  (digest "b9527b47d708df5fa146e1bce44985faac4e645c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.event.Event (Event initialize))
+              (jazz.ui.event.Mouse-Event Mouse-Event)
+              (scheme.language.runtime.kernel apply)))

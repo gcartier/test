@@ -1,0 +1,12 @@
+(manifest jazz.language.runtime.format
+
+  (version 207012)
+  (digest "dc41ba82d47d493988db674908ca7d7c6a5b8c2a")
+  (references (jazz.language.runtime.functional ->string (Sequence sequence-cardinality) (Sequence sequence-element) cardinality first fresh-line getf neq? read-delimited require-char textual vowel? with-printer)
+              (jazz.language.runtime.kernel enumerator->symbol enumerator? force-output not-null? unimplemented unspecified unspecified?)
+              (jazz.language.runtime.object (Object print))
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros prog1 when while)
+              (scheme.language.runtime.kernel * + - < = > >= abs assv cadr car cddr cdr cons current-output-port display eof-object? eq? eqv? expt get-output-string inexact->exact memq modulo newline not null? number->string open-input-string open-output-string pair? peek-char quotient read-char round string-append string-length string-set! string? write write-char)))

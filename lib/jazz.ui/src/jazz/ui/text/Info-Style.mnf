@@ -1,0 +1,15 @@
+(manifest jazz.ui.text.Info-Style
+
+  (version 207012)
+  (digest "11f10c1b8ada31536648bc72f65e24d2c3243cfc")
+  (references (jazz.graphic.Surface Surface)
+              (jazz.language.runtime.functional ->string Object-Class Sequence getf)
+              (jazz.language.runtime.kernel not-null? specified? unspecified)
+              (jazz.language.syntax.attributes attributes)
+              (jazz.library.exemplar (Exemplar get-ascendants))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.system.access get-application)
+              (jazz.ui.text.Style (Style default-scan) (Style get-width) (Style justify-element) (Style propagate?))
+              (jazz.ui.text.Text-Style Text-Style (Text-Style attribute=?) (Text-Style draw-style) (Text-Style get) (Text-Style get-attribute) (Text-Style get-attribute-default) (Text-Style get-attribute-no-default) (Text-Style get-attributes) (Text-Style get-font) (Text-Style run-width) (Text-Style scan) (Text-Style set) (Text-Style set-attribute) (Text-Style wrap))
+              (scheme.language.runtime.kernel + - car cdr)))

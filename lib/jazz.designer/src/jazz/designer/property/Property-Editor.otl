@@ -1,0 +1,16 @@
+(module jazz.designer.property.Property-Editor jazz
+  (interface Property-Editor
+    (method public virtual (get-manager))
+    (method public virtual (set-manager manager))
+    (method public virtual (get-violation))
+    (method public virtual (set-violation violation))
+    (method public virtual (get-presentation))
+    (method public virtual (set-presentation presentation))
+    (method public virtual (get-value))
+    (method public virtual (set-value value))
+    (method public virtual (get-imports))
+    (method public virtual (present-value value))
+    (method public virtual (get-modified?))
+    (method public virtual (set-modified? flag))
+    (method public virtual (set-editable? flag))
+    (method public virtual (set-enabled? flag))))

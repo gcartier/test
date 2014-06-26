@@ -1,0 +1,10 @@
+(package jazz.editor.c
+  
+  (root "src")
+  (install jazz.editor.c.install)
+  (products (jazz.editor.c (update jazz.editor.c
+                                   jazz.editor.c.install
+                                   jazz.editor.c.literals)
+                           (dependencies jazz
+                                         jazz.editor.clike)))
+  (project ".project"))

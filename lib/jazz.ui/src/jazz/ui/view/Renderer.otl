@@ -1,0 +1,3 @@
+(module jazz.ui.view.Renderer jazz
+  (interface Renderer
+    (method public virtual (render drawing surface context))))

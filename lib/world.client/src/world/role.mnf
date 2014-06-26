@@ -1,0 +1,7 @@
+(manifest world.role
+
+  (version 207012)
+  (digest "03aad654e6c2867d6f7add48b0aaf2e6e333e92d")
+  (references (jazz.jml register-trait-tag)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Trait Trait)))

@@ -1,0 +1,8 @@
+(manifest world.client.remote
+
+  (version 207012)
+  (digest "939aa8d3f660d23cca61f644c6d036318f114805")
+  (references (jazz.jrm get-local-register)
+              (jazz.language.runtime.kernel new)
+              (world.client.remote.implementation World-Remote-Client)
+              (world.stub World-Remote-Client-Local-Proxy)))

@@ -1,0 +1,4 @@
+(module jazz.ui.layout.Separator jazz
+  (import (jazz.ui))
+  (class Separator extends Figure
+    (method protected override (default-size))))

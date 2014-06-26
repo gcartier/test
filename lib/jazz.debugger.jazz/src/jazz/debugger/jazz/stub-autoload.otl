@@ -1,0 +1,2 @@
+(module jazz.debugger.jazz.stub-autoload jazz
+  (export (jazz.debugger.jazz.stub (autoload Jazz-Debugger-Stub Jazz-Debugger-Stub))))

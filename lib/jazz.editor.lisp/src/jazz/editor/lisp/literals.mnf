@@ -1,0 +1,7 @@
+(manifest jazz.editor.lisp.literals
+
+  (version 207012)
+  (digest "08cdba4c4839b441bbc86cca56b626ee755e6d06")
+  (references (jazz.editor.lisp.catalog.Lisp-Entry Lisp-Entry)
+              (jazz.editor.lisp.catalog.Lisp-File-Entry Lisp-File-Entry)
+              (jazz.language.runtime.kernel new)))

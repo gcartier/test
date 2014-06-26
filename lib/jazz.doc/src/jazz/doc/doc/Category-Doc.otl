@@ -1,0 +1,14 @@
+(module jazz.doc.doc.Category-Doc jazz
+  (import (jazz.doc))
+  (import (jazz.jml))
+  (import (jazz.designer))
+  (class Category-Doc extends Element-Doc
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (slot catalog)
+    (method protected override (get-catalog))
+    (method protected override (set-catalog cat))
+    (method protected override (update-indexes definitions-index references-index)))
+  (class Category-Doc-Descriptor extends Element-Doc-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

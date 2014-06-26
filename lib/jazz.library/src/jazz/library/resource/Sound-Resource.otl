@@ -1,0 +1,3 @@
+(module jazz.library.resource.Sound-Resource jazz
+  (import (jazz.library))
+  (class Sound-Resource extends Resource))

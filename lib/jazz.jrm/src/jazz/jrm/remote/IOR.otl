@@ -1,0 +1,12 @@
+(module jazz.jrm.remote.IOR jazz
+  (class IOR extends Object
+    (method meta protected override (marshall-object object))
+    (method meta protected override (unmarshall-object content))
+    (slot uuid getter generate)
+    (slot host getter generate)
+    (slot service getter generate)
+    (slot stub-interface getter generate)
+    (slot reference getter generate)
+    (slot values getter generate)
+    (method protected override (initialize uuid host service stub-interface reference values))
+    (method protected override (print output readably))))

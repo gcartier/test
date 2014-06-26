@@ -1,0 +1,9 @@
+(module jazz.ui.widget.Note-Widget jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Note-Widget extends Layout-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Note-Text-View extends Plain-Text-View))

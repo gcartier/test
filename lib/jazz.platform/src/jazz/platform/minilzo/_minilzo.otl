@@ -1,0 +1,9 @@
+(module jazz.platform.minilzo jazz
+  (import (jazz.foreign))
+  (import (jazz.platform.types))
+  (import (jazz.platform.types-syntax (phase syntax)))
+  (definition public lzo_init_cffi)
+  (definition public lzo1x_1_compress_cffi)
+  (definition public lzo1x_decompress_cffi)
+  (definition public (u8vector-compress u8in <U8Vector>) <U8Vector>)
+  (definition public (u8vector-decompress u8in <U8Vector> orig-size <Integer>) <U8Vector>))

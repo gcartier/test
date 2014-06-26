@@ -1,0 +1,7 @@
+(manifest jazz.network.literals
+
+  (version 207012)
+  (digest "00008f3408d67a956181cba94a6cbb70f6de1c8e")
+  (references (jazz.language.runtime.kernel new)
+              (jazz.network.host.Host Host)
+              (scheme.language.runtime.kernel apply)))

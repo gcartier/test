@@ -1,0 +1,5 @@
+(module jazz.ui.text.Symbol-Completer jazz
+  (class Symbol-Completer extends Object
+    (slot domain)
+    (method protected override (initialize domain))
+    (method public virtual (complete string (test: test (unspecified))))))

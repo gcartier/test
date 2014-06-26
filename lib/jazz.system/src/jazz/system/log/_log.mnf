@@ -1,0 +1,5 @@
+(manifest jazz.system.log
+
+  (version 207012)
+  (digest "61285d0a8d6a4c5fcdae2b545f73e4d6ff8c532f")
+  (references (jazz.language.runtime.kernel unimplemented)))

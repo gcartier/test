@@ -1,0 +1,7 @@
+(manifest jazz.ui.layout.Layout
+
+  (version 207012)
+  (digest "e5101bc1dd2bab7e65d54fc9e8aeac75481dfe1b")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.library.component.Component Component)))

@@ -1,0 +1,11 @@
+(module jazz.ui.view.Zoom-Combo jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Zoom-Combo extends Combo-Box
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (finish initargs))
+    (method protected override (standardize-content content))
+    (method public final (get-zoom))
+    (method public final (set-zoom value))))

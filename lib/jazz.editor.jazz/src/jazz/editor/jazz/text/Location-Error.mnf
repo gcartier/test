@@ -1,0 +1,9 @@
+(manifest jazz.editor.jazz.text.Location-Error
+
+  (version 207012)
+  (digest "a6e4226a4e3972d571948a82759c39744be2bda6")
+  (references (jazz.language.runtime.exception Error (Error get-message) (Error initialize))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (scheme.language.runtime.kernel apply)))

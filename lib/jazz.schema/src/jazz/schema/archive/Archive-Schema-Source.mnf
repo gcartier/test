@@ -1,0 +1,14 @@
+(manifest jazz.schema.archive.Archive-Schema-Source
+
+  (version 207012)
+  (digest "a63637506803c8148d8604c3acc7956005a26784")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class empty-string? getf)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.bind bind)
+              (jazz.schema.archive.Schema-Archive Schema-Archive)
+              (jazz.schema.source.Schema-Source Schema-Source)
+              (scheme.language.runtime.kernel = assoc car cdr not)))

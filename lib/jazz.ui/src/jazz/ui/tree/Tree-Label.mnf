@@ -1,0 +1,12 @@
+(manifest jazz.ui.tree.Tree-Label
+
+  (version 207012)
+  (digest "a1b3318c4b150154ace3cc599f8bffd5dc269e9a")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class box-list find-keyword unbox-list)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.runtime.object (Object get-sort-value) print-unreadable)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.locale Locales)
+              (jazz.ui.tree.Tree-Data Tree-Data (Tree-Data initialize) (Tree-Data print))
+              (scheme.language.runtime.kernel apply)))

@@ -1,0 +1,6 @@
+(manifest jazz.ui.search.Replace
+
+  (version 207012)
+  (digest "3f177368c8912ae5c4015c7b55e25c3341e426ec")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))))

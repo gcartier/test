@@ -1,0 +1,8 @@
+(manifest world.sun
+
+  (version 207012)
+  (digest "1e9a08435b7214c052472ba87b9895c7a205d558")
+  (references (jazz.language.runtime.functional Object-Class)
+              (world.dye dye)
+              (world.element (Element element-radius) (Element set-color) (Element set-scaling))
+              (world.entity Entity (Entity prepare) (Entity set-model))))

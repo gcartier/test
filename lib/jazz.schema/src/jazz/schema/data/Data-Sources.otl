@@ -1,0 +1,14 @@
+(module jazz.schema.data.Data-Sources jazz
+  (import (jazz.database))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Data-Sources extends Group
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property default-source accessors generate))
+  (class Data-Sources-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-get-categorized-addable-classes component))))

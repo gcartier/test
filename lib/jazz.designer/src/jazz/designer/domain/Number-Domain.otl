@@ -1,0 +1,7 @@
+(module jazz.designer.domain.Number-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.library))
+  (class Number-Domain extends Value-Domain
+    (method protected override (validate-value value (validation-context (unspecified))))
+    (method protected override (present-value value))
+    (method protected override (parse-presentation text))))

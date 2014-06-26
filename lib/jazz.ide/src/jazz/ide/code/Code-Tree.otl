@@ -1,0 +1,6 @@
+(module jazz.ide.code.Code-Tree jazz
+  (import (jazz.ui))
+  (class Code-Tree extends Tree-View
+    (property sort? accessors generate)
+    (method public final (insert-definition father level definition sort?))
+    (method protected override (update-row row))))

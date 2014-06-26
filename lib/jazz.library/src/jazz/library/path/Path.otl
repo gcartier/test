@@ -1,0 +1,10 @@
+(module jazz.library.path.Path jazz
+  (class Path extends Object
+    (slot path accessors generate)
+    (method protected override (initialize path))
+    (method protected override (compare-object target))
+    (method protected override (print output readably))
+    (method public final (get-parent))
+    (method public final (present))
+    (method public virtual (follow-component root))
+    (method public virtual (follow-form form))))

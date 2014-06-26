@@ -1,0 +1,6 @@
+(manifest jazz.ui.dialog.Dialog-Actions
+
+  (version 207012)
+  (digest "efa788217ae85bb0057b494abf9b178bd0266e11")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.action.Actions Actions)))

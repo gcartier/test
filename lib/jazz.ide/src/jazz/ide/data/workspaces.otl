@@ -1,0 +1,10 @@
+(module jazz.ide.data.workspaces jazz
+  (export (jazz.debugger))
+  (export (jazz.designer))
+  (export (jazz.editor.jazz))
+  (export (jazz.editor.lisp))
+  (export (jazz.editor.sql))
+  (export (jazz.ide))
+  (export (jazz.library))
+  (export (jazz.project))
+  (export (jazz.ui)))

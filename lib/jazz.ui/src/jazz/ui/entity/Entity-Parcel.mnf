@@ -1,0 +1,6 @@
+(manifest jazz.ui.entity.Entity-Parcel
+
+  (version 207012)
+  (digest "afe385e7dec97848954e1fb3334ca75ef8881ddf")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.clipboard Clipboard-Parcel)))

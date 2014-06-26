@@ -1,0 +1,14 @@
+(manifest jazz.debugger.jazz
+
+  (version 207012)
+  (digest "22162f5ad912f2abb51656e6f86e52e4b2c16c63")
+  (references (jazz.debugger.jazz.Jazz-Debugger Jazz-Debugger)
+              (jazz.debugger.jazz.Jazz-Project Jazz-Project Jazz-Project-Descriptor)
+              (jazz.debugger.jazz.Snapshot-Debugger Snapshot-Debugger)
+              (jazz.debugger.jazz.Swank-Debugger Swank-Debugger)
+              (jazz.debugger.jazz.Swank-Process Swank-Process)
+              (jazz.debugger.jazz.Swank-Restart Swank-Restart)
+              (jazz.debugger.jazz.Swank-Snooper Swank-Snooper)
+              (jazz.debugger.jazz.Swank-Stop Swank-Stop)
+              (jazz.debugger.jazz.Swank-Thread Swank-Thread)
+              (jazz.debugger.jazz.stub Jazz-Debugger-Stub)))

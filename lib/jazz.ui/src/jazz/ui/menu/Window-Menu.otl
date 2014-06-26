@@ -1,0 +1,13 @@
+(module jazz.ui.menu.Window-Menu jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Window-Menu extends Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (slot base-items)
+    (method protected override (finish rest))
+    (method protected override (update))))

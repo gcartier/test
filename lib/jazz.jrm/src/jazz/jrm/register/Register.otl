@@ -1,0 +1,11 @@
+(module jazz.jrm.register.Register jazz
+  (import (jazz.jrm.register.stub))
+  (class Register extends Object
+    (method meta public final (new-local-proxy))
+    (slot objects)
+    (method public final (find-object name))
+    (method public final (require-object name))
+    (method public final (load-object module-name name))
+    (method public final (register-object name object (error?: error? (unspecified))))
+    (method public final (unregister-object name (error?: error? (unspecified))))
+    (method public final (get-manifest))))

@@ -1,0 +1,12 @@
+(manifest jazz.groupware.compare.Tree-Comparer
+
+  (version 207012)
+  (digest "a5051d0ab21e61aacc820ca49567465650d575af")
+  (references (jazz.groupware.compare.Compare-Entry Compare-Entry)
+              (jazz.groupware.compare.Compare-Item Compare-Item)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) Object-Class collect-if find-in member? merge-ordered neq? sort)
+              (jazz.language.runtime.kernel is? new unspecified)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.macros when)
+              (jazz.library.moniker.Directory-Group Directory-Group)
+              (scheme.language.runtime.kernel car cdr eq? equal? list not null? set-car! string-append string<? values)))

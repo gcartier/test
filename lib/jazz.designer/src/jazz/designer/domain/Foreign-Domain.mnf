@@ -1,0 +1,6 @@
+(manifest jazz.designer.domain.Foreign-Domain
+
+  (version 207012)
+  (digest "0dad1ac230ca5cc4c81981296a9d4aabe77116fc")
+  (references (jazz.designer.domain.Domain Domain)
+              (jazz.language.runtime.functional Object-Class)))

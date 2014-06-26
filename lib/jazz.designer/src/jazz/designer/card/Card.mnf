@@ -1,0 +1,11 @@
+(manifest jazz.designer.card.Card
+
+  (version 207012)
+  (digest "750502fa25d5d8392566d5f9173c0a8b883709cd")
+  (references (jazz.language.runtime.functional Object-Class neq?)
+              (jazz.language.runtime.kernel class-of dispatch new unspecified)
+              (jazz.language.syntax.macros when ~)
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.View (View destroy))
+              (scheme.language.runtime.kernel apply car eq? equal? map not)))

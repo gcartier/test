@@ -1,0 +1,14 @@
+(manifest jazz.validate.support.Test-Model
+
+  (version 207012)
+  (digest "c6de55d2ac36060be7c16ff6a02b7f30aa571432")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref register-trait-tag)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Trait Trait Trait-Descriptor (Trait-Descriptor~Class get-class-form) (Trait-Descriptor~Class get-class-forms) (Trait-Descriptor~Class set-class-form) (Trait~Class get-class-descriptor))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

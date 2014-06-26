@@ -1,0 +1,9 @@
+(module jazz.jrm.remote.Remote-Listener jazz
+  (import (jazz.jrm))
+  (import (jazz.network))
+  (class Remote-Listener extends TCP-Server
+    (method protected override (server-name))
+    (method protected override (server-title))
+    (method protected override (connection-name))
+    (method protected override (create-thread . rest))
+    (method protected override (accept-connection port))))

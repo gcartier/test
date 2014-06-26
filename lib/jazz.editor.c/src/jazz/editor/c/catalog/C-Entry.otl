@@ -1,0 +1,5 @@
+(module jazz.editor.c.catalog.C-Entry jazz
+  (import (jazz.catalog))
+  (import (jazz.editor.c))
+  (class C-Entry extends Indexed-Entry
+    (method protected override (source-frame-type))))

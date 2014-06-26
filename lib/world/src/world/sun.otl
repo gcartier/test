@@ -1,0 +1,7 @@
+(module world.sun jazz
+  (import (world.dye))
+  (import (world.entity))
+  (import (world.syntax (phase syntax)))
+  (class Sun extends Entity
+    (method protected override (prepare rest))
+    (method protected override (element-radius))))

@@ -1,0 +1,8 @@
+(manifest jazz.designer.book.Book-Section
+
+  (version 207012)
+  (digest "6eb694a09def2fedac495f3921f9ad8d84e0094b")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros unless when)))

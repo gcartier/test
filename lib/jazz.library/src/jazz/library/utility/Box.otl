@@ -1,0 +1,5 @@
+(module jazz.library.utility.Box jazz
+  (class Box extends Object
+    (slot boxed getter generate)
+    (method protected override (initialize (boxed (unspecified))))
+    (method protected override (print output readably))))

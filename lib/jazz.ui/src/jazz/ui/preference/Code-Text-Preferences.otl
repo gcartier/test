@@ -1,0 +1,18 @@
+(module jazz.ui.preference.Code-Text-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Code-Text-Preferences extends Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property match-style accessors generate)
+    (property match-action accessors generate)
+    (property flash-delay accessors generate)
+    (property flash-duration accessors generate)
+    (property highlight-mode accessors generate))
+  (class Code-Text-Preferences-Descriptor extends Text-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

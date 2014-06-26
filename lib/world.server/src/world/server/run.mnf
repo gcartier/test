@@ -1,0 +1,18 @@
+(manifest world.server.run
+
+  (version 207012)
+  (digest "ccef3015377493ac64c0f409b45790b755fe9341")
+  (references (jazz.debuggee set-default-context)
+              (jazz.graphic.opengl.window new-opengl-window)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.language.runtime.kernel new register-product-run run-loop?)
+              (jazz.literals construct-dimension construct-point)
+              (jazz.system boolean-parameter)
+              (jazz.system.access get-process)
+              (jazz.system.process.Process (Process boot-environment))
+              (world *current-world* set-current-world-window)
+              (world.io select-default-world)
+              (world.live World)
+              (world.server World-Server)
+              (world.syntax current-world)
+              (world.window World-Window)))

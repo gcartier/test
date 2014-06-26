@@ -1,0 +1,23 @@
+(module jazz.ui.activity.Activity-Manager jazz
+  (import (jazz.jml))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.activity))
+  (class Activity-Manager extends Palette
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (show))
+    (method protected override (mouse-activate?))
+    (method protected override (on-close evt))
+    (method protected override (destroy))
+    (method public final (close-manager))
+    (method public final (toggle-visible?))
+    (method public final (register-activity))
+    (method public final (unregister-activity reporter))
+    (method protected final (update-title))
+    (method protected final (update-rectangle))
+    (method public final (clear-done))
+    (method protected final (get-reporters)))
+  (class Activities-Border extends View
+    (method protected override (draw surface context))))

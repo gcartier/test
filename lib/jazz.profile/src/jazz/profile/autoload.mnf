@@ -1,0 +1,6 @@
+(manifest jazz.profile.autoload
+
+  (version 207012)
+  (digest "eb3515517e72b8ca8bebdccbaef9efeffa0048ce")
+  (references (jazz.profile.Me Me)
+              (jazz.profile.Profile Profile)))

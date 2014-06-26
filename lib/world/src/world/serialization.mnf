@@ -1,0 +1,7 @@
+(manifest world.serialization
+
+  (version 207012)
+  (digest "e320a10c2606b59abfa97bd0e7fa15c5f20dc5d5")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional category-name deserialize-class)
+              (jazz.language.runtime.kernel class-of object? serialized-class serialized-content serialized?)))

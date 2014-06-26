@@ -1,0 +1,9 @@
+(manifest jazz.ui.layout
+
+  (version 207012)
+  (digest "08abba800f9e4d6700d026dbdc211b0193751cca")
+  (references (jazz.language.runtime.functional (Sequence sequence-butlast) butlast naturals)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unless)
+              (scheme.language.runtime.kernel * + - / = cdr for-each length map round)))

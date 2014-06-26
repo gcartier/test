@@ -1,0 +1,8 @@
+(manifest jazz.debugger.snapshot.Frame-Snapshot
+
+  (version 207012)
+  (digest "506831a4f5ff75110fcb23b99a5616202b45ef54")
+  (references (jazz.language.runtime.functional Object-Class is-not?)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize))
+              (scheme.language.runtime.kernel =)))

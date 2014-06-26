@@ -1,0 +1,9 @@
+(module jazz.ui.preference.Palette-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Palette-Preferences extends Figure-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (apply-preferences (client (unspecified))))))

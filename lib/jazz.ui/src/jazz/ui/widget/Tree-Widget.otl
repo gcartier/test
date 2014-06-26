@@ -1,0 +1,7 @@
+(module jazz.ui.widget.Tree-Widget jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Tree-Widget extends Outline-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

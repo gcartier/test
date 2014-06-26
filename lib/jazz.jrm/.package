@@ -1,0 +1,12 @@
+(package jazz.jrm
+  
+  (root "src")
+  (install jazz.jrm.install)
+  (products (jazz.jrm (update jazz.jrm
+                              jazz.jrm.install
+                              jazz.jrm.literals
+                              jazz.jrm.protocol
+                              jazz.jrm.register.stub
+                              jazz.jrm.syntax)
+                      (dependencies jazz)))
+  (project ".project"))

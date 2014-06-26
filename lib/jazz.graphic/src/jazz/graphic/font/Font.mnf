@@ -1,0 +1,13 @@
+(manifest jazz.graphic.font.Font
+
+  (version 207012)
+  (digest "f7d74cc18a706bd32475d7f7ba04854628fc70bf")
+  (references (jazz.graphic fonts-domain)
+              (jazz.graphic.font.Concrete-Font Concrete-Font)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new not-null? specified? unspecified)
+              (jazz.language.runtime.object (Object destroy))
+              (jazz.language.syntax.attributes attributes)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.exemplar Exemplar (Exemplar attribute=?) (Exemplar default-domain) (Exemplar get) (Exemplar get-ascendants) (Exemplar get-attribute) (Exemplar get-attribute-default) (Exemplar get-attribute-no-default) (Exemplar get-attributes) (Exemplar set) (Exemplar set-attribute))
+              (scheme.language.runtime.kernel car cdr equal?)))

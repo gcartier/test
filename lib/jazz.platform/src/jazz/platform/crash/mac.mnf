@@ -1,0 +1,7 @@
+(manifest jazz.platform.crash.mac
+
+  (version 207012)
+  (digest "a04bb4665b3a6ca0277086645bb9b90ff406acda")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.kernel set-crash-reporter)
+              (jazz.snapshot snapshot-process)))

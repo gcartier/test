@@ -1,0 +1,15 @@
+(manifest jazz.project.preference.Workbench-Preferences
+
+  (version 207012)
+  (digest "62cd0a8f792129df0de8cef871fbfb0b30989f70")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.preference.Preferences Preferences Preferences-Descriptor (Preferences-Descriptor~Class get-class-form) (Preferences-Descriptor~Class get-class-forms) (Preferences-Descriptor~Class set-class-form) (Preferences~Class get-class-descriptor))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

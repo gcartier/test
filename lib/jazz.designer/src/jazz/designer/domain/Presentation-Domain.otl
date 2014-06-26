@@ -1,0 +1,5 @@
+(module jazz.designer.domain.Presentation-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (class Presentation-Domain extends Text-Domain))

@@ -1,0 +1,21 @@
+(module jazz.schema.archive.Archive-Schema-Browser jazz
+  (import (jazz.database))
+  (import (jazz.jml))
+  (import (jazz.schema))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Archive-Schema-Browser extends View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method public final (get-source))
+    (method public final (set-source source))
+    (method protected final (moniker-changed))
+    (method protected final (update-schema-combo))
+    (method protected final (update-valid-combo typed-schemas))
+    (method protected override (validate-content)))
+  (class Archive-Browser extends Moniker-Widget)
+  (class Schema-Combo extends Combo-Box
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

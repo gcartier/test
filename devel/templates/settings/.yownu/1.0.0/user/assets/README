@@ -1,0 +1,7 @@
+assets
+
+Assets are user created files that the program will discover and make available.
+
+It is also possible by creating an asset with the same path, to override any of Yownu's assets.
+
+See subfolders for details.

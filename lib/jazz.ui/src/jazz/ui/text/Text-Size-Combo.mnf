@@ -1,0 +1,13 @@
+(manifest jazz.ui.text.Text-Size-Combo
+
+  (version 207012)
+  (digest "97304fa6f3888f10577c43556cea7635bcacd013")
+  (references (jazz.language.runtime.functional ->string Object-Class)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.ui notify-handler)
+              (jazz.ui.text.Text-Combo Text-Combo (Text-Combo client) (Text-Combo client-update) (Text-Combo selection-change))
+              (jazz.ui.text.Text-Style Text-Style (Text-Style get-font))
+              (jazz.ui.view.Combo-Box (Combo-Box combo-choice) (Combo-Box get-value) (Combo-Box set-choices))
+              (jazz.ui.view.Combo-Text (Combo-Text set-content))
+              (scheme.language.runtime.kernel list map)))

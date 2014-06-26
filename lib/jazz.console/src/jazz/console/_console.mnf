@@ -1,0 +1,12 @@
+(manifest jazz.console
+
+  (version 207012)
+  (digest "093771436659353f175834797eb5ab6d993554a9")
+  (references (jazz.console.Console-Manager Console-Manager)
+              (jazz.console.Console-Preferences Console-Preferences)
+              (jazz.console.Console-Text-Actions Console-Text-Actions)
+              (jazz.console.Console-Text-Preferences Console-Text-Preferences)
+              (jazz.console.Console-Text-View Console-Text-View)
+              (jazz.console.Console-View Console-View)
+              (jazz.editor.lisp.text.Lisp-Console-Manager Lisp-Console-Manager)
+              (jazz.ui.view singleton-docked)))

@@ -1,0 +1,18 @@
+(manifest jazz.editor.lisp.text.Lisp-Text-Preferences
+
+  (version 207012)
+  (digest "d47dc7b3f96edda3d611509388a691a11b2696c4")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Boolean-Domain Boolean-Domain)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.preference.Code-Text-Preferences Code-Text-Preferences Code-Text-Preferences-Descriptor (Code-Text-Preferences-Descriptor~Class get-class-form) (Code-Text-Preferences-Descriptor~Class get-class-forms) (Code-Text-Preferences-Descriptor~Class set-class-form) (Code-Text-Preferences~Class get-class-descriptor) (Code-Text-Preferences~Class get-class-form) (Code-Text-Preferences~Class get-class-forms) (Code-Text-Preferences~Class set-class-form))
+              (jazz.ui.preference.Completions-Domain Completions-Domain)
+              (jazz.ui.text.Text-Style Text-Style)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

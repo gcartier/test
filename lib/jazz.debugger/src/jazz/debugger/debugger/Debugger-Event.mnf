@@ -1,0 +1,6 @@
+(manifest jazz.debugger.debugger.Debugger-Event
+
+  (version 207012)
+  (digest "6382e55763ad3792309c9e9301efae518407a178")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

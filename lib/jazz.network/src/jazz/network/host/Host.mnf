@@ -1,0 +1,10 @@
+(manifest jazz.network.host.Host
+
+  (version 207012)
+  (digest "98c8b67f625130cb561c3790ad29d500d8e47332")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class category-name is-not?)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel =)))

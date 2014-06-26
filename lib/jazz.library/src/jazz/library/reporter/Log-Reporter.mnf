@@ -1,0 +1,10 @@
+(manifest jazz.library.reporter.Log-Reporter
+
+  (version 207012)
+  (digest "f87c92ce1dac64f4f96b5addf5bb1762f0232b0d")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.library.reporter.Reporter Reporter)
+              (scheme.language.runtime.kernel apply)))

@@ -1,0 +1,11 @@
+(module jazz.library.display.Columns-Display jazz
+  (class Columns-Display extends Object
+    (slot protected columns <Object> getter generate)
+    (slot protected line <fx>)
+    (method protected override (initialize . rest))
+    (method public final (add-column column (before: before (unspecified))))
+    (method public final (add-columns columns (before: before (unspecified))))
+    (method public final (newline))
+    (method public final (print-to output))
+    (method public final (prepare-columns))
+    (method public final (print-columns output))))

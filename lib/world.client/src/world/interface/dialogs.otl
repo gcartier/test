@@ -1,0 +1,15 @@
+(module world.interface.dialogs jazz
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (world))
+  (import (world.autoload))
+  (import (world.interface.frame))
+  (import (world.interface.string))
+  (import (world.syntax (phase syntax)))
+  (definition public (open-dialog view (title: title (unspecified))))
+  (definition public (open-message title . rest))
+  (definition public (open-string (class: class (unspecified)) (title: title (unspecified)) (prefix: prefix (unspecified)) (initial-value: initial-value (unspecified)) (action: action (unspecified))))
+  (class World-Dialog extends World-Frame)
+  (class World-Box extends Message-Box
+    (method protected override (process-return))
+    (method protected override (process-key key))))

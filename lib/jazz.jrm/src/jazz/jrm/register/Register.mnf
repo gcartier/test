@@ -1,0 +1,10 @@
+(manifest jazz.jrm.register.Register
+
+  (version 207012)
+  (digest "870726ffdc0c5c89d46bc3ae90539dd7c9ea6035")
+  (references (jazz.jrm.register.stub Register-Local-Proxy)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class table-keys)
+              (jazz.language.runtime.kernel load-unit new table-clear)
+              (jazz.language.runtime.object Object)
+              (scheme.language.runtime.kernel eq? make-table not table-ref table-set!)))

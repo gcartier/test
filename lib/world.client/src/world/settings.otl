@@ -1,0 +1,12 @@
+(module world.settings jazz
+  (import (jazz.io))
+  (import (jazz.library.template))
+  (import (jazz.snapshot))
+  (import (jazz.system))
+  (definition public (world-setting name (default (unspecified)) (unspecified (unspecified))))
+  (definition public (copy-settings-if-not-exists settings-root (alias (unspecified))))
+  (definition public (world-alias))
+  (definition public (world-file path (alias (unspecified))))
+  (definition public (world-directory path (alias (unspecified))))
+  (definition public (world-templates-directory (alias (unspecified))))
+  (definition public (setup-snapshots)))

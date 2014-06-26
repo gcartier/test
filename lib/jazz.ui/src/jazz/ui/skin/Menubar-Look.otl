@@ -1,0 +1,5 @@
+(module jazz.ui.skin.Menubar-Look jazz
+  (import (jazz.ui))
+  (class Menubar-Look extends Look
+    (property background accessors generate)
+    (property highlight accessors generate)))

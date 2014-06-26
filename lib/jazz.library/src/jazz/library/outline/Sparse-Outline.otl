@@ -1,0 +1,3 @@
+(module jazz.library.outline.Sparse-Outline jazz
+  (import (jazz.library))
+  (class Sparse-Outline extends Outline))

@@ -1,0 +1,6 @@
+(manifest jazz.jml.xhtml.XHTML-Parser
+
+  (version 207012)
+  (digest "518cfc0ea71d9f92753c697cd57a05bad15a1e20")
+  (references (jazz.jml.parser.JML-Parser JML-Parser (JML-Parser tag-valid?))
+              (jazz.language.runtime.functional Object-Class memq?)))

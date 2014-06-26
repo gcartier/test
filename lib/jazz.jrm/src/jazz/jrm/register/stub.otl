@@ -1,0 +1,29 @@
+(module jazz.jrm.register.stub jazz
+  (import (jazz.jrm.syntax (phase syntax)))
+  (import (jazz.jrm))
+  (class Register-Stub-Interface extends Stub-Interface
+    (method protected override (local-class))
+    (method protected override (remote-class)))
+  (interface Register-Stub metaclass Register-Stub-Interface extends Remotable-Stub
+    (method public virtual (find-object __name))
+    (method public virtual (require-object __name))
+    (method public virtual (load-object __module-name __name))
+    (method public virtual (register-object __name __object . __rest))
+    (method public virtual (unregister-object __name . __rest))
+    (method public virtual (get-manifest)))
+  (class Register-Local-Proxy extends Local-Proxy implements Register-Stub
+    (method protected override (stub-reference))
+    (method protected override (find-object __name))
+    (method protected override (require-object __name))
+    (method protected override (load-object __module-name __name))
+    (method protected override (register-object __name __object . __rest))
+    (method protected override (unregister-object __name . __rest))
+    (method protected override (get-manifest)))
+  (class Register-Remote-Proxy extends Remote-Proxy implements Register-Stub
+    (method protected override (stub-reference))
+    (method protected override (find-object __name))
+    (method protected override (require-object __name))
+    (method protected override (load-object __module-name __name))
+    (method protected override (register-object __name __object . __rest))
+    (method protected override (unregister-object __name . __rest))
+    (method protected override (get-manifest))))

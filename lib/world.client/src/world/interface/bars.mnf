@@ -1,0 +1,17 @@
+(manifest world.interface.bars
+
+  (version 207012)
+  (digest "4ff883fe725e9cc38adcb82ddecfd7e26ea20c3b")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component close) (Component find-component) (Component get-children))
+              (jazz.system.access get-application)
+              (jazz.ui.view.View (View layout-view))
+              (scheme.language.runtime.kernel * + - car cdr eq? for-each length null?)
+              (world *current-world*)
+              (world.interface.actions World-Actionbar)
+              (world.live World (World get-interface))
+              (world.syntax current-world)))

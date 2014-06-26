@@ -1,0 +1,7 @@
+(manifest jazz.ui.view.Tooltip-Context
+
+  (version 207012)
+  (digest "043acd80ec3347441b9b6d16bbb5c9d82f203ca0")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

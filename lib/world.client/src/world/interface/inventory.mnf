@@ -1,0 +1,14 @@
+(manifest world.interface.inventory
+
+  (version 207012)
+  (digest "4fdc563d7338ad7c4dee5d8cdae4a9f0a20b3907")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.View (View conclude))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)
+              (world.interface.frame World-Frame (World-Frame~Class get-class-form) (World-Frame~Class get-class-forms) (World-Frame~Class set-class-form))))

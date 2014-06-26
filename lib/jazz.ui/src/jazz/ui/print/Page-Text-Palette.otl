@@ -1,0 +1,10 @@
+(module jazz.ui.print.Page-Text-Palette jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Page-Text-Palette extends Text-Palette
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (enable-buttons enabled?))))

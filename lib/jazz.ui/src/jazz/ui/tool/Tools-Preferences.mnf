@@ -1,0 +1,13 @@
+(manifest jazz.ui.tool.Tools-Preferences
+
+  (version 207012)
+  (digest "87dca8ac8ac9fc41d7795de28e438a64dcf4daef")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.preference.Preferences Preferences Preferences-Descriptor (Preferences-Descriptor~Class get-class-form) (Preferences-Descriptor~Class get-class-forms) (Preferences-Descriptor~Class set-class-form) (Preferences~Class get-class-descriptor))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

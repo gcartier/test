@@ -1,0 +1,11 @@
+(manifest jazz.editor.c.builder.C-File
+
+  (version 207012)
+  (digest "22e80f0020388e817c175782b29ac23dfdd1e74b")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros submodule)
+              (jazz.project.file.Project-File Project-File Project-File-Descriptor (Project-File-Descriptor~Class get-class-form) (Project-File-Descriptor~Class get-class-forms) (Project-File-Descriptor~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,29 @@
+(module jazz.system.application.Application-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.system.process))
+  (import (jazz.ui))
+  (class Application-Preferences extends Process-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property toplevel-title accessors generate)
+    (property toplevel-state accessors generate)
+    (property toplevel-monitor accessors generate)
+    (property toplevel-position accessors generate)
+    (property toplevel-size accessors generate)
+    (property catalog-types accessors generate)
+    (property documented? accessors generate)
+    (property first-startup? accessors generate)
+    (property fullscreen-warned? accessors generate)
+    (property active-bindings accessors generate)
+    (property toolbar-classes accessors generate))
+  (class Application-Preferences-Descriptor extends Process-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Toolbar-Classes-Domain extends List-Domain
+    (method protected override (finish rest)))
+  (class Toolbar-Class-Domain extends Value-Domain
+    (method protected override (present-value model))))

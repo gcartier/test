@@ -1,0 +1,18 @@
+(manifest jazz.ui.print.Page-Text-Palette
+
+  (version 207012)
+  (digest "5609aa686c14604e79584a6bcb6940763a02ebcc")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.library.component.Component (Component locate))
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.library.literals construct-event-handler construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.literals construct-dimension)
+              (jazz.ui.layout.Separator Separator)
+              (jazz.ui.text.Text-Palette Text-Palette (Text-Palette enable-buttons) (Text-Palette~Class get-class-form) (Text-Palette~Class get-class-forms) (Text-Palette~Class set-class-form))
+              (jazz.ui.view.Push-Tool Push-Tool)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

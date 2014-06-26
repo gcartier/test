@@ -1,0 +1,11 @@
+(manifest jazz.library.template
+
+  (version 207012)
+  (digest "9b7b29c0c2543ba71b7389c3b416a1fde8fdad4b")
+  (references (jazz.io file? path-settings)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ci=? member?)
+              (jazz.language.runtime.kernel continuation-capture continuation-return new)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.template.Template-Expander Template-Expander (Template-Expander expand))
+              (scheme.language.runtime.kernel call-with-output-file car get-output-string list? open-output-string)))

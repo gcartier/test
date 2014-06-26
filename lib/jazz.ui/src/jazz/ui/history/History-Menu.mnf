@@ -1,0 +1,14 @@
+(manifest jazz.ui.history.History-Menu
+
+  (version 207012)
+  (digest "b61737d8fe0327357bf84f3bb5cbb9cb0581d900")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.increase increase!)
+              (jazz.library.component.Component (Component finish))
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.system.access get-application)
+              (jazz.ui.history get-history)
+              (jazz.ui.menu.Context-Menu Context-Menu)
+              (jazz.ui.menu.Label-Item Label-Item)
+              (scheme.language.runtime.kernel for-each list)))

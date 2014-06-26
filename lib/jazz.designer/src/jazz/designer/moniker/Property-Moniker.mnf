@@ -1,0 +1,10 @@
+(manifest jazz.designer.moniker.Property-Moniker
+
+  (version 207012)
+  (digest "7e5487a5d2d8fc09c0d05e50bb043297adb70a17")
+  (references (jazz.io Moniker (Moniker compare-pathname) (Moniker exists?) (Moniker get-base) (Moniker get-extension) (Moniker get-file) (Moniker get-modification-time) (Moniker get-name) (Moniker get-writable?) (Moniker load-lines) (Moniker present) (Moniker present-base) (Moniker present-location) (Moniker save-lines))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class is-not? join join-lines)
+              (jazz.language.runtime.kernel class-of unspecified)
+              (jazz.language.runtime.object (Object compare-object) (Object initialize) (Object print) print-unreadable)
+              (scheme.language.runtime.kernel = eq?)))

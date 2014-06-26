@@ -1,0 +1,10 @@
+(manifest world.configure
+
+  (version 207012)
+  (digest "c3d3d26e9af34273a9a1399670ac2e12ead534bf")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.syntax.assertion assert)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel / not)
+              (world.settings world-setting)))

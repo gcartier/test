@@ -1,0 +1,6 @@
+(manifest jazz.ui.event.Keyboard-Event
+
+  (version 207012)
+  (digest "af9865ddce4583c5badf977de1cc2330e82f8738")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.event.Event Event (Event get-property))))

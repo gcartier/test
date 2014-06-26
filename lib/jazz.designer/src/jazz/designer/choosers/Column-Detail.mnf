@@ -1,0 +1,8 @@
+(manifest jazz.designer.choosers.Column-Detail
+
+  (version 207012)
+  (digest "dc1d878b6bfdc6a404269b1d463aa469532f12e2")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of new)
+              (jazz.language.runtime.object Object (Object copy-object) (Object initialize) (Object print))))

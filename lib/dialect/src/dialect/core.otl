@@ -1,0 +1,3 @@
+(module dialect.core scheme
+  (macro public (define-walker-declaration name dialect-name declaration-method binding-method))
+  (macro public (define-walker-special name dialect-name method)))

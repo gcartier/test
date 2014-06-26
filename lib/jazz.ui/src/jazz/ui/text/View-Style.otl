@@ -1,0 +1,13 @@
+(module jazz.ui.text.View-Style jazz
+  (import (jazz.ui))
+  (class View-Style extends Style
+    (slot protected view getter generate)
+    (method protected override (initialize . rest))
+    (method protected override (compare-object target))
+    (method protected override (print output readably))
+    (method protected override (get-width))
+    (method protected override (get-height))
+    (method protected override (run-width run))
+    (method protected override (propagate?))
+    (method protected override (place-update h v))
+    (method protected override (height-update height))))

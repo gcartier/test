@@ -1,0 +1,15 @@
+(module jazz.catalog.entry.Category-Entry jazz
+  (import (jazz.catalog))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Category-Entry extends Hierarchical-Entry
+    (slot extends accessors generate)
+    (method protected override (initialize modifiers qualified name extends line column end-line end-column definitions))
+    (method protected override (present))
+    (method protected override (update-indexes definitions-index references-index))
+    (method protected override (insert-self-definitions tree father level sort?))
+    (method protected final (collect-ascendants))
+    (method protected virtual (insert-ascendants tree father))
+    (method protected virtual (insert-interfaces tree father))
+    (method protected final (insert-interfaces-list tree father title interfaces))
+    (method protected final (insert-inherited tree father))))

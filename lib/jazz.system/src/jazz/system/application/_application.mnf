@@ -1,0 +1,10 @@
+(manifest jazz.system.application
+
+  (version 207012)
+  (digest "d84de08b2bfc9c2c5a905020a163a14947c6cafa")
+  (references (jazz.system.application.Application Application)
+              (jazz.system.application.Application-Actions Application-Actions)
+              (jazz.system.application.Application-Bindings Application-Bindings)
+              (jazz.system.application.Application-Event Application-Event)
+              (jazz.system.application.Application-Preferences Application-Preferences)
+              (jazz.system.application.Exception-Presenter Exception-Presenter)))

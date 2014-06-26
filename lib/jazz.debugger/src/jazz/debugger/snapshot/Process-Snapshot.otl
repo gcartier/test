@@ -1,0 +1,12 @@
+(module jazz.debugger.snapshot.Process-Snapshot jazz
+  (import (jazz.library))
+  (class Process-Snapshot extends Component
+    (property process accessors generate)
+    (property date accessors generate)
+    (property info accessors generate)
+    (property computer accessors generate)
+    (property exception accessors generate)
+    (property memory accessors generate)
+    (property collector accessors generate)
+    (property threads accessors generate)
+    (method protected override (print output readably))))

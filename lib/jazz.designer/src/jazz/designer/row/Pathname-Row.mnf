@@ -1,0 +1,16 @@
+(manifest jazz.designer.row.Pathname-Row
+
+  (version 207012)
+  (digest "b8c3bb950d6dd2ecfabce4c5350168c56ae84a7d")
+  (references (jazz.designer.row.Value-Row Value-Row)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model) (Component locate))
+              (jazz.ui.text.Code-Text-View (Code-Text-View down-arrow-move) (Code-Text-View up-arrow-move))
+              (jazz.ui.text.Text-View (Text-View focus-lose))
+              (jazz.ui.view.View (View focus-master))
+              (jazz.ui.widget.Moniker-Text-View Moniker-Text-View)
+              (jazz.ui.widget.Moniker-Widget Moniker-Widget (Moniker-Widget get-moniker) (Moniker-Widget moniker-update) (Moniker-Widget~Class get-class-form) (Moniker-Widget~Class get-class-forms) (Moniker-Widget~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

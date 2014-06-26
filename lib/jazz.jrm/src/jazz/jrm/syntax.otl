@@ -1,0 +1,3 @@
+(module jazz.jrm.syntax jazz
+  (import (scheme.core.kernel))
+  (syntax public remotable-stub))

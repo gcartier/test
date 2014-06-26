@@ -1,0 +1,9 @@
+(module jazz.ui.widget.Combo-Widget jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Combo-Widget extends Border-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (default-size))))

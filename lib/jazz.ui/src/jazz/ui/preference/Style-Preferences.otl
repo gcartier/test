@@ -1,0 +1,16 @@
+(module jazz.ui.preference.Style-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Style-Preferences extends Exemplar-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property alignment accessors generate)
+    (method protected override (->exemplar)))
+  (class Style-Preferences-Descriptor extends Exemplar-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

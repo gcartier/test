@@ -1,0 +1,14 @@
+(manifest jazz.editor.tex.text.Tex-Text-View
+
+  (version 207012)
+  (digest "d560aea39fd3b6386a72d7511f559bdc67382b0d")
+  (references (jazz.editor.tex.text.Tex-Syntax Tex-Syntax)
+              (jazz.language.runtime.functional (Class external-name) Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.system get-preferences)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.outline.Outline-View (Outline-View model))
+              (jazz.ui.text.Code-Text-View Code-Text-View (Code-Text-View host-workspaces) (Code-Text-View install) (Code-Text-View new-model) (Code-Text-View new-syntax) (Code-Text-View preferences))
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View add-style))))

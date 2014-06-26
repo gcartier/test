@@ -1,0 +1,8 @@
+(module jazz.designer.domain.Name-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.library))
+  (class Name-Domain extends Info-Domain
+    (property limit accessors generate)
+    (method protected override (validate-value value (validation-context (unspecified))))
+    (method protected override (present-value value))
+    (method protected override (parse-presentation text))))

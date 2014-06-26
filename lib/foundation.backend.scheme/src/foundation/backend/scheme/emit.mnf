@@ -1,0 +1,5 @@
+(manifest foundation.backend.scheme.emit
+
+  (version 207012)
+  (digest "96a14de5d401b72e60805bdae36327bdbbe25c38")
+  (references))

@@ -1,0 +1,12 @@
+(module world.interface.pane jazz
+  (import (jazz.ui))
+  (import (world))
+  (import (world.autoload))
+  (import (world.syntax (phase syntax)))
+  (class World-Pane extends Layout-View
+    (slot moving?)
+    (slot start-mouse)
+    (slot start-position)
+    (method protected final (move-pane-down origin pos))
+    (method protected final (move-pane-drag origin pos))
+    (method protected final (move-pane-up origin pos))))

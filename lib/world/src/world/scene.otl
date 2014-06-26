@@ -1,0 +1,8 @@
+(module world.scene jazz
+  (import (jazz.library))
+  (import (world.syntax (phase syntax)))
+  (class Scene extends Component
+    (slot tick-procedures <Object> getter generate)
+    (method protected final (tick-scene elapse))
+    (method protected final (register-tick proc))
+    (method protected final (unregister-tick proc))))

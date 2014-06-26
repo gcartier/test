@@ -1,0 +1,7 @@
+(manifest jazz.jml.renderer.JML-Renderer
+
+  (version 207012)
+  (digest "a548eb4d8271edf16e8a70d53799c446b95c1b96")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))))

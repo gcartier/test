@@ -1,0 +1,19 @@
+(module jazz.editor.sql.preference.SQL-Text-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class SQL-Text-Preferences extends Code-Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property title-style accessors generate)
+    (property line-comment-style accessors generate)
+    (property definition-style accessors generate)
+    (property keyword-style accessors generate)
+    (property keywords accessors generate)
+    (property completions accessors generate))
+  (class SQL-Text-Preferences-Descriptor extends Document-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

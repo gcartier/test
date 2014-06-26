@@ -1,0 +1,11 @@
+(module jazz.catalog jazz
+  (export (jazz.catalog.autoload))
+  (import (jazz.io))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.version))
+  (definition public catalog-version)
+  (definition public (get-parser-dialect extension))
+  (definition public (get-parser-class dialect))
+  (definition public (extension-match-test ext))
+  (definition public (post-catalog thunk)))

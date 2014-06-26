@@ -1,0 +1,9 @@
+(manifest jazz.ui.dialog.platform.glfw
+
+  (version 207012)
+  (digest "5da2ef03992b967244cff89654d84ba77610cdb1")
+  (references (jazz.language.runtime.kernel unimplemented)
+              (jazz.ui.dialog.Directory-Request Directory-Request)
+              (jazz.ui.dialog.File-Request File-Request)
+              (jazz.ui.dialog.NewFile-Request NewFile-Request)
+              (jazz.ui.view get-modal)))

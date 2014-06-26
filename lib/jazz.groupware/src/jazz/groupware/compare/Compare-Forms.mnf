@@ -1,0 +1,18 @@
+(manifest jazz.groupware.compare.Compare-Forms
+
+  (version 207012)
+  (digest "191ccf9e6e83db67c5e13de75145e843a5f65451")
+  (references (jazz.groupware.compare.Compare-Trees Compare-Trees (Compare-Trees entry-image) (Compare-Trees moniker->tree) (Compare-Trees new-comparer) (Compare-Trees present-item) (Compare-Trees present-root) (Compare-Trees present-value) (Compare-Trees scan-feedback) (Compare-Trees~Class get-class-form) (Compare-Trees~Class get-class-forms) (Compare-Trees~Class set-class-form))
+              (jazz.groupware.compare.Form-Comparer Form-Comparer)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.library.component.Form Form)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.system user-feedback)
+              (jazz.ui.view.View (View~Class host-icon) (View~Class host-title))
+              (scheme.language.runtime.kernel = car cons list list->table)
+              (scheme.syntax declaration-path)))

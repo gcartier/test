@@ -1,0 +1,4 @@
+(module world.chunk jazz
+  (class World-Chunk extends Object
+    (slot sections <table+> getter generate)
+    (method protected override (initialize sections))))

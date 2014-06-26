@@ -1,0 +1,14 @@
+(module jazz.ui.dialog.Color-Request jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Color-Request extends Color-Choose
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-title))
+    (method meta protected override (host-size))
+    (method protected override (on-return-press evt))
+    (method protected override (on-escape-press evt))
+    (method protected override (get-modal-result))))

@@ -1,0 +1,17 @@
+(module jazz.library.history.History-Manager jazz
+  (import (jazz.system))
+  (class History-Manager extends Object
+    (slot history-provider)
+    (slot backward-history)
+    (slot forward-history)
+    (slot max-history)
+    (method protected override (initialize provider . rest))
+    (method public final (get-backward-history))
+    (method public final (get-forward-history))
+    (method public final (add-current))
+    (method public final (add-history item))
+    (method protected final (add-backward-history item))
+    (method protected final (add-forward-history item))
+    (method protected final (append-forward-history item))
+    (method public final (go-backward-history (rank: rank (unspecified))))
+    (method public final (go-forward-history (rank: rank (unspecified))))))

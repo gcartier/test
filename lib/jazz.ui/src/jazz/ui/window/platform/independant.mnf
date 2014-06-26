@@ -1,0 +1,14 @@
+(manifest jazz.ui.window.platform.independant
+
+  (version 207012)
+  (digest "0067b9e5c03bdf43fb219665fe54e2a5f77d7179")
+  (references (jazz.graphic.platform.glfw.Region Region)
+              (jazz.language.runtime.debug execution-stack)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-butlast) butlast primordial-thread ste? thread-block thread-call thread-execute thread-post thread-write write-delayed-event)
+              (jazz.language.runtime.kernel % continuation-capture current-thread new terminal unspecified)
+              (jazz.language.runtime.object Object (Object close) (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros when)
+              (jazz.language.syntax.with with)
+              (jazz.snapshot register-snapshot-callbacks)
+              (scheme.language.runtime.kernel > cons dynamic-wind eq? length make-table not null? table-ref table-set!)))

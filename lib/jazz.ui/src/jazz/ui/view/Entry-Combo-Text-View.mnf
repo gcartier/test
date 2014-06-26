@@ -1,0 +1,18 @@
+(manifest jazz.ui.view.Entry-Combo-Text-View
+
+  (version 207012)
+  (digest "a3b9346eb429e483c72203d02450fc91499bcec8")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule when)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View focus-gained) (Text-View focus-lose) (Text-View get-context-menu) (Text-View new-text-context-menu) (Text-View selectable?) Text-View-Descriptor (Text-View-Descriptor~Class get-class-form) (Text-View-Descriptor~Class get-class-forms) (Text-View-Descriptor~Class set-class-form) (Text-View~Class get-class-descriptor) (Text-View~Class get-class-form) (Text-View~Class get-class-forms) (Text-View~Class set-class-form))
+              (jazz.ui.view.Combo-Text-View Combo-Text-View (Combo-Text-View new-model))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

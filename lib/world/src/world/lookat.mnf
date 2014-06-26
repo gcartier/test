@@ -1,0 +1,12 @@
+(manifest world.lookat
+
+  (version 207012)
+  (digest "db415f90735cce1e12eee0f6bf7361bde3dbdf34")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Class marshall-object) (Class unmarshall-object) Object-Class serialize-object)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object print))
+              (jazz.language.syntax.bind bind-vector)
+              (scheme.language.runtime.kernel vector vector-ref)
+              (world.geometry.classes make-vertex vertex-copy!)
+              (world.serialization deserialize serialize)))

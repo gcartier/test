@@ -1,0 +1,6 @@
+(manifest jazz.catalog.entry.Code-Entry
+
+  (version 207012)
+  (digest "b9e44ed3edb5560e2b1976c17a5d733b0084f167")
+  (references (jazz.catalog.entry.Hierarchical-Entry Hierarchical-Entry (Hierarchical-Entry initialize))
+              (jazz.language.runtime.functional Object-Class)))

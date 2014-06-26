@@ -1,0 +1,5 @@
+(module jazz.library.listener jazz
+  (import (jazz.library))
+  (definition public (add-listener listener lst))
+  (definition public (remove-listener listener lst))
+  (definition public (listener? object lst)))

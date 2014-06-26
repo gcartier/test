@@ -1,0 +1,10 @@
+(module jazz.jrm.remote.Local-Proxy jazz
+  (import (jazz.jrm))
+  (class Local-Proxy extends Proxy
+    (method meta protected override (marshall-object object))
+    (method meta protected override (unmarshall-object content))
+    (slot object accessors generate)
+    (method protected override (initialize object))
+    (method protected override (print output readably))
+    (method protected virtual (proxy-values))
+    (method protected override (live?))))

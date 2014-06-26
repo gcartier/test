@@ -1,0 +1,12 @@
+(manifest world.autoload
+
+  (version 207012)
+  (digest "4b4a08830dc4b75990d21835c8db7af48ac174e0")
+  (references (world.camera Camera)
+              (world.element Element)
+              (world.live World)
+              (world.motion Motion)
+              (world.player Player)
+              (world.renderer Mesh-Renderer)
+              (world.sector Sector)
+              (world.zone Zone)))

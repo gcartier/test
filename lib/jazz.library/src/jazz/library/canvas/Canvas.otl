@@ -1,0 +1,14 @@
+(module jazz.library.canvas.Canvas jazz
+  (import (jazz.library))
+  (import (jazz.ui.view))
+  (class Canvas extends Component
+    (property violations accessors generate)
+    (slot violations-factory)
+    (method protected override (get-integrity-manager))
+    (method public final (validate-integrity (context: context (unspecified)) (reporter: reporter (unspecified)) (report?: report? (unspecified))))
+    (method protected final (get-violations-manager))
+    (method public final (select-violations-manager))
+    (method protected virtual (violations-manager-class))
+    (method protected virtual (violations-manager-workspace))
+    (method public final (add-violation violation))
+    (method public final (clear-violations))))

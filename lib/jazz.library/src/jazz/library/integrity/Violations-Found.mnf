@@ -1,0 +1,7 @@
+(manifest jazz.library.integrity.Violations-Found
+
+  (version 207012)
+  (digest "14494e5e900426abde75ac6d606af6200cc599cb")
+  (references (jazz.language.runtime.exception Signal)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object (Object initialize))))

@@ -1,0 +1,17 @@
+(manifest jazz.designer.row.Color-Row
+
+  (version 207012)
+  (digest "7882c95a979f67412457eb0b019f926680ae0303")
+  (references (jazz.designer.row.Value-Row Value-Row)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension Rect)
+              (jazz.library.component.Component (Component locate))
+              (jazz.literals construct-dimension construct-rect)
+              (jazz.ui.text.Text-View (Text-View down-arrow-move) (Text-View focus-lose) (Text-View up-arrow-move))
+              (jazz.ui.view.Color-Combo Color-Combo (Color-Combo content-change) (Color-Combo form-model) (Color-Combo~Class get-class-form) (Color-Combo~Class get-class-forms) (Color-Combo~Class set-class-form))
+              (jazz.ui.view.Color-Text-View Color-Text-View)
+              (jazz.ui.view.View (View focus-master))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

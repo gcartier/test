@@ -1,0 +1,12 @@
+(manifest jazz.library.manifest.Manifest
+
+  (version 207012)
+  (digest "881d2d323603e959e0051b7684b33bb9f58788e1")
+  (references (jazz.io Directory (Directory create) (Directory delete-directory) (Directory empty-directory) (Directory get-content) (Directory get-directory) (Directory get-modification-time) (Directory iterate-directory) (Directory present) (Directory print) (Directory-Class get-protocol) File (Pathname get-list) (Pathname get-name) (Pathname parse) (Pathname validate-components))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name is-not? join member? some?)
+              (jazz.language.runtime.kernel class-of dispatch is? new not-null? unspecified)
+              (jazz.language.syntax.macros when ~)
+              (jazz.language.syntax.typecase typecase)
+              (scheme.language.runtime.kernel apply for-each list map not string? symbol?)))

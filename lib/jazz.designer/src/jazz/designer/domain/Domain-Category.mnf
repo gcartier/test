@@ -1,0 +1,7 @@
+(manifest jazz.designer.domain.Domain-Category
+
+  (version 207012)
+  (digest "24fc43c7312a6f8d1a1f641a583f591929f56751")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

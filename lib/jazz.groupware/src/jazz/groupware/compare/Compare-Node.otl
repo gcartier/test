@@ -1,0 +1,11 @@
+(module jazz.groupware.compare.Compare-Node jazz
+  (class Compare-Node extends Object
+    (slot protected lines <list> getter generate)
+    (slot protected children <list> getter generate)
+    (slot protected key <char+> getter generate)
+    (method protected override (initialize l k))
+    (method protected final (set-lines l))
+    (method protected override (print output readably))
+    (method protected final (add-line line))
+    (method protected final (add-child node))
+    (method protected final (extract-diff moniker1 moniker2))))

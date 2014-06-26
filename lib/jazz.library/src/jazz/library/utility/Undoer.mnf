@@ -1,0 +1,11 @@
+(manifest jazz.library.utility.Undoer
+
+  (version 207012)
+  (digest "bd896200ecd17decc6b9e622c1e37dd638f6ba92")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel not-null?)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.increase decrease! increase!)
+              (jazz.language.syntax.macros prog1 unless unwind-protect when)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel = car cdr cons for-each not)))

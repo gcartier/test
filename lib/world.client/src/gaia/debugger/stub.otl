@@ -1,0 +1,23 @@
+(module gaia.debugger.stub jazz
+  (import (jazz.jrm.syntax (phase syntax)))
+  (import (jazz.jrm))
+  (class Gaia-Debugger-Stub-Interface extends Stub-Interface
+    (method protected override (local-class))
+    (method protected override (remote-class)))
+  (interface Gaia-Debugger-Stub metaclass Gaia-Debugger-Stub-Interface extends Remotable-Stub
+    (method public virtual (show-properties __debuggee __class __properties))
+    (method public virtual (live-gaia/world __debuggee))
+    (method public virtual (design-gaia/world __debuggee))
+    (method public virtual (restore-gaia/world __debuggee)))
+  (class Gaia-Debugger-Local-Proxy extends Local-Proxy implements Gaia-Debugger-Stub
+    (method protected override (stub-reference))
+    (method protected override (show-properties __debuggee __class __properties))
+    (method protected override (live-gaia/world __debuggee))
+    (method protected override (design-gaia/world __debuggee))
+    (method protected override (restore-gaia/world __debuggee)))
+  (class Gaia-Debugger-Remote-Proxy extends Remote-Proxy implements Gaia-Debugger-Stub
+    (method protected override (stub-reference))
+    (method protected override (show-properties __debuggee __class __properties))
+    (method protected override (live-gaia/world __debuggee))
+    (method protected override (design-gaia/world __debuggee))
+    (method protected override (restore-gaia/world __debuggee))))

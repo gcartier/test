@@ -1,0 +1,12 @@
+(manifest jazz.library.handler.Handler
+
+  (version 207012)
+  (digest "2b95b956df22e5f778eb2014e521b3a06b66e36e")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name is-not? memq?)
+              (jazz.language.runtime.kernel class-of dispatch)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) (Object setup-context) (Object walk-references))
+              (jazz.language.syntax.macros when ~)
+              (jazz.library.component.Component Component (Component child))
+              (jazz.system.access get-process)
+              (scheme.language.runtime.kernel apply car cdr eq? not pair?)))

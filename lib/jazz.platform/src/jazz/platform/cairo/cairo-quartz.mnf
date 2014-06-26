@@ -1,0 +1,5 @@
+(manifest jazz.platform.cairo.cairo-quartz
+
+  (version 207012)
+  (digest "b8e66833b191ef0029eac47678af422eac089f68")
+  (references (jazz.platform.cairo.cairo-base CAIRO_FORMAT_RGB24 cairo_image_surface_create)))

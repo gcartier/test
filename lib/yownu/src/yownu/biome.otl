@@ -1,0 +1,11 @@
+(module yownu.biome jazz
+  (import (world.syntax (phase syntax)))
+  (class Yownu-Biome extends Object
+    (slot name getter generate)
+    (slot earth getter generate)
+    (slot trees getter generate)
+    (method protected override (initialize (name: name (unspecified)) (earth: earth (unspecified)) (trees: trees (unspecified))))
+    (method protected override (print output readably)))
+  (definition public biomes)
+  (definition public (find-biome name))
+  (definition public (random-biome)))

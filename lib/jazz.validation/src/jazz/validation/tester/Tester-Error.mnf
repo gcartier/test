@@ -1,0 +1,8 @@
+(manifest jazz.validation.tester.Tester-Error
+
+  (version 207012)
+  (digest "39715c27900f9b2e361798c0f79595dd774e6a01")
+  (references (jazz.language.runtime.exception Error (Error get-message) (Error initialize) (Exception present-message))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class)
+              (scheme.language.runtime.kernel list)))

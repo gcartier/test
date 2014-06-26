@@ -1,0 +1,6 @@
+(module jazz.editor.c.text.C-Explorer jazz
+  (import (jazz.ui))
+  (class C-Explorer extends Code-Explorer
+    (method public final (forward-comments))
+    (method public final (forward-whites))
+    (method public final (forward-identifier-or-number))))

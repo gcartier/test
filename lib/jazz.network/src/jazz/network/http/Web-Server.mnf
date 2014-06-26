@@ -1,0 +1,12 @@
+(manifest jazz.network.http.Web-Server
+
+  (version 207012)
+  (digest "5d3fd0cf758a5933068d7c82682ea2b21a92e376")
+  (references (jazz.language.runtime.functional Object-Class exit-thread new-thread)
+              (jazz.language.runtime.kernel new thread-start!)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (jazz.network.http.Dispatcher HTTP-Dispatcher)
+              (jazz.network.http.HTTP-Request HTTP-Request)
+              (jazz.network.http.Session-Manager Session-Manager)
+              (webserver http-server-start! make-http-server uri-path)))

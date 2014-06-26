@@ -1,0 +1,2 @@
+(module jazz.library.cryptography.Cryptography-Provider jazz
+  (class Cryptography-Provider extends Object))

@@ -1,0 +1,12 @@
+(manifest jazz.dialect.classes.foundation
+
+  (version 207012)
+  (digest "0429319efa6ac136cc7a5bf33251fc593c0e7128")
+  (references (jazz.language.runtime.exception Error error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Type box-list category-name find-keyword unbox-list)
+              (jazz.language.runtime.kernel class-of make-parameter not-null? unspecified walk-literal)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) (Object walk-references) print-unreadable)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (scheme.core.kernel setup-declaration)
+              (scheme.language.runtime.kernel apply source-code)))

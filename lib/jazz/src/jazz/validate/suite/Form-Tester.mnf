@@ -1,0 +1,14 @@
+(manifest jazz.validate.suite.Form-Tester
+
+  (version 207012)
+  (digest "37a1744a1440211203cdf44c013cc239aa4c8830")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel category-field new)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester validate-failed))
+              (scheme.language.runtime.kernel = cons length list list->table)
+              (scheme.syntax declaration-path)))

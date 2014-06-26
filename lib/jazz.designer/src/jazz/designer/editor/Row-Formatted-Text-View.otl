@@ -1,0 +1,8 @@
+(module jazz.designer.editor.Row-Formatted-Text-View jazz
+  (import (jazz.ui))
+  (class Row-Formatted-Text-View extends Formatted-Text-View
+    (method protected override (new-model))
+    (method protected final (get-value-row))
+    (method protected override (get-context-menu))
+    (method protected override (focus-lose))
+    (method protected override (focus-master))))

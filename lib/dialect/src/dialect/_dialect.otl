@@ -1,0 +1,10 @@
+(unit dialect
+  (require (core.class))
+  (require (core.generic))
+  (require (core.exception))
+  (require (backend.syntax))
+  (require (backend.runtime))
+  (require (dialect.syntax))
+  (require (dialect.runtime))
+  (require (dialect.expression))
+  (require (backend.scheme.runtime)))

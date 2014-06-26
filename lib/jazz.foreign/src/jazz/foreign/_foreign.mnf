@@ -1,0 +1,5 @@
+(manifest jazz.foreign
+
+  (version 207012)
+  (digest "d7d97fdc7111690e0fe479133eae5162e6fab2ad")
+  (references (jazz.foreign.syntax C-Code C-Code~Class C-Declare C-Declare~Class C-Definition-Declaration C-Definition-Declaration~Class C-Function C-Function~Class C-Include C-Include~Class C-Initialize C-Initialize~Class C-Named-Declare-Declaration C-Named-Declare-Declaration~Class C-Type-Declaration C-Type-Declaration~Class c-constant c-enumerant c-enumeration c-external c-structure c-union com-external)))

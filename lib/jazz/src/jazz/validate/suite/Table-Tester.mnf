@@ -1,0 +1,13 @@
+(manifest jazz.validate.suite.Table-Tester
+
+  (version 207012)
+  (digest "9b1c7a4bbf1d35b555c190008dfeb0b9b42796c5")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel = cons eq? list list->table make-table not table-ref table-set!)
+              (scheme.syntax declaration-path)))

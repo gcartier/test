@@ -1,0 +1,19 @@
+(module jazz.ide.login.Login-Bindings jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Login-Bindings extends Bindings
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Login-View-Actions extends View-Actions
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Login-Text-Actions extends Text-Actions
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Login-Tree-Actions extends Tree-Actions
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

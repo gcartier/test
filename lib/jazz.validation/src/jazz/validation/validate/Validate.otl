@@ -1,0 +1,5 @@
+(module jazz.validation.validate.Validate jazz
+  (import (jazz.system.process))
+  (import (jazz.validation))
+  (class Validate extends Process
+    (method protected override (start-process))))

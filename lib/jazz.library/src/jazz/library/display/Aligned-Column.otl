@@ -1,0 +1,8 @@
+(module jazz.library.display.Aligned-Column jazz
+  (import (jazz.library))
+  (class Aligned-Column extends Display-Column
+    (slot alignment)
+    (slot max-data)
+    (method protected override (initialize displayer . rest))
+    (method protected override (prepare-print))
+    (method protected override (print-to data previous-column previous-data output))))

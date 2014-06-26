@@ -1,0 +1,15 @@
+(module jazz.ui.document.Document-Moniker jazz
+  (import (jazz.io))
+  (import (jazz.io.protocol))
+  (import (jazz.system))
+  (class Document-Moniker-Class extends Moniker-Class
+    (method protected override (get-protocol)))
+  (class Document-Moniker metaclass Document-Moniker-Class extends Moniker
+    (slot pathname)
+    (method protected override (print output readably))
+    (method protected override (present))
+    (method protected override (initialize path))
+    (method protected override (get-name))
+    (method public final (get-document))
+    (method protected override (load-lines . rest))
+    (method protected override (load-form))))

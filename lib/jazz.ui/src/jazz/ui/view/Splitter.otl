@@ -1,0 +1,23 @@
+(module jazz.ui.view.Splitter jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.window))
+  (class Splitter extends View
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property orientation accessors generate)
+    (property move-handler accessors generate)
+    (slot dragging?)
+    (slot base-position)
+    (slot displacement)
+    (method protected override (cursor-update evt))
+    (method protected override (mouse-down evt))
+    (method protected override (drag-move evt))
+    (method protected override (drag-up evt . rest))
+    (method public virtual (process-move sender delta)))
+  (class Splitter-Descriptor extends View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

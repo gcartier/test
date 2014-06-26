@@ -1,0 +1,5 @@
+(module jazz.designer.entry.Name-Entry jazz
+  (import (jazz.designer))
+  (import (jazz.locale))
+  (import (jazz.tie))
+  (class Name-Entry extends String-Entry))

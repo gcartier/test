@@ -1,0 +1,6 @@
+(manifest world.chunk
+
+  (version 207012)
+  (digest "a86f6d0a251e2008191d178271cd7769a55997bc")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))))

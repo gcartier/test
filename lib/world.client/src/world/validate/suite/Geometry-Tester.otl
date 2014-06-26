@@ -1,0 +1,14 @@
+(module world.validate.suite.Geometry-Tester jazz
+  (import (jazz.jml))
+  (import (jazz.validation))
+  (import (world.geometry))
+  (class Geometry-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (test))
+    (method protected final (test-vertex))
+    (method protected final (test-matrix))
+    (method protected final (test-cross-product))
+    (method protected final (test-ray-intersects-triangle?))
+    (method protected final (test-ray-intersects-sphere?))))

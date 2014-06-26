@@ -1,0 +1,9 @@
+(manifest jazz.editor.c.catalog.C-Extern-Entry
+
+  (version 207012)
+  (digest "af3158f4924e5cb0a1ce651643a2a567c9581f87")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry get-image))
+              (jazz.editor.c.catalog.C-Definition-Entry C-Definition-Entry)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)))

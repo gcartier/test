@@ -1,0 +1,5 @@
+(module jazz.library.display.Sequenced-Column-Preferences jazz
+  (import (jazz.library))
+  (class Sequenced-Column-Preferences extends Column-Preferences
+    (method protected override (column-class))
+    (method protected override (new-column display))))

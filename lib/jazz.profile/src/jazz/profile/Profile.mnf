@@ -1,0 +1,7 @@
+(manifest jazz.profile.Profile
+
+  (version 207012)
+  (digest "cc4dbc6b74c25d8a86364e08c19ff88e9c4a882c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)))

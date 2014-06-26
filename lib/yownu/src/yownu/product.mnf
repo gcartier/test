@@ -1,0 +1,10 @@
+(manifest yownu.product
+
+  (version 207012)
+  (digest "5c59ed4536a8cb1ccedb92349a85d51c50f481eb")
+  (references (jazz.io digest-directory initialize-aliases)
+              (jazz.language.runtime.functional (Sequence sequence-last) last)
+              (jazz.language.runtime.kernel build-feedback build-product-descriptor digest-file register-product)
+              (jazz.language.syntax.macros unless)
+              (scheme.language.runtime.kernel equal?)
+              (world.settings world-directory world-file world-templates-directory)))

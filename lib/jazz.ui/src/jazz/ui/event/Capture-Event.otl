@@ -1,0 +1,5 @@
+(module jazz.ui.event.Capture-Event jazz
+  (import (jazz.library))
+  (class Capture-Event extends Event
+    (slot window getter generate)
+    (method protected override (initialize kind sender modifiers wnd))))

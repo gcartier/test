@@ -1,0 +1,4 @@
+(module jazz.ui.text.Table-Text-View jazz
+  (import (jazz.ui))
+  (class Table-Text-View extends Formatted-Text-View
+    (method protected override (new-model))))

@@ -1,0 +1,6 @@
+(manifest jazz.ui.skin.Menu-Look
+
+  (version 207012)
+  (digest "a84e89a9c17a8f3ab6081139bd7f0e5240ed68db")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Look Look)))

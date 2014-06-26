@@ -1,0 +1,9 @@
+(manifest jazz.graphic.opengl.window.glfw
+
+  (version 207012)
+  (digest "b9c11c915ab1b9a8bef9f786743e8eb6271956d8")
+  (references (glfw glfwMakeContextCurrent glfwSwapBuffers window-to-use-hack)
+              (jazz.graphic.opengl.window OpenGL-Window)
+              (jazz.language.runtime.geometry Dimension Point)
+              (jazz.language.runtime.kernel make-parameter new unspecified)
+              (jazz.literals construct-dimension construct-point)))

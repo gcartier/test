@@ -1,0 +1,18 @@
+(manifest jazz.ui.search.Search-View-Preferences
+
+  (version 207012)
+  (digest "564aa6a9c62e1dff2994259d9a70a6e0a3cbca9c")
+  (references (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Boolean-Domain Boolean-Domain)
+              (jazz.designer.domain.Value-Domain Value-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel field-name new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class get-domain) (Component~Class set-class-form))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.preference.Preferences Preferences Preferences-Descriptor (Preferences-Descriptor~Class get-class-form) (Preferences-Descriptor~Class get-class-forms) (Preferences-Descriptor~Class set-class-form) (Preferences~Class get-class-descriptor))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

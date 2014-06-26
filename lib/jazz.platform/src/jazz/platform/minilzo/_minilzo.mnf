@@ -1,0 +1,12 @@
+(manifest jazz.platform.minilzo
+
+  (version 207012)
+  (digest "d52d759d8de0e6088539ae7b904fa0e51a71c4e3")
+  (references (jazz.foreign.syntax c-external)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Integer)
+              (jazz.language.runtime.homogeneous U8Vector)
+              (jazz.language.runtime.kernel u8vector-length unspecified)
+              (jazz.language.syntax.assertion assert)
+              (jazz.platform.types int size_t u8vector->uint8* uint8* uint8*->u8vector uint8*-alloc uint8*-free)
+              (scheme.language.runtime.kernel + < not quotient)))

@@ -1,0 +1,12 @@
+(module world.interface.script jazz
+  (import (jazz.editor.jazz))
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world.interface.pane))
+  (import (world.syntax (phase syntax)))
+  (class Script-Pane extends World-Pane
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class Script-Text extends Jazz-Text-View))

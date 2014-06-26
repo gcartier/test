@@ -1,0 +1,3 @@
+(module jazz.library.factory.Formatter jazz
+  (class Formatter extends Object
+    (method public virtual (format-directive formatting output directive))))

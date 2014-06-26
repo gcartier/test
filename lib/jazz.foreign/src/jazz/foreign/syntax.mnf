@@ -1,0 +1,16 @@
+(manifest jazz.foreign.syntax
+
+  (version 207012)
+  (digest "bfafcc634d4ba756be367f7265d2980f08d18567")
+  (references (dialect.core define-walker-declaration define-walker-special)
+              (jazz.core add-declaration-child annotate-signature emit-signature lookup-reference require-declaration validate-arguments walk-body walk-error walk-parameters with-annotated-frame)
+              (jazz.dialect.classes.foundation Any Declaration (Declaration emit-declaration) (Declaration expand-referenced-declaration) (Declaration get-declaration-inclusions) (Declaration initialize) (Declaration locator) (Declaration outline-extract) (Declaration source) Expression (Expression emit-expression) (Expression initialize) (Lexical-Binding name) Module-Declaration (Walk-Binding emit-binding-reference) (Walk-Binding walk-binding-validate-call) emit-expression)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional ->string Object-Class box-list every? find-keyword unbox-list)
+              (jazz.language.runtime.kernel enqueue find-declaration-child is? new new-code new-queue queue-list sourcified-form unspecified)
+              (jazz.language.syntax.assertion assertion)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.macros when)
+              (scheme.core.kernel current-declaration current-resume current-walker emit new-declaration-form new-special-form parse-modifiers register-binding register-declaration)
+              (scheme.language.runtime.kernel + = append apply caddr cadr car cddr cdr cons desourcify desourcify-all eq? integer? length list list? map memq not null? number->string pair? source-code sourcify-if string->symbol string-append string? strip-syntactic-closures symbol->string symbol? values)))

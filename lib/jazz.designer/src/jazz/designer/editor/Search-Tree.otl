@@ -1,0 +1,15 @@
+(module jazz.designer.editor.Search-Tree jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class Search-Tree extends Details-Tree
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property target accessors generate)
+    (method protected override (selection-changed component old origin force-parent? focus?))
+    (method protected override (on-designer evt))
+    (method protected override (update . rest))
+    (method protected override (insert-component component father recursive?))))

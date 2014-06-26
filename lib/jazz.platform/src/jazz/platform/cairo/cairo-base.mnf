@@ -1,0 +1,6 @@
+(manifest jazz.platform.cairo.cairo-base
+
+  (version 207012)
+  (digest "24802bf8681adb512cc2496c49cd70276bc44408")
+  (references (jazz.foreign.syntax c-enumeration c-external)
+              (jazz.platform.types int)))

@@ -1,0 +1,10 @@
+(manifest jazz.ui.text.Text-Combo
+
+  (version 207012)
+  (digest "274d17afd20efb5c04403ec93ae17d793e3f8b9e")
+  (references (jazz.language.runtime.functional Object-Class (Sequence sequence-last) last neq?)
+              (jazz.language.runtime.kernel not-null? unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.menu.Context-Menu Context-Menu)
+              (jazz.ui.view.Combo-Box Combo-Box (Combo-Box context-menu-class))
+              (jazz.ui.view.View (View record-actions?))))

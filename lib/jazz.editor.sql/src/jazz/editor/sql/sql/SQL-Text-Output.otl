@@ -1,0 +1,18 @@
+(module jazz.editor.sql.sql.SQL-Text-Output jazz
+  (import (jazz.editor.sql))
+  (import (jazz.editor.sql.view))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class SQL-Text-Output extends Layout-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (method protected override (get-tools-view))
+    (method protected override (focus-default))
+    (method public final (get-text))
+    (method protected override (delete-selection))
+    (method protected final (on-clear evt))))

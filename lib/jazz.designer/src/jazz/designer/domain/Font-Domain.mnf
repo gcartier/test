@@ -1,0 +1,18 @@
+(manifest jazz.designer.domain.Font-Domain
+
+  (version 207012)
+  (digest "9609f7e2094716140769f282ecb1668e2d637b2d")
+  (references (jazz.designer.domain.Enumeration-Domain Enumeration-Domain (Enumeration-Domain collect-choices) (Enumeration-Domain condensed?) (Enumeration-Domain setup-entry) (Enumeration-Domain~Class get-class-form) (Enumeration-Domain~Class get-class-forms) (Enumeration-Domain~Class set-class-form))
+              (jazz.designer.entry.Enumeration-Entry Enumeration-Entry)
+              (jazz.graphic symbolic-font symbolic-fonts)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.component.Component (Component locate))
+              (jazz.library.literals construct-locales construct-reference)
+              (jazz.library.utility.Reference Reference)
+              (jazz.locale Locales)
+              (scheme.language.runtime.kernel cons list list->table map)
+              (scheme.syntax declaration-path)))

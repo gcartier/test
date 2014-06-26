@@ -1,0 +1,19 @@
+(module jazz.console.Console-Text-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Console-Text-Preferences extends Code-Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property banner-style accessors generate)
+    (property prompt-style accessors generate)
+    (property entry-style accessors generate)
+    (property input-style accessors generate)
+    (property output-style accessors generate)
+    (property comment-style accessors generate))
+  (class Console-Text-Preferences-Descriptor extends Document-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

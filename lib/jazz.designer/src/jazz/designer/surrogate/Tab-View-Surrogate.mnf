@@ -1,0 +1,8 @@
+(manifest jazz.designer.surrogate.Tab-View-Surrogate
+
+  (version 207012)
+  (digest "0aaffbb837fa54d5633114fce313e8a6df39f202")
+  (references (jazz.designer.surrogate.Component-Surrogate (Component-Surrogate client))
+              (jazz.designer.surrogate.View-Surrogate View-Surrogate (View-Surrogate mouse-down))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros when)))

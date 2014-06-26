@@ -1,0 +1,5 @@
+(module jazz.library.utility.Environment-Provider jazz
+  (interface Environment-Provider
+    (method public virtual (locate-reference symbol))
+    (method public virtual (require-reference symbol))
+    (method public virtual (get-reference symbol))))

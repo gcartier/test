@@ -1,0 +1,9 @@
+(module jazz.library.handler.Event-Handler jazz
+  (import (jazz.library))
+  (class Event-Handler extends Handler
+    (slot properties getter generate)
+    (method protected override (initialize . rest))
+    (method protected override (print output readably))
+    (method public final (get-property keyword))
+    (method protected override (invoke sender event (action: action (unspecified))))
+    (method public final (invoke-target target event (action: action (unspecified))))))

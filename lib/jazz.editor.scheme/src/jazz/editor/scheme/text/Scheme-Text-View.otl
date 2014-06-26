@@ -1,0 +1,22 @@
+(module jazz.editor.scheme.text.Scheme-Text-View jazz
+  (import (jazz.editor.lisp))
+  (import (jazz.editor.scheme))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Scheme-Text-View extends Lisp-Text-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method protected override (preferences))
+    (method protected override (new-syntax))
+    (method protected override (focus-actions))
+    (method protected override (get-context-menu))
+    (method protected override (prepare-expressions range)))
+  (class Scheme-Text-Menu extends Context-Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

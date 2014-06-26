@@ -1,0 +1,12 @@
+(manifest jazz.graphic.literals
+
+  (version 207012)
+  (digest "f00def3f3459fa81e581e10f07e99ced16a13454")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.Gradient Gradient)
+              (jazz.graphic.Texture Texture)
+              (jazz.graphic.font.Font Font)
+              (jazz.language.runtime.kernel new)
+              (jazz.library parse-attributes)
+              (jazz.library.exemplar construct-exemplar)
+              (scheme.language.runtime.kernel apply)))

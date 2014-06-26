@@ -1,0 +1,9 @@
+(module jazz.ui.text.Code-Explorer jazz
+  (import (jazz.ui))
+  (class Code-Explorer extends Text-Explorer
+    (method public virtual (backward-expr))
+    (method public virtual (forward-expr))
+    (method public final (collect-backward-exprs) <list>)
+    (method public final (collect-forward-exprs n <fx>) <list>)
+    (method protected virtual (expression-comment? mark))
+    (method public final (remove-expression-comments list))))

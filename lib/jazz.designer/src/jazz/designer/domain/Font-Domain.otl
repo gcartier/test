@@ -1,0 +1,13 @@
+(module jazz.designer.domain.Font-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (definition public (collect-symbolic-fonts client))
+  (class Font-Domain extends Enumeration-Domain
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property width accessors generate)
+    (method protected override (setup-entry view client))))

@@ -1,0 +1,9 @@
+(manifest jazz.ui.hosting.Focus-Container
+
+  (version 207012)
+  (digest "c7313e9126db171e383c0cdcae7d233f381dd1c4")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.view.View View (View acquire-focus) (View focus-default) (View get-focus-container) (View mouse-activate?))
+              (scheme.language.runtime.kernel eq?)))

@@ -1,0 +1,18 @@
+(manifest jazz.designer.book.Book-View
+
+  (version 207012)
+  (digest "4b2a47f80a4973a83c5bb63a451818a1bdc2bd43")
+  (references (jazz.designer.book.Book-Controller Book-Controller)
+              (jazz.io path-settings)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class for-each-property)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.component.Component (Component confirm-close) (Component output-properties))
+              (jazz.system output-header output-section)
+              (jazz.ui.document.Document Document)
+              (jazz.ui.view with-cursor)
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.View (View get-modified?) (View install-in-host) (View save) (View save-as) (View save-to) (View set-modified?))
+              (scheme.language.runtime.kernel call-with-output-file eq? for-each make-table null? table-ref table-set!)))

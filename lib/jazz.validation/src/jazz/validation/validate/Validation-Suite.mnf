@@ -1,0 +1,6 @@
+(manifest jazz.validation.validate.Validation-Suite
+
+  (version 207012)
+  (digest "eb278ec9e6c558971e70a7205f3d12203a270985")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))))

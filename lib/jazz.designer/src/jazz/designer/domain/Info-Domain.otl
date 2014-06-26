@@ -1,0 +1,3 @@
+(module jazz.designer.domain.Info-Domain jazz
+  (import (jazz.designer))
+  (class Info-Domain extends Domain))

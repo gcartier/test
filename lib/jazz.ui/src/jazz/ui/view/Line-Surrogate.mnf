@@ -1,0 +1,6 @@
+(manifest jazz.ui.view.Line-Surrogate
+
+  (version 207012)
+  (digest "1239ed3fe0df34e007d665104dde8492b93ad20a")
+  (references (jazz.designer.surrogate.View-Surrogate View-Surrogate)
+              (jazz.language.runtime.functional Object-Class)))

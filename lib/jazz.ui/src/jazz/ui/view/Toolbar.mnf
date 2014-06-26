@@ -1,0 +1,16 @@
+(manifest jazz.ui.view.Toolbar
+
+  (version 207012)
+  (digest "e67525b1d920157e2a7be86714e4fc1fe8051be8")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.literals construct-rect)
+              (jazz.ui.skin find-look)
+              (jazz.ui.view.Drawing (Drawing get-bounds))
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.View (View draw-background) (View get-look) (View mouse-activate?))
+              (scheme.language.runtime.kernel cons list list->table not)
+              (scheme.syntax declaration-path)))

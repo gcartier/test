@@ -1,0 +1,11 @@
+(manifest world.log
+
+  (version 207012)
+  (digest "2d42d850e38c16e8e828674c0da4fdb432feb8f6")
+  (references (gambit.log log-BLACK log-BLUE log-BROWN log-GRAY log-GREEN log-PURPLE log-RED log-YELLOW log-cleanup log-context-alloc log-define-state log-setup log-start log-stop log-transition)
+              (jazz.io Directory)
+              (jazz.io.literals construct-directory)
+              (jazz.language.runtime.kernel force-output input-port-timeout-set! make-mutex make-parameter mutex-lock! mutex-unlock! open-vector)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros prog1 unwind-protect when)
+              (scheme.language.runtime.kernel eq? make-table not read write)))

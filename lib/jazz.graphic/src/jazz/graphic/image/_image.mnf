@@ -1,0 +1,11 @@
+(manifest jazz.graphic.image
+
+  (version 207012)
+  (digest "91abf900fbae264aff71c12270aae5d1fe87fc98")
+  (references (jazz.language.runtime.exception Error (Error get-message) signal)
+              (jazz.language.runtime.functional /= Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.library resource?)
+              (jazz.platform.cairo CAIRO_CONTENT_COLOR_ALPHA cairo_create cairo_destroy cairo_image_surface_create_from_png cairo_image_surface_get_height cairo_image_surface_get_width cairo_paint cairo_scale cairo_set_source_surface cairo_surface_create_similar cairo_surface_status load-png-image-from-u8vector)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel / not)))

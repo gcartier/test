@@ -1,0 +1,5 @@
+(module jazz.debugger.debugger.Debugger-Listener jazz
+  (interface Debugger-Listener
+    (method public virtual (display-output string))
+    (method public virtual (newline-output))
+    (method public virtual (debug-output output))))

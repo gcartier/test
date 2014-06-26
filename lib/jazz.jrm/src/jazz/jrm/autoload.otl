@@ -1,0 +1,10 @@
+(module jazz.jrm.autoload jazz
+  (export (jazz.jrm.register.Register (autoload Register Register)))
+  (export (jazz.jrm.register.stub (autoload Register-Stub Register-Stub)))
+  (export (jazz.jrm.remote.IOR (autoload IOR IOR)))
+  (export (jazz.jrm.remote.Local-Proxy (autoload Local-Proxy Local-Proxy)))
+  (export (jazz.jrm.remote.Proxy (autoload Proxy Proxy)))
+  (export (jazz.jrm.remote.Remote-Proxy (autoload Remote-Proxy Remote-Proxy)))
+  (export (jazz.jrm.remote.Remotable-Stub (autoload Remotable-Stub Remotable-Stub)))
+  (export (jazz.jrm.remote.Remote-Listener (autoload Remote-Listener Remote-Listener)))
+  (export (jazz.jrm.remote.Stub-Interface (autoload Stub-Interface Stub-Interface))))

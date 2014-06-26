@@ -1,0 +1,16 @@
+(module jazz.ui.text.Run jazz
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (class Run extends Object
+    (slot protected string <Subseq$string$> accessors generate)
+    (slot protected style <Style> accessors generate)
+    (slot protected height <fx> getter generate)
+    (method protected override (initialize string <Subseq$string$> style <Style>))
+    (method protected override (print output readably))
+    (method public final (export-string))
+    (method public final (get-length) <fx>)
+    (method public final (compute-width) <fx>)
+    (method protected final (scan h start end tabs proc))
+    (method protected final (wrap context margin h v width tabs place break))
+    (method protected final (height-update height))
+    (method protected final (draw-run surface <Surface> context h <fx> v <fx> line-height <fx> tabs left enabled?))))

@@ -1,0 +1,8 @@
+(module jazz.io.protocol jazz
+  (import (jazz.io))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.dialog))
+  (import (jazz.ui.view))
+  (generic (moniker-modal class . rest))
+  (generic (moniker-new class parts)))

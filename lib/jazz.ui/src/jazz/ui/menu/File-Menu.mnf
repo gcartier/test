@@ -1,0 +1,17 @@
+(manifest jazz.ui.menu.File-Menu
+
+  (version 207012)
+  (digest "78c8b64cc5c13404a6a4ad9a2880af20e2fc0747")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.literals construct-image-resource construct-locales)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.locale Locales)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.literals construct-action)
+              (jazz.ui.menu.File-Base-Menu File-Base-Menu (File-Base-Menu~Class get-class-form) (File-Base-Menu~Class get-class-forms) (File-Base-Menu~Class set-class-form))
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Separator-Item Separator-Item)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

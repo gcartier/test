@@ -1,0 +1,21 @@
+(module jazz.ui.search.Search-View-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Search-View-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-domain property))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property targets accessors generate)
+    (property whole-words? accessors generate)
+    (property ignore-case? accessors generate)
+    (property preserve-case? accessors generate)
+    (property play-recording? accessors generate)
+    (property expression? accessors generate))
+  (class Search-View-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

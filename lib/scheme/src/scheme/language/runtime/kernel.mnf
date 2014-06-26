@@ -1,0 +1,5 @@
+(manifest scheme.language.runtime.kernel
+
+  (version 207012)
+  (digest "1f7538e38f4758e0d72a656e3661516de592d5e8")
+  (references))

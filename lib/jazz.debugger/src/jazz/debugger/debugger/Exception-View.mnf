@@ -1,0 +1,15 @@
+(manifest jazz.debugger.debugger.Exception-View
+
+  (version 207012)
+  (digest "a68fe15ac81f2b7992dcff798214ed87bd612395")
+  (references (jazz.debugger.debugger.Detail-View Detail-View (Detail-View edit-stop/detail))
+              (jazz.language.runtime.exception with-system-exception-debugger)
+              (jazz.language.runtime.functional (Class external-name) Object-Class empty-string? split)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component locate))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.tree.Tree-Node Tree-Node)
+              (jazz.ui.view.View (View~Class host-icon) (View~Class host-title))
+              (scheme.language.runtime.kernel car cdr for-each list not)))

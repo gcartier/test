@@ -1,0 +1,6 @@
+(manifest jazz.debugger.break.Break-Event
+
+  (version 207012)
+  (digest "f678dd2a448cce0cddb485d98279a3481d613032")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.event.Event Event)))

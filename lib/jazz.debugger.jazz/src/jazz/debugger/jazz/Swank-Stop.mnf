@@ -1,0 +1,6 @@
+(manifest jazz.debugger.jazz.Swank-Stop
+
+  (version 207012)
+  (digest "8c0d3370130312003932baf0c1ab0bb47301be13")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))))

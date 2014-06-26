@@ -1,0 +1,11 @@
+(manifest jazz.editor.tex
+
+  (version 207012)
+  (digest "bf2eab7f0d03c42f418f6aecb08bd8d1a525c1b9")
+  (references (jazz.editor.tex.text.Tex-Explorer Tex-Explorer)
+              (jazz.editor.tex.text.Tex-Syntax Tex-Syntax)
+              (jazz.editor.tex.text.Tex-Text-Preferences Tex-Text-Preferences)
+              (jazz.editor.tex.text.Tex-Text-View Tex-Text-View)
+              (jazz.language.runtime.functional alphanumeric?)
+              (jazz.language.runtime.object (Object object-alphanumeric?))
+              (scheme.language.runtime.kernel eqv?)))

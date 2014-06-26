@@ -1,0 +1,8 @@
+(module jazz.ui.search.Search-Resultset jazz
+  (class Search-Resultset extends Object
+    (slot search getter generate)
+    (slot selection accessors generate)
+    (slot queue)
+    (method protected override (initialize search))
+    (method public final (get-results))
+    (method public final (add-result result))))

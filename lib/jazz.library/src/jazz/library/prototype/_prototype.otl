@@ -1,0 +1,15 @@
+(module jazz.library.prototype jazz
+  (import (jazz.library))
+  (class Prototype-Class extends (:class Component)
+    (slot properties)
+    (method protected final (get-property field-name))
+    (method protected final (set-property field-name property))
+    (method protected override (mop-category-field field-name))
+    (method protected override (mop-field-value property))
+    (method protected override (mop-instance-slots object)))
+  (class Prototype metaclass Prototype-Class extends Component
+    (property facets accessors generate)
+    (slot table getter generate)
+    (method protected override (print output readably))
+    (method public final (get name))
+    (method public final (set name value))))

@@ -1,0 +1,2 @@
+(module jazz.ide jazz
+  (export (jazz.ide.autoload)))

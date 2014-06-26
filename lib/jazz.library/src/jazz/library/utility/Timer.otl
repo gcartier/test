@@ -1,0 +1,13 @@
+(module jazz.library.utility.Timer jazz
+  (import (jazz.system))
+  (class Timer extends Object
+    (slot real-start)
+    (slot cpu-start)
+    (method protected override (initialize))
+    (method public final (reset))
+    (method public final (real-duration))
+    (method public final (real-duration-in-milliseconds))
+    (method public final (cpu-duration))
+    (method public final (cpu-duration-in-milliseconds))
+    (method public final (report-duration))
+    (method public final (report-fps))))

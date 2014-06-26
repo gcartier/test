@@ -1,0 +1,5 @@
+(module jazz.designer.domain.Value-Domain jazz
+  (import (jazz.designer))
+  (class Value-Domain extends Domain
+    (method protected override (present-value value))
+    (method protected override (parse-presentation text))))

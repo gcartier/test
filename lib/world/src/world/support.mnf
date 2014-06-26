@@ -1,0 +1,5 @@
+(manifest world.support
+
+  (version 207012)
+  (digest "beabbc2015a35359fff1d48e2d3ae962123eed2e")
+  (references (jazz.graphic.opengl.glew.header GL_TEXTURE_2D GL_TEXTURE_2D_ARRAY_EXT)))

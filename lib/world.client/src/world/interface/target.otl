@@ -1,0 +1,17 @@
+(module world.interface.target jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world))
+  (import (world.autoload))
+  (import (world.entity))
+  (import (world.geometry))
+  (import (world.interface.pane))
+  (import (world.syntax (phase syntax)))
+  (class Target-Pane extends World-Pane
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (view-target)))
+  (class Target-Tree extends Tree-View
+    (method protected override (mouse-down evt))))

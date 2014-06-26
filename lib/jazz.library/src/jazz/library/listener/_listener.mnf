@@ -1,0 +1,8 @@
+(manifest jazz.library.listener
+
+  (version 207012)
+  (digest "599f5515da1af5d250b5fadc0a09a0674c940086")
+  (references (jazz.language.runtime.functional member? remove!)
+              (jazz.language.runtime.kernel is?)
+              (jazz.library.handler.Handler Handler)
+              (scheme.language.runtime.kernel cons eq?)))

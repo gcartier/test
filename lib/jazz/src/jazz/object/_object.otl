@@ -1,0 +1,4 @@
+(module jazz.object scheme
+  (import (dialect.core))
+  (import (scheme.core (phase syntax)))
+  (import (jazz.dialect.classes.foundation)))

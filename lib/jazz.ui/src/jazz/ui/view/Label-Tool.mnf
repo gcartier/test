@@ -1,0 +1,15 @@
+(manifest jazz.ui.view.Label-Tool
+
+  (version 207012)
+  (digest "73dd1cd74dfd3edd82c41bbab21e2ae4878dad3c")
+  (references (jazz.geometry justify-lazy)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.literals construct-dimension)
+              (jazz.locale localize)
+              (jazz.ui.view.Drawing (Drawing get-size))
+              (jazz.ui.view.Tool-Button Tool-Button (Tool-Button default-size) (Tool-Button draw-tool) (Tool-Button get-state))
+              (jazz.ui.view.View (View invalidate-view) (View title) (View view-enabled?))
+              (scheme.language.runtime.kernel + eq? list)))

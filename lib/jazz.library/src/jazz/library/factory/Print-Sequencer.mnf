@@ -1,0 +1,6 @@
+(manifest jazz.library.factory.Print-Sequencer
+
+  (version 207012)
+  (digest "93ced63b9306b376bbc4ec74d8b270389ca80801")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

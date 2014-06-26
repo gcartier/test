@@ -1,0 +1,12 @@
+(module jazz.editor.jazz.log.User-Log jazz
+  (import (jazz.debuggee))
+  (import (jazz.library))
+  (class User-Log extends Log-View
+    (method meta protected override (external-name . rest))
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (method protected override (finish initargs))
+    (method protected override (get-tools-view))
+    (method protected override (focus-default))
+    (method protected final (view-entry node))
+    (method protected final (edit-entry node))))

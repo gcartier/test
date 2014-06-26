@@ -1,0 +1,4 @@
+(module jazz.ui.skin.Splitter-Look jazz
+  (import (jazz.ui))
+  (class Splitter-Look extends Look
+    (property background accessors generate)))

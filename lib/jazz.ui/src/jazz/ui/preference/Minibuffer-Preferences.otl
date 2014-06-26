@@ -1,0 +1,7 @@
+(module jazz.ui.preference.Minibuffer-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Minibuffer-Preferences extends Splitter-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

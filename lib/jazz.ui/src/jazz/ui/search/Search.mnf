@@ -1,0 +1,11 @@
+(manifest jazz.ui.search.Search
+
+  (version 207012)
+  (digest "8603954ef8b2087c23c6b183a9f518d39adc9386")
+  (references (jazz.language.runtime.functional ->search-set Object-Class join sort)
+              (jazz.language.runtime.kernel class-of dispatch)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros ~)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel apply for-each map null? string<?)))

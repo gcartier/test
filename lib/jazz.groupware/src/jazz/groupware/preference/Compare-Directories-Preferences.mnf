@@ -1,0 +1,17 @@
+(manifest jazz.groupware.preference.Compare-Directories-Preferences
+
+  (version 207012)
+  (digest "17928f885d8b988abf8f6d7711353b66429704ba")
+  (references (jazz.designer.descriptor.Component-Descriptor (Component-Descriptor component-get-addable-details) (Component-Descriptor component-get-categorized-addable-classes))
+              (jazz.groupware.favorite.Favorite-Compare-Directories Favorite-Compare-Directories)
+              (jazz.groupware.preference.Compare-Trees-Preferences Compare-Trees-Preferences Compare-Trees-Preferences-Descriptor (Compare-Trees-Preferences-Descriptor~Class get-class-form) (Compare-Trees-Preferences-Descriptor~Class get-class-forms) (Compare-Trees-Preferences-Descriptor~Class set-class-form) (Compare-Trees-Preferences~Class get-class-descriptor))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.preference.Frame-Preferences (Frame-Preferences~Class get-class-form) (Frame-Preferences~Class get-class-forms) (Frame-Preferences~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

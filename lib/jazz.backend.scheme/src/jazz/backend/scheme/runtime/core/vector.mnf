@@ -1,0 +1,5 @@
+(manifest jazz.backend.scheme.runtime.core.vector
+
+  (version 207012)
+  (digest "3c5b1ac66b3d564b65e7498e21a0fe839d4935e1")
+  (references))

@@ -1,0 +1,9 @@
+(module jazz.schema.archive.Archive-Schema-Source jazz
+  (import (jazz.schema))
+  (class Archive-Schema-Source extends Object implements Schema-Source
+    (slot file getter generate)
+    (slot schema getter generate)
+    (method protected override (initialize file schema))
+    (method protected override (present))
+    (method protected override (present-detailed))
+    (method protected override (get-data-schema (reporter: reporter (unspecified))))))

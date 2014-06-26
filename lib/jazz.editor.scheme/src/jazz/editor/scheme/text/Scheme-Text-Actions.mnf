@@ -1,0 +1,6 @@
+(manifest jazz.editor.scheme.text.Scheme-Text-Actions
+
+  (version 207012)
+  (digest "dc56ce95b43b97e7172c7da42e0c83d491da3f4a")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.action.Actions Actions)))

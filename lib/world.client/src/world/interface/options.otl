@@ -1,0 +1,30 @@
+(module world.interface.options jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (world.interface.frame))
+  (class World-Options-Frame extends World-Frame
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (conclude initargs))
+    (method protected override (focus-default))
+    (method protected final (get-tree))
+    (method protected virtual (options-name))
+    (method protected final (view-options)))
+  (class World-Video-Options extends World-Options-Frame
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (options-name)))
+  (class World-Audio-Options extends World-Options-Frame
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (options-name)))
+  (class World-Interface-Options extends World-Options-Frame
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (options-name))))

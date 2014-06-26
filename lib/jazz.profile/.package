@@ -1,0 +1,6 @@
+(package jazz.profile
+  
+  (root "src")
+  (products (jazz.profile (update jazz.profile)
+                          (dependencies jazz)))
+  (project ".project"))

@@ -1,0 +1,9 @@
+(package jazz.editor.jazz
+  
+  (root "src")
+  (products (jazz.editor.jazz (update jazz.editor.jazz
+                                      jazz.editor.jazz.forms
+                                      jazz.editor.jazz.inspector)
+                              (dependencies jazz
+                                            jazz.editor.lisp)))
+  (project ".project"))

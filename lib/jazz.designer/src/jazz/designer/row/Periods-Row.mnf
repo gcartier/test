@@ -1,0 +1,6 @@
+(manifest jazz.designer.row.Periods-Row
+
+  (version 207012)
+  (digest "870327fa80a791748c28f2ca524f60c7e29ec58d")
+  (references (jazz.designer.row.Combo-Row Combo-Row)
+              (jazz.language.runtime.functional Object-Class)))

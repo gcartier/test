@@ -1,0 +1,27 @@
+(module world.interface.actions jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world))
+  (import (world.autoload))
+  (import (world.interface))
+  (import (world.interface.pane))
+  (import (world.interface.tooltip))
+  (import (world.parameters))
+  (import (world.syntax (phase syntax)))
+  (class World-Actionbar extends World-Pane
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (draw-background surface context))
+    (method protected override (draw-children surface nodes context)))
+  (class World-Action-Button extends Action-Icon
+    (property selected? accessors generate)
+    (method protected override (get-tooltip-context pos))
+    (method protected override (draw-frame surface)))
+  (class World-Parameter-Button extends World-Action-Button
+    (property parameter accessors generate)
+    (method protected override (draw-frame surface)))
+  (class World-Ongoing-Button extends World-Action-Button
+    (property key accessors generate)
+    (method protected override (set-state value))))

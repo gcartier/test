@@ -1,0 +1,5 @@
+(manifest core.generic.syntax.expander
+
+  (version 207012)
+  (digest "e8bf7ddc818d328d2bcc2e67240b7338aa2f0f17")
+  (references))

@@ -1,0 +1,15 @@
+(module jazz.ui.print.Page-Text-View jazz
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (class Page-Text-View extends Formatted-Text-View
+    (method protected override (new-model))
+    (method protected override (scrollee-height))
+    (method protected override (layout-scrollee-content))
+    (method protected override (get-context-menu))
+    (method protected override (default-size))
+    (method protected final (on-insert-filename evt))
+    (method protected final (on-insert-no evt))
+    (method protected final (on-insert-count evt))
+    (method protected final (on-insert-date evt))
+    (method protected final (on-insert-time evt))
+    (method public final (insert-info what))))

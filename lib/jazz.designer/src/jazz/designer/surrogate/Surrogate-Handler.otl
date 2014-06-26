@@ -1,0 +1,5 @@
+(module jazz.designer.surrogate.Surrogate-Handler jazz
+  (import (jazz.library))
+  (class Surrogate-Handler extends Event-Handler
+    (slot preserved getter generate)
+    (method protected override (initialize . rest))))

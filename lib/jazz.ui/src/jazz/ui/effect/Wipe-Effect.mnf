@@ -1,0 +1,12 @@
+(manifest jazz.ui.effect.Wipe-Effect
+
+  (version 207012)
+  (digest "3e0e2b3edbc3bd2e5c1b00556c77a5dc7e2c923c")
+  (references (jazz.language.runtime.functional Object-Class sleep)
+              (jazz.language.runtime.geometry Point)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.runtime.object (Object initialize))
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.effect.Effect Effect (Effect animate))
+              (scheme.language.runtime.kernel * + - <)))

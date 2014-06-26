@@ -1,0 +1,8 @@
+(manifest jazz.ui.text.Text
+
+  (version 207012)
+  (digest "47362301d4cce9b690e0634508693cc15d07e8d7")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print))))

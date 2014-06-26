@@ -1,0 +1,3 @@
+(module jazz.editor.jazz.tools.Class-Browser-Actions jazz
+  (import (jazz.ui))
+  (class Class-Browser-Actions extends Actions))

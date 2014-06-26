@@ -1,0 +1,5 @@
+(manifest world.server.configuration
+
+  (version 207012)
+  (digest "be44eeec82b11f8fd3ce92939788cafcf3f2be7c")
+  (references (jazz.system host-parameter service-parameter)))

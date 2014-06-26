@@ -1,0 +1,7 @@
+(manifest world.mario
+
+  (version 207012)
+  (digest "40e89e4b7188d63309745a069b10c4854820fb19")
+  (references (jazz.language.runtime.functional Object-Class)
+              (world.live World (World player-class))
+              (world.player Player)))

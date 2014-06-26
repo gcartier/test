@@ -1,0 +1,7 @@
+(module jazz.library.utility.Handler-Reference jazz
+  (import (jazz.library))
+  (class Handler-Reference extends Reference
+    (slot parameters getter generate)
+    (method protected override (initialize symbol parameters))
+    (method protected override (print output readably))
+    (method protected override (resolve-parameters))))

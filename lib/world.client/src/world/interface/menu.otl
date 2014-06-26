@@ -1,0 +1,12 @@
+(module world.interface.menu jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (world))
+  (import (world.autoload))
+  (import (world.interface.panel))
+  (import (world.syntax (phase syntax)))
+  (definition public (open-menu menu))
+  (class World-Menu extends World-Panel
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

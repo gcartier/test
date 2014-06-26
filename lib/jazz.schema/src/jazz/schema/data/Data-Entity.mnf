@@ -1,0 +1,9 @@
+(manifest jazz.schema.data.Data-Entity
+
+  (version 207012)
+  (digest "41cab865d38e022b3c341f4720c984e2e945d7ad")
+  (references (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.schema.data.Data-Object Data-Object (Data-Object initialize))
+              (scheme.language.runtime.kernel apply)))

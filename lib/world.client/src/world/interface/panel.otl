@@ -1,0 +1,8 @@
+(module world.interface.panel jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (world.interface.pane))
+  (class World-Panel extends World-Pane
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

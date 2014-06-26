@@ -1,0 +1,18 @@
+(manifest world.interface.gadgets
+
+  (version 207012)
+  (digest "dbf8903189dbd7cc26c6fcd4de2dbe0f64434679")
+  (references (jazz.language.runtime.functional Object-Class (Sequence sequence-element) first)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros when)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel append apply map)
+              (world *current-world*)
+              (world.gadget registered-gadget registered-gadget-classes)
+              (world.geometry.classes vertex)
+              (world.gravity Gravity)
+              (world.interface.showcase World-Showcase (World-Showcase cache-camera) (World-Showcase deactivate) (World-Showcase draw-selection) (World-Showcase selection) (World-Showcase selection-addable?) (World-Showcase showcase-elements) (World-Showcase showcase-selection) (World-Showcase showcase-spacing) (World-Showcase showcase-x) (World-Showcase showcase-y) (World-Showcase showcase-z))
+              (world.light Light-Ambient Light-Directional Light-Point)
+              (world.live World (World get-draw-gadgets?) (World update-gadgets))
+              (world.syntax current-world)))

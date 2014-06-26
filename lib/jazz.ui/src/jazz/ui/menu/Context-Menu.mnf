@@ -1,0 +1,12 @@
+(manifest jazz.ui.menu.Context-Menu
+
+  (version 207012)
+  (digest "73b644865134dc0c9df61bb93b5bcc182a7c7578")
+  (references (jazz.language.runtime.functional Object-Class (Sequence sequence-element) collect-sections first identity partition prefix second sort subseq third)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.bind bind)
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Menu Menu (Menu layout-menu))
+              (jazz.ui.menu.Separator-Item Separator-Item)
+              (jazz.ui.view.View (View component-alias))
+              (scheme.language.runtime.kernel * + <= = car cdr eq? equal? for-each length list map null? string-append string-length string<? string=?)))

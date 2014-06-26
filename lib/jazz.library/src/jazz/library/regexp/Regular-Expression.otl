@@ -1,0 +1,15 @@
+(module jazz.library.regexp.Regular-Expression jazz
+  (class Regular-Expression extends Object
+    (slot original)
+    (slot expressions)
+    (method protected override (initialize pattern))
+    (method protected final (parse-expressions pattern))
+    (method public final (match string))
+    (method public final (matches? string))
+    (method public final (replace string)))
+  (class Regular-Pattern extends Object
+    (slot pattern getter generate)
+    (slot exact? getter generate)
+    (slot prefix getter generate)
+    (slot suffix getter generate)
+    (method protected override (initialize pattern exact? (prefix (unspecified)) (suffix (unspecified))))))

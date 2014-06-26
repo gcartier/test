@@ -1,0 +1,6 @@
+(manifest yownu.window
+
+  (version 207012)
+  (digest "c22d5dd66d083deb104b1b32cddcabd5cdfad647")
+  (references (jazz.language.runtime.functional Object-Class)
+              (world.window World-Window)))

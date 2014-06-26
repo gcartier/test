@@ -1,0 +1,10 @@
+(package jazz.debugger.jazz
+  
+  (root "src")
+  (products (jazz.debugger.jazz (update jazz.debugger.jazz
+                                        jazz.debugger.jazz.data.project
+                                        jazz.debugger.jazz.stub
+                                        jazz.debugger.jazz.stub-autoload)
+                                (dependencies jazz
+                                              jazz.debugger)))
+  (project ".project"))

@@ -1,0 +1,11 @@
+(manifest jazz.editor.diff.text.Diff-Text-View
+
+  (version 207012)
+  (digest "889254db389ab976754b17bf64f0c483212a73c9")
+  (references (jazz.editor.diff.text.Diff-Syntax Diff-Syntax)
+              (jazz.language.runtime.functional (Class external-name) Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.system get-preferences)
+              (jazz.ui.outline.Outline-View (Outline-View model))
+              (jazz.ui.text.Code-Text-View Code-Text-View (Code-Text-View host-workspaces) (Code-Text-View install) (Code-Text-View new-syntax) (Code-Text-View preferences))
+              (jazz.ui.text.Text-View (Text-View add-style))))

@@ -1,0 +1,12 @@
+(manifest world.settings
+
+  (version 207012)
+  (digest "55da4dedfe5c6d4444bd7dcee7e70f488e6fcd81")
+  (references (jazz.io Directory (Directory new-directory) (Directory new-file) is-alias?)
+              (jazz.io.literals construct-directory)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.template copy-template)
+              (jazz.snapshot snapshot-max-depth snapshot-max-width snapshots-directory)
+              (jazz.system find-setting)
+              (scheme.language.runtime.kernel eq? list)))

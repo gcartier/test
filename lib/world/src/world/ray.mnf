@@ -1,0 +1,8 @@
+(manifest world.ray
+
+  (version 207012)
+  (digest "edd4350a1ee9ba981c33e92e41a86ab0fed3e497")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object (Object initialize))
+              (world.geometry.classes make-vertex vertex-copy!)))

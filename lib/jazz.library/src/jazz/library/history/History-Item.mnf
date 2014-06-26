@@ -1,0 +1,7 @@
+(manifest jazz.library.history.History-Item
+
+  (version 207012)
+  (digest "e9e58e72f7f11e74ff0cefe9d1f7087485f6f90c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)))

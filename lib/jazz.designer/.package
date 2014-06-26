@@ -1,0 +1,13 @@
+(package jazz.designer
+  
+  (root "src")
+  (install jazz.designer.install)
+  (products (jazz.designer (update jazz.designer
+                                   jazz.designer.descriptor
+                                   jazz.designer.install
+                                   jazz.designer.menu
+                                   jazz.designer.trait.grid
+                                   jazz.designer.validate
+                                   jazz.designer.view)
+                           (dependencies jazz)))
+  (project ".project"))

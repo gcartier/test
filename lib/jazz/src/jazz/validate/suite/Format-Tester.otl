@@ -1,0 +1,10 @@
+(module jazz.validate.suite.Format-Tester jazz
+  (import (jazz.jml))
+  (import (jazz.locale))
+  (import (jazz.validation))
+  (class Format-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (test))
+    (method protected final (test-format))))

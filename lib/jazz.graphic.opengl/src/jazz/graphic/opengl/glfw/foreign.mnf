@@ -1,0 +1,5 @@
+(manifest jazz.graphic.opengl.glfw.foreign
+
+  (version 207012)
+  (digest "c8091a5397795453d42a9780d8d1bb7ec21889d9")
+  (references))

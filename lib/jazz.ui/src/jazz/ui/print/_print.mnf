@@ -1,0 +1,5 @@
+(manifest jazz.ui.print
+
+  (version 207012)
+  (digest "dab60264df9b590fb9794f9c2d5a83c612c84854")
+  (references (jazz.ui.print.platform.glfw platform-print-document platform-print-picture)))

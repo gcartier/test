@@ -1,0 +1,7 @@
+(package jazz.website
+  
+  (root "src")
+  (products (jazz.website (update jazz.website)
+                          (dependencies jazz)))
+  (profiles (Website (unit profile.website)))
+  (project ".project"))

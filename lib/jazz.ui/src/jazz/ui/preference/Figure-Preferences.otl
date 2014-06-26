@@ -1,0 +1,21 @@
+(module jazz.ui.preference.Figure-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Figure-Preferences extends Preferences
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property location accessors generate)
+    (property position accessors generate)
+    (property size accessors generate)
+    (method public final (find-located location))
+    (method public virtual (apply-root player))
+    (method protected override (apply-preferences (client (unspecified))))
+    (method protected override (save-preferences designer (client (unspecified))))
+    (method protected virtual (find-client)))
+  (class Figure-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-set-presentation component designer title))))

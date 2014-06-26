@@ -1,0 +1,9 @@
+(module world.autoload jazz
+  (export (world.camera (autoload Camera Camera)))
+  (export (world.element (autoload Element Element)))
+  (export (world.live (autoload World World)))
+  (export (world.motion (autoload Motion Motion)))
+  (export (world.player (autoload Player Player)))
+  (export (world.renderer (autoload Mesh-Renderer Mesh-Renderer)))
+  (export (world.sector (autoload Sector Sector)))
+  (export (world.zone (autoload Zone Zone))))

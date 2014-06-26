@@ -1,0 +1,15 @@
+(module jazz.library.entity.Entity-Interface jazz
+  (interface Entity-Interface
+    (method public virtual (get-factory))
+    (method public virtual (get-factories))
+    (method public virtual (get-presentation))
+    (method public virtual (set-presentation controller presentation))
+    (method public virtual (can-cut-entity?))
+    (method public virtual (can-copy-entity?))
+    (method public virtual (can-paste-entity?))
+    (method public virtual (determine-paster . rest))
+    (method public virtual (can-rename-entity?))
+    (method public virtual (can-delete-entity?))
+    (method public virtual (can-relocate-entity?))
+    (method public virtual (can-view-properties?))
+    (method public virtual (get-standard-properties))))

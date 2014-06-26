@@ -1,0 +1,5 @@
+(module jazz.library.history.History-Item jazz
+  (class History-Item extends Object
+    (method public virtual (valid?))
+    (method public virtual (open-item))
+    (method public virtual (present))))

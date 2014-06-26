@@ -1,0 +1,18 @@
+(manifest world.interface.main
+
+  (version 207012)
+  (digest "9374374903fc1dc2c7c3907a8362defd9ac32bb7")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.literals construct-action)
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Menu Menu (Menu~Class get-class-form) (Menu~Class get-class-forms) (Menu~Class set-class-form))
+              (jazz.ui.menu.Separator-Item Separator-Item)
+              (jazz.ui.view.View (View destroy))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)
+              (world *current-world*)
+              (world.live World (World main-menu-destroyed))
+              (world.syntax current-world)))

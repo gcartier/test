@@ -1,0 +1,9 @@
+(module jazz.designer.domain.Class-Reference-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.library))
+  (import (jazz.runtime))
+  (class Class-Reference-Domain extends Value-Domain
+    (property classes accessors generate)
+    (property runtime-reference? accessors generate)
+    (method protected override (present-value reference))
+    (method protected override (setup-entry view client))))

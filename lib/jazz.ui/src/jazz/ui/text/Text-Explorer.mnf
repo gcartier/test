@@ -1,0 +1,15 @@
+(manifest jazz.ui.text.Text-Explorer
+
+  (version 207012)
+  (digest "3157dddbaf9dd24d608f371291ff8b898c796db4")
+  (references (jazz.language.runtime.functional Axis (Axis get-content) Explorer (Explorer backward) (Explorer forward) (Explorer goto-beginning) (Explorer set-direction) Object-Class alphanumeric? cardinality element find-symbol read-string-element whitespace?)
+              (jazz.language.runtime.geometry Cell (Cell get-col) (Cell get-line) (Cell increase-col) (Cell increase-line) (Cell set-col) (Cell set-line) Range$Cell$ (Range$Cell$ get-end) (Range$Cell$ get-start) cell<=? cell>=?)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object (Object initialize) (Object object-alphanumeric?) copy)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.syntax.Text-Syntax Text-Syntax (Text-Syntax text-constituent?))
+              (jazz.ui.text.Explorer-Mark Explorer-Mark)
+              (jazz.ui.text.Paragraph Paragraph (Paragraph get-string))
+              (jazz.ui.text.Run (Run get-style))
+              (jazz.ui.text.Text-Model Text-Model (Text-Model get-limit) (Text-Model get-paragraphs) (Text-Model get-run-at) (Text-Model get-string) (Text-Model get-syntax) (Text-Model text-beginning) (Text-Model text-ending))
+              (scheme.language.runtime.kernel + - < <= = > >= eq? eqv? not string->symbol string-length string-ref)))

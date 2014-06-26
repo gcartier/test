@@ -1,0 +1,5 @@
+(module world.validate jazz
+  (export (world.validate.autoload))
+  (import (world.validate.autoload))
+  (import (jazz.validation))
+  (definition public World-Suite))

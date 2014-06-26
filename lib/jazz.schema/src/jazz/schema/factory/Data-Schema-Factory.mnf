@@ -1,0 +1,9 @@
+(manifest jazz.schema.factory.Data-Schema-Factory
+
+  (version 207012)
+  (digest "1d0b38a31d820de45bd38e499fcefef903b53d0b")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.entity.Entity-Factory Entity-Factory (Entity-Factory get-class) (Entity-Factory get-factory-image) (Entity-Factory get-factory-presentation) (Entity-Factory get-name-mandatory?) (Entity-Factory get-name-prohibited?) (Entity-Factory get-name-unicity?) (Entity-Factory presentation->name))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.schema.data.Data-Schema Data-Schema)))

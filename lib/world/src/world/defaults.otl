@@ -1,0 +1,9 @@
+(module world.defaults jazz
+  (import (world.geometry))
+  (definition public default-start-eye)
+  (definition public default-start-eye-sight)
+  (definition public default-start-eye-up)
+  (definition public default-start-position)
+  (definition public default-start-sight)
+  (definition public default-start-up)
+  (definition public default-start-distance))

@@ -1,0 +1,3 @@
+(module jazz.ui.text.Code-Text-Event jazz
+  (import (jazz.ui))
+  (class Code-Text-Event extends Text-Event))

@@ -1,0 +1,15 @@
+(manifest jazz.groupware.compare.Text-Comparer
+
+  (version 207012)
+  (digest "556ecbd4d555af2cc23778e453f577726532e70b")
+  (references (jazz.groupware.compare.Compare-Line Compare-Line (Compare-Line get-string))
+              (jazz.groupware.compare.Compare-Node Compare-Node (Compare-Node add-child) (Compare-Node add-line) (Compare-Node extract-diff) (Compare-Node get-children) (Compare-Node get-key) (Compare-Node get-lines) (Compare-Node set-lines))
+              (jazz.io Moniker)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) (List-Factory put-sequence) Object-Class (Sequence sequence-element) (Sequence sequence-last) append! cardinality collect-if element find-in first last neq? reverse! second sort subseq wi=?)
+              (jazz.language.runtime.kernel new not-null? unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when while)
+              (scheme.language.runtime.kernel * + < = apply car cdr cons eq? for-each length list map not null? reverse set-cdr! string=? values)))

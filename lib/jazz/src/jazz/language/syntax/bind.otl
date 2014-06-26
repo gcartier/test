@@ -1,0 +1,4 @@
+(module jazz.language.syntax.bind scheme
+  (import (jazz.language.runtime.kernel))
+  (syntax public bind)
+  (syntax public bind-vector))

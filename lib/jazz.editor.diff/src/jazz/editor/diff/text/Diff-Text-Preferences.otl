@@ -1,0 +1,17 @@
+(module jazz.editor.diff.text.Diff-Text-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Diff-Text-Preferences extends Code-Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property file-style accessors generate)
+    (property diff-style accessors generate)
+    (property add-style accessors generate)
+    (property remove-style accessors generate))
+  (class Diff-Text-Preferences-Descriptor extends Document-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

@@ -1,0 +1,6 @@
+(manifest jazz.editor.jazz.tools.Class-Browser-Actions
+
+  (version 207012)
+  (digest "4901214baba1376e8a8ddb738e8a377c112f93db")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.action.Actions Actions)))

@@ -1,0 +1,13 @@
+(module jazz.ui.text.Formatted-Text-Model jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Formatted-Text-Model extends Text-Model
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (external-name . rest))
+    (method protected override (empty-content))
+    (method protected override (get-content))
+    (method protected override (set-content text))
+    (method protected override (read-moniker moniker))
+    (method protected override (save-to moniker))))

@@ -1,0 +1,6 @@
+(manifest jazz.ui.window.Tooltip
+
+  (version 207012)
+  (digest "ca5b175a2afa5880388a0c7f9afb212de942e462")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.window.Transient Transient)))

@@ -1,0 +1,15 @@
+(module jazz.library.handler.Handler jazz
+  (import (jazz.library))
+  (import (jazz.system))
+  (class Handler extends Object
+    (slot execute getter generate)
+    (slot target getter generate)
+    (slot target-name getter generate)
+    (slot method-name getter generate)
+    (slot form getter generate)
+    (method protected override (initialize (execute: execute (unspecified)) (target: target (unspecified)) (target-name: target-name (unspecified)) (method-name: method-name (unspecified))))
+    (method protected override (print output readably))
+    (method protected override (walk-references proc))
+    (method protected override (setup-context context))
+    (method public virtual (invoke sender . rest))
+    (method public final (find-target sender))))

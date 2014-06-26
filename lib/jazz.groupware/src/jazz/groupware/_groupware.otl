@@ -1,0 +1,5 @@
+(module jazz.groupware jazz
+  (export (jazz.groupware.autoload))
+  (import (jazz.graphic))
+  (definition public Green-Color)
+  (definition public Blue-Color))

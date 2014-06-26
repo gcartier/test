@@ -1,0 +1,18 @@
+(manifest jazz.designer.domain.Location-Domain
+
+  (version 207012)
+  (digest "3c1e5827f9fdc180495d40fcb467b46b2b6df2db")
+  (references (jazz.designer.domain.Enumeration-Domain Enumeration-Domain (Enumeration-Domain setup-entry) (Enumeration-Domain~Class get-class-form) (Enumeration-Domain~Class get-class-forms) (Enumeration-Domain~Class set-class-form))
+              (jazz.designer.entry.Text-Entry Text-Entry)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class every?)
+              (jazz.language.runtime.kernel class-of dispatch is? new)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros ~)
+              (jazz.library.literals construct-locales construct-reference)
+              (jazz.library.utility.Reference Reference)
+              (jazz.locale Locales)
+              (jazz.ui.layout.Figure Figure)
+              (scheme.language.runtime.kernel apply car cdr cons equal? list list->table map)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,14 @@
+(module jazz.designer.card.Custom-Card jazz
+  (import (jazz.designer))
+  (class Custom-Card extends Card
+    (slot setup?)
+    (method protected final (setup-properties))
+    (method protected final (update-properties))
+    (method protected final (for-each-property-view proc))
+    (method public final (find-property-view property))
+    (method protected override (client-update))
+    (method protected virtual (property-update view value type))
+    (method public virtual (save-client))
+    (method protected virtual (save-property view property type))
+    (method protected virtual (get-properties-mapping))
+    (method protected override (property-change component property value))))

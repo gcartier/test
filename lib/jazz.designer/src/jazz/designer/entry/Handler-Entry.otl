@@ -1,0 +1,17 @@
+(module jazz.designer.entry.Handler-Entry jazz
+  (import (jazz.designer))
+  (import (jazz.library))
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Handler-Entry extends Property-Entry
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (finish rest))
+    (method protected override (tab-view))
+    (method protected override (get-modified?))
+    (method protected override (set-modified? value))
+    (method protected override (get-value))
+    (method protected override (set-value value))
+    (method protected override (set-editable? flag))))

@@ -1,0 +1,2 @@
+(module jazz.editor.clike jazz
+  (export (jazz.editor.clike.autoload)))

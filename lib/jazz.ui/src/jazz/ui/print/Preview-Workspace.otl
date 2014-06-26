@@ -1,0 +1,11 @@
+(module jazz.ui.print.Preview-Workspace jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Preview-Workspace extends Workspace-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property previous accessors generate)
+    (property pane accessors generate)
+    (method protected override (apply-preferences . rest))))

@@ -1,0 +1,11 @@
+(manifest jazz.ui.dialog.User-Reporter
+
+  (version 207012)
+  (digest "bea97111ea7d83a20222e34b861f29c780b043ec")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)
+              (jazz.library.reporter.Reporter Reporter)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel apply)))

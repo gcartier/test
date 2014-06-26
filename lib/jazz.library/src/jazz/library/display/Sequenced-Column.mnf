@@ -1,0 +1,11 @@
+(manifest jazz.library.display.Sequenced-Column
+
+  (version 207012)
+  (digest "3ce8e930697552a955a4d2116060f5d71d1e035e")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional List-Factory (List-Factory put) Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros when)
+              (jazz.library.display.Display-Column Display-Column (Display-Column border) (Display-Column border-after) (Display-Column displayer) (Display-Column factory) (Display-Column increase-line) (Display-Column line) (Display-Column print-to) (Display-Column put-data))
+              (scheme.language.runtime.kernel <= > display for-each)))

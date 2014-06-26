@@ -1,0 +1,14 @@
+(module jazz.dialect.classes.scheme jazz.dialect
+  (export (jazz.dialect.classes.foundation))
+  (import (jazz.dialect.classes.foundation))
+  (class Define-Declaration extends Declaration
+    (slot signature getter generate)
+    (slot value getter generate))
+  (class Define-Special-Form-Declaration extends Declaration
+    (slot signature getter generate)
+    (slot body getter generate))
+  (class Define-Macro-Declaration extends Declaration
+    (slot signature getter generate)
+    (slot body getter generate))
+  (class Scheme-Dialect extends Dialect)
+  (class Scheme-Walker extends Walker))

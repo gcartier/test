@@ -1,0 +1,11 @@
+(manifest jazz.ui.handler.Selection-Handler
+
+  (version 207012)
+  (digest "1812d942330ebb4cb6164b2b45f8ceb9a7cab912")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list category-name find-keyword unbox-list)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.library.handler.Event-Handler Event-Handler (Event-Handler initialize) (Event-Handler print) (Event-Handler properties))
+              (jazz.library.handler.Handler (Handler method-name) (Handler target) (Handler target-name))
+              (scheme.language.runtime.kernel apply null?)))

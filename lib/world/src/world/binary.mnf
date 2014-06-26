@@ -1,0 +1,5 @@
+(manifest world.binary
+
+  (version 207012)
+  (digest "229192d256d8c145031214ff43acbae185cba302")
+  (references (jazz.platform.types UTF-8-string char-string double float int int16 int32 int64 int8 scheme-object unsigned-int16 unsigned-int32 unsigned-int8 void)))

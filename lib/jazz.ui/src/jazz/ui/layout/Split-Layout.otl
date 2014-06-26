@@ -1,0 +1,4 @@
+(module jazz.ui.layout.Split-Layout jazz
+  (import (jazz.ui))
+  (class Split-Layout extends Layout
+    (method protected override (layout view figures width height (separator: separator (unspecified)) (state: state (unspecified)) (target: target (unspecified)) (orientation: orientation (unspecified)) (mode: mode (unspecified)) (division: division (unspecified)) (insets: insets (unspecified))))))

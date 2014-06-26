@@ -1,0 +1,11 @@
+(module jazz.doc.doc.Field-Doc jazz
+  (import (jazz.doc))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Field-Doc extends Definition-Doc
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Field-Doc-Descriptor extends Definition-Doc-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

@@ -1,0 +1,15 @@
+(manifest world.gravity
+
+  (version 207012)
+  (digest "e9dc81f08931928288b59ef2678c5ffad604824b")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Class marshall-object) (Class unmarshall-object) Object-Class serialize-object)
+              (jazz.language.runtime.kernel class-of new)
+              (jazz.language.runtime.object print-unreadable)
+              (scheme.language.runtime.kernel vector vector-ref)
+              (world.element (Element set-scaling))
+              (world.entity (Entity prepare) (Entity print) (Entity set-model))
+              (world.gadget Gadget)
+              (world.geometry.classes vertex)
+              (world.serialization deserialize serialize)
+              (world.syntax properties)))

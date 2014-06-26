@@ -1,0 +1,7 @@
+(module jazz.ui.search.Reference-Search-Result jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.search))
+  (class Reference-Search-Result extends Definition-Search-Result
+    (method protected override (edit select (visible?: visible? (unspecified)) (activate-focus?: activate-focus? (unspecified))))
+    (method protected override (drill-down))))

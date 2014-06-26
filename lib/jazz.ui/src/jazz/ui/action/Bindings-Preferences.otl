@@ -1,0 +1,13 @@
+(module jazz.ui.action.Bindings-Preferences jazz
+  (import (jazz.ui))
+  (import (jazz.jml))
+  (import (jazz.designer))
+  (class Bindings-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Bindings-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

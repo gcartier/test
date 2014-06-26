@@ -1,0 +1,16 @@
+(manifest jazz.designer.editor.Components-Viewer
+
+  (version 207012)
+  (digest "e2794799fcd113ef168397ad1651a6e0af5eab05")
+  (references (jazz.designer missing-named-children)
+              (jazz.designer.menu update-component-menu)
+              (jazz.designer.menu.Component-Menu Component-Menu)
+              (jazz.language.runtime.functional Object-Class collect flatten neq?)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.ui find-actions)
+              (jazz.ui.outline.Outline-View-Old (Outline-View-Old get-expand-state) (Outline-View-Old get-row) (Outline-View-Old set-expand-state))
+              (jazz.ui.tree.Tree-View Tree-View (Tree-View context-menu) (Tree-View focus-actions) (Tree-View get-ordered-selection) (Tree-View get-single-selection) (Tree-View selection-mode) (Tree-View set-selection) (Tree-View user-data-index) (Tree-View user-data-row) (Tree-View with-context-click))
+              (jazz.ui.view.View (View destroy) (View get-context-menu) (View track-popup-menu))
+              (scheme.language.runtime.kernel cons map not)))

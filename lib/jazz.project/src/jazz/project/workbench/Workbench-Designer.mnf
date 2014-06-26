@@ -1,0 +1,14 @@
+(manifest jazz.project.workbench.Workbench-Designer
+
+  (version 207012)
+  (digest "5b3977e22f7f8c846d06f283646cd707dd23cb6f")
+  (references (jazz.designer.designer.Designer Designer (Designer add-child) (Designer component-owned-by-reference?) (Designer copy-components) (Designer cut-components) (Designer form) (Designer get-modified?) (Designer initialize) (Designer paste-clipboard) (Designer reference) (Designer relocate-components) (Designer remove-child) (Designer save) (Designer set-name) (Designer set-property) (Designer transfer-components))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Object-Class assq-value box-list find-keyword remove! remove-duplicates unbox-list)
+              (jazz.language.runtime.kernel class-of dispatch is? new unimplemented)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.macros when ~)
+              (jazz.library.component component-owned? registered-file-form)
+              (jazz.project.project.Project Project)
+              (scheme.language.runtime.kernel > apply assq car cdr cons eq? for-each length map not pair?)))

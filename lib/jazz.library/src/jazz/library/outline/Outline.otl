@@ -1,0 +1,13 @@
+(module jazz.library.outline.Outline jazz
+  (class Outline extends Object
+    (slot row-spacing <fx> accessors generate)
+    (slot root-row getter generate)
+    (method protected override (initialize row-spacing root-row))
+    (method public final (first-row))
+    (method public final (first-visible-row))
+    (method public virtual (get-row n))
+    (method protected final (get-row-from row n))
+    (method protected final (position-in-row v row line top))
+    (method public virtual (call-with-v->line v scrolled proc))
+    (method protected virtual (update-displayed display-v))
+    (method protected virtual (follow display-v v))))

@@ -1,0 +1,5 @@
+(manifest world.client.window
+
+  (version 207012)
+  (digest "3af68cae35cfa6d7db10d3372712f7791ac4910d")
+  (references (jazz.language.runtime.kernel unspecified)))

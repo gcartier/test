@@ -1,0 +1,5 @@
+(manifest jazz.system.process.Save-Environment-Listener
+
+  (version 207012)
+  (digest "3309a79a2b4e4294821e2b486ae149222599f803")
+  (references (jazz.ui.listener.Listener Listener)))

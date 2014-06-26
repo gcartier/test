@@ -1,0 +1,7 @@
+(manifest jazz.editor.clike.autoload
+
+  (version 207012)
+  (digest "fcca0d90c7182e9a4990377d29ebfb4fffa84ac5")
+  (references (jazz.editor.clike.text.CLike-Syntax CLike-Syntax)
+              (jazz.editor.clike.text.CLike-Text-Preferences CLike-Text-Preferences)
+              (jazz.editor.clike.text.CLike-Text-View CLike-Text-View)))

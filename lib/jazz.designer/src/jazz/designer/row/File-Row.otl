@@ -1,0 +1,4 @@
+(module jazz.designer.row.File-Row jazz
+  (import (jazz.designer))
+  (import (jazz.ui.dialog))
+  (class File-Row extends Pathname-Row))

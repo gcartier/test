@@ -1,0 +1,3 @@
+(module jazz.ui.event.Runtime-Event jazz
+  (import (jazz.library))
+  (class Runtime-Event extends Event))

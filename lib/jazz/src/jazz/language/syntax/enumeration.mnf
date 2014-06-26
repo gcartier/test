@@ -1,0 +1,5 @@
+(manifest jazz.language.syntax.enumeration
+
+  (version 207012)
+  (digest "3e94d8a7fb222b066cd1d2ec1f4a7289dd343839")
+  (references (scheme.language.runtime.kernel cadr cddr map source-code string->symbol string-append symbol->string)))

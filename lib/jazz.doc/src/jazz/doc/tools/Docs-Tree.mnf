@@ -1,0 +1,7 @@
+(manifest jazz.doc.tools.Docs-Tree
+
+  (version 207012)
+  (digest "11e18dc3648c0e8a23541baaf8116f2e0fa7e2db")
+  (references (jazz.designer.editor.Descendants-Tree Descendants-Tree (Descendants-Tree row-state))
+              (jazz.language.runtime.functional Object-Class)
+              (scheme.language.runtime.kernel <)))

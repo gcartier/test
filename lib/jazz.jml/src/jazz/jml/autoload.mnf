@@ -1,0 +1,13 @@
+(manifest jazz.jml.autoload
+
+  (version 207012)
+  (digest "6e89b7ce2b1fc5a7e4020abf3fe3541d29490ce3")
+  (references (jazz.jml.model.JML-Element JML-Element)
+              (jazz.jml.model.JML-Node JML-Node)
+              (jazz.jml.model.JML-Text JML-Text)
+              (jazz.jml.parser.JML-Parser JML-Parser)
+              (jazz.jml.preference.JML-Preferences JML-Preferences)
+              (jazz.jml.renderer.JML-Renderer JML-Renderer)
+              (jazz.jml.transformation.JML-Transformation JML-Transformation)
+              (jazz.jml.xhtml.XHTML-Parser XHTML-Parser)
+              (jazz.jml.xhtml.XHTML-Renderer XHTML-Renderer)))

@@ -1,0 +1,8 @@
+(module yownu.debugger jazz
+  (import (jazz.debugger.jazz))
+  (class Yownu-Debugger extends Jazz-Debugger
+    (method protected override (register-console-text debugged-process debugged-thread select?))
+    (method protected override (unregister-console-text text))
+    (method protected override (select-console resource))
+    (method protected override (console-output resource str))
+    (method protected override (clear-console resource))))

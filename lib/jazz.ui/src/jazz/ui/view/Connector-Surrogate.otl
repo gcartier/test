@@ -1,0 +1,9 @@
+(module jazz.ui.view.Connector-Surrogate jazz
+  (import (jazz.ui))
+  (class Connector-Surrogate extends Line-Surrogate
+    (method protected override (move-client?))
+    (method protected override (size-client?))
+    (method protected override (select rank focus?))
+    (method protected override (redraw-border))
+    (method protected override (draw surface))
+    (method protected override (draw-selected surface rank))))

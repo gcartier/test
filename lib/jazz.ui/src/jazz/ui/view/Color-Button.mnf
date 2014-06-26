@@ -1,0 +1,16 @@
+(manifest jazz.ui.view.Color-Button
+
+  (version 207012)
+  (digest "43e05c61f58692e61e57b6b7bf140d543eead23e")
+  (references (jazz.geometry offset-rect)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.view.Image-Tool (Image-Tool draw-tool))
+              (jazz.ui.view.Push-Icon Push-Icon)
+              (jazz.ui.view.Tool-Button (Tool-Button state))
+              (jazz.ui.view.View (View action-properties) (View invalidate-view) (View view-enabled?))
+              (scheme.language.runtime.kernel eq? list)))

@@ -1,0 +1,10 @@
+(manifest world.evaluate
+
+  (version 207012)
+  (digest "b7a031beff0d1de466ceedd577c1038177fffda6")
+  (references (jazz.language.runtime.debug debug)
+              (jazz.language.runtime.functional memq? read-property symbolize-property)
+              (jazz.language.runtime.kernel ?t class-of walk-for)
+              (jazz.language.runtime.platform bell)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel eq? for-each not)))

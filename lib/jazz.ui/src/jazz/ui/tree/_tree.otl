@@ -1,0 +1,3 @@
+(module jazz.ui.tree jazz
+  (import (jazz.ui.autoload))
+  (definition public (allocate-tree-label title)))

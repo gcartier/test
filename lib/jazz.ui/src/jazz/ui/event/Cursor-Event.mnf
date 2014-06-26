@@ -1,0 +1,6 @@
+(manifest jazz.ui.event.Cursor-Event
+
+  (version 207012)
+  (digest "ffaf4912f8c8f8d85694f8231fd8f4b3d820f0de")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.event.Mouse-Event Mouse-Event)))

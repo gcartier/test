@@ -1,0 +1,16 @@
+(manifest jazz.editor.c.catalog.C-Include-Entry
+
+  (version 207012)
+  (digest "fb860f9e9cd892f5afbbbc2ada7a3e0abecf76aa")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry get-image))
+              (jazz.catalog.entry.Indexed-Entry (Indexed-Entry column) (Indexed-Entry end-column) (Indexed-Entry end-line) (Indexed-Entry get-catalog) (Indexed-Entry initialize) (Indexed-Entry line) (Indexed-Entry present-name) (Indexed-Entry print) (Indexed-Entry print-catalog))
+              (jazz.editor.c.catalog.C-Entry C-Entry)
+              (jazz.io extract-base)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name find-if)
+              (jazz.language.runtime.kernel class-of dispatch)
+              (jazz.language.runtime.object print-unreadable)
+              (jazz.language.syntax.macros ~)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel * apply)))

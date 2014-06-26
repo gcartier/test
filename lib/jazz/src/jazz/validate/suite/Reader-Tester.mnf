@@ -1,0 +1,13 @@
+(manifest jazz.validate.suite.Reader-Tester
+
+  (version 207012)
+  (digest "974fbfa7479bafd5e985d6defb07f31df9087870")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel = cons equal? list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,14 @@
+(manifest jazz.doc.doc.Concept-Doc
+
+  (version 207012)
+  (digest "66bba242d80c7a262d0dcd0768053941622dc7d6")
+  (references (jazz.doc.doc.Doc Doc Doc-Descriptor (Doc-Descriptor~Class get-class-form) (Doc-Descriptor~Class get-class-forms) (Doc-Descriptor~Class set-class-form) (Doc~Class get-class-descriptor))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

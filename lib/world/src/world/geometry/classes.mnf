@@ -1,0 +1,10 @@
+(manifest world.geometry.classes
+
+  (version 207012)
+  (digest "69f47198fee585a0a011da032192c5c9c2a40087")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional /=)
+              (jazz.language.runtime.homogeneous F64Vector)
+              (jazz.language.runtime.kernel eqv?-hash f64vector f64vector-ref f64vector-set! fxwrap+ make-f64vector)
+              (scheme.language.runtime.kernel * - =)
+              (world.syntax allocate-vertex assert-finite debug-allocation)))

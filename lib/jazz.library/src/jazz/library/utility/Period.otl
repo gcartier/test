@@ -1,0 +1,2 @@
+(module jazz.library.utility.Period jazz
+  (class Period extends Range))

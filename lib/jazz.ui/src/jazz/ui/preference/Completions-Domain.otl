@@ -1,0 +1,6 @@
+(module jazz.ui.preference.Completions-Domain jazz
+  (import (jazz.designer))
+  (class Completions-Domain extends List-Domain
+    (method protected override (finish rest)))
+  (class Completion-Domain extends String-Domain
+    (method protected override (present-value value))))

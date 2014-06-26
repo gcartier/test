@@ -1,0 +1,5 @@
+(manifest jazz.tie
+
+  (version 207012)
+  (digest "fa7f2b18351fb36143e60f5630292710c7acb821")
+  (references (jazz.tie.syntax tie)))

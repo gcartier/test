@@ -1,0 +1,11 @@
+(manifest world.server.panel
+
+  (version 207012)
+  (digest "4230bdb804dc1ffe7c7fa750558a096e2e71c00a")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel class-of dispatch)
+              (jazz.language.syntax.macros ~)
+              (jazz.network.server.Server-Panel Server-Panel (Server-Panel output-server-info))
+              (jazz.system.access get-process)
+              (scheme.language.runtime.kernel apply map)))

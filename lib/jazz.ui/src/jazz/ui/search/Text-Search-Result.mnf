@@ -1,0 +1,12 @@
+(manifest jazz.ui.search.Text-Search-Result
+
+  (version 207012)
+  (digest "895344c2a6046bfe54c8934bcaa0c0ab63aba233")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.hosting.Frame-Host Frame-Host)
+              (jazz.ui.hosting.Host-View (Host-View get-guest))
+              (jazz.ui.search.Search-Result Search-Result (Search-Result beginning) (Search-Result effective-client) (Search-Result ending) (Search-Result initialize) (Search-Result install-indicators))
+              (jazz.ui.view first-frame)
+              (scheme.language.runtime.kernel not)))

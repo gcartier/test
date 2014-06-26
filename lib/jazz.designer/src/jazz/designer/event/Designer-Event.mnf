@@ -1,0 +1,6 @@
+(manifest jazz.designer.event.Designer-Event
+
+  (version 207012)
+  (digest "b1414e2b75f9570610b44384ba5e36363fbe72d0")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.event.Event Event)))

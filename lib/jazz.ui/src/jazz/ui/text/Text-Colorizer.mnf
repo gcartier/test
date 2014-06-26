@@ -1,0 +1,14 @@
+(manifest jazz.ui.text.Text-Colorizer
+
+  (version 207012)
+  (digest "b70efca0fa78b2fb81dad9d7854bac2e4d7682b1")
+  (references (jazz.language.runtime.functional /= Integer List-Factory (List-Factory get-output) (List-Factory put) (List-Factory reset) Object-Class Subseq$string$ (Subseq$string$ get-size) cardinality subseq! subseq!string)
+              (jazz.language.runtime.geometry Cell (Cell get-col) (Cell get-line))
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.text.Paragraph Paragraph (Paragraph get-runs) (Paragraph get-string) (Paragraph set-runs))
+              (jazz.ui.text.Run Run (Run get-string) (Run get-style))
+              (jazz.ui.text.Text-Model Text-Model (Text-Model get-default-style) (Text-Model get-paragraph) (Text-Model intern-style) (Text-Model locate-style) (Text-Model wrap-paragraph))
+              (scheme.language.runtime.kernel + < <= = > for-each not)))

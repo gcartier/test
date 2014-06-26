@@ -1,0 +1,7 @@
+(manifest jazz.ui.effect.Effect
+
+  (version 207012)
+  (digest "12c156d8d801c8d0f0edb998aae708073a292502")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)))

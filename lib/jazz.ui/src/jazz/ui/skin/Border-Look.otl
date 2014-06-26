@@ -1,0 +1,4 @@
+(module jazz.ui.skin.Border-Look jazz
+  (import (jazz.ui))
+  (class Border-Look extends Look
+    (property edge-flat? accessors generate)))

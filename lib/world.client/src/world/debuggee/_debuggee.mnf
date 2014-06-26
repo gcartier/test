@@ -1,0 +1,8 @@
+(manifest world.debuggee
+
+  (version 207012)
+  (digest "5e8bded50a90c37548c71884f073fc5cd5794151")
+  (references (jazz.jrm get-local-register)
+              (jazz.language.runtime.kernel new)
+              (world.debuggee.implementation World-Debuggee)
+              (world.debuggee.stub World-Debuggee-Local-Proxy)))

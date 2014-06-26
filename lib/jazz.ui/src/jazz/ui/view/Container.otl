@@ -1,0 +1,22 @@
+(module jazz.ui.view.Container jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (interface Container
+    (method public virtual (get-content))
+    (method public virtual (content-inner? view)))
+  (class Base-Container extends Layout-View implements Container
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (method protected override (get-content))
+    (method protected final (find-content))
+    (method protected override (inner? view))
+    (method protected override (content-inner? view))
+    (method protected override (inner-widget)))
+  (class Base-Container-Descriptor extends Layout-View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

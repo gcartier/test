@@ -1,0 +1,8 @@
+(manifest jazz.ui.layout.Separator
+
+  (version 207012)
+  (digest "d81a9f2b5d062c26b64addcbea4c11d9f3ea80f3")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.literals construct-dimension)
+              (jazz.ui.layout.Figure Figure (Figure default-size))))

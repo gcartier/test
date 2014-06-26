@@ -1,0 +1,15 @@
+(module jazz.designer.domain.Style-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class Style-Domain extends Literal-Domain
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property width accessors generate)
+    (property choices accessors generate)
+    (method protected override (present-value value))
+    (method protected final (style-choices))
+    (method protected override (setup-entry view client))))

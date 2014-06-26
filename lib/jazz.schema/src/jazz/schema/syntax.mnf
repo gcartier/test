@@ -1,0 +1,8 @@
+(manifest jazz.schema.syntax
+
+  (version 207012)
+  (digest "b099c618d54e6c2fa81e33a9aebec09b60c06025")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.increase increase!)
+              (scheme.language.runtime.kernel car cdr generate-symbol map string->symbol)))

@@ -1,0 +1,14 @@
+(module jazz.debuggee.view.Profiler-View jazz
+  (import (jazz.detprof))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (profiler))
+  (class Profiler-View extends Layout-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method public final (update-profile))
+    (method public final (view-profile profile))
+    (method public final (edit-call))))

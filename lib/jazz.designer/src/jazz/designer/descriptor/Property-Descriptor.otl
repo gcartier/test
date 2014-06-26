@@ -1,0 +1,12 @@
+(module jazz.designer.descriptor.Property-Descriptor jazz
+  (import (jazz.designer.descriptor))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Property-Descriptor extends Component
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property title accessors generate)
+    (property category accessors generate)
+    (property standard? accessors generate)
+    (method public final (get-domain)))
+  (class Property-Descriptor-Descriptor extends Component-Descriptor
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))))

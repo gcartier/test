@@ -1,0 +1,8 @@
+(manifest jazz.library.display.Sequenced-Column-Preferences
+
+  (version 207012)
+  (digest "d16ed3768a7107152d626dc3f9a39eb776f748d8")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.display.Column-Preferences Column-Preferences (Column-Preferences border) (Column-Preferences border-after) (Column-Preferences column-class) (Column-Preferences minimum) (Column-Preferences new-column))
+              (jazz.library.display.Sequenced-Column Sequenced-Column)))

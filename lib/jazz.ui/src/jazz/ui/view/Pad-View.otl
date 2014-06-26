@@ -1,0 +1,13 @@
+(module jazz.ui.view.Pad-View jazz
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Pad-View extends View
+    (property preferences accessors generate)
+    (method protected override (size-change size))
+    (method protected override (layout))
+    (method public final (add-view view))
+    (method public final (remove-view view))
+    (method public final (remove-children))
+    (method public final (get-selection))
+    (method public final (set-selection target))
+    (method public final (select-next))))

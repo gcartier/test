@@ -1,0 +1,13 @@
+(manifest jazz.designer.editor.Row-Text-View
+
+  (version 207012)
+  (digest "0e5ac947d4fc2d51837735c57a8a2165f0b64b62")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.component.Component (Component child))
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Plain-Text-View Plain-Text-View (Plain-Text-View new-model))
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View (Text-View focus-lose))
+              (jazz.ui.view.View (View focus-master))))

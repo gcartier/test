@@ -1,0 +1,13 @@
+(module jazz.ui.search.Text-Search-View jazz
+  (import (jazz.jml))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.search))
+  (import (jazz.ui.view))
+  (class Text-Search-View extends Search-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (preferences))
+    (method protected override (get-search-domains))
+    (method protected override (search-targets find replace))))

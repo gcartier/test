@@ -1,0 +1,5 @@
+(manifest jazz.language.syntax.marshall
+
+  (version 207012)
+  (digest "213d260781f14e0fa37e857f5a89050be158fdd3")
+  (references (scheme.language.runtime.kernel cadr car cdr generate-symbol length map string->symbol string-append symbol->string)))

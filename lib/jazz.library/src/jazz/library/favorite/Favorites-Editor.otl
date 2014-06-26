@@ -1,0 +1,5 @@
+(module jazz.library.favorite.Favorites-Editor jazz
+  (import (jazz.designer))
+  (import (jazz.library))
+  (class Favorites-Editor extends Descendants-Editor
+    (method protected override (form-model form))))

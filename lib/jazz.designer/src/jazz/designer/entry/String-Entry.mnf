@@ -1,0 +1,6 @@
+(manifest jazz.designer.entry.String-Entry
+
+  (version 207012)
+  (digest "5b0eac662a06c545c65027726f318f6f58aecbd4")
+  (references (jazz.designer.entry.Text-Entry Text-Entry)
+              (jazz.language.runtime.functional Object-Class)))

@@ -1,0 +1,16 @@
+(module world.plane jazz
+  (import (world.geometry.base))
+  (import (world.geometry.classes))
+  (import (world.serialization))
+  (import (world.syntax (phase syntax)))
+  (class Plane-Class extends Object-Class
+    (method protected override (marshall-object object))
+    (method protected override (unmarshall-object content)))
+  (class Plane metaclass Plane-Class extends Object
+    (slot origin <f64vector> getter generate)
+    (slot normal <f64vector> getter generate)
+    (method protected override (initialize origin normal))
+    (method protected override (print output readably))
+    (method public final (set-origin orig))
+    (method public final (set-normal nrm))
+    (method public final (set-vector vec))))

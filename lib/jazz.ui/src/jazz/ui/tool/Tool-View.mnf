@@ -1,0 +1,10 @@
+(manifest jazz.ui.tool.Tool-View
+
+  (version 207012)
+  (digest "81c7d5bd8028e8cadabf7ede3d9a3021063342a3")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component confirm-close) (Component save-session))
+              (jazz.system.access get-application get-process)
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.View (View get-host) (View install-in-host) (View tool-preferences))))

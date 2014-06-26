@@ -1,0 +1,14 @@
+(manifest jazz.ui.menu.Window-Advanced-Menu
+
+  (version 207012)
+  (digest "a659546f36d54af7a26b4daa9884b02e8988637c")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.literals construct-action)
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Separator-Item Separator-Item)
+              (jazz.ui.menu.Window-Menu Window-Menu (Window-Menu~Class get-class-form) (Window-Menu~Class get-class-forms) (Window-Menu~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

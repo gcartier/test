@@ -1,0 +1,7 @@
+(module jazz.ui.text.Column-Menu jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Column-Menu extends Context-Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

@@ -1,0 +1,13 @@
+(manifest jazz.designer.card.Custom-Card
+
+  (version 207012)
+  (digest "d970c860d67fd6d58692e00a93b55eabe1e4294d")
+  (references (jazz.designer.card.Card Card (Card client) (Card client-update) (Card designer) (Card property-change))
+              (jazz.designer.property.Property-View Property-View)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class read-property)
+              (jazz.language.runtime.kernel category-field class-of continuation-capture continuation-return field-name is? unspecified)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.component.Component (Component for-each-descendant) (Component locate))
+              (scheme.language.runtime.kernel car cdr eq? for-each not)))

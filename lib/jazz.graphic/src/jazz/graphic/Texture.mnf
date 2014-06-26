@@ -1,0 +1,9 @@
+(manifest jazz.graphic.Texture
+
+  (version 207012)
+  (digest "14431f3d110063e20166f308b40df2ad744fc699")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name getf is-not? symbol->keyword)
+              (jazz.language.runtime.kernel class-of new not-null?)
+              (jazz.language.runtime.object Object (Object compare-object) (Object copy-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel apply car eq? equal?)))

@@ -1,0 +1,7 @@
+(module jazz.catalog.entry.Import-Entry jazz
+  (import (jazz.catalog))
+  (import (jazz.library))
+  (class Import-Entry extends Hierarchical-Entry
+    (method protected override (present-name))
+    (method protected override (get-image))
+    (method protected override (update-indexes definitions-index references-index))))

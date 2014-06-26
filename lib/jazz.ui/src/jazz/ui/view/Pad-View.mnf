@@ -1,0 +1,17 @@
+(manifest jazz.ui.view.Pad-View
+
+  (version 207012)
+  (digest "3444a506d02b242ef52e203ccfc275fd764bd9b3")
+  (references (jazz.language.runtime.functional Object-Class find-if neq?)
+              (jazz.language.runtime.geometry Point)
+              (jazz.language.runtime.kernel is?)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component children) (Component next-child))
+              (jazz.literals construct-point)
+              (jazz.system.access get-application)
+              (jazz.ui.hosting.Docked-Host Docked-Host (Docked-Host get-preferences))
+              (jazz.ui.hosting.Host-View Host-View (Host-View get-guest))
+              (jazz.ui.preference.Docked-Preferences Docked-Preferences)
+              (jazz.ui.view.Drawing (Drawing get-size) (Drawing layout))
+              (jazz.ui.view.View View (View layout-view) (View size-change))
+              (scheme.language.runtime.kernel eq? for-each)))

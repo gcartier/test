@@ -1,0 +1,10 @@
+(manifest jazz.groupware.compare.Compare-Node
+
+  (version 207012)
+  (digest "c82df7002f91bd23e0f281bea4e328aa4edb3b60")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class find-in)
+              (jazz.language.runtime.kernel class-of dispatch)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros ~)
+              (scheme.language.runtime.kernel apply cons eq? length list string)))

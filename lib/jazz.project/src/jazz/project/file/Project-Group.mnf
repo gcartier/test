@@ -1,0 +1,18 @@
+(manifest jazz.project.file.Project-Group
+
+  (version 207012)
+  (digest "8c082d19691ec160a1737dee33e56dc2e307c1bd")
+  (references (jazz.designer.descriptor.Component-Descriptor (Component-Descriptor class-name->presentation) (Component-Descriptor class-presentation->name) (Component-Descriptor component-addable-class?) (Component-Descriptor component-sort-components))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class nu<? sort)
+              (jazz.language.runtime.kernel is? new subtype?)
+              (jazz.language.runtime.object print-unreadable)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component name))
+              (jazz.library.group.Group Group (Group print) (Group title) Group-Descriptor (Group-Descriptor component-get-categorized-addable-classes) (Group-Descriptor~Class get-class-form) (Group-Descriptor~Class get-class-forms) (Group-Descriptor~Class set-class-form) (Group~Class get-class-descriptor))
+              (jazz.project.file.Project-File Project-File)
+              (jazz.project.project.Project-Container Project-Container)
+              (scheme.language.runtime.kernel cons list list->table string->symbol)
+              (scheme.syntax declaration-path)))

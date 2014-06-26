@@ -1,0 +1,10 @@
+(manifest jazz.editor.c.literals
+
+  (version 207012)
+  (digest "95274c708a28e3ae2428b6aa9e30878b4a1f6b62")
+  (references (jazz.editor.c.catalog.C-Category-Entry C-Category-Entry)
+              (jazz.editor.c.catalog.C-Define-Entry C-Define-Entry)
+              (jazz.editor.c.catalog.C-Export-Entry C-Export-Entry)
+              (jazz.editor.c.catalog.C-File-Entry C-File-Entry)
+              (jazz.editor.c.catalog.C-Include-Entry C-Include-Entry)
+              (jazz.language.runtime.kernel new)))

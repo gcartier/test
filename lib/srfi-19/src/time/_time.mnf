@@ -1,0 +1,13 @@
+(manifest time
+
+  (version 207012)
+  (digest "a698fb8a8afe8ac932e245c81f5439c7ae36e87d")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Class (Sequence sequence-last) category-name compose concatenate find-if last)
+              (jazz.language.runtime.kernel class-of not-null? unimplemented unspecified)
+              (jazz.language.runtime.object Object (Object compare-object) (Object print))
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.increase increase!)
+              (scheme.language.runtime.kernel * + - / < <= = car cdr cons eq? exact->inexact floor inexact->exact length list map not null? number? reverse string->number string-length string=? string? substring symbol?)
+              (time.exports add-duration add-duration! copy-time current-date current-julian-day current-modified-julian-day current-time date->julian-day date->modified-julian-day date->string date->time-monotonic date->time-tai date->time-utc date-day date-hour date-minute date-month date-nanosecond date-second date-week-day date-week-number date-year date-year-day date-zone-offset date? julian-day->date julian-day->time-monotonic julian-day->time-tai julian-day->time-utc local-timezone local-timezone-set! make-date make-time modified-julian-day->date modified-julian-day->time-monotonic modified-julian-day->time-tai modified-julian-day->time-utc set-time-nanosecond! set-time-second! set-time-type! string->date subtract-duration subtract-duration! system-timezone system-timezone-set! time-difference time-difference! time-duration time-monotonic time-monotonic->date time-monotonic->julian-day time-monotonic->modified-julian-day time-monotonic->time-tai time-monotonic->time-tai! time-monotonic->time-utc time-monotonic->time-utc! time-nanosecond time-process time-resolution time-second time-tai time-tai->date time-tai->julian-day time-tai->modified-julian-day time-tai->time-monotonic time-tai->time-monotonic! time-tai->time-utc time-tai->time-utc! time-thread time-type time-utc time-utc->date time-utc->julian-day time-utc->modified-julian-day time-utc->time-monotonic time-utc->time-monotonic! time-utc->time-tai time-utc->time-tai! time<=? time<? time=? time>=? time>? time? tm-current-time)))

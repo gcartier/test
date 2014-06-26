@@ -1,0 +1,16 @@
+(manifest jazz.designer.domain.String-Domain
+
+  (version 207012)
+  (digest "4277b6c2bf84f778dd3ce9d82cfd37ba371b5092")
+  (references (jazz.designer.domain.Domain Domain (Domain add-violation) (Domain parse-presentation) (Domain present-value) (Domain setup-entry) (Domain validate-value))
+              (jazz.designer.entry.String-Entry String-Entry)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.library.literals construct-locales)
+              (jazz.locale Locales)
+              (scheme.language.runtime.kernel cons list list->table string?)
+              (scheme.syntax declaration-path)))

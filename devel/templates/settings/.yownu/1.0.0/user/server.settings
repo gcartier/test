@@ -1,0 +1,20 @@
+;;;==============
+;;;  JazzScheme
+;;;==============
+;;;
+;;;; Yownu Server Settings
+;;;
+
+
+;;;
+;;;; World
+;;;
+
+
+world.server.window?      #f
+
+world.multisampling       2
+world.post-processing?    #t
+
+world.server.debug?       #f
+world.client.debug?       #f

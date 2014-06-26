@@ -1,0 +1,350 @@
+(module jazz.dialect.classes.foundation jazz.dialect
+  (import (scheme.core.kernel))
+  (import (jazz.language.runtime.kernel))
+  (import (jazz.language.runtime.exception))
+  (import (jazz.language.runtime.format))
+  (import (jazz.language.runtime.functional))
+  (import (jazz.language.runtime.object))
+  (class Walk-Binding extends Type
+    (method protected virtual (walk-binding-lookup symbol source-declaration))
+    (method protected virtual (walk-binding-referenced))
+    (method protected virtual (walk-binding-validate-call walker resume source-declaration operator arguments form-src))
+    (method protected virtual (walk-binding-validate-assignment walker resume source-declaration symbol-src))
+    (method protected virtual (walk-binding-assignable?))
+    (method protected virtual (walk-binding-walkable?))
+    (method protected virtual (walk-binding-walk-form walker resume declaration environment form-src))
+    (method protected virtual (walk-binding-expandable?))
+    (method protected virtual (walk-binding-expand-form walker resume declaration environment form-src))
+    (method protected virtual (emit-binding-symbol source-declaration environment backend))
+    (method protected virtual (emit-binding-reference source-declaration environment backend))
+    (method protected virtual (emit-binding-call binding-src arguments source-declaration environment backend))
+    (method protected virtual (emit-inlined-binding-call arguments call source-declaration environment backend))
+    (method protected virtual (emit-binding-assignment value source-declaration environment backend)))
+  (native-syntax jazz:walk-binding-lookup)
+  (native-syntax jazz:walk-binding-referenced)
+  (native-syntax jazz:walk-binding-validate-call)
+  (native-syntax jazz:walk-binding-validate-assignment)
+  (native-syntax jazz:walk-binding-assignable?)
+  (native-syntax jazz:walk-binding-walkable?)
+  (native-syntax jazz:walk-binding-walk-form)
+  (native-syntax jazz:walk-binding-expandable?)
+  (native-syntax jazz:walk-binding-expand-form)
+  (native-syntax jazz:emit-binding-reference)
+  (native-syntax jazz:emit-binding-call)
+  (native-syntax jazz:emit-inlined-binding-call)
+  (native-syntax jazz:emit-binding-assignment)
+  (class Lexical-Binding extends Walk-Binding
+    (slot name getter generate)
+    (slot type getter generate)
+    (slot hits accessors generate)
+    (method protected override (initialize . rest))
+    (method protected virtual (resolve-binding))
+    (method protected override (print output detail)))
+  (native-syntax jazz:resolve-binding)
+  (class Declaration extends Lexical-Binding
+    (slot access getter generate)
+    (slot compatibility getter generate)
+    (slot attributes getter generate)
+    (slot toplevel getter generate)
+    (slot parent getter generate)
+    (slot locator getter generate)
+    (slot source accessors generate)
+    (method protected override (initialize . rest))
+    (method protected virtual (compose-declaration-locator))
+    (method protected virtual (lookup-declaration symbol access source-declaration))
+    (method protected virtual (get-declaration-inclusions))
+    (method protected virtual (get-nextmethod-signature))
+    (method protected virtual (emit-declaration environment backend))
+    (method protected virtual (expand-referenced-declaration))
+    (method protected virtual (outline-generate output))
+    (method protected virtual (outline-extract meta)))
+  (native-syntax jazz:lookup-declaration)
+  (native-syntax jazz:update-declaration)
+  (native-syntax jazz:get-declaration-inclusions)
+  (native-syntax jazz:emit-declaration)
+  (native-syntax jazz:expand-referenced-declaration)
+  (native-syntax jazz:private-access)
+  (native-syntax jazz:public-access)
+  (native-syntax jazz:protected-access)
+  (class Declaration-Reference extends Object
+    (slot name getter generate)
+    (slot declaration getter generate)
+    (method protected virtual (resolve-reference module-declaration)))
+  (native-syntax jazz:resolve-reference)
+  (class Module-Reference extends Declaration-Reference)
+  (class Export-Reference extends Declaration-Reference
+    (slot module-reference getter generate))
+  (class Autoload-Reference extends Export-Reference)
+  (class Unit-Declaration extends Declaration
+    (slot requires getter generate))
+  (class Namespace-Declaration extends Declaration
+    (slot lookups getter generate)
+    (slot children accessors generate)
+    (slot body accessors generate))
+  (native-syntax jazz:get-access-lookup)
+  (class Module-Declaration extends Namespace-Declaration
+    (slot walker getter generate)
+    (slot dialect-name getter generate)
+    (slot dialect-invoice getter generate)
+    (slot requires getter generate)
+    (slot exports getter generate)
+    (slot imports getter generate)
+    (slot proclaims getter generate)
+    (slot inclusions accessors generate)
+    (slot local-macros getter generate))
+  (class Module-Invoice extends Object
+    (slot name getter generate)
+    (slot module getter generate)
+    (slot phase getter generate)
+    (slot transformation getter generate)
+    (method protected override (print output readably)))
+  (class Export-Invoice extends Module-Invoice
+    (slot autoload getter generate)
+    (slot symbols getter generate))
+  (class Import-Invoice extends Module-Invoice
+    (slot hit? getter generate))
+  (class Export-Declaration extends Declaration
+    (slot symbol getter generate))
+  (class Export-Syntax-Declaration extends Declaration
+    (slot symbol getter generate))
+  (class Autoload-Declaration extends Declaration
+    (slot module getter generate)
+    (slot exported-module getter generate)
+    (slot declaration getter generate))
+  (definition public *print-literal*)
+  (class Literal extends Object
+    (slot name getter generate)
+    (slot arguments getter generate)
+    (method protected override (print output readably))
+    (method protected override (walk-references proc)))
+  (native jazz:new-literal)
+  (class Any extends Type)
+  (class Macro-Declaration extends Declaration
+    (slot signature getter generate)
+    (slot body getter generate))
+  (class Syntax-Declaration extends Declaration
+    (slot signature getter generate)
+    (slot body getter generate))
+  (class Define-Syntax-Declaration extends Syntax-Declaration)
+  (class Define-Local-Syntax-Declaration extends Syntax-Declaration)
+  (class Opt-Type extends Type
+    (slot type getter generate))
+  (class Key-Type extends Type
+    (slot key getter generate)
+    (slot type getter generate))
+  (class Rest-Type extends Type
+    (slot type getter generate))
+  (class Function-Type extends Type
+    (slot mandatory getter generate)
+    (slot positional getter generate)
+    (slot optional getter generate)
+    (slot named getter generate)
+    (slot rest getter generate)
+    (slot result getter generate))
+  (class Category-Type extends Type
+    (slot declaration getter generate))
+  (class Values-Type extends Type
+    (slot types getter generate))
+  (class Restriction-Type extends Type
+    (slot base getter generate)
+    (slot type getter generate))
+  (class Complement-Type extends Type
+    (slot type getter generate))
+  (class Union-Type extends Type
+    (slot types getter generate))
+  (class Template-Type extends Type
+    (slot class getter generate)
+    (slot types getter generate))
+  (class Nillable-Type extends Type
+    (slot type getter generate))
+  (class Dialect extends Object
+    (method protected virtual (dialect-walker))
+    (slot name getter generate)
+    (slot declarations getter generate)
+    (slot bindings getter generate))
+  (class Backend extends Object
+    (slot name getter generate)
+    (slot bindings getter generate))
+  (class Walker extends Object
+    (slot declarations getter generate)
+    (slot bindings getter generate)
+    (slot warnings getter generate)
+    (slot errors getter generate)
+    (slot literals getter generate)
+    (slot variables getter generate)
+    (slot statics getter generate)
+    (slot references getter generate)
+    (slot autoloads getter generate)
+    (method protected virtual (walker-declarations))
+    (method protected virtual (walker-bindings))
+    (method protected virtual (walk-form resume declaration environment form))
+    (method protected virtual (walk-symbol resume declaration environment symbol-src))
+    (method protected virtual (walk-symbol-assignment resume declaration environment symbol-src value))
+    (method protected virtual (validate-proclaim resume declaration environment form-src))
+    (method protected virtual (runtime-export declaration))
+    (method protected virtual (lookup-environment resume declaration environment symbol-src symbol))
+    (method protected virtual (lookup-analyse declaration symbol-src referenced-declaration)))
+  (native-syntax jazz:validate-access)
+  (native-syntax jazz:walk-symbol-assignment)
+  (native-syntax jazz:walk-symbol)
+  (native-syntax jazz:walk-form)
+  (native-syntax jazz:validate-proclaim)
+  (class Walk-Context extends Object
+    (slot policy getter generate)
+    (slot locator getter generate)
+    (slot pathname getter generate))
+  (class Walk-Location extends Object
+    (slot unit-locator getter generate)
+    (slot declaration-locator getter generate)
+    (slot locat getter generate)
+    (slot path getter generate)
+    (method protected override (initialize unit-locator declaration-locator locat path))
+    (method protected override (print output readably)))
+  (class Walk-Problem extends Error
+    (slot location getter generate))
+  (class Walk-Problems extends Error
+    (slot warnings getter generate)
+    (slot errors getter generate))
+  (class Walk-Warning extends Walk-Problem)
+  (class Walk-Error extends Walk-Problem)
+  (class Unresolved-Error extends Walk-Error
+    (slot symbol getter generate))
+  (class Walk-Frame extends Walk-Binding
+    (slot bindings getter generate))
+  (class Signature extends Object
+    (slot mandatory getter generate)
+    (slot positional getter generate)
+    (slot optional getter generate)
+    (slot named getter generate)
+    (slot rest getter generate))
+  (class Symbol-Binding extends Lexical-Binding
+    (slot gensym getter generate))
+  (class Variable extends Symbol-Binding
+    (slot reference-count getter generate))
+  (class NextMethod-Variable extends Variable)
+  (class Parameter extends Variable
+    (method protected virtual (emit-parameter declaration environment backend)))
+  (class Dynamic-Parameter extends Parameter
+    (slot class getter generate))
+  (class Optional-Parameter extends Parameter
+    (slot default getter generate))
+  (class Named-Parameter extends Parameter
+    (slot default getter generate))
+  (class Rest-Parameter extends Parameter)
+  (class Dynamic-Self-Binding extends Lexical-Binding
+    (slot code getter generate))
+  (class Local-Variable-Binding extends Lexical-Binding
+    (slot variable getter generate))
+  (class Macro-Symbol extends Symbol-Binding
+    (slot getter getter generate)
+    (slot setter getter generate))
+  (class Form-Binding extends Lexical-Binding)
+  (class Special-Form extends Form-Binding
+    (slot walk getter generate))
+  (class Macro-Form extends Form-Binding
+    (slot expander getter generate))
+  (class Syntax-Form extends Form-Binding
+    (slot expander getter generate))
+  (class Define-Syntax-Form extends Syntax-Form
+    (slot environment getter generate))
+  (class Define-Local-Syntax-Form extends Syntax-Form
+    (slot environment getter generate))
+  (class Syntactic-Closure extends Object
+    (slot environment getter generate)
+    (slot variables getter generate)
+    (slot expression getter generate)
+    (slot form getter generate)
+    (method protected override (print output readably)))
+  (class Annotated-Variable extends Object
+    (slot variable getter generate)
+    (slot declared-type getter generate)
+    (slot type getter generate))
+  (class Restricted-Binding extends Object
+    (slot binding getter generate)
+    (slot type getter generate))
+  (class Annotated-Frame extends Object
+    (slot variables getter generate)
+    (slot reset getter generate))
+  (class Code extends Object
+    (slot form getter generate)
+    (slot type getter generate)
+    (slot source getter generate))
+  (class Expression extends Object
+    (slot type getter generate)
+    (slot source getter generate)
+    (method protected override (initialize . rest))
+    (method protected virtual (emit-expression declaration environment backend))
+    (method protected virtual (emit-call arguments declaration environment backend)))
+  (native-syntax jazz:emit-expression)
+  (native-syntax jazz:emit-call)
+  (class Proclaim extends Expression
+    (slot clauses getter generate))
+  (class Constant extends Expression
+    (slot expansion getter generate))
+  (class Delay extends Expression
+    (slot expression getter generate))
+  (class Quasiquote extends Expression
+    (slot form getter generate))
+  (class Binding-Reference extends Expression
+    (slot binding getter generate)
+    (method protected override (print output readably)))
+  (class Assignment extends Expression
+    (slot binding getter generate)
+    (slot value getter generate))
+  (class Lambda extends Expression
+    (slot signature getter generate)
+    (slot body getter generate))
+  (class Let extends Expression
+    (slot bindings getter generate)
+    (slot body getter generate))
+  (class Named-Let extends Let
+    (slot variable getter generate))
+  (class Letstar extends Expression
+    (slot bindings getter generate)
+    (slot body getter generate))
+  (class Letrec extends Expression
+    (slot bindings getter generate)
+    (slot body getter generate))
+  (class Receive extends Expression
+    (slot variables getter generate)
+    (slot expression getter generate)
+    (slot body getter generate))
+  (class Body extends Expression
+    (slot internal-defines getter generate)
+    (slot expressions getter generate))
+  (class Internal-Define extends Expression
+    (slot variable getter generate)
+    (slot value getter generate))
+  (class Begin extends Expression
+    (slot expressions getter generate))
+  (class Do extends Expression
+    (slot bindings getter generate)
+    (slot test getter generate)
+    (slot result getter generate)
+    (slot body getter generate))
+  (class Call extends Expression
+    (slot operator getter generate)
+    (slot arguments getter generate))
+  (class If extends Expression
+    (slot test getter generate)
+    (slot yes getter generate)
+    (slot no getter generate))
+  (class Cond extends Expression
+    (slot clauses getter generate))
+  (class Case extends Expression
+    (slot target getter generate)
+    (slot clauses getter generate))
+  (class And extends Expression
+    (slot expressions getter generate))
+  (class Or extends Expression
+    (slot expressions getter generate))
+  (class Declare extends Expression
+    (slot declarations getter generate))
+  (class Parameterize extends Expression
+    (slot bindings getter generate)
+    (slot body getter generate))
+  (class Analysis-Data extends Object
+    (slot autoload-reference getter generate)
+    (slot declaration-references getter generate))
+  (class Foundation-Dialect extends Dialect)
+  (class Foundation-Walker extends Walker))

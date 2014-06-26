@@ -1,0 +1,6 @@
+(module world.external.obj jazz
+  (import (world.foreign.obj))
+  (import (world.material))
+  (import (world.mesh))
+  (import (world.model))
+  (definition public (load-obj file texture)))

@@ -1,0 +1,8 @@
+(module jazz.debugger.snapshot.Computer-Snapshot jazz
+  (import (jazz.library))
+  (class Computer-Snapshot extends Component
+    (property user-name accessors generate)
+    (property computer-name accessors generate)
+    (property processor-type accessors generate)
+    (property windows-version accessors generate)
+    (method protected override (print output readably))))

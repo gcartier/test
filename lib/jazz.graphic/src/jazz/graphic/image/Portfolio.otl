@@ -1,0 +1,15 @@
+(module jazz.graphic.image.Portfolio jazz
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.graphic.image))
+  (import (jazz.library))
+  (import (jazz.platform.cairo))
+  (class Portfolio extends Component
+    (slot images)
+    (slot opaque-images)
+    (method protected override (finish initargs))
+    (method protected override (destroy))
+    (method public final (get-image resource))
+    (method public final (get-opaque-image resource background))
+    (method public final (draw-image surface context resource h v))
+    (method public final (draw-opaque-image surface context resource background h v))))

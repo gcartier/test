@@ -1,0 +1,17 @@
+(manifest world.validate.suite.Geometry-Tester
+
+  (version 207012)
+  (digest "d991a4018f391758f8facfe4d806a5ba3741f5e4")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel = cons list list->table not)
+              (scheme.syntax declaration-path)
+              (world.geometry cross-product make-identity-matrix make-identity-matrix! make-projection-matrix make-standard-lookat make-translation-matrix make-view-matrix matrix-multiply ray-intersects-sphere? ray-intersects-triangle? vertex-distance)
+              (world.geometry.base vertex+ vertex+! vertex- vertex-! vertex-negate vertex-negate! vertex-norm vertex-normalize vertex-normalize! vertex-scalar* vertex-scalar*!)
+              (world.geometry.classes make-vertex matrix matrix-copy! matrix=? vertex vertex-copy! vertex-init! vertex-x vertex-x-set! vertex-y vertex-y-set! vertex-z vertex-z-set! vertex=?)))

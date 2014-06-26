@@ -1,0 +1,13 @@
+(manifest jazz.locale
+
+  (version 207012)
+  (digest "8817cd4d53a0402494c194c994f7ca556849f33c")
+  (references (jazz.language.runtime.exception Error error signal)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class Procedure Symbol category-name getf map-property memq? remove! sort symbol->keyword table-keys)
+              (jazz.language.runtime.kernel class-of enumerator->symbol enumerator? is? keyword->string keyword? new not-null? table-clear unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel car cdr cons eq? for-each list make-table not null? reverse string<? symbol? table-ref table-set!)))

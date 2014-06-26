@@ -1,0 +1,3 @@
+(module jazz.ui.resizer.platform.glfw jazz
+  (import (jazz.platform))
+  (definition public Part-Cursor))

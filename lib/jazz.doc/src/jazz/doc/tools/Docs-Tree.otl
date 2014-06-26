@@ -1,0 +1,4 @@
+(module jazz.doc.tools.Docs-Tree jazz
+  (import (jazz.designer))
+  (class Docs-Tree extends Descendants-Tree
+    (method protected override (row-state component update? level))))

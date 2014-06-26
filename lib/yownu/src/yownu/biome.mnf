@@ -1,0 +1,11 @@
+(manifest yownu.biome
+
+  (version 207012)
+  (digest "946d76772a38f7d7ed28c541bbe3dd1e836bbba7")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class find random-element)
+              (jazz.language.runtime.kernel class-of dispatch new)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros ~)
+              (scheme.language.runtime.kernel apply list)))

@@ -1,0 +1,8 @@
+(manifest jazz.ui.tree.Tree-Path
+
+  (version 207012)
+  (digest "b8b61e211ebecccab37af51f7cad6760107b91fa")
+  (references (jazz.language.runtime.functional Object-Class join)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.tree.Tree-Label Tree-Label (Tree-Label initialize) (Tree-Label set-title))
+              (scheme.language.runtime.kernel > apply list)))

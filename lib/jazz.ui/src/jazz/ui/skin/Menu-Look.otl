@@ -1,0 +1,9 @@
+(module jazz.ui.skin.Menu-Look jazz
+  (import (jazz.ui))
+  (class Menu-Look extends Look
+    (property background accessors generate)
+    (property highlight accessors generate)
+    (property text-font accessors generate)
+    (property text-color accessors generate)
+    (property selected-text-color accessors generate)
+    (property disabled-text-color accessors generate)))

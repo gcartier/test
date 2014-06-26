@@ -1,0 +1,12 @@
+(manifest jazz.validate.suite.Variable-Tester
+
+  (version 207012)
+  (digest "baf11730fb6758b7c0d5914e55d8e675cf1cfb35")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

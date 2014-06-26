@@ -1,0 +1,5 @@
+(manifest jazz.platform.odbc
+
+  (version 207012)
+  (digest "64bee37b47d912277128b40c7136a374dcf026b8")
+  (references))

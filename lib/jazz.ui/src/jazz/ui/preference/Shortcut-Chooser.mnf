@@ -1,0 +1,13 @@
+(manifest jazz.ui.preference.Shortcut-Chooser
+
+  (version 207012)
+  (digest "787d8ee9bf542ea3ee1923f9ce36a869c1bb503a")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component locate))
+              (jazz.ui.preference.Shortcut-Viewer Shortcut-Viewer (Shortcut-Viewer choose-hook) (Shortcut-Viewer setup-description) (Shortcut-Viewer~Class get-class-form) (Shortcut-Viewer~Class get-class-forms) (Shortcut-Viewer~Class host-title) (Shortcut-Viewer~Class set-class-form))
+              (jazz.ui.view.View (View get-host))
+              (scheme.language.runtime.kernel cons list list->table null?)
+              (scheme.syntax declaration-path)))

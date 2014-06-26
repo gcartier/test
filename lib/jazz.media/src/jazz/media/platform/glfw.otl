@@ -1,0 +1,9 @@
+(module jazz.media.platform.glfw jazz
+  (definition public (play-sound sound (asynchronous?: asynchronous? (unspecified))))
+  (definition public (error-sound))
+  (definition public (open-music file alias))
+  (definition public (close-music alias))
+  (definition public (play-music alias))
+  (definition public (stop-music alias))
+  (definition public (pause-music alias))
+  (definition public (resume-music alias)))

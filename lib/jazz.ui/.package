@@ -1,0 +1,30 @@
+(package jazz.ui
+  
+  (root "src")
+  (install jazz.ui.install)
+  (products (ui (alias jazz.ui))
+            (jazz.ui (update jazz.ui
+                             jazz.ui.install
+                             jazz.ui.layout
+                             jazz.ui.literals
+                             jazz.ui.literals.formats
+                             jazz.ui.literals.styles
+                             jazz.ui.activity
+                             jazz.ui.clipboard
+                             jazz.ui.development
+                             jazz.ui.dialog
+                             jazz.ui.history
+                             jazz.ui.offscreen
+                             jazz.ui.picker
+                             jazz.ui.print
+                             jazz.ui.resizer
+                             jazz.ui.search
+                             jazz.ui.skin
+                             jazz.ui.tree
+                             jazz.ui.tree.grid
+                             jazz.ui.view
+                             jazz.ui.window
+                             jazz.ui.workspace)
+                     (dependencies jazz
+                                   jazz.resources)))
+  (project ".project"))

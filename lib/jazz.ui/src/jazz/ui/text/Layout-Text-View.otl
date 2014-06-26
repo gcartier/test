@@ -1,0 +1,3 @@
+(module jazz.ui.text.Layout-Text-View jazz
+  (import (jazz.ui))
+  (class Layout-Text-View extends Formatted-Text-View))

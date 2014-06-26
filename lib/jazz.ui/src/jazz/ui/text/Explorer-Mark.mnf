@@ -1,0 +1,8 @@
+(manifest jazz.ui.text.Explorer-Mark
+
+  (version 207012)
+  (digest "1f5b2c3e9a6f6fbf9c596cfdfb7b606f663a441e")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Range$Cell$)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

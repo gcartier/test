@@ -1,0 +1,10 @@
+(manifest jazz.library.utility.Environment
+
+  (version 207012)
+  (digest "59701a9e5cc463cde804aa7afee884b7b7f1473e")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of resolve-runtime-reference)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) (Object setup-context))
+              (jazz.library.utility.Environment-Provider Environment-Provider)))

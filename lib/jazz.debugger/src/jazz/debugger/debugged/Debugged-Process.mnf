@@ -1,0 +1,11 @@
+(manifest jazz.debugger.debugged.Debugged-Process
+
+  (version 207012)
+  (digest "7e790c8d3397c8ebc7f11513cc6b4129a967e022")
+  (references (jazz.debugger.debugged.Debugged Debugged (Debugged debugger) (Debugged get-reference) (Debugged process) (Debugged reference) (Debugged same?))
+              (jazz.debugger.debugged.Debugged-Continuation Debugged-Continuation)
+              (jazz.debugger.debugged.Debugged-Thread Debugged-Thread)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel map)))

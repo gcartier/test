@@ -1,0 +1,12 @@
+(module jazz.jml.xhtml.XHTML-Renderer jazz
+  (import (jazz.jml))
+  (class XHTML-Renderer extends JML-Renderer
+    (method protected override (render jml output))
+    (method protected final (render-jml context jml simple? mix? inside-pre? level output))
+    (method protected virtual (render-text context jml output))
+    (method protected override (render-node context jml simple? mix? inside-pre? level output))
+    (method protected final (render-tag context jml tag simple? parent-mix? inside-pre? level output))
+    (method protected virtual (render-string context output property value))
+    (method protected virtual (render-value context output property value))
+    (method protected final (render-children context jml simple? mix? inside-pre? level output))
+    (method protected final (output-text context output format-string . parameters))))

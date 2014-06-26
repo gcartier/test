@@ -1,0 +1,5 @@
+(module jazz.ui.skin.Toolbar-Look jazz
+  (import (jazz.ui))
+  (class Toolbar-Look extends Look
+    (property background accessors generate)
+    (property text-color accessors generate)))

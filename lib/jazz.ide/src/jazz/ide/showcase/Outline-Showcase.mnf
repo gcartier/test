@@ -1,0 +1,6 @@
+(manifest jazz.ide.showcase.Outline-Showcase
+
+  (version 207012)
+  (digest "b29d1851daf446abf65d1c1c396746b83c47c9c8")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.view.View View)))

@@ -1,0 +1,7 @@
+(manifest jazz.ui.view.Radio-Set
+
+  (version 207012)
+  (digest "9e8457d8a2acda4b44789ac2b0b759255e9f3e53")
+  (references (jazz.language.runtime.functional Object-Class append!)
+              (jazz.language.runtime.object Object)
+              (scheme.language.runtime.kernel list)))

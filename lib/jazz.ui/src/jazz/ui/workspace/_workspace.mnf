@@ -1,0 +1,11 @@
+(manifest jazz.ui.workspace
+
+  (version 207012)
+  (digest "404b9c930af1f3d3c78d0527a5857a9d0fb837a7")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional (Sequence sequence-element) collect-type element find)
+              (jazz.language.runtime.kernel make-parameter)
+              (jazz.language.syntax.macros unless when)
+              (jazz.system.access get-application get-toplevel)
+              (jazz.ui.workspace.Workspace-Preferences Workspace-Preferences)
+              (scheme.language.runtime.kernel + - = eq? length modulo not)))

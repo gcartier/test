@@ -1,0 +1,10 @@
+(manifest jazz.groupware.compare.Compare-Databases
+
+  (version 207012)
+  (digest "d1b0b364da179fa07cdeef37c3c9c9e238deab08")
+  (references (jazz.groupware.compare.Compare-Forms Compare-Forms (Compare-Forms~Class get-class-form) (Compare-Forms~Class get-class-forms) (Compare-Forms~Class host-title) (Compare-Forms~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional (Class external-name) Object-Class)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

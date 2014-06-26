@@ -1,0 +1,5 @@
+(manifest zlib.implementation
+
+  (version 207012)
+  (digest "68d742da0ec9940744bc069ded7e5a1dbe21c47f")
+  (references))

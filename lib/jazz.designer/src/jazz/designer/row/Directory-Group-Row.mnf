@@ -1,0 +1,6 @@
+(manifest jazz.designer.row.Directory-Group-Row
+
+  (version 207012)
+  (digest "3ea49399c35a3a34f2e2f022a1f912e6bf159ccb")
+  (references (jazz.designer.row.Pathname-Row Pathname-Row)
+              (jazz.language.runtime.functional Object-Class)))

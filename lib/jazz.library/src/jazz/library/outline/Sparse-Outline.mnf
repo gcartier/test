@@ -1,0 +1,6 @@
+(manifest jazz.library.outline.Sparse-Outline
+
+  (version 207012)
+  (digest "03c66aa5a097833cc9bac8261612fa2da4c492fb")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.outline.Outline Outline)))

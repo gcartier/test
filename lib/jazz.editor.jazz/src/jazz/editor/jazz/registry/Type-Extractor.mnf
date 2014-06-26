@@ -1,0 +1,6 @@
+(manifest jazz.editor.jazz.registry.Type-Extractor
+
+  (version 207012)
+  (digest "da135e6d212c89bf765914b3762580ad96628d44")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

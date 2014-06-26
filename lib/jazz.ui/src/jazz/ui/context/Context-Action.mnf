@@ -1,0 +1,8 @@
+(manifest jazz.ui.context.Context-Action
+
+  (version 207012)
+  (digest "55da01efd75c4741b58a308a640867b9d939663d")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.library.component.Component Component (Component initialize) (Component print))))

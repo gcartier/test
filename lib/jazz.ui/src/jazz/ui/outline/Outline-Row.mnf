@@ -1,0 +1,17 @@
+(manifest jazz.ui.outline.Outline-Row
+
+  (version 207012)
+  (digest "774d10ceae9af43f1c11eece6c317cc80767b4cf")
+  (references (jazz.geometry inflate-rect inflate-rectRectfxfx)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.Surface Surface (Surface frame-rect))
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional /= Axis (Axis get-content) (Axis get-size) Object-Class (Sequence sequence-element) axis-find axis-remove! cardinality element empty? find find-if first gather getf insert! insert!Axis is-not? iterate last lastAxis neq? replace-subseq! replace-subseq!Axis some?)
+              (jazz.language.runtime.kernel class-of dispatch new unspecified)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros prog1 unless when while ~)
+              (jazz.library.component.Component (Component get-visible-flag) (Component get-visible?) (Component hide) (Component initialize-component) (Component install-in-parent) (Component parent) (Component set-parent) (Component show))
+              (jazz.ui.view.Drawing Drawing (Drawing draw) (Drawing get-bounds) (Drawing get-height) (Drawing get-transparent?) (Drawing get-width) (Drawing set-player))
+              (jazz.ui.view.View View)
+              (scheme.language.runtime.kernel + = > apply cons eq? for-each not values)))

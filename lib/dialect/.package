@@ -1,0 +1,9 @@
+(package dialect
+  
+  (root "src")
+  (products (dialect (update dialect
+                             dialect.core
+                             dialect.development)
+                     (dependencies core
+                                   scheme.core)))
+  (project ".project"))

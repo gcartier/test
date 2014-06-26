@@ -1,0 +1,10 @@
+(module jazz.jml.parser.JML-Parser jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class JML-Parser extends Object
+    (slot preferences getter generate)
+    (method protected override (initialize (preferences: preferences (unspecified))))
+    (method public final (parse reader/expr))
+    (method protected virtual (tag-valid? tag))
+    (method protected virtual (validate-tag tag))
+    (method protected virtual (get-alias name . rest))))

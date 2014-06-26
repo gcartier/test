@@ -1,0 +1,10 @@
+(manifest jazz.library.prototype
+
+  (version 207012)
+  (digest "317792c2d9a02b7fb8bbd090dab0265e041b282e")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Category mop-category-field) (Category mop-field-value) (Class mop-instance-slots) Object-Class alist->plist table-keys)
+              (jazz.language.runtime.kernel listify new-property unspecified)
+              (jazz.language.runtime.object print-unreadable)
+              (jazz.library.component.Component Component (Component creator) (Component print))
+              (scheme.language.runtime.kernel eq? for-each iterate-table make-table map symbol? table->list table-ref table-set!)))

@@ -1,0 +1,12 @@
+(manifest jazz.editor.diff.text.Diff-Syntax
+
+  (version 207012)
+  (digest "ccde27aa61540d218bdd190b2f91803b70267473")
+  (references (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) cardinality find starts-with? subseq)
+              (jazz.language.runtime.geometry Cell)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros constant)
+              (jazz.system get-preferences)
+              (jazz.ui.syntax.Code-Syntax Code-Syntax (Code-Syntax apply-coloring) (Code-Syntax colorize-syntax))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax get-chapter-label) (Text-Syntax get-first-special?) (Text-Syntax get-headers) (Text-Syntax model) (Text-Syntax preferences))
+              (scheme.language.runtime.kernel + list)))

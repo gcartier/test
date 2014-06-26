@@ -1,0 +1,7 @@
+(module world.folio jazz
+  (import (world.syntax (phase syntax)))
+  (class Folio extends Object
+    (slot current accessors generate)
+    (slot list accessors generate)
+    (method protected override (initialize current list))
+    (method protected override (print output readably))))

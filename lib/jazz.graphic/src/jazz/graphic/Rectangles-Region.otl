@@ -1,0 +1,18 @@
+(module jazz.graphic.Rectangles-Region jazz
+  (import (jazz.geometry))
+  (class Rectangles-Region extends Object
+    (slot keep-rectangles?)
+    (slot rectangles)
+    (slot bounding-box <Rect+>)
+    (method protected override (initialize (keep-rectangles?: keep-rectangles? (unspecified)) (rect: rect (unspecified))))
+    (method protected virtual (needs-rectangles?))
+    (method public final (get-rectangles))
+    (method public final (get-bounding-box) <Rect+>)
+    (method public virtual (get-box) <Rect>)
+    (method public virtual (offset! h v))
+    (method public virtual (combine-and! region))
+    (method public virtual (combine-or! region))
+    (method public virtual (combine-xor! region))
+    (method public virtual (combine-diff! region))
+    (method public virtual (empty?) <bool>)
+    (method public virtual (intersects-rect? rect) <bool>)))

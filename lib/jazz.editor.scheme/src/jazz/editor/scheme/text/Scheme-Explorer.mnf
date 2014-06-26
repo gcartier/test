@@ -1,0 +1,14 @@
+(manifest jazz.editor.scheme.text.Scheme-Explorer
+
+  (version 207012)
+  (digest "527a2a0cb257c053f2ccd7f486c06fa1a156c205")
+  (references (jazz.editor.lisp get-expression-syntax)
+              (jazz.editor.lisp.text.Lisp-Explorer Lisp-Explorer (Lisp-Explorer declaration-name?) (Lisp-Explorer enter-list) (Lisp-Explorer exit-list) (Lisp-Explorer find-expression-syntax) (Lisp-Explorer find-named-walker) (Lisp-Explorer forward-constituent) (Lisp-Explorer forward-expr) (Lisp-Explorer forward-whites) (Lisp-Explorer walk-declarations) (Lisp-Explorer walk-expression) (Lisp-Explorer walk-expressions) (Lisp-Explorer walk-parameters) (Lisp-Explorer walk-specifier) (Lisp-Explorer walk-unknown))
+              (jazz.language.runtime.functional Object-Class find memq? reverse! starts-with? starts-with?stringstring)
+              (jazz.language.runtime.geometry (Cell get-col) (Cell get-line))
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object copy)
+              (jazz.language.syntax.macros when while)
+              (jazz.ui.text.Code-Explorer (Code-Explorer expression-comment?))
+              (jazz.ui.text.Text-Explorer (Text-Explorer char-forward) (Text-Explorer end) (Text-Explorer find-marked-symbol) (Text-Explorer get-end) (Text-Explorer get-kind) (Text-Explorer get-marked) (Text-Explorer get-range-string) (Text-Explorer get-start) (Text-Explorer kind) (Text-Explorer set-start) (Text-Explorer start) (Text-Explorer text-constituent?))
+              (scheme.language.runtime.kernel + cons eq? eqv? list not string-length string=? substring symbol->string symbol?)))

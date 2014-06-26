@@ -1,0 +1,6 @@
+(manifest jazz.ui.tree.Tree-Path-Column
+
+  (version 207012)
+  (digest "1c708903b6697a20a002d3b10a07900583493884")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.tree.Tree-Label-Column Tree-Label-Column)))

@@ -1,0 +1,18 @@
+(manifest jazz.io
+
+  (version 207012)
+  (digest "bcda7f5010f777f6fdfc509c2727391a776363f0")
+  (references (jazz.language.runtime.exception Exception (Exception get-message) error throw)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string /= Class List-Factory (List-Factory get-output) (List-Factory put) Object-Class (Sequence sequence-butlast) (Sequence sequence-last) (Sequence sequence-tail) box-list butlast c-constituent? cardinality ci<? collect concatenate difference empty-string? find find-keyword fxfloor is-not? jazz-constituent? join last member? memq? mismatch null/pair? read-lines remove-empty scheme-constituent? second sort split sql-constituent? starts-with? starts-with?stringstring string-find subseq table-find table-values tail unbox-list union word-constituent? write-lines)
+              (jazz.language.runtime.kernel boolean class-of command-argument continuation-capture continuation-return current-directory current-directory-set! digest-file digest-string directory-content directory-create directory-delete dispatch enqueue file-copy file-delete file-exists? file-modification-time file-rename get-build-repository get-repositories is? jazz-settings-directory kernel-platform new new-queue not-null? os-exception? package-name package-root pathname-expand pathname-normalize pathname-type platform-eol-encoding queue-list repository-directory repository-name repository-packages setenv split-symbol string=?-hash table-clear unimplemented unspecified with-exception-filter)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize) (Object print) (Object setup-context) print-unreadable)
+              (jazz.language.syntax.assertion assert)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.bind-optionals bind-optionals)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros unless unwind-protect when while ~)
+              (jazz.language.syntax.typecase typecase)
+              (scheme.language.runtime.kernel + < = > >= append apply call-with-input-file call-with-output-file car cddr cdr cons display eq? equal? for-each get-output-string iterate-table length list make-table map not null? open-output-string pair? string->symbol string-append string? symbol->string symbol? table-ref table-set! values write-char)
+              (time seconds->time system-date time->seconds)
+              (time.exports date->string)))

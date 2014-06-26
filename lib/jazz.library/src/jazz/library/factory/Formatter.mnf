@@ -1,0 +1,7 @@
+(manifest jazz.library.factory.Formatter
+
+  (version 207012)
+  (digest "f3b868a90cb19f02ed6f59050ff1d3307e209ec6")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)))

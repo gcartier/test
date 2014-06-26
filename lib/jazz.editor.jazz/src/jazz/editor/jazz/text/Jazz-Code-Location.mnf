@@ -1,0 +1,16 @@
+(manifest jazz.editor.jazz.text.Jazz-Code-Location
+
+  (version 207012)
+  (digest "782cc0c7ae6adb70e76cc357a2aa064c0238c9fb")
+  (references (jazz.catalog.entry.Code-Location Code-Location (Code-Location edit))
+              (jazz.editor.jazz.text.Jazz-Text-View Jazz-Text-View (Jazz-Text-View location-range))
+              (jazz.editor.jazz.text.Location-Error Location-Error)
+              (jazz.language.runtime.exception signal)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-butlast) (Sequence sequence-last) butlast last)
+              (jazz.language.runtime.kernel is? new split-reference)
+              (jazz.language.runtime.object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros when)
+              (jazz.runtime find-unit-source)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel apply car cdr compose-reference cons null? values)))

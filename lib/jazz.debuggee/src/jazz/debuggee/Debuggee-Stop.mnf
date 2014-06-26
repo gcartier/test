@@ -1,0 +1,13 @@
+(manifest jazz.debuggee.Debuggee-Stop
+
+  (version 207012)
+  (digest "596f6b132a747e65c9b85cba3dd9ae31c581b502")
+  (references (jazz.debuggee.Debuggee-Frame Debuggee-Frame)
+              (jazz.debuggee.stub Debuggee-Frame-Local-Proxy)
+              (jazz.language.runtime.debug get-continuation-name)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) find-if first naturals third)
+              (jazz.language.runtime.kernel boolean continuation-parent exception-location get-continuation-stack hidden-frame? new object->serial)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel = car cdr length list locat->container/line/col map not)))

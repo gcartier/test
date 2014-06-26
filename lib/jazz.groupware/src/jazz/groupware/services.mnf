@@ -1,0 +1,8 @@
+(manifest jazz.groupware.services
+
+  (version 207012)
+  (digest "ff3bba5582b01527ce112759ef98b0da5affbfdd")
+  (references (jazz.groupware.compare.Compare-Databases Compare-Databases)
+              (jazz.groupware.compare.Compare-Directories Compare-Directories)
+              (jazz.groupware.compare.Compare-Files Compare-Files)
+              (jazz.language.runtime.kernel register-service)))

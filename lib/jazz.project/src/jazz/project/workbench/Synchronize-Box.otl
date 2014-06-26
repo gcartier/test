@@ -1,0 +1,11 @@
+(module jazz.project.workbench.Synchronize-Box jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.project))
+  (import (jazz.ui))
+  (class Synchronize-Box extends Message-Box
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (on-toogle evt))
+    (method protected override (layout-box text selection title size icon content actions execute default))))

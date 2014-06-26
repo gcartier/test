@@ -1,0 +1,8 @@
+(manifest jazz.schema.data.Data-Index
+
+  (version 207012)
+  (digest "8227f3dd257f1210dfe14099deaff873baf92acb")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.schema.data.Data-Object Data-Object (Data-Object get-kind) (Data-Object name) (Data-Object properties) (Data-Object property-names))))

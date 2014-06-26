@@ -1,0 +1,5 @@
+(module jazz.ui.print.platform.glfw jazz
+  (import (jazz.ui))
+  (import (jazz.ui.dialog))
+  (definition package (platform-print-document view))
+  (definition package (platform-print-picture view)))

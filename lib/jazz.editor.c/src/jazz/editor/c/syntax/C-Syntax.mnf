@@ -1,0 +1,14 @@
+(manifest jazz.editor.c.syntax.C-Syntax
+
+  (version 207012)
+  (digest "5e1ab1912e027b3402ec1f1524e841ce6321307e")
+  (references (jazz.editor.c.text.C-Explorer C-Explorer)
+              (jazz.editor.clike.text.CLike-Syntax CLike-Syntax (CLike-Syntax compute-syntax-automata) (CLike-Syntax compute-syntax-targets) (CLike-Syntax get-keywords) (CLike-Syntax get-profile-keywords) (CLike-Syntax get-profile-macros) (CLike-Syntax get-profile-types))
+              (jazz.language.runtime.functional Object-Class c-constituent? lower-case? some? upper-case?)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object (Object object-lower-case?) (Object object-upper-case?))
+              (jazz.language.syntax.macros constant unless)
+              (jazz.system get-preferences)
+              (jazz.ui.syntax.Code-Syntax (Code-Syntax colorize-entries) (Code-Syntax explorer-class) (Code-Syntax syntax-automata) (Code-Syntax syntax-targets))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax auto-complete-char?) (Text-Syntax comment-style?) (Text-Syntax favorite-completions) (Text-Syntax get-constituent-test) (Text-Syntax preferences) (Text-Syntax text-constituent?))
+              (scheme.language.runtime.kernel eqv? not)))

@@ -1,0 +1,10 @@
+(manifest world.widget
+
+  (version 207012)
+  (digest "517de5cf20806fb920d1a4ce7aa878f9dff2965c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel < car cdr list not)))

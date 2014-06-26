@@ -1,0 +1,16 @@
+(module jazz.validation.validate.Validation-Manager jazz
+  (import (jazz.jml))
+  (import (jazz.log))
+  (import (jazz.validation))
+  (class Validation-Manager extends Object
+    (slot feedback)
+    (slot feedback-port)
+    (slot report-success?)
+    (slot report-results?)
+    (slot log getter generate)
+    (method protected override (initialize (feedback: feedback (unspecified)) (feedback-port: feedback-port (unspecified)) (report-success?: report-success? (unspecified)) (report-results?: report-results? (unspecified)) (log: log (unspecified))))
+    (method protected final (default-feedback format-string . rest))
+    (method public final (validate suite))
+    (method public final (log-failure suite tester section message class location properties))
+    (method public final (get-failures))
+    (method public final (report-results))))

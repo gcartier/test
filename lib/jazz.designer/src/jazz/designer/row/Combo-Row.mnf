@@ -1,0 +1,6 @@
+(manifest jazz.designer.row.Combo-Row
+
+  (version 207012)
+  (digest "afce6c226bb425075f228f4c41ab96b30676133c")
+  (references (jazz.designer.row.Value-Row Value-Row)
+              (jazz.language.runtime.functional Object-Class)))

@@ -1,0 +1,16 @@
+(module jazz.ui.search.History-Search-Item jazz
+  (import (jazz.library))
+  (import (jazz.system))
+  (class History-Search-Item extends History-Item
+    (slot protected domain)
+    (slot protected targets)
+    (slot protected whole-words?)
+    (slot protected ignore-case?)
+    (slot protected preserve-case?)
+    (slot protected play-recording?)
+    (slot protected expression?)
+    (slot protected content)
+    (slot protected selection)
+    (method protected override (initialize domain targets whole-words? ignore-case? preserve-case? play-recording? expression? content selection))
+    (method protected override (open-item))
+    (method protected override (present))))

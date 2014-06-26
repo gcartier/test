@@ -1,0 +1,7 @@
+(manifest jazz.ui.event.Mouse-Event
+
+  (version 207012)
+  (digest "3d0fc1e714828361997c9e05561f87a1f4c9437a")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library hook-event-access)
+              (jazz.library.event.Event Event (Event get-property))))

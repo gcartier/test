@@ -1,0 +1,3 @@
+(module jazz.ui.view.Line-Surrogate jazz
+  (import (jazz.designer))
+  (class Line-Surrogate extends View-Surrogate))

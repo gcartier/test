@@ -1,0 +1,6 @@
+(manifest jazz.ui.text.Layout-Text-View
+
+  (version 207012)
+  (digest "10db940be2afe18074bee44c42d04e3a0c79256a")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.text.Formatted-Text-View Formatted-Text-View)))

@@ -1,0 +1,8 @@
+(manifest jazz.ui.literals.formats
+
+  (version 207012)
+  (digest "991e6b971f11c3f3bc6c710832d069d6a634d35d")
+  (references (jazz.language.runtime.kernel new)
+              (jazz.ui register-format)
+              (jazz.ui.syntax define-format)
+              (jazz.ui.text.Format Format)))

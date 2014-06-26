@@ -1,0 +1,7 @@
+(manifest jazz.ide.code.Code-Tree
+
+  (version 207012)
+  (digest "26a3f98df9dfb12d7b984093c2fe02fbe3f31378")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.outline.Outline-View-Old (Outline-View-Old update-row))
+              (jazz.ui.tree.Tree-View Tree-View)))

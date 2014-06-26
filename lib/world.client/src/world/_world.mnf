@@ -1,0 +1,11 @@
+(manifest world
+
+  (version 207012)
+  (digest "500ccfff10fa545892d59b9d08c5685434b90cca")
+  (references (jazz.language.runtime.debug debug)
+              (jazz.language.runtime.functional empty-table fxround)
+              (jazz.language.runtime.kernel bytes-allocated! current-seconds f64vector-ref gc make-f64vector make-parameter process-memory set-? set-?c set-?m set-?t set-?v set-?w set-?z terminal)
+              (jazz.language.syntax.macros when)
+              (jazz.library.literals construct-version)
+              (jazz.version Version)
+              (scheme.language.runtime.kernel + - / apply eq? iterate-table make-table table-ref table-set!)))

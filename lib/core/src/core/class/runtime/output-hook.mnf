@@ -1,0 +1,5 @@
+(manifest core.class.runtime.output-hook
+
+  (version 207012)
+  (digest "f708b3c8850e9c1f3da97d2cd22ecd09205e6ef4")
+  (references))

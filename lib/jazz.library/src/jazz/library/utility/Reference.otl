@@ -1,0 +1,11 @@
+(module jazz.library.utility.Reference jazz
+  (class Reference extends Object
+    (slot context getter generate)
+    (slot symbol getter generate)
+    (method protected override (initialize symbol))
+    (method protected override (print output readably))
+    (method protected override (walk-references proc))
+    (method protected override (setup-context ctx))
+    (method public final (get-runtime-reference))
+    (method public final (resolve-reference))
+    (method public virtual (resolve-parameters))))

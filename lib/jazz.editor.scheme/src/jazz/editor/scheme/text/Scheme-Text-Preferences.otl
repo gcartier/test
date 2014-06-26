@@ -1,0 +1,11 @@
+(module jazz.editor.scheme.text.Scheme-Text-Preferences jazz
+  (import (jazz.editor.lisp))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Scheme-Text-Preferences extends Lisp-Text-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Scheme-Text-Preferences-Descriptor extends Document-Preferences-Descriptor))

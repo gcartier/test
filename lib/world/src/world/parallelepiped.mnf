@@ -1,0 +1,7 @@
+(manifest world.parallelepiped
+
+  (version 207012)
+  (digest "846524fa44311eee8691dcd0f2842fa088141910")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (world.geometry.classes make-vertex vertex-copy!)))

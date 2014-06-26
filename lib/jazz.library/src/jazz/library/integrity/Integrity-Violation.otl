@@ -1,0 +1,15 @@
+(module jazz.library.integrity.Integrity-Violation jazz
+  (import (jazz.library))
+  (class Integrity-Violation extends Object
+    (slot message)
+    (slot trait accessors generate)
+    (slot trait-presentation accessors generate)
+    (slot path accessors generate)
+    (slot path-presentation accessors generate)
+    (slot property accessors generate)
+    (method protected override (initialize (message: message (unspecified)) (trait: trait (unspecified)) (trait-presentation: trait-presentation (unspecified)) (path: path (unspecified)) (path-presentation: path-presentation (unspecified)) (property: property (unspecified))))
+    (method protected override (print output readably))
+    (method public virtual (get-message))
+    (method public virtual (get-image))
+    (method public virtual (present-message))
+    (method public virtual (present-location))))

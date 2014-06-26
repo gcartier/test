@@ -1,0 +1,5 @@
+(module jazz.ui.skin.Group-Look jazz
+  (import (jazz.ui))
+  (class Group-Look extends Look
+    (property background accessors generate)
+    (property border-flat? accessors generate)))

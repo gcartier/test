@@ -1,0 +1,4 @@
+(module jazz.detprof.syntax jazz
+  (import (scheme.syntax-rules (phase syntax)))
+  (macro public (unroll n . rest))
+  (syntax public profile))

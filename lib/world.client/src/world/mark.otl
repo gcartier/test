@@ -1,0 +1,15 @@
+(module world.mark jazz
+  (import (jazz.graphic.opengl.glew))
+  (import (world.dyes))
+  (import (world.geometry))
+  (import (world.opengl))
+  (import (world.serialization))
+  (class Mark extends Object
+    (method protected virtual (draw)))
+  (class Vertex-Mark extends Mark
+    (method meta protected override (marshall-object object))
+    (method meta protected override (unmarshall-object content))
+    (slot vertex <f64vector> accessors generate)
+    (slot color <f32vector+> accessors generate)
+    (method protected override (initialize vertex (color: color (unspecified))))
+    (method protected override (draw))))

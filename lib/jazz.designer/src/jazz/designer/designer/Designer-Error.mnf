@@ -1,0 +1,6 @@
+(manifest jazz.designer.designer.Designer-Error
+
+  (version 207012)
+  (digest "cd7d3b1c36d53643e81d94cde7c6d8643468961d")
+  (references (jazz.language.runtime.exception Error)
+              (jazz.language.runtime.functional Object-Class)))

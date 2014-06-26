@@ -1,0 +1,3 @@
+(module world.interface.popup jazz
+  (import (world.interface.pane))
+  (class World-Popup extends World-Pane))

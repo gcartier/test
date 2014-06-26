@@ -1,0 +1,5 @@
+(manifest world.dyes
+
+  (version 207012)
+  (digest "4d029338c550eff8a429bcdb387677d855af4542")
+  (references (world.dye dye)))

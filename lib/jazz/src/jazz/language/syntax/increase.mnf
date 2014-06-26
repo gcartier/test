@@ -1,0 +1,5 @@
+(manifest jazz.language.syntax.increase
+
+  (version 207012)
+  (digest "e9f1966028b80a84f68c0eebe2099e9dbbc8137f")
+  (references (scheme.syntax-rules syntax-rules)))

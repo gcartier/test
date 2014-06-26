@@ -1,0 +1,14 @@
+(module world.lighting jazz
+  (import (jazz.graphic.opengl.glew))
+  (import (world.dye))
+  (import (world.geometry))
+  (import (world.syntax (phase syntax)))
+  (definition public (get-current-lighting))
+  (definition public (set-current-lighting lighting))
+  (class Lighting extends Object
+    (slot ambient-color <f32vector+> accessors generate)
+    (slot lights <Object> accessors generate)
+    (slot lights-count <fx> accessors generate)
+    (slot sun-effective <f32vector> accessors generate)
+    (slot sun-coordinates <f64vector> accessors generate)
+    (method public final (setup))))

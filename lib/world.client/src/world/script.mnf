@@ -1,0 +1,16 @@
+(manifest world.script
+
+  (version 207012)
+  (digest "bbdf6e797f88e9a9e4d3d3a1dfa4dedadabe5a28")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.kernel class-of find-dispatch unspecified)
+              (jazz.language.runtime.platform bell)
+              (jazz.language.syntax.loop loop)
+              (jazz.system find-setting)
+              (jazz.system.access get-application)
+              (scheme.language.runtime.kernel - > current-output-port not string? symbol?)
+              (world *current-world* *current-zone*)
+              (world.live World (World display-error) (World execute-script))
+              (world.syntax current-world current-zone)
+              (world.zone Zone (Zone index-sector))))

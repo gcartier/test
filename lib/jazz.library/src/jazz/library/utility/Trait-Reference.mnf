@@ -1,0 +1,9 @@
+(manifest jazz.library.utility.Trait-Reference
+
+  (version 207012)
+  (digest "82b2a28df226eb3de4bff3fbbac4a77d5226671d")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of not-null?)
+              (jazz.library.utility.Reference Reference (Reference initialize) (Reference print) (Reference resolve-parameters) (Reference resolve-reference) (Reference symbol))
+              (scheme.language.runtime.kernel null?)))

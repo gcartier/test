@@ -1,0 +1,10 @@
+(module jazz.ui.view.Label-Tool jazz
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class Label-Tool extends Tool-Button
+    (property justification accessors generate)
+    (property color accessors generate)
+    (method protected override (default-size))
+    (method protected override (draw-tool surface context))))

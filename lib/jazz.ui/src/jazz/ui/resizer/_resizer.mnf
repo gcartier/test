@@ -1,0 +1,8 @@
+(manifest jazz.ui.resizer
+
+  (version 207012)
+  (digest "b2cf25886f9908e3dc4dc34488fadcacacd01f64")
+  (references (jazz.language.runtime.functional (Sequence sequence-element) assoc-value between? element fxround/)
+              (jazz.language.syntax.macros constant when)
+              (jazz.ui.resizer.platform.glfw Part-Cursor)
+              (scheme.language.runtime.kernel * + - < > >= car cdr min quotient values)))

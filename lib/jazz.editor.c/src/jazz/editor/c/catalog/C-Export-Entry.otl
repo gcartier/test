@@ -1,0 +1,5 @@
+(module jazz.editor.c.catalog.C-Export-Entry jazz
+  (import (jazz.editor.c))
+  (import (jazz.library))
+  (class C-Export-Entry extends C-Definition-Entry
+    (method protected override (get-image))))

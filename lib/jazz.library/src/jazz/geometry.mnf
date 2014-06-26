@@ -1,0 +1,13 @@
+(manifest jazz.geometry
+
+  (version 207012)
+  (digest "a9768fdcc51dc8e7edea1da0ea2676ab9e92a66a")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Number (Sequence sequence-element) (Sequence sequence-last) between between? category-identifier first fxround last naturals percent second sort sqr)
+              (jazz.language.runtime.geometry Dimension (Dimension get-height) (Dimension get-width) Point (Point get-h) (Point get-v) Rect (Rect get-bottom) (Rect get-left) (Rect get-right) (Rect get-top) (Rect set-bottom) (Rect set-left) (Rect set-right) (Rect set-top) Rect$fl$ (Rect$fl$ get-bottom) (Rect$fl$ get-left) (Rect$fl$ get-right) (Rect$fl$ get-top))
+              (jazz.language.runtime.kernel class-of dispatch flonum? is? new unspecified)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros constant ~)
+              (jazz.language.syntax.typecase typecase)
+              (jazz.literals construct-dimension)
+              (scheme.language.runtime.kernel * + - / < <= = > >= abs apply eq? map max min modulo number? pair? positive? quotient sqrt values)))

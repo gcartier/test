@@ -1,0 +1,9 @@
+(package jazz.editor.lisp
+  
+  (root "src")
+  (install jazz.editor.lisp.install)
+  (products (jazz.editor.lisp (update jazz.editor.lisp
+                                      jazz.editor.lisp.install
+                                      jazz.editor.lisp.literals)
+                              (dependencies jazz)))
+  (project ".project"))

@@ -1,0 +1,5 @@
+(module jazz.designer.row.Enumeration-Row jazz
+  (import (jazz.designer))
+  (import (jazz.locale))
+  (import (jazz.ui.view))
+  (class Enumeration-Row extends Combo-Row))

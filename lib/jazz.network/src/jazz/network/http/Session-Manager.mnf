@@ -1,0 +1,11 @@
+(manifest jazz.network.http.Session-Manager
+
+  (version 207012)
+  (digest "b38c4d7b6816aa2586665e90db76d11a5ac8e53b")
+  (references (jazz.language.runtime.functional Object-Class find-if remove!)
+              (jazz.language.runtime.kernel make-mutex mutex-lock! mutex-unlock! new)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros when)
+              (jazz.network.http.Session Session)
+              (scheme.language.runtime.kernel = cons)))

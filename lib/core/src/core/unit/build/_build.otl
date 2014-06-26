@@ -1,0 +1,3 @@
+(unit core.unit.build
+  (require (core.base))
+  (require (dialect)))

@@ -1,0 +1,8 @@
+(manifest jazz.platform.glfw
+
+  (version 207012)
+  (digest "0aa1d58e272b1873688ab474a703743c51a6e4bc")
+  (references (jazz.foreign.syntax c-external)
+              (jazz.language.runtime.kernel unimplemented unspecified)
+              (jazz.platform.types int)
+              (scheme.language.runtime.kernel display newline)))

@@ -1,0 +1,16 @@
+(module world.interface.frame jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world))
+  (import (world.autoload))
+  (import (world.interface.caption))
+  (import (world.interface.panel))
+  (import (world.syntax (phase syntax)))
+  (definition public (open-frame frame))
+  (class World-Frame extends World-Panel
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method public final (get-caption))
+    (method public final (get-content))))

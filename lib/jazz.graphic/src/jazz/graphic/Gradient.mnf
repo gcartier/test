@@ -1,0 +1,9 @@
+(manifest jazz.graphic.Gradient
+
+  (version 207012)
+  (digest "ea92b9b4b515c3747236b97fb249641a816131b6")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name is-not?)
+              (jazz.language.runtime.kernel class-of new not-null?)
+              (jazz.language.runtime.object Object (Object compare-object) (Object copy-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel apply eq? equal?)))

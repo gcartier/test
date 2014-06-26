@@ -1,0 +1,6 @@
+(manifest jazz.designer.entry.Foreign-Entry
+
+  (version 207012)
+  (digest "8dbcda780726812dc28c7269ebf8301f61102975")
+  (references (jazz.designer.entry.Property-Entry Property-Entry)
+              (jazz.language.runtime.functional Object-Class)))

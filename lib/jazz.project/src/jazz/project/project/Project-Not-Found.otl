@@ -1,0 +1,11 @@
+(module jazz.project.project.Project-Not-Found jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.project))
+  (import (jazz.designer))
+  (class Project-Not-Found extends Project
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Project-Not-Found-Descriptor extends Project-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

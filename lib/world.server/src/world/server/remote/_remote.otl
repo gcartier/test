@@ -1,0 +1,5 @@
+(module world.server.remote jazz
+  (import (jazz.jrm))
+  (import (world.stub))
+  (import (world.server.remote.implementation))
+  (definition public (make-world-remote-server)))

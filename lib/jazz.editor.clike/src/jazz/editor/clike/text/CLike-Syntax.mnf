@@ -1,0 +1,12 @@
+(manifest jazz.editor.clike.text.CLike-Syntax
+
+  (version 207012)
+  (digest "eeb1d1d28a213bc8f9cdfbe9f6e7691bfa9c7264")
+  (references (jazz.language.runtime.functional Object-Class (Sequence sequence-element) c-constituent? element read-string-element)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.library.automata build-search-automata)
+              (jazz.system.access get-application)
+              (jazz.ui.syntax.Code-Syntax Code-Syntax (Code-Syntax colorize-balanced-comment) (Code-Syntax colorize-balanced-comment-backward) (Code-Syntax colorize-keyword) (Code-Syntax colorize-line-comment) (Code-Syntax colorize-type) (Code-Syntax compute-syntax-automata) (Code-Syntax compute-syntax-targets) (Code-Syntax syntax-targets))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax model) (Text-Syntax name-at))
+              (scheme.language.runtime.kernel append eqv? list map)))

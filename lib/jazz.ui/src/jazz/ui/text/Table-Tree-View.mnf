@@ -1,0 +1,6 @@
+(manifest jazz.ui.text.Table-Tree-View
+
+  (version 207012)
+  (digest "6f901fb66b898163cb61034ac8d88ef336858861")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.tree.Tree-View Tree-View)))

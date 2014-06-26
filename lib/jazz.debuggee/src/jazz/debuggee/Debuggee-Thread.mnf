@@ -1,0 +1,10 @@
+(manifest jazz.debuggee.Debuggee-Thread
+
+  (version 207012)
+  (digest "935a1ac72bb8012487b30dc35d521bacd30e0de6")
+  (references (jazz.debuggee current-repl-frame debugged-continuations-thread-group get-thread-stops)
+              (jazz.language.runtime.functional Object-Class present-thread-state thread-post)
+              (jazz.language.runtime.kernel box? object->serial set-box! thread-name thread-state thread-thread-group)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel eq?)))

@@ -1,0 +1,3 @@
+(module jazz.designer.domain.Time-Domain jazz
+  (import (jazz.designer))
+  (class Time-Domain extends Domain))

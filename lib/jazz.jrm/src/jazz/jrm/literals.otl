@@ -1,0 +1,3 @@
+(module jazz.jrm.literals jazz
+  (import (jazz.jrm))
+  (definition package (construct-ior uuid host port remotable reference values)))

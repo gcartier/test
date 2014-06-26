@@ -1,0 +1,12 @@
+(module jazz.ui.dialog.Text-File-Request jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Text-File-Request extends File-Request
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-title))
+    (method protected override (finish rest))
+    (method protected final (update-char-encoding))
+    (method protected override (get-modal-result))))

@@ -1,0 +1,12 @@
+(manifest world.triangle
+
+  (version 207012)
+  (digest "8f325e0865fd71b28684f14aa73a42eb72667021")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel f32vector-ref f64vector-set! new)
+              (scheme.language.runtime.kernel + vector vector-ref)
+              (world.geometry center-of-mass! matrix+-transform-3x4! matrix+-transform-3x4->offset! matrix+-transform-3x4-offset! matrix-transform-3x4 polygon-normal! polygon-radius transform-normal)
+              (world.geometry.classes copy-vertex make-vertex vertex-copy! vertex-init!)
+              (world.geometry.syntax center-of-mass& make-vertex& vertex&)
+              (world.plane (Plane normal) (Plane origin))
+              (world.polygon Polygon (Polygon add-triangles) (Polygon copy-polygon) (Polygon element) (Polygon initialize) (Polygon iterate-triangles) (Polygon polygon-extract!) (Polygon polygon-move!) (Polygon radius) (Polygon transform-polygon) (Polygon triangle-count) (Polygon vertices))))

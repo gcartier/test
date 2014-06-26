@@ -1,0 +1,9 @@
+(manifest jazz.library.utility.Timer
+
+  (version 207012)
+  (digest "fb38cf519ddb2b76020df13e68d613c7c4c6236d")
+  (references (jazz.language.runtime.functional Object-Class seconds->milliseconds)
+              (jazz.language.runtime.kernel cpu-time real-time)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.system user-message)
+              (scheme.language.runtime.kernel - /)))

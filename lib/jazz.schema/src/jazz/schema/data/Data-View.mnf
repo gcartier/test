@@ -1,0 +1,9 @@
+(manifest jazz.schema.data.Data-View
+
+  (version 207012)
+  (digest "6fad115b644ef4c507ab1bbe96640576b75c5e44")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.schema.data.Data-Entity Data-Entity)
+              (jazz.schema.data.Data-Object (Data-Object get-kind) (Data-Object name) (Data-Object properties) (Data-Object property-names))))

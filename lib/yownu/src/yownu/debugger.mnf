@@ -1,0 +1,8 @@
+(manifest yownu.debugger
+
+  (version 207012)
+  (digest "103a683766935d7c0675ccdea4ba5a4f2ceb0940")
+  (references (jazz.debugger.jazz.Jazz-Debugger Jazz-Debugger (Jazz-Debugger clear-console) (Jazz-Debugger console-output) (Jazz-Debugger register-console-text) (Jazz-Debugger select-console) (Jazz-Debugger unregister-console-text))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel clear-terminal terminal-port unspecified)
+              (scheme.language.runtime.kernel display)))

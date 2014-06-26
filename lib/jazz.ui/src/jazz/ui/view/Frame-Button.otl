@@ -1,0 +1,17 @@
+(module jazz.ui.view.Frame-Button jazz
+  (import (jazz.geometry))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.view))
+  (class Frame-Button extends View
+    (property type accessors generate)
+    (slot state)
+    (method public final (get-state))
+    (method public final (set-state value))
+    (method protected override (mouse-activate?))
+    (method protected override (mouse-enter))
+    (method protected override (mouse-leave))
+    (method protected override (mouse-down evt))
+    (method protected override (drag-up evt . rest))
+    (method protected final (up))
+    (method protected override (draw surface context))))

@@ -1,0 +1,15 @@
+(manifest jazz.ui.layout.Flow-Layout
+
+  (version 207012)
+  (digest "ebf70eb7d5087118b7eb8d4cefc0cb8b632b8c89")
+  (references (jazz.geometry rect-position)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) first for-each-reversed second)
+              (jazz.language.runtime.geometry Dimension (Dimension get-height) (Dimension get-width) Point (Point get-h) (Point get-v) Rect (Rect get-bottom) (Rect get-left) (Rect get-right) (Rect get-top))
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.increase decrease! increase!)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component get-visible?))
+              (jazz.literals construct-rect)
+              (jazz.ui.layout.Figure Figure (Figure get-location) (Figure get-size) (Figure set-position) (Figure set-size))
+              (jazz.ui.layout.Layout Layout (Layout layout))
+              (scheme.language.runtime.kernel + - > eq? for-each integer? not pair? symbol? values)))

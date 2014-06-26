@@ -1,0 +1,7 @@
+(manifest jazz.ui.text.Text-Transformation
+
+  (version 207012)
+  (digest "2252b5dee9883965cb780cecc15fe7f6923562f0")
+  (references (jazz.jml.syntax pattern)
+              (jazz.jml.transformation.JML-Transformation JML-Transformation)
+              (jazz.language.runtime.functional Object-Class)))

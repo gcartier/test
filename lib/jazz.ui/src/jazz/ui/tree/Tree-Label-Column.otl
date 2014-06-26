@@ -1,0 +1,20 @@
+(module jazz.ui.tree.Tree-Label-Column jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Tree-Label-Column extends Tree-Column
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property protected padding accessors generate)
+    (method protected override (cell-class))
+    (method protected override (get-data-tooltip data))
+    (method protected override (draw-at surface context row data h v width height))
+    (method protected virtual (draw-title surface context row data h v width height))
+    (method protected virtual (title-position surface width height title))
+    (method protected final (cell-color color context))
+    (method protected override (text-h level)))
+  (class Tree-Label-Descriptor extends Tree-Column-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

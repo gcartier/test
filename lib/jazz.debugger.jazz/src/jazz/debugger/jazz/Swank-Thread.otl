@@ -1,0 +1,5 @@
+(module jazz.debugger.jazz.Swank-Thread jazz
+  (class Swank-Thread extends Object
+    (slot process getter generate)
+    (slot id getter generate)
+    (method protected override (initialize process id))))

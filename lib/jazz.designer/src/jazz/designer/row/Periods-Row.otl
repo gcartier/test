@@ -1,0 +1,3 @@
+(module jazz.designer.row.Periods-Row jazz
+  (import (jazz.designer))
+  (class Periods-Row extends Combo-Row))

@@ -1,0 +1,15 @@
+(module world.interface.info jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (world.info))
+  (import (world.interface.pane))
+  (import (world.syntax (phase syntax)))
+  (class Info-Pane extends World-Pane
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (view-info)))
+  (class Info-Tree extends Tree-View
+    (method protected override (mouse-down evt))))

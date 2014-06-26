@@ -1,0 +1,13 @@
+(manifest jazz.editor.jazz.text.Jazz-Plain-Syntax
+
+  (version 207012)
+  (digest "96f7c026a914807430249fcce78b6c62fdf6fc9a")
+  (references (jazz.editor.jazz.text.Jazz-Explorer Jazz-Explorer)
+              (jazz.editor.lisp.text.Lisp-Explorer (Lisp-Explorer for-each-comment))
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) cardinality naturals nu=? search starts-with? subseq)
+              (jazz.language.runtime.geometry Cell (Cell get-col) (Cell get-line))
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.syntax.Text-Syntax Text-Syntax (Text-Syntax colorize-comments) (Text-Syntax colorize-syntax) (Text-Syntax comment-string) (Text-Syntax explorer-class) (Text-Syntax model) (Text-Syntax recolorize-text) (Text-Syntax title-comment-string))
+              (jazz.ui.text.Text-Explorer Text-Explorer)
+              (scheme.language.runtime.kernel + < <= eq? for-each make-string not string-append string-length)))

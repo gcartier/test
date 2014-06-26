@@ -1,0 +1,12 @@
+(manifest jazz.library.utility.Pulse
+
+  (version 207012)
+  (digest "e2b15bf02a42004384b6c02acafd3698525f7802")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class box-list exit-thread find-keyword new-thread sleep unbox-list)
+              (jazz.language.runtime.kernel make-mutex mutex-lock! mutex-unlock! not-null? thread-start! unspecified)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize))
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.macros unless when)
+              (jazz.ui.window.platform.independant execute-event)
+              (scheme.language.runtime.kernel not)))

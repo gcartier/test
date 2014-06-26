@@ -1,0 +1,18 @@
+(manifest jazz.catalog.entry.Indexed-Entry
+
+  (version 207012)
+  (digest "3534118ee9d5a94b053a3a6006012aceff277009")
+  (references (jazz.catalog.entry.Catalog-Entry Catalog-Entry (Catalog-Entry edit) (Catalog-Entry file-definition) (Catalog-Entry for-each-descendant-entry) (Catalog-Entry get-column) (Catalog-Entry get-definitions) (Catalog-Entry get-end) (Catalog-Entry get-end-column) (Catalog-Entry get-end-line) (Catalog-Entry get-file) (Catalog-Entry get-line) (Catalog-Entry get-location-name) (Catalog-Entry get-moniker) (Catalog-Entry get-name) (Catalog-Entry get-range) (Catalog-Entry get-start) (Catalog-Entry get-title) (Catalog-Entry present) (Catalog-Entry present-name) (Catalog-Entry root-definition) (Catalog-Entry set-file-definition) (Catalog-Entry set-root-definition) (Catalog-Entry update-indexes))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class append! category-name find-if member? table-add)
+              (jazz.language.runtime.geometry Cell Range$Cell$)
+              (jazz.language.runtime.kernel class-of is? new unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros unless when)
+              (jazz.system.access get-application)
+              (jazz.ui.hosting.Frame-Host Frame-Host)
+              (jazz.ui.hosting.Host-View (Host-View get-guest))
+              (jazz.ui.view all-frames)
+              (scheme.language.runtime.kernel * + car cdr cons equal? for-each list not null? string=? symbol->string)))

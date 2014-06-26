@@ -1,0 +1,6 @@
+(module jazz.ui.handler.Selection-Handler jazz
+  (import (jazz.library))
+  (class Selection-Handler extends Event-Handler
+    (slot force? getter generate)
+    (method protected override (initialize . rest))
+    (method protected override (print output readably))))

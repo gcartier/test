@@ -1,0 +1,9 @@
+(module jazz.validate.suite.Explorer-Tester jazz
+  (import (jazz.jml))
+  (import (jazz.validation))
+  (class Explorer-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (test))
+    (method protected final (test-sequence-explorer))))

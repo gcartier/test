@@ -1,0 +1,7 @@
+(manifest world.homogeneous
+
+  (version 207012)
+  (digest "8f4fe5e16a6e53139fbcc54daf20f78cb2235aaa")
+  (references (jazz.language.runtime.functional Fixnum Flonum)
+              (jazz.language.runtime.kernel f32vector f32vector-ref f32vector-set! f64vector f64vector-ref f64vector-set! flset! make-f32vector make-f64vector make-s32vector s32vector s32vector-ref s32vector-set!)
+              (world.syntax debug-allocation)))

@@ -1,0 +1,13 @@
+(module jazz.ui.view.Stage-Border jazz
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (jazz.ui.skin))
+  (import (jazz.ui.view))
+  (class Stage-Border extends View
+    (method protected override (size-change size))
+    (method public final (get-stage))
+    (method protected override (maximize))
+    (method protected override (restore))
+    (method protected final (layout-stage size <Dimension>))
+    (method protected override (draw surface context))
+    (method protected override (get-look))))

@@ -1,0 +1,6 @@
+(manifest jazz.language.syntax.attributes
+
+  (version 207012)
+  (digest "12754b2560496c898298f3639c804d1c1a8cafe6")
+  (references (jazz.language.runtime.kernel enqueue new-queue parse-specifier queue-list unspecified)
+              (scheme.language.runtime.kernel append cadr car cddr cdr for-each generate-symbol map string->symbol string-append symbol->string)))

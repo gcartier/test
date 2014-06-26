@@ -1,0 +1,8 @@
+(manifest jazz.library.favorite.Favorites-Editor
+
+  (version 207012)
+  (digest "51ebda0b66ee8520b4df40c5ec79dd5431b889d8")
+  (references (jazz.designer.editor.Descendants-Editor Descendants-Editor)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model))
+              (jazz.library.favorite.Favorites-Tree Favorites-Tree)))

@@ -1,0 +1,3 @@
+(module jazz.designer.event.Designer-Event jazz
+  (import (jazz.library))
+  (class Designer-Event extends Event))

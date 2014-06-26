@@ -1,0 +1,9 @@
+(manifest jazz.designer.domain.Directory-Group-Domain
+
+  (version 207012)
+  (digest "b39b18f819306e94950516b91d99dfbb6018f284")
+  (references (jazz.designer.domain.Domain Domain (Domain present-value) (Domain setup-entry))
+              (jazz.designer.entry.Pathname-Entry Pathname-Entry)
+              (jazz.language.runtime.functional ->string Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.library.component.Component (Component locate))))

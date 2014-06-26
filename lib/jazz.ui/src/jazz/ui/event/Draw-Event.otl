@@ -1,0 +1,10 @@
+(module jazz.ui.event.Draw-Event jazz
+  (import (jazz.library))
+  (class Draw-Event extends Event
+    (slot surface)
+    (slot update)
+    (slot lh)
+    (slot lv)
+    (slot info)
+    (method protected override (initialize kind sender modifiers surface update info))
+    (method public final (get-dc))))

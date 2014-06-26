@@ -1,0 +1,18 @@
+(module world.interface.tooltip jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (import (world.interface.documents))
+  (import (world.interface.popup))
+  (class World-Tooltip extends World-Popup
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms)))
+  (class World-Tooltip-Text extends Layout-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method public final (get-text)))
+  (class World-Tooltip-Text-View extends World-Formatted-Text-View
+    (method protected override (get-drawing-background context))
+    (method protected override (new-model))))

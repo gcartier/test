@@ -1,0 +1,6 @@
+(module world.keys jazz
+  (import (jazz.ui))
+  (definition public (registered-keys))
+  (definition public (register-key key proc))
+  (definition public (iterate-keys proc))
+  (definition public (register-keys)))

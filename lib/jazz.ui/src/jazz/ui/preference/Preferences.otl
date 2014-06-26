@@ -1,0 +1,20 @@
+(module jazz.ui.preference.Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Preferences extends Component
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property title accessors generate)
+    (property icon accessors generate)
+    (method public virtual (apply-preferences (client (unspecified))))
+    (method public virtual (save-preferences designer (client (unspecified))))
+    (method public final (set-property designer property value)))
+  (class Preferences-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-component-image component))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-set-presentation component designer title))))

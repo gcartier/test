@@ -1,0 +1,18 @@
+(manifest world.region
+
+  (version 207012)
+  (digest "7ba9111fc50c6133e9be546ca20855d63814db1b")
+  (references (jazz.io File (File new-brother) (Pathname create-directories) path-settings)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Call-Site (Call-Site get-procedure) Object-Class neq? register-site)
+              (jazz.language.runtime.kernel arithmetic-shift arithmetic-shift-left close-port fixnum? make-mutex make-u8vector mutex-lock! mutex-unlock! read-subu8vector read-u8 u8vector-length u8vector-ref u8vector-set! unimplemented unspecified write-subu8vector write-u8)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.assertion allege assert)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros constant prog1 site when)
+              (scheme.language.runtime.kernel * + - / < <= = > call-with-output-file car cdr cons equal? input-port-byte-position make-table modulo not open-input-file output-port-byte-position table-ref table-set!)
+              (world.binary put-u32-big-endian scan-u32-big-endian)
+              (world.chunk World-Chunk (World-Chunk get-sections))
+              (world.section World-Section)
+              (zlib inflate-u8vector)))

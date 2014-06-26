@@ -1,0 +1,5 @@
+(module jazz.validate jazz
+  (export (jazz.validate.autoload))
+  (import (jazz.validate.autoload))
+  (import (jazz.validation))
+  (definition public Jazz-Suite))

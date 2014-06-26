@@ -1,0 +1,6 @@
+(manifest jazz.graphic.opengl.glew.header
+
+  (version 207012)
+  (digest "b6f3143c43ca5826c0a351b05970be460dab0b45")
+  (references (jazz.foreign.syntax c-enumerant c-external)
+              (jazz.platform.types bool char char-string double float int int64 nonnull-char-string-list short signed-char unsigned-char unsigned-int unsigned-int64 unsigned-long unsigned-short void)))

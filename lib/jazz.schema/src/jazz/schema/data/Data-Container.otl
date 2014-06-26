@@ -1,0 +1,14 @@
+(module jazz.schema.data.Data-Container jazz
+  (import (jazz.schema))
+  (import (jazz.tie))
+  (import (time))
+  (class Data-Container extends Object
+    (slot table getter generate)
+    (slot state accessors generate)
+    (method protected override (initialize table state))
+    (method public virtual (get-values))
+    (method public virtual (get identifier))
+    (method public final (save connection (user: user (unspecified))))
+    (method protected virtual (insert-statement user))
+    (method protected virtual (update-statement user))
+    (method protected virtual (delete-statement user))))

@@ -1,0 +1,5 @@
+(manifest gambit.log
+
+  (version 207012)
+  (digest "ee29a5ae765d38f68e7bc16b0516c8cc6b519322")
+  (references (gambit.log.implementation.logview-jazz call-box call-invalidate call-text current-surface plot-click plot-draw plot-key plot-move plot-resize plot-setup plot-view plot-view-ref)))

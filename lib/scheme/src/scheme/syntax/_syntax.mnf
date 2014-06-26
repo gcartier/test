@@ -1,0 +1,7 @@
+(manifest scheme.syntax
+
+  (version 207012)
+  (digest "aa0a731d11c6cfab9568c1575c6d2d3769b7ec34")
+  (references (scheme.core.kernel current-declaration get-declaration-path get-declaration-toplevel)
+              (scheme.language.runtime.kernel apply car compose-reference sourcify-if)
+              (scheme.syntax-rules syntax-rules)))

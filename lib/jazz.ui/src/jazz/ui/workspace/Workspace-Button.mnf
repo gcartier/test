@@ -1,0 +1,18 @@
+(manifest jazz.ui.workspace.Workspace-Button
+
+  (version 207012)
+  (digest "1e29c60d49c2369e17d9ce156c4ad82597a0de6b")
+  (references (jazz.geometry expand-rect justify-lazy)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class nu+)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.runtime.kernel new)
+              (jazz.literals construct-dimension)
+              (jazz.locale localize)
+              (jazz.ui.view.Drawing (Drawing get-bounds) (Drawing get-size))
+              (jazz.ui.view.Image-Tool (Image-Tool draw-image))
+              (jazz.ui.view.Radio-Tool Radio-Tool (Radio-Tool default-size) (Radio-Tool draw-background) (Radio-Tool draw-frame) (Radio-Tool draw-tool) (Radio-Tool preferred-size) (Radio-Tool selected?))
+              (jazz.ui.view.Tool-Button (Tool-Button get-state))
+              (jazz.ui.view.View (View effective-font) (View invalidate-view) (View title) (View view-enabled?))
+              (scheme.language.runtime.kernel + eq? list not)))

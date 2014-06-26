@@ -1,0 +1,9 @@
+(module jazz.editor.c.catalog.C-Method-Entry jazz
+  (import (jazz.editor.c))
+  (import (jazz.library))
+  (class C-Method-Entry extends C-Definition-Entry
+    (slot class)
+    (method protected override (initialize class name line column end-line end-column))
+    (method protected override (print output readably))
+    (method protected override (print-catalog level output))
+    (method protected override (get-image))))

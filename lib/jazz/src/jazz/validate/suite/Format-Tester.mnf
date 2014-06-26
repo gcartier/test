@@ -1,0 +1,16 @@
+(manifest jazz.validate.suite.Format-Tester
+
+  (version 207012)
+  (digest "5b61d25f3d3c4c651ab7f73e984abf4d12c4a3f2")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.exception Error System-Exception wrap-exception)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is? with-exception-filter)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax error-occurred? validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel cons equal? list list->table string)
+              (scheme.syntax declaration-path)))

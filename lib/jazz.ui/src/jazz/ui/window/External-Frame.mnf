@@ -1,0 +1,12 @@
+(manifest jazz.ui.window.External-Frame
+
+  (version 207012)
+  (digest "14aebe8bfc3748389c460bf1bd3547e053dee633")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.hosting.External-Frame-Host External-Frame-Host)
+              (jazz.ui.window get-desktop)
+              (jazz.ui.window.Overlapped Overlapped)
+              (jazz.ui.window.View-Player (View-Player close) (View-Player new-root) (View-Player root))
+              (jazz.ui.window.Window (Window close-window) (Window default-parent))))

@@ -1,0 +1,8 @@
+(manifest jazz.ui.widget.Moniker-Text-View
+
+  (version 207012)
+  (digest "906a9963656381235769721fe8f5428a16752418")
+  (references (jazz.ide.application.IDE-Text-View IDE-Text-View)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.outline.Outline-View (Outline-View get-scroll-context))
+              (scheme.language.runtime.kernel cons)))

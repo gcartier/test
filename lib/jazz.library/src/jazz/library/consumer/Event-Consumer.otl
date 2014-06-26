@@ -1,0 +1,6 @@
+(module jazz.library.consumer.Event-Consumer jazz
+  (import (jazz.library))
+  (interface Event-Consumer extends Consumer
+    (method public virtual (get-event-consumer))
+    (method public virtual (set-event-consumer consumer))
+    (method public virtual (deliver-event handler target proc evt))))

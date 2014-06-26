@@ -1,0 +1,5 @@
+(manifest core.base.runtime.symbol
+
+  (version 207012)
+  (digest "72720fae6287ecda3c78101c492b023714ebd46e")
+  (references))

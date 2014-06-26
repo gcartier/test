@@ -1,0 +1,14 @@
+(manifest jazz.catalog.entry.File-Entry
+
+  (version 207012)
+  (digest "e4174160e0abe604cf03c44e94babf6acad70a7a")
+  (references (jazz.catalog.entry.Catalog-Entry Catalog-Entry (Catalog-Entry for-each-descendant-entry) (Catalog-Entry get-definitions) (Catalog-Entry get-file) (Catalog-Entry get-file-definition) (Catalog-Entry get-image) (Catalog-Entry get-location-name) (Catalog-Entry get-moniker) (Catalog-Entry insert-definition) (Catalog-Entry insert-definitions) (Catalog-Entry present-detailed) (Catalog-Entry update-indexes))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name find-if)
+              (jazz.language.runtime.kernel class-of unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros when)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel = car cdr for-each not null?)))

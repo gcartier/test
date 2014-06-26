@@ -1,0 +1,6 @@
+(manifest jazz.schema.inspector.Table-Inspector-Tree
+
+  (version 207012)
+  (digest "ad2402e7161f871099a402ee3a2db3584a5b15f0")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.tree.Tree-View Tree-View)))

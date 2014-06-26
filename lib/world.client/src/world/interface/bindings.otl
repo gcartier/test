@@ -1,0 +1,16 @@
+(module world.interface.bindings jazz
+  (import (jazz.jml))
+  (import (jazz.graphic))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (world.client.actions))
+  (import (world.interface))
+  (import (world.interface.frame))
+  (class World-Bindings-Viewer extends World-Frame
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (conclude initargs))
+    (method protected override (focus-default))
+    (method protected final (get-tree))
+    (method protected final (view-bindings))))

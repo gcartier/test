@@ -1,0 +1,8 @@
+(manifest world.validate
+
+  (version 207012)
+  (digest "2e89f93f26ed90b263bbff56556919be096231be")
+  (references (jazz.language.runtime.kernel new)
+              (jazz.validation.validate.Validation-Suite Validation-Suite)
+              (scheme.language.runtime.kernel list)
+              (world.validate.suite.Geometry-Tester Geometry-Tester)))

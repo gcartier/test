@@ -1,0 +1,5 @@
+(module jazz.ui.view.Selectable jazz
+  (interface Selectable
+    (method public virtual (get-selected?))
+    (method public virtual (set-selected? selected?))
+    (method public virtual (unselect))))

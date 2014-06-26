@@ -1,0 +1,6 @@
+(module jazz.language.syntax.assertion scheme
+  (syntax public assert)
+  (syntax public assertion)
+  (syntax public allege)
+  (syntax public debug-assert)
+  (syntax public debug-assertion))

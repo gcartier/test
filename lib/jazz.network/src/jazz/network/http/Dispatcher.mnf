@@ -1,0 +1,9 @@
+(manifest jazz.network.http.Dispatcher
+
+  (version 207012)
+  (digest "bb50aa66df494df9e1faa7eaa5810e2af66778df")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel close-port new)
+              (jazz.language.runtime.object Object)
+              (jazz.network.http.Default-404-Handler Default-404-Handler)
+              (scheme.language.runtime.kernel car cdr cons null?)))

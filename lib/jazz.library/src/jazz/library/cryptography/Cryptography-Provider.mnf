@@ -1,0 +1,6 @@
+(manifest jazz.library.cryptography.Cryptography-Provider
+
+  (version 207012)
+  (digest "87234d900e4c2fb5e0cb2c4092dbbc7d6820712f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

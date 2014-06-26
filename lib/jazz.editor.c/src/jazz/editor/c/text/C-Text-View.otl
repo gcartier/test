@@ -1,0 +1,21 @@
+(module jazz.editor.c.text.C-Text-View jazz
+  (import (jazz.editor.c))
+  (import (jazz.editor.clike))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.locale))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (import (jazz.ui.clipboard))
+  (class C-Text-View extends CLike-Text-View
+    (method meta protected override (external-name . rest))
+    (method protected override (preferences))
+    (method protected override (new-syntax))
+    (method protected override (get-first-special?))
+    (method package final (on-add-break evt))
+    (method package final (on-remove-break evt))
+    (method protected override (get-context-menu)))
+  (class C-Text-Menu extends Context-Menu
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

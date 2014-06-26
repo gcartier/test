@@ -1,0 +1,18 @@
+(manifest jazz.designer.validate
+
+  (version 207012)
+  (digest "f7a99bda2b8273e2bf9e8b837e9673e3fb06b1a8")
+  (references (jazz.dialect.classes.foundation (Lexical-Binding get-name) Module-Declaration Walk-Problems)
+              (jazz.dialect.classes.jazz Property-Declaration)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.exception call-with-catch)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class collect collect-if difference some?)
+              (jazz.language.runtime.kernel class-of dispatch find-declaration find-declaration-child is? module-ref not-null? outline-unit queue-list subtype? unspecified walk-unit)
+              (jazz.language.syntax.macros catch when ~)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.runtime iterate-units)
+              (jazz.validation.tester.Tester Tester (Tester test) (Tester validation-failed))
+              (scheme.language.runtime.kernel apply cons eq? equal? for-each list list->table map not)
+              (scheme.syntax declaration-path)))

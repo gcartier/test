@@ -1,0 +1,9 @@
+(module jazz.jml.model.JML-Text jazz
+  (import (jazz.jml))
+  (class JML-Text extends JML-Node
+    (slot text accessors generate)
+    (method protected override (initialize parent text))
+    (method protected override (print output readably))
+    (method protected override (->jml))
+    (method public final (multi-line?))
+    (method public final (single-line?))))

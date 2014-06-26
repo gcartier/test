@@ -1,0 +1,12 @@
+(manifest jazz.library.exemplar
+
+  (version 207012)
+  (digest "d43a368bd9df607a9bfc40989b5209a839721488")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Axis (Class coerce-object) List-Factory (List-Factory get-output) (List-Factory put) Object-Class (Sequence sequence-element) axis-add box-list category-name coerce element empty-string? every? find find-in find-keyword find-object for-each-property is-not? keyword->symbol memq? read-string-content symbol->keyword unbox-list)
+              (jazz.language.runtime.kernel class-of continuation-capture continuation-return is? listify new not-null? reference-name specified? unspecified unspecified?)
+              (jazz.language.runtime.object Object (Object compare-object) (Object copy-object) (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel = append apply car cdr eq? equal? eqv? for-each integer? iterate-table list make-table map not null? reverse symbol? table-ref table-set!)))

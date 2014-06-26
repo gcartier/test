@@ -1,0 +1,11 @@
+(manifest jazz.debugger.debugged.Debugged-Continuation
+
+  (version 207012)
+  (digest "f4f3f7d92373afd2c4fb310bf05ec170048ba3b2")
+  (references (jazz.debugger.debugged.Debugged (Debugged debugger) (Debugged process) (Debugged reference))
+              (jazz.debugger.debugged.Debugged-Continuation-Stop Debugged-Continuation-Stop)
+              (jazz.debugger.debugged.Debugged-Thread Debugged-Thread (Debugged-Thread get-active-stop) (Debugged-Thread get-stops) (Debugged-Thread same?))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is? new)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel map)))

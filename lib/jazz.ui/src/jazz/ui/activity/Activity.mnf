@@ -1,0 +1,6 @@
+(manifest jazz.ui.activity.Activity
+
+  (version 207012)
+  (digest "59d0f2ebdaaf700120fdc0c289d2d698d84a188f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

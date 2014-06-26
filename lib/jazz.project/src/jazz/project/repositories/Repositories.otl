@@ -1,0 +1,10 @@
+(module jazz.project.repositories.Repositories jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Repositories extends Component
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Repositories-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

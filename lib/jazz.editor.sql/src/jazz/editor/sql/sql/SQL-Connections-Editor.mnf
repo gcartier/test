@@ -1,0 +1,8 @@
+(manifest jazz.editor.sql.sql.SQL-Connections-Editor
+
+  (version 207012)
+  (digest "ea2738ea2a9ae68a1846cc02bd6ab32111ebe188")
+  (references (jazz.designer.editor.Descendants-Editor Descendants-Editor)
+              (jazz.editor.sql.sql.SQL-Connections-Tree SQL-Connections-Tree)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component form-model))))

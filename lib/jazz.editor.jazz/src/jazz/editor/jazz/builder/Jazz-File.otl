@@ -1,0 +1,13 @@
+(module jazz.editor.jazz.builder.Jazz-File jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.project))
+  (class Jazz-File extends Project-File
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property tester? accessors generate)
+    (method protected override (print output readably))
+    (method public final (get-product)))
+  (class Jazz-File-Descriptor extends Project-File-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

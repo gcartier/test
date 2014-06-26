@@ -1,0 +1,9 @@
+(manifest jazz.designer.domain.Number-Domain
+
+  (version 207012)
+  (digest "946c2dad4ff74058abf9e9abba0fb59e1ae83cc2")
+  (references (jazz.designer.domain.Domain (Domain add-violation) (Domain validate-value))
+              (jazz.designer.domain.Value-Domain Value-Domain (Value-Domain parse-presentation) (Value-Domain present-value))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros unless)
+              (scheme.language.runtime.kernel number->string number? string->number)))

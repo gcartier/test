@@ -1,0 +1,6 @@
+(module jazz.graphic.image.Portfolio-Domain jazz
+  (import (jazz.designer))
+  (import (jazz.graphic))
+  (class Portfolio-Domain extends Text-Domain
+    (method protected override (present-value value))
+    (method protected override (parse-presentation text))))

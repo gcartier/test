@@ -1,0 +1,7 @@
+(module jazz.ui.text.Formatted-Text jazz
+  (import (jazz.ui))
+  (class Formatted-Text extends Text
+    (slot protected formats accessors generate)
+    (slot protected styles accessors generate)
+    (method protected override (initialize . rest))
+    (method protected override (print output readably))))

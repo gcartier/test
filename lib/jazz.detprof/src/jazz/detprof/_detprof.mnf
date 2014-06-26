@@ -1,0 +1,12 @@
+(manifest jazz.detprof
+
+  (version 207012)
+  (digest "bfb2eb1648949bbdaf737d56e900ef6f7416f9bb")
+  (references (jazz.detprof.syntax profile unroll)
+              (jazz.jml.model.JML-Element JML-Element)
+              (jazz.language.runtime.functional fxfloor/ sort)
+              (jazz.language.runtime.kernel continuation-capture make-parameter new procedure-locat register-service)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (profiler active-profile get-continuation-stack-for-profile make-profiler profile-depth profile-profiler profile-register-call profiler-ignore-module profiler-real-time with-profiling)
+              (scheme.language.runtime.kernel + - > apply car cddr cdr cons current-output-port list locat->container/line/col map not procedure? table->list)))

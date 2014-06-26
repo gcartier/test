@@ -1,0 +1,12 @@
+(module jazz.graphic.Texture jazz
+  (import (jazz.graphic))
+  (class Texture extends Object
+    (slot mode getter generate)
+    (slot attributes getter generate)
+    (slot parts getter generate)
+    (method protected override (initialize mode attributes parts))
+    (method protected override (copy-object deep?))
+    (method protected override (compare-object target))
+    (method protected override (print output readably))
+    (method public final (get-attribute name (not-found: not-found (unspecified))))
+    (method public final (get-content))))

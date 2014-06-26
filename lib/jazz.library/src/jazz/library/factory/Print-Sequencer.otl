@@ -1,0 +1,2 @@
+(module jazz.library.factory.Print-Sequencer jazz
+  (class Print-Sequencer extends Object))

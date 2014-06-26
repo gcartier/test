@@ -1,0 +1,3 @@
+(module jazz.ui.entity.Entity-Parcel jazz
+  (import (jazz.ui.clipboard))
+  (class Entity-Parcel extends Clipboard-Parcel))

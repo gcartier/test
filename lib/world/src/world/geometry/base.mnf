@@ -1,0 +1,7 @@
+(manifest world.geometry.base
+
+  (version 207012)
+  (digest "31e01739f083acce7cb87bbe96e1d31cef154d2b")
+  (references (scheme.language.runtime.kernel * + - / = abs max sqrt)
+              (world.geometry.classes vertex vertex-copy! vertex-init! vertex-x vertex-x-set! vertex-y vertex-y-set! vertex-z vertex-z-set!)
+              (world.homogeneous f64-set!)))

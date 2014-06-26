@@ -1,0 +1,10 @@
+(module world.mario jazz
+  (import (world.autoload))
+  (import (world.player))
+  (import (world.syntax (phase syntax)))
+  (class Mario-World extends World
+    (method protected override (player-class)))
+  (definition protected player-speed <fl>)
+  (definition protected max-fall-vy <fl>)
+  (definition public (set-player-speed speed))
+  (class Mario extends Player))

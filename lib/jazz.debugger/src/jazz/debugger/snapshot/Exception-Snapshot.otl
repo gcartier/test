@@ -1,0 +1,7 @@
+(module jazz.debugger.snapshot.Exception-Snapshot jazz
+  (import (jazz.library))
+  (class Exception-Snapshot extends Component
+    (property address accessors generate)
+    (property code accessors generate)
+    (property description accessors generate)
+    (method protected override (print output readably))))

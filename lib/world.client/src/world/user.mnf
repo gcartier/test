@@ -1,0 +1,11 @@
+(manifest world.user
+
+  (version 207012)
+  (digest "5ff624a4ccd5fd77bfaead341e049467a3ac41e6")
+  (references (jazz.language.runtime.kernel new random-real)
+              (world *current-zone*)
+              (world.dye dye)
+              (world.geometry.classes vertex)
+              (world.light Light)
+              (world.syntax current-zone)
+              (world.zone Zone (Zone get-designer) (Zone invalidate-lightmaps))))

@@ -1,0 +1,12 @@
+(manifest world.gadget
+
+  (version 207012)
+  (digest "99239c07187cbf74859a5e047a7136385715ba87")
+  (references (jazz.language.runtime.functional Object-Class append! remove!)
+              (jazz.language.runtime.kernel table-clear)
+              (scheme.language.runtime.kernel eq? list make-table table-ref table-set!)
+              (world *current-world*)
+              (world.element (Element element-visible?) (Element gadget?))
+              (world.entity Entity)
+              (world.live World (World effective-draw-gadgets?))
+              (world.syntax current-world)))

@@ -1,0 +1,6 @@
+(manifest jazz.validate.suite.Scheme-Tester
+
+  (version 207012)
+  (digest "abb3074a69444937c15af3cbd59d4568e76366dd")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.validation.tester.Tester Tester)))

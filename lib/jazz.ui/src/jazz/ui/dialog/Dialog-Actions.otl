@@ -1,0 +1,3 @@
+(module jazz.ui.dialog.Dialog-Actions jazz
+  (import (jazz.ui))
+  (class Dialog-Actions extends Actions))

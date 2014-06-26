@@ -1,0 +1,3 @@
+(module jazz.system.application.Application-Event jazz
+  (import (jazz.library))
+  (class Application-Event extends Event))

@@ -1,0 +1,8 @@
+(manifest jazz.ui.event.Selection-Event
+
+  (version 207012)
+  (digest "4353b492d755b135d58544da1650888d7d71721d")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.library.event.Event Event (Event initialize) (Event kind) (Event print) (Event properties))))

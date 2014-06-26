@@ -1,0 +1,14 @@
+(manifest jazz.designer.toolbox.Toolbox-Trait
+
+  (version 207012)
+  (digest "8ec7ce22f81023e262a5896e5a040058ea0b7944")
+  (references (jazz.designer.toolbox.Toolbox-Model Toolbox-Model Toolbox-Model-Descriptor (Toolbox-Model-Descriptor~Class get-class-form) (Toolbox-Model-Descriptor~Class get-class-forms) (Toolbox-Model-Descriptor~Class set-class-form) (Toolbox-Model~Class get-class-descriptor))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

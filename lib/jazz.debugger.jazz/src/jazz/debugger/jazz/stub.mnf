@@ -1,0 +1,14 @@
+(manifest jazz.debugger.jazz.stub
+
+  (version 207012)
+  (digest "49847d132e4ac03987b3b6502eaefd1339870911")
+  (references (jazz.jrm call-remote exec-remote post-remote)
+              (jazz.jrm.remote.Local-Proxy Local-Proxy (Local-Proxy object))
+              (jazz.jrm.remote.Remotable-Stub Remotable-Stub)
+              (jazz.jrm.remote.Remote-Proxy Remote-Proxy)
+              (jazz.jrm.remote.Stub-Interface Stub-Interface (Stub-Interface local-class) (Stub-Interface remote-class))
+              (jazz.jrm.syntax remotable-stub)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel class-of dispatch unspecified)
+              (jazz.language.syntax.macros ~)
+              (scheme.language.runtime.kernel apply)))

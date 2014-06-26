@@ -1,0 +1,13 @@
+(module jazz.ui.workspace.Workspace-Button jazz
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.locale))
+  (import (jazz.ui))
+  (class Workspace-Button extends Radio-Tool
+    (property visit? getter generate)
+    (property problem? getter generate)
+    (method public final (notify visit? problem?))
+    (method protected override (preferred-size))
+    (method protected override (draw-frame surface))
+    (method protected override (draw-tool surface context))
+    (method protected override (draw-background surface context))))

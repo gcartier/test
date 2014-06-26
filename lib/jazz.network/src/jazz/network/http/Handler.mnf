@@ -1,0 +1,6 @@
+(manifest jazz.network.http.Handler
+
+  (version 207012)
+  (digest "737fbcd5dec2a9ae20d7cb47d92012381beedfd0")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

@@ -1,0 +1,6 @@
+(manifest jazz.library.utility.Class-Reference
+
+  (version 207012)
+  (digest "29da489156d975551849381695e89a134511d540")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.utility.Reference Reference)))

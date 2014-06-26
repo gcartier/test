@@ -1,0 +1,19 @@
+(module jazz.library.display.Column-Preferences jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Column-Preferences extends Preferences
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property border accessors generate)
+    (property border-after accessors generate)
+    (property minimum accessors generate)
+    (method protected virtual (column-class))
+    (method public virtual (new-column display)))
+  (class Column-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-set-presentation component designer title))))

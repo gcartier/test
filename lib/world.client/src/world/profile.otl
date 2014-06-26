@@ -1,0 +1,5 @@
+(module world.profile jazz
+  (import (jazz.profile))
+  (class World-Profile extends Profile
+    (method protected virtual (opengl-window-position))
+    (method protected virtual (opengl-window-size))))

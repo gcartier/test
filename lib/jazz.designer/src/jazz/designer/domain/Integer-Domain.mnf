@@ -1,0 +1,9 @@
+(manifest jazz.designer.domain.Integer-Domain
+
+  (version 207012)
+  (digest "533ea9ad0180490de05a2762f9ee0ab41d9d168f")
+  (references (jazz.designer.domain.Domain (Domain add-violation))
+              (jazz.designer.domain.Number-Domain Number-Domain (Number-Domain parse-presentation) (Number-Domain validate-value))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.parse parse-integer)
+              (scheme.language.runtime.kernel < > integer? not)))

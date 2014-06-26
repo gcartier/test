@@ -1,0 +1,3 @@
+(module jazz.designer.row.String-Row jazz
+  (import (jazz.designer))
+  (class String-Row extends Value-Row))

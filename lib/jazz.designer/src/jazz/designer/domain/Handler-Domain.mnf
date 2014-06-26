@@ -1,0 +1,15 @@
+(manifest jazz.designer.domain.Handler-Domain
+
+  (version 207012)
+  (digest "ab743f620941dc3a69c4119c0eca21f63abd4b07")
+  (references (jazz.designer.domain.Domain Domain (Domain parse-presentation) (Domain present-value) (Domain setup-entry))
+              (jazz.designer.entry.Handler-Entry Handler-Entry)
+              (jazz.designer.surrogate.Surrogate-Handler Surrogate-Handler)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional ->string Object-Class identity read-string-safe)
+              (jazz.language.runtime.kernel class-of dispatch is? new)
+              (jazz.language.syntax.macros ~)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (scheme.language.runtime.kernel apply cons list list->table)
+              (scheme.syntax declaration-path)))

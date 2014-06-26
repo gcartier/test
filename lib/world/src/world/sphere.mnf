@@ -1,0 +1,11 @@
+(manifest world.sphere
+
+  (version 207012)
+  (digest "6f13e3d9026ba644a43bbc19ad8f341ca21e977a")
+  (references (jazz.language.runtime.functional Object-Class)
+              (scheme.language.runtime.kernel + <=)
+              (world.element (Element get-radius) (Element inside?) (Element position) (Element set-scaling))
+              (world.entity Entity (Entity prepare) (Entity set-model))
+              (world.geometry.base vertex-! vertex-norm)
+              (world.geometry.classes make-vertex)
+              (world.geometry.syntax make-vertex& vertex-&)))

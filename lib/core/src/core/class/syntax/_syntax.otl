@@ -1,0 +1,8 @@
+(unit core.class.syntax
+  (require (core.class.syntax.error))
+  (require (core.class.syntax.object))
+  (require (core.class.syntax.define-class))
+  (require (core.class.syntax.class))
+  (require (core.class.syntax.define-method-expander))
+  (require (core.class.syntax.define-method))
+  (require (core.class.syntax.classes)))

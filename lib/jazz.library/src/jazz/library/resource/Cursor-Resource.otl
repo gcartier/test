@@ -1,0 +1,3 @@
+(module jazz.library.resource.Cursor-Resource jazz
+  (import (jazz.library))
+  (class Cursor-Resource extends Resource))

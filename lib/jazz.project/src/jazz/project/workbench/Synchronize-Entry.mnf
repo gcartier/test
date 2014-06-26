@@ -1,0 +1,7 @@
+(manifest jazz.project.workbench.Synchronize-Entry
+
+  (version 207012)
+  (digest "a49f9df3daec5ec15b06068ad8373f9a0c862450")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

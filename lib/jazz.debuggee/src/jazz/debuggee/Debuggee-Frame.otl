@@ -1,0 +1,12 @@
+(module jazz.debuggee.Debuggee-Frame jazz
+  (import (jazz.editor.jazz.inspector))
+  (class Debuggee-Frame extends Object
+    (slot id accessors generate)
+    (slot continuation accessors generate)
+    (slot name accessors generate)
+    (slot hidden? accessors generate)
+    (slot location)
+    (method protected override (initialize id location continuation name hidden?))
+    (method protected final (get-interpreted?))
+    (method protected final (get-location))
+    (method protected final (get-variables kind))))

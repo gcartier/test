@@ -1,0 +1,7 @@
+(module jazz.ui.dnd.DnD jazz
+  (class DnD extends Object
+    (slot source accessors generate)
+    (slot target accessors generate)
+    (slot view accessors generate)
+    (method protected override (initialize (source: source (unspecified))))
+    (method protected override (print output readably))))

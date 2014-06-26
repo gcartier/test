@@ -1,0 +1,8 @@
+(module jazz.ui.layout.Snap-Layout jazz
+  (import (jazz.geometry))
+  (import (jazz.ui))
+  (class Snap-Layout extends Layout
+    (property insets <Rect> accessors generate)
+    (property justification accessors generate)
+    (property padding <fx> accessors generate)
+    (method protected override (layout layout figures width height))))

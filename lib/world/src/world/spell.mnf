@@ -1,0 +1,6 @@
+(manifest world.spell
+
+  (version 207012)
+  (digest "094d4e7654bf6ff529d56315074e8471663b7b7e")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

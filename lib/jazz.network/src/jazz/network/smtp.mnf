@@ -1,0 +1,13 @@
+(manifest jazz.network.smtp
+
+  (version 207012)
+  (digest "19bf565930d63b931676f86d4e2b89c6a7045ef4")
+  (references (jazz.language.runtime.exception error throw)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class find join member? split)
+              (jazz.language.runtime.kernel base64-string->u8vector close-port force-output list->u8vector make-u8vector new not-null? open-tcp-client open-u8vector read-subu8vector read-u8 string-starts-with? subu8vector u8vector->base64-string u8vector->list write-substring)
+              (jazz.language.runtime.object Object (Object close) (Object destroy) (Object initialize))
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel * + / < <= = > >= append call-with-input-file cdr char->integer close-output-port cons display eof-object? for-each get-output-string integer->char list list->string map newline not null? number->string open-output-string quotient read-line string->list string-append string-length substring)
+              (time system-date)
+              (time.exports date->string)))

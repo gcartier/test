@@ -1,0 +1,17 @@
+(module jazz.designer.toolbox.Toolbox jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.designer))
+  (class Toolbox extends Group
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property kind accessors generate)
+    (method public final (find-model locator unit)))
+  (class Toolbox-Descriptor extends Group-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-presentation component))
+    (method protected override (component-get-categorized-addable-classes component))))

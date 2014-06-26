@@ -1,0 +1,6 @@
+(manifest jazz.ui.skin.Splitter-Look
+
+  (version 207012)
+  (digest "0442c1e48f371d883478297e79810cc046fe55c3")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Look Look)))

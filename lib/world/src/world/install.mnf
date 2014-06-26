@@ -1,0 +1,5 @@
+(manifest world.install
+
+  (version 207012)
+  (digest "ae4255488fc46747490be1b13e218b42124526c9")
+  (references))

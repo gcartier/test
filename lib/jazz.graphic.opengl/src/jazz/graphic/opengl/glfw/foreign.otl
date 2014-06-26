@@ -1,0 +1,4 @@
+(module jazz.graphic.opengl.glfw.foreign jazz
+  (import (jazz.foreign))
+  (import (jazz.platform))
+  (import (jazz.platform.types)))

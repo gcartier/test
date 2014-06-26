@@ -1,0 +1,10 @@
+(manifest jazz.ui.text.Link-Style
+
+  (version 207012)
+  (digest "3e8a2c2198440ede696664047f5b61b94e674d66")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel not-null? specified? unspecified)
+              (jazz.language.syntax.attributes attributes)
+              (jazz.library.exemplar (Exemplar get-ascendants))
+              (jazz.ui.text.Text-Style Text-Style (Text-Style attribute=?) (Text-Style get) (Text-Style get-attribute) (Text-Style get-attribute-default) (Text-Style get-attribute-no-default) (Text-Style get-attributes) (Text-Style set) (Text-Style set-attribute))
+              (scheme.language.runtime.kernel car cdr equal?)))

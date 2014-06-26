@@ -1,0 +1,7 @@
+(module jazz.jml.transformation.JML-Transformation jazz
+  (import (jazz.jml))
+  (class JML-Transformation extends Object
+    (slot parser)
+    (method protected override (initialize (parser-class: parser-class (unspecified))))
+    (method public virtual (transform node))
+    (method public final (transform-jml node))))

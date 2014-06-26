@@ -1,0 +1,12 @@
+(manifest jazz.ide.login
+
+  (version 207012)
+  (digest "6fbc8acfa9229bfb20e8a375d181ab4492d15c35")
+  (references (jazz.ide.login.Login-Bindings Login-Bindings)
+              (jazz.ide.login.Login-Dialog Login-Dialog)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unless unwind-protect)
+              (jazz.library.syntax define-setting)
+              (jazz.ui get-bindings set-bindings)
+              (jazz.ui.view get-modal)
+              (scheme.language.runtime.kernel car null?)))

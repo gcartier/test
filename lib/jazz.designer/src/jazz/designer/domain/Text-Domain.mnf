@@ -1,0 +1,6 @@
+(manifest jazz.designer.domain.Text-Domain
+
+  (version 207012)
+  (digest "50939deea9ebcc69f744f29d716d3b06ae6dd6b2")
+  (references (jazz.designer.domain.Domain Domain (Domain parse-presentation) (Domain present-value))
+              (jazz.language.runtime.functional ->string Object-Class)))

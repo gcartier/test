@@ -1,0 +1,11 @@
+(manifest jazz.ui.view.Separator-View
+
+  (version 207012)
+  (digest "20e69f5aca3c693ff4e2384e4b483052e392b83b")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry (Dimension get-height))
+              (jazz.ui.view.Drawing (Drawing draw) (Drawing get-size))
+              (jazz.ui.view.View View)
+              (scheme.language.runtime.kernel -)))

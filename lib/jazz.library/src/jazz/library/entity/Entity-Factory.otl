@@ -1,0 +1,9 @@
+(module jazz.library.entity.Entity-Factory jazz
+  (class Entity-Factory extends Object
+    (method public virtual (get-class))
+    (method public virtual (get-name-prohibited?))
+    (method public virtual (get-name-mandatory?))
+    (method public virtual (get-name-unicity?))
+    (method public virtual (presentation->name presentation))
+    (method public virtual (get-factory-presentation))
+    (method public virtual (get-factory-image))))

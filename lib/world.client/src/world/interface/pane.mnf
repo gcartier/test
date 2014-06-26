@@ -1,0 +1,14 @@
+(manifest world.interface.pane
+
+  (version 207012)
+  (digest "2529e9a086abcbb43d89e9923f37c11d5166fb25")
+  (references (jazz.language.runtime.functional Object-Class nu+ nu-)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.layout.Figure (Figure get-position) (Figure set-location))
+              (jazz.ui.view.Drawing (Drawing acquire))
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.View (View set-position))
+              (scheme.language.runtime.kernel list)
+              (world *current-world*)
+              (world.live World (World get-interface))
+              (world.syntax current-world)))

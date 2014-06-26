@@ -1,0 +1,4 @@
+(module jazz.jml.xhtml.XHTML-Parser jazz
+  (import (jazz.jml))
+  (class XHTML-Parser extends JML-Parser
+    (method protected override (tag-valid? tag))))

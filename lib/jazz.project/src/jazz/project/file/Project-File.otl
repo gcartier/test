@@ -1,0 +1,18 @@
+(module jazz.project.file.Project-File jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.project))
+  (class Project-File extends Component implements Project-Container
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property source accessors generate)
+    (property build? accessors generate)
+    (method protected override (catalog-name))
+    (method public virtual (preprocess project reporter log output . rest))
+    (method public virtual (build project reporter log output . rest)))
+  (class Project-File-Descriptor extends Component-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-presentation-property? component property))
+    (method protected override (component-get-presentation component))))

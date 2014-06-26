@@ -1,0 +1,5 @@
+(module jazz.ui.text.Text jazz
+  (class Text extends Object
+    (slot protected paragraphs getter generate)
+    (method protected override (initialize (paragraphs: paragraphs (unspecified))))
+    (method protected override (print output readably))))

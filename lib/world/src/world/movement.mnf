@@ -1,0 +1,12 @@
+(manifest world.movement
+
+  (version 207012)
+  (digest "bdaa488a6a1c12ca3423177ebc2c0db1a8febc56")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (world.geometry.base vertex-norm! vertex-normalize-safe!)
+              (world.geometry.classes make-vertex vertex-copy!)
+              (world.geometry.syntax make-f64& vertex-norm&)
+              (world.homogeneous f64-ref make-f64)
+              (world.syntax debug-allocation)))

@@ -1,0 +1,14 @@
+(manifest jazz.catalog.entry.Catalog-Entry
+
+  (version 207012)
+  (digest "94efe8b80025671539f141550f7dc2c3e59d759e")
+  (references (jazz.catalog get-parser-class)
+              (jazz.language.runtime.functional ->search-set Object-Class make-search-context sort)
+              (jazz.language.runtime.kernel class-of dispatch new not-null? unspecified)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.macros when ~)
+              (jazz.ui.search.Projects-Search Projects-Search)
+              (jazz.ui.search.Reference-Search-Result Reference-Search-Result)
+              (jazz.ui.search.Search-Resultset Search-Resultset)
+              (jazz.ui.tree.Tree-Node Tree-Node)
+              (scheme.language.runtime.kernel + = > apply for-each length list string<?)))

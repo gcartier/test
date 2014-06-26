@@ -1,0 +1,4 @@
+(module world.foreign.triangulate jazz
+  (import (jazz.platform.types))
+  (definition public make-f64vector-still)
+  (definition public triangulate))

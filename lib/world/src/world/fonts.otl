@@ -1,0 +1,2 @@
+(module world.fonts jazz
+  (import (jazz.graphic)))

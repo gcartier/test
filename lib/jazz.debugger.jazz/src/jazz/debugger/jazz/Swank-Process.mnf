@@ -1,0 +1,8 @@
+(manifest jazz.debugger.jazz.Swank-Process
+
+  (version 207012)
+  (digest "f8233d1c17270893db1a3dfc97f5f233f2c99a0e")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros prog1)))

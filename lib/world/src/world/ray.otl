@@ -1,0 +1,9 @@
+(module world.ray jazz
+  (import (world.geometry))
+  (class Ray extends Object
+    (slot origin <f64vector> getter generate)
+    (slot direction <f64vector> getter generate)
+    (method protected override (initialize orig <f64vector> dir <f64vector>))
+    (method public final (set-origin orig <f64vector>) <void>)
+    (method public final (set-direction dir <f64vector>) <void>))
+  (definition public (make-ray orig dir)))

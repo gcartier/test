@@ -1,0 +1,2 @@
+(unit core.base.syntax
+  (require (core.base.syntax.macros)))

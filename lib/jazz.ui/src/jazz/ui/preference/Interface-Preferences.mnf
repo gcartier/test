@@ -1,0 +1,16 @@
+(manifest jazz.ui.preference.Interface-Preferences
+
+  (version 207012)
+  (digest "a84221922343684f8c04caa328bc6ea1cdd60dbc")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.preference.Fonts-Preferences Fonts-Preferences)
+              (jazz.ui.preference.Preferences Preferences Preferences-Descriptor (Preferences-Descriptor~Class get-class-form) (Preferences-Descriptor~Class get-class-forms) (Preferences-Descriptor~Class set-class-form) (Preferences~Class get-class-descriptor))
+              (jazz.ui.preference.Print-Preferences Print-Preferences)
+              (jazz.ui.preference.Tree-Preferences Tree-Preferences)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

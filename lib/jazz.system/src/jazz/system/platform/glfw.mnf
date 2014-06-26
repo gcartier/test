@@ -1,0 +1,11 @@
+(manifest jazz.system.platform.glfw
+
+  (version 207012)
+  (digest "699a67296fa4ae029022bd38060021dd0e6db615")
+  (references (glfw glfwInit)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.kernel unimplemented unspecified)
+              (jazz.language.syntax.macros when)
+              (jazz.system.access get-process)
+              (scheme.language.runtime.kernel < values)))

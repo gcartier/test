@@ -1,0 +1,6 @@
+(module jazz.ui.menu.Context-Menu jazz
+  (import (jazz.ui))
+  (class Context-Menu extends Menu
+    (property client accessors generate)
+    (method protected override (component-alias name))
+    (method public final (make-condensed-menu user-items create-leaf (key: key (unspecified)) (max-leaves: max-leaves (unspecified))))))

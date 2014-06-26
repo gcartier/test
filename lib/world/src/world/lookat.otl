@@ -1,0 +1,14 @@
+(module world.lookat jazz
+  (import (world.geometry.classes))
+  (import (world.serialization))
+  (class LookAt-Class extends Object-Class
+    (method protected override (marshall-object obj))
+    (method protected override (unmarshall-object content)))
+  (class LookAt metaclass LookAt-Class extends Object
+    (slot sight <f64vector> getter generate)
+    (slot up <f64vector> getter generate)
+    (slot right <f64vector> getter generate)
+    (method protected override (print output readably))
+    (method public final (set-sight sight <f64vector>) <void>)
+    (method public final (set-up up <f64vector>) <void>)
+    (method public final (set-right right <f64vector>) <void>)))

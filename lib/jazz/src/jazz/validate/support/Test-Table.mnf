@@ -1,0 +1,18 @@
+(manifest jazz.validate.support.Test-Table
+
+  (version 207012)
+  (digest "ff272cfcd508bc1ec3a4320c34ebe910f5b612da")
+  (references (jazz.designer.descriptor.Component-Descriptor Component-Descriptor (Component-Descriptor~Class get-class-form) (Component-Descriptor~Class get-class-forms) (Component-Descriptor~Class set-class-form))
+              (jazz.designer.descriptor.Property-Descriptor Property-Descriptor)
+              (jazz.designer.domain.Integer-Domain Integer-Domain)
+              (jazz.designer.domain.Localized-Domain Localized-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component Component (Component~Class get-class-descriptor))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

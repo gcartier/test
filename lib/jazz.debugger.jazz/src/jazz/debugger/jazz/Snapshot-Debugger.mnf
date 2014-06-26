@@ -1,0 +1,17 @@
+(manifest jazz.debugger.jazz.Snapshot-Debugger
+
+  (version 207012)
+  (digest "e046fb31ec85a6a79dd677ad4a0078ea11e8391f")
+  (references (jazz.debugger backward-compatible-key get-debugger-manager)
+              (jazz.debugger.debugged.Debugged-Process Debugged-Process)
+              (jazz.debugger.debugger.Debugger Debugger (Debugger break-thread) (Debugger continue-stop) (Debugger detach-processes) (Debugger determine-process-child?) (Debugger determine-process-information?) (Debugger determine-process-processes) (Debugger determine-process-properties) (Debugger determine-process-property) (Debugger evaluate-expressions) (Debugger frame-hidden?) (Debugger frame-interpreted?) (Debugger frame-location) (Debugger frame-name) (Debugger frame-variables) (Debugger frame=?) (Debugger get-processes) (Debugger inspect-serial) (Debugger present-process) (Debugger present-serial) (Debugger process-detach) (Debugger process-exit) (Debugger process-focusable?) (Debugger process-icon) (Debugger process-live?) (Debugger process-threads) (Debugger process-title) (Debugger process=?) (Debugger reload-process) (Debugger restart-message) (Debugger restart-name) (Debugger restart-stop) (Debugger restart=?) (Debugger set-repl-frame) (Debugger standard-process-image) (Debugger start-debugger) (Debugger step-stop) (Debugger stop-debugger) (Debugger stop-detail) (Debugger stop-frames) (Debugger stop-kind) (Debugger stop-location) (Debugger stop-reason) (Debugger stop-restarts) (Debugger stop=?) (Debugger terminate-thread) (Debugger thread-active-stop) (Debugger thread-debugged-continuation?) (Debugger thread-name) (Debugger thread-state) (Debugger thread-stops) (Debugger thread=?) (Debugger try-out))
+              (jazz.language.runtime.debug debug)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-last) append! last member? naturals remove!)
+              (jazz.language.runtime.kernel new not-null? unimplemented unspecified)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.project locator->location)
+              (jazz.ui.window.platform.independant call-event execute-event)
+              (scheme.language.runtime.kernel car cdr cons eq? eqv? for-each length list make-table map not null? table-ref table-set!)))

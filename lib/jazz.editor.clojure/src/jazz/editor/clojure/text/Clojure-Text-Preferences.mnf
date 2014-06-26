@@ -1,0 +1,12 @@
+(manifest jazz.editor.clojure.text.Clojure-Text-Preferences
+
+  (version 207012)
+  (digest "e36fe452a036a493286f6b7ce6a1d75273d99316")
+  (references (jazz.editor.lisp.text.Lisp-Text-Preferences Lisp-Text-Preferences (Lisp-Text-Preferences~Class get-class-form) (Lisp-Text-Preferences~Class get-class-forms) (Lisp-Text-Preferences~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Text-Style Text-Style)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

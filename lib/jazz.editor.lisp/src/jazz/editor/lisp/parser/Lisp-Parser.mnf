@@ -1,0 +1,15 @@
+(manifest jazz.editor.lisp.parser.Lisp-Parser
+
+  (version 207012)
+  (digest "74b128a1778142bff9d65dd2bc556e4d3414049a")
+  (references (jazz.catalog.entry.Catalog-Entry (Catalog-Entry set-parent))
+              (jazz.catalog.parser.File-Parser File-Parser (File-Parser catalog) (File-Parser char-encoding) (File-Parser parse) (File-Parser~Class get-constituent-test) (File-Parser~Class get-match-test))
+              (jazz.editor.lisp expression-syntax-name-mangler expression-syntax-signature-mangler)
+              (jazz.editor.lisp.catalog.Lisp-Entry Lisp-Entry)
+              (jazz.editor.lisp.catalog.Lisp-File-Entry Lisp-File-Entry)
+              (jazz.jml.parse tag->name tag-string?)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Object-Class (Sequence sequence-cardinality) (Sequence sequence-element) (Sequence sequence-last) cardinality element empty-string? first last memq? reference->name scheme-constituent? subseq)
+              (jazz.language.runtime.kernel class-of continuation-capture continuation-return new split-string unspecified)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel + - <= = >= append car cdr cons equal? eqv? for-each not null? pair? string-append string-ref string=?)))

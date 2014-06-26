@@ -1,0 +1,21 @@
+(module jazz.ui.workspace.Workspaces-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Workspaces-Preferences extends Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property active accessors generate)
+    (property associations accessors generate))
+  (class Workspaces-Preferences-Descriptor extends Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-categorized-addable-classes component))
+    (method protected override (component-get-addable-details component)))
+  (class Associations-Domain extends List-Domain
+    (method protected override (finish rest)))
+  (class Association-Domain extends Value-Domain
+    (method protected override (present-value model))))

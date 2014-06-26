@@ -1,0 +1,7 @@
+(manifest world.folio
+
+  (version 207012)
+  (digest "9398e47873ca98284709b4b26977ee6419f8dba9")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

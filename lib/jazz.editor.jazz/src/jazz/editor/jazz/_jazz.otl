@@ -1,0 +1,10 @@
+(module jazz.editor.jazz jazz
+  (export (jazz.editor.jazz.autoload))
+  (import (jazz.editor.jazz.autoload))
+  (import (jazz.runtime))
+  (import (jazz.system.access))
+  (definition public (call-with-saved-text file func (verify-reload?: verify-reload? (unspecified))))
+  (definition public (call-with-text file func))
+  (definition public (class-has-form? text symbol))
+  (definition public (get-module-imports module))
+  (definition public (insert-imports text imports (insert-empty? (unspecified)))))

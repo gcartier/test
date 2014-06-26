@@ -1,0 +1,6 @@
+(manifest world.adjustment
+
+  (version 207012)
+  (digest "1071858e76bf5f6a3edc91967adc0056ba8f3feb")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

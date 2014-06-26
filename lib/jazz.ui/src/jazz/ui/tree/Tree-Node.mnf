@@ -1,0 +1,8 @@
+(manifest jazz.ui.tree.Tree-Node
+
+  (version 207012)
+  (digest "91dfa8a9bf7b54841f3fe8db1694fe86e6844f41")
+  (references (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.ui.tree.Tree-Label Tree-Label (Tree-Label initialize))
+              (scheme.language.runtime.kernel apply)))

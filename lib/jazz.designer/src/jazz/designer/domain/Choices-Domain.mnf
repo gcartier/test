@@ -1,0 +1,12 @@
+(manifest jazz.designer.domain.Choices-Domain
+
+  (version 207012)
+  (digest "c05650b3479e1510ff29cab44452067b9ddf7762")
+  (references (jazz.designer.domain.Domain (Domain add-violation) (Domain data-violations))
+              (jazz.designer.domain.List-Domain List-Domain (List-Domain validate-value))
+              (jazz.designer.toolbox.Toolbox-Module Toolbox-Module (Toolbox-Module get-locale-tree))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class every?)
+              (jazz.language.runtime.kernel is? not-null?)
+              (jazz.locale.components validate-locales)
+              (scheme.language.runtime.kernel = apply cadr for-each length list? not)))

@@ -1,0 +1,14 @@
+(manifest jazz.ui.text.Line
+
+  (version 207012)
+  (digest "56010313ae265edc23a9dca94a8fcaa6dec04bb8")
+  (references (jazz.geometry offset-rect)
+              (jazz.graphic.platform.glfw.Region Region)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Cell Point (Point get-h) (Point get-v) Rect)
+              (jazz.language.runtime.kernel continuation-capture continuation-return new not-null?)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros unless when)
+              (jazz.ui.text.Run Run (Run compute-width))
+              (scheme.language.runtime.kernel + - < = > >= for-each max not null? write)))

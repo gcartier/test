@@ -1,0 +1,27 @@
+(package yownu
+  
+  (root "src")
+  (products (yownu (title "Yownu")
+                   (run yownu.run)
+                   (unit yownu.product)
+                   (build (yownu executable: "Yownu" minimum-heap: 500000 resources: "resources"))
+                   (update yownu.biome
+                           yownu.client
+                           yownu.debugger
+                           yownu.product
+                           yownu.run
+                           yownu.start
+                           yownu.window
+                           yownu.windows
+                           yownu.world
+                           yownu.zone)
+                   (dependencies gambit.ext
+                                 jazz.doc
+                                 jazz.editor.jazz
+                                 jazz.git
+                                 jazz.groupware
+                                 world
+                                 world.client
+                                 world.server))
+            (yownu-script (run yownu.script)))
+  (project ".project"))

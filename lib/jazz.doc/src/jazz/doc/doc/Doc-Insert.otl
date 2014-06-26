@@ -1,0 +1,4 @@
+(module jazz.doc.doc.Doc-Insert jazz
+  (import (jazz.doc))
+  (class Doc-Insert extends Doc
+    (property path accessors generate)))

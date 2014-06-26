@@ -1,0 +1,3 @@
+(module jazz.ui.text.Table-Tree-View jazz
+  (import (jazz.ui))
+  (class Table-Tree-View extends Tree-View))

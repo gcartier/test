@@ -1,0 +1,16 @@
+(module jazz.ui.dialog.File-Request jazz
+  (import (jazz.io))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class File-Request extends Pathname-Request
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-title))
+    (property multiple-selection?)
+    (method protected override (finish rest))
+    (method protected override (update-content))
+    (method protected override (update-buttons))
+    (method protected override (get-modal-result))
+    (method protected override (default-action))
+    (method protected final (selected-pathnames))))

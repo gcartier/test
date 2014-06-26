@@ -1,0 +1,7 @@
+(module jazz.network.http jazz
+  (definition public (parse-code code))
+  (definition public (response-code-info code))
+  (definition public (split-header-line line (separator: separator (unspecified))))
+  (definition public (url-decode string))
+  (definition public (url-encode string))
+  (definition public (hmac-string str message (algorithm: algorithm (unspecified)) (block-size: block-size (unspecified)) (raw-output: raw-output (unspecified)))))

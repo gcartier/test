@@ -1,0 +1,10 @@
+(manifest jazz.ui.search.Text-Search-Preferences
+
+  (version 207012)
+  (digest "a3c90ca5edb8f026ad76ecc29b15306d9e62999c")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.search.Search-View-Preferences Search-View-Preferences (Search-View-Preferences~Class get-class-form) (Search-View-Preferences~Class get-class-forms) (Search-View-Preferences~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

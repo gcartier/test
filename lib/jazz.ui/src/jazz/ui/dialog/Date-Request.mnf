@@ -1,0 +1,6 @@
+(manifest jazz.ui.dialog.Date-Request
+
+  (version 207012)
+  (digest "71a971b982a23fc789629266efbdb10444046d43")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.dialog.String-Request String-Request)))

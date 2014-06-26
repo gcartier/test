@@ -1,0 +1,7 @@
+(module jazz.graphic.font.platform.freetype jazz
+  (import (jazz.platform.cairo))
+  (import (jazz.platform.freetype))
+  (definition public (create-font-handle local? (font-name: font-name (unspecified)) (point-size: point-size (unspecified)) (bold?: bold? (unspecified)) (italic?: italic? (unspecified)) (underline?: underline? (unspecified))))
+  (definition public (create-cairo-font-face local? handle))
+  (definition public (destroy-font-handle local? handle))
+  (definition public (destroy-cairo-font-face handle)))

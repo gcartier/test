@@ -1,0 +1,7 @@
+(manifest world.shaders
+
+  (version 207012)
+  (digest "42d54f8d4070515d2461043fd9fdeacdb04472eb")
+  (references (scheme.language.runtime.kernel not string-append)
+              (world.fog get-fog?)
+              (world.support get-animations? get-texture-arrays?)))

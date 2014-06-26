@@ -1,0 +1,8 @@
+(manifest jazz.editor.commonlisp.parser.CommonLisp-Parser
+
+  (version 207012)
+  (digest "5f4aed407bb63cd23d730b0bced0650580e374fd")
+  (references (jazz.editor.commonlisp.text.CommonLisp-Explorer CommonLisp-Explorer)
+              (jazz.editor.commonlisp.text.CommonLisp-Text-View CommonLisp-Text-View)
+              (jazz.editor.lisp.parser.Lisp-Parser Lisp-Parser (Lisp-Parser explorer-class) (Lisp-Parser text-view-class) (Lisp-Parser~Class get-constituent-test))
+              (jazz.language.runtime.functional Object-Class c-constituent?)))

@@ -1,0 +1,10 @@
+(manifest jazz.profile
+
+  (version 207012)
+  (digest "22233e982519243162971843f5ef94a02c6353e8")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional category-name)
+              (jazz.language.runtime.kernel identifier-name load-unit)
+              (jazz.profile.Me Me)
+              (jazz.profile.Profile Profile)
+              (scheme.language.runtime.kernel eq? make-table table-ref table-set!)))

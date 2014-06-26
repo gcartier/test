@@ -1,0 +1,12 @@
+(manifest jazz.ui.tree.Tree-Drop-Target
+
+  (version 207012)
+  (digest "0fbbced0d3e39c8368ee9502ef4f6d89743cafe1")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.runtime.geometry Cell)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object print-unreadable)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.ui.dnd.Drop-Target Drop-Target (Drop-Target initialize) (Drop-Target print) (Drop-Target view))
+              (scheme.language.runtime.kernel apply)))

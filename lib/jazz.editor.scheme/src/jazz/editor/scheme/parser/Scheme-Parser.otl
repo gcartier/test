@@ -1,0 +1,6 @@
+(module jazz.editor.scheme.parser.Scheme-Parser jazz
+  (import (jazz.editor.lisp))
+  (import (jazz.editor.scheme))
+  (class Scheme-Parser extends Lisp-Parser
+    (method protected override (text-view-class))
+    (method protected override (explorer-class file))))

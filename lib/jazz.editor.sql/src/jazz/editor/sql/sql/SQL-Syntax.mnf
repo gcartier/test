@@ -1,0 +1,12 @@
+(manifest jazz.editor.sql.sql.SQL-Syntax
+
+  (version 207012)
+  (digest "ebeaeac53fe6f291dafc5f753f9485ba6e191451")
+  (references (jazz.editor.sql.sql.SQL-Explorer SQL-Explorer)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) (Sequence sequence-element) cardinality element read-string-element some? sql-constituent?)
+              (jazz.language.syntax.macros constant unless when)
+              (jazz.library.automata build-search-automata)
+              (jazz.system get-preferences)
+              (jazz.ui.syntax.Code-Syntax Code-Syntax (Code-Syntax colorize-keyword) (Code-Syntax colorize-line-comment) (Code-Syntax colorize-type) (Code-Syntax compute-syntax-automata) (Code-Syntax compute-syntax-targets) (Code-Syntax explorer-class) (Code-Syntax syntax-automata) (Code-Syntax syntax-targets))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax comment-style?) (Text-Syntax favorite-completions) (Text-Syntax get-constituent-test) (Text-Syntax get-first-special?) (Text-Syntax get-headers) (Text-Syntax model) (Text-Syntax name-at) (Text-Syntax preferences))
+              (scheme.language.runtime.kernel > append eqv? list map)))

@@ -1,0 +1,5 @@
+(manifest jazz.backend.scheme.runtime.core.continuation
+
+  (version 207012)
+  (digest "5c9e9c1fd7c7773eac986cb481ac82c907be1427")
+  (references))

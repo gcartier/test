@@ -1,0 +1,9 @@
+(manifest jazz.ui.window.Menu-Transient
+
+  (version 207012)
+  (digest "fbcefe35ee4ae3f544a9aac2bedb751823b4eb21")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.hosting.Menu-Host Menu-Host)
+              (jazz.ui.window.Transient Transient)
+              (jazz.ui.window.View-Player (View-Player new-root))))

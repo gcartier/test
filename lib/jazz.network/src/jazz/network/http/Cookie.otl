@@ -1,0 +1,10 @@
+(module jazz.network.http.Cookie jazz
+  (class Cookie extends Object
+    (slot name getter generate)
+    (slot value getter generate)
+    (slot expires accessors generate)
+    (slot path accessors generate)
+    (slot domain accessors generate)
+    (slot secure? accessors generate)
+    (method protected override (initialize name value))
+    (method protected override (print printer readably))))

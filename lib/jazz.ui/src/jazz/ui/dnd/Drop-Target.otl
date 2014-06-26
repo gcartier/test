@@ -1,0 +1,9 @@
+(module jazz.ui.dnd.Drop-Target jazz
+  (class Drop-Target extends Object
+    (slot view getter generate)
+    (slot position getter generate)
+    (slot criteria getter generate)
+    (slot handler getter generate)
+    (slot user-data getter generate)
+    (method protected override (initialize (view: view (unspecified)) (position: position (unspecified)) (criteria: criteria (unspecified)) (handler: handler (unspecified)) (user-data: user-data (unspecified))))
+    (method protected override (print output readably))))

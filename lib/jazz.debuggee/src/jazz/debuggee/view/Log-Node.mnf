@@ -1,0 +1,11 @@
+(manifest jazz.debuggee.view.Log-Node
+
+  (version 207012)
+  (digest "f630791588246d50da6f96890448aab3455130c1")
+  (references (jazz.language.runtime.functional ->string Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.runtime.platform bell)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.project locator->location)
+              (scheme.language.runtime.kernel not symbol?)))

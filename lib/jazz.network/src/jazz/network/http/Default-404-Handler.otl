@@ -1,0 +1,5 @@
+(module jazz.network.http.Default-404-Handler jazz
+  (import (jazz.network.http.Handler))
+  (import (jazz.network.http.HTTP-Response))
+  (class Default-404-Handler extends HTTP-Request-Handler
+    (method protected override (handle-request request port server))))

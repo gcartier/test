@@ -1,0 +1,7 @@
+(manifest jazz.schema.archive.Schema-Archive
+
+  (version 207012)
+  (digest "d5e6c2bf6fb486aba18dc5cc1121cbfce809fb79")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (jazz.library.entity.Entity-Interface Entity-Interface)))

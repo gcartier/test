@@ -1,0 +1,8 @@
+(manifest jazz.schema.data.Data-Constraint
+
+  (version 207012)
+  (digest "093e0c70885fa4ce9bd16c718ac7f2b7a811086a")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.schema.data.Data-Object Data-Object (Data-Object get-kind) (Data-Object name) (Data-Object properties) (Data-Object property-names))))

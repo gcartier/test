@@ -1,0 +1,5 @@
+(manifest core.base.runtime.serial
+
+  (version 207012)
+  (digest "acf331b406006180c076263377c2d3742819f858")
+  (references))

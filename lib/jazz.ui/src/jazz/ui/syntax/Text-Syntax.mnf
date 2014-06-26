@@ -1,0 +1,13 @@
+(manifest jazz.ui.syntax.Text-Syntax
+
+  (version 207012)
+  (digest "46d8ae11e96608d67fe8d1fa22eab0b931fd6516")
+  (references (jazz.catalog.parser.File-Parser File-Parser)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Object-Class make-search-context memq? subseq word-constituent?)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (jazz.ui.preference.Text-Preferences Text-Preferences)
+              (jazz.ui.text.Text-Explorer Text-Explorer (Text-Explorer get-range) (Text-Explorer outer-expr))
+              (scheme.language.runtime.kernel + - = car cdr for-each list map not null?)))

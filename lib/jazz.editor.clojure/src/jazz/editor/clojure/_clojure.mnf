@@ -1,0 +1,9 @@
+(manifest jazz.editor.clojure
+
+  (version 207012)
+  (digest "6f61d55488b9b5f8799274daae1ae28ac93a0db5")
+  (references (jazz.editor.clojure.parser.Clojure-Parser Clojure-Parser)
+              (jazz.editor.clojure.text.Clojure-Explorer Clojure-Explorer)
+              (jazz.editor.clojure.text.Clojure-Syntax Clojure-Syntax)
+              (jazz.editor.clojure.text.Clojure-Text-Preferences Clojure-Text-Preferences)
+              (jazz.editor.clojure.text.Clojure-Text-View Clojure-Text-View)))

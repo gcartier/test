@@ -1,0 +1,16 @@
+(module jazz.designer.row.Combo-Row-Editor jazz
+  (import (jazz.ui))
+  (class Combo-Row-Editor extends Combo-Box
+    (property value-row accessors generate)
+    (method protected override (form-model form))
+    (method protected override (button-action))
+    (method protected override (content-change origin))
+    (method protected override (combo-choice)))
+  (class Combo-Value-Text-View extends Combo-Text-View
+    (property value-row accessors generate)
+    (method protected override (up-arrow-move extend? scroll?))
+    (method protected override (down-arrow-move extend? scroll?))
+    (method protected override (tab-press evt))
+    (method protected final (document-menu))
+    (method protected override (focus-lose))
+    (method protected override (focus-master))))

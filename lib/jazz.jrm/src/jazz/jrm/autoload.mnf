@@ -1,0 +1,13 @@
+(manifest jazz.jrm.autoload
+
+  (version 207012)
+  (digest "d1d435bc45cb15bb27528bf5fb1b0b1869fe8dee")
+  (references (jazz.jrm.register.Register Register)
+              (jazz.jrm.register.stub Register-Stub)
+              (jazz.jrm.remote.IOR IOR)
+              (jazz.jrm.remote.Local-Proxy Local-Proxy)
+              (jazz.jrm.remote.Proxy Proxy)
+              (jazz.jrm.remote.Remotable-Stub Remotable-Stub)
+              (jazz.jrm.remote.Remote-Listener Remote-Listener)
+              (jazz.jrm.remote.Remote-Proxy Remote-Proxy)
+              (jazz.jrm.remote.Stub-Interface Stub-Interface)))

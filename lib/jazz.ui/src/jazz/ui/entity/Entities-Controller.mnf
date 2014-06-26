@@ -1,0 +1,7 @@
+(manifest jazz.ui.entity.Entities-Controller
+
+  (version 207012)
+  (digest "f575228161b06a0af7e27ca94b432fd5a851b126")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)
+              (scheme.language.runtime.kernel for-each)))

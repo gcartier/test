@@ -1,0 +1,6 @@
+(module jazz.project.resource.Bitmap-File jazz
+  (import (jazz.library))
+  (import (jazz.project))
+  (class Bitmap-File extends Resource-File
+    (method protected override (resource-class))
+    (method protected override (resource-marker))))

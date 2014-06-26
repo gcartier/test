@@ -1,0 +1,17 @@
+(module jazz.debugger.debugger.Exception-View jazz
+  (import (jazz.debugger))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.project))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (class Exception-View extends Detail-View
+    (method meta protected override (external-name . rest))
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (property thread)
+    (slot stop)
+    (method public final (get-thread))
+    (method public final (set-thread value))
+    (method public final (thread-changed new-thread))
+    (method protected final (update))))

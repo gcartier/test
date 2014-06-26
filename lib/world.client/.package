@@ -1,0 +1,189 @@
+(package world.client
+  
+  (root "src")
+  (products (client (alias world.client))
+            (world.foreign (unit world.foreign.product)
+                           (update world.foreign
+                                   world.foreign.obj
+                                   world.foreign.product
+                                   world.foreign.triangulate))
+            (world.client (update world
+                                  world.animation
+                                  world.atlas
+                                  world.autoload
+                                  world.boot
+                                  world.buffer
+                                  world.configure
+                                  world.debug
+                                  world.draw
+                                  world.entities
+                                  world.entity
+                                  world.eval
+                                  world.evaluate
+                                  world.face
+                                  world.fog
+                                  world.folio
+                                  world.history
+                                  world.info
+                                  world.interface
+                                  world.interface.actions
+                                  world.interface.animations
+                                  world.interface.assets
+                                  world.interface.bars
+                                  world.interface.bindings
+                                  world.interface.blocks
+                                  world.interface.caption
+                                  world.interface.character
+                                  world.interface.color
+                                  world.interface.dialogs
+                                  world.interface.documents
+                                  world.interface.frame
+                                  world.interface.gadgets
+                                  world.interface.host
+                                  world.interface.info
+                                  world.interface.inventory
+                                  world.interface.main
+                                  world.interface.menu
+                                  world.interface.meshes
+                                  world.interface.models
+                                  world.interface.options
+                                  world.interface.pane
+                                  world.interface.panel
+                                  world.interface.popup
+                                  world.interface.profiler
+                                  world.interface.script
+                                  world.interface.scripts
+                                  world.interface.shaders
+                                  world.interface.showcase
+                                  world.interface.skin
+                                  world.interface.skyboxes
+                                  world.interface.string
+                                  world.interface.target
+                                  world.interface.textures
+                                  world.interface.tiles
+                                  world.interface.tooltip
+                                  world.interface.worlds
+                                  world.interface.zones
+                                  world.io
+                                  world.light
+                                  world.lighting
+                                  world.manager
+                                  world.mark
+                                  world.material
+                                  world.mesh
+                                  world.model
+                                  world.models
+                                  world.option
+                                  world.parameters
+                                  world.product
+                                  world.profile
+                                  world.programs
+                                  world.quad
+                                  world.render
+                                  world.renderer
+                                  world.renderers
+                                  world.role
+                                  world.script
+                                  world.settings
+                                  world.shader
+                                  world.shaders
+                                  world.skybox
+                                  world.test
+                                  world.test.w
+                                  world.test.x
+                                  world.test.y
+                                  world.test.z
+                                  world.texture
+                                  world.triangle
+                                  world.user
+                                  world.validate
+                                  world.window
+                                  world.client
+                                  world.client.actions
+                                  world.client.bars
+                                  world.client.configuration
+                                  world.client.parameters
+                                  world.client.remote
+                                  world.client.remote.implementation
+                                  world.client.run
+                                  world.client.window
+                                  world.debuggee
+                                  world.debuggee.implementation
+                                  world.debuggee.stub
+                                  gaia.debugger.stub)
+                          (dependencies scheme.core
+                                        jazz
+                                        jazz.debuggee
+                                        jazz.foreign
+                                        jazz.graphic
+                                        jazz.graphic.opengl
+                                        jazz.io
+                                        jazz.jml
+                                        jazz.jrm
+                                        jazz.library
+                                        jazz.media
+                                        jazz.network
+                                        jazz.platform
+                                        jazz.system
+                                        jazz.ui
+                                        srfi-19
+                                        contrib.irregex
+                                        jazz.catalog
+                                        jazz.console
+                                        jazz.designer
+                                        jazz.editor.jazz
+                                        jazz.ide
+                                        jazz.profile
+                                        jazz.project
+                                        jazz.schema
+                                        jazz.website
+                                        profiler
+                                        world
+                                        world.foreign))
+            (world-client (title "Client")
+                          (run world.client.run)
+                          (test world.validate.run)
+                          (unit world.product)
+                          (build (world-client executable: "world" resources: "resources"))
+                          (dependencies world
+                                        world.client
+                                        world.foreign))
+            (world.showcase.immediate (title "Immediate")
+                                      (run world.showcase.immediate.run)
+                                      (update world.showcase.immediate.window
+                                              world.showcase.immediate.run)
+                                      (build (world.showcase.immediate executable: "Immediate"))
+                                      (dependencies jazz
+                                                    jazz.debuggee
+                                                    jazz.graphic
+                                                    jazz.graphic.opengl
+                                                    jazz.io
+                                                    jazz.jml
+                                                    jazz.library
+                                                    jazz.media
+                                                    jazz.network
+                                                    jazz.platform
+                                                    jazz.system
+                                                    jazz.ui
+                                                    contrib.irregex))
+            (world.showcase.shader (title "Shader")
+                                   (run world.showcase.shader.run)
+                                   (update world.showcase.shader.window
+                                           world.showcase.shader.run)
+                                   (build (world.showcase.shader executable: "Shader"))
+                                   (dependencies jazz
+                                                 jazz.debuggee
+                                                 jazz.graphic
+                                                 jazz.graphic.opengl
+                                                 jazz.io
+                                                 jazz.jml
+                                                 jazz.library
+                                                 jazz.media
+                                                 jazz.network
+                                                 jazz.platform
+                                                 jazz.system
+                                                 jazz.ui
+                                                 contrib.irregex))
+            (world.showcase (dependencies world.showcase.immediate
+                                          world.showcase.shader)))
+  (project ".project"))

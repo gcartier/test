@@ -1,0 +1,9 @@
+(manifest jazz.designer.toolbox.Toolbox-Addable
+
+  (version 207012)
+  (digest "2de819046f793b599d4bda10cf2f69471bef41c4")
+  (references (jazz.designer.descriptor.Component-Descriptor Component-Descriptor)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component Component (Component~Class get-class-descriptor))))

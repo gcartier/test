@@ -1,0 +1,14 @@
+(manifest jazz.ui.syntax.Code-Syntax
+
+  (version 207012)
+  (digest "b433a22f88c6b513d45889ddbedb62f595aa2cc3")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) (Sequence sequence-element) c-constituent? cardinality element find-balanced naturals nu+ second)
+              (jazz.language.runtime.geometry Cell (Cell get-col) (Cell get-line))
+              (jazz.language.runtime.kernel continuation-capture continuation-return current-readtable new not-null? unspecified)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless when while)
+              (jazz.library.automata TextTape automata-search build-search-automata)
+              (jazz.ui.syntax.Text-Syntax Text-Syntax (Text-Syntax colorize-syntax) (Text-Syntax explorer-class) (Text-Syntax model) (Text-Syntax recolorize-text) (Text-Syntax uncolorize-row))
+              (jazz.ui.text.Code-Explorer Code-Explorer)
+              (scheme.language.runtime.kernel + <= = >= call-with-input-string car cdr eq? eqv? for-each list not read string-length)))

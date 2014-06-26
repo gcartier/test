@@ -1,0 +1,16 @@
+(manifest world.interface.character
+
+  (version 207012)
+  (digest "46d6a6471e3030d8ee28f6ad09090dbe8ed79f88")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class fxround)
+              (jazz.language.runtime.geometry Rect)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.view.Drawing (Drawing draw))
+              (scheme.language.runtime.kernel * + /)
+              (world *current-me*)
+              (world.actor (Actor get-life))
+              (world.interface.pane World-Pane)
+              (world.player Player)
+              (world.syntax current-me)))

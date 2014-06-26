@@ -1,0 +1,2 @@
+(module jazz.library.consumer.Consumer jazz
+  (interface Consumer))

@@ -1,0 +1,16 @@
+(manifest jazz.ui.view.Stage-Border
+
+  (version 207012)
+  (digest "621d8ec60f72bc9f1f8a5876195d6b1c67ef7196")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Dimension (Dimension get-height) (Dimension get-width) Point Rect (Rect get-bottom) (Rect get-right))
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component child))
+              (jazz.ui.skin find-look)
+              (jazz.ui.view current-stage get-active-stages)
+              (jazz.ui.view.Drawing (Drawing draw) (Drawing get-bounds) (Drawing get-size))
+              (jazz.ui.view.View View (View get-look) (View maximize) (View restore) (View size-change))
+              (scheme.language.runtime.kernel + - > eq? length)))

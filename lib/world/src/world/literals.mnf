@@ -1,0 +1,8 @@
+(manifest world.literals
+
+  (version 207012)
+  (digest "6bdc2305f816d7657be682b158f19073ade0aa6b")
+  (references (world.dye dye)
+              (world.geometry cross-product lookat)
+              (world.geometry.classes make-matrix vertex)
+              (world.homogeneous make-f32 make-f64)))

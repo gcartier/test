@@ -1,0 +1,7 @@
+(module jazz.graphic.platform.glfw.Region jazz
+  (import (jazz.graphic))
+  (import (jazz.geometry))
+  (import (jazz.library))
+  (import (jazz.platform))
+  (class Region extends Rectangles-Region
+    (method protected override (needs-rectangles?))))

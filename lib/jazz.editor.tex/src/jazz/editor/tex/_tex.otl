@@ -1,0 +1,3 @@
+(module jazz.editor.tex jazz
+  (export (jazz.editor.tex.autoload))
+  (definition public (tex-constituent? c)))

@@ -1,0 +1,13 @@
+(module jazz.validate.suite.Binding-Tester jazz
+  (import (jazz.jml))
+  (import (jazz.validation))
+  (class Binding-Tester extends Tester
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (test))
+    (method protected final (test-let))
+    (method protected final (test-letrec))
+    (method protected final (test-with))
+    (method protected final (test-bind))
+    (method protected final (test-function))))

@@ -1,0 +1,8 @@
+(manifest scheme.core
+
+  (version 207012)
+  (digest "6838235cdcde45e5505cce7d81a2ea8f262a8c23")
+  (references (dialect.core define-walker-special)
+              (jazz.dialect.classes.foundation Any)
+              (scheme.core.kernel add-core-method-node compose-helper current-declaration current-declaration-name current-resume current-walker emit emit-expressions emit-one-expression find-nextmethod get-and-expressions get-class-level get-declaration-path get-declaration-toplevel get-dialect get-expression-source get-object-slot method-implementation-name new-code new-core-class new-declaration-form new-object new-special-expression new-special-form object-size parse-keywords parse-modifiers reference-name register-binding register-declaration require-dialect set-core-class set-object-slot setup-declaration walk walk-list)
+              (scheme.language.runtime.kernel + append caar cadr car cdr char-downcase eq? generate-symbol length list list->string list-ref map not null? source-code string->list string->symbol string-append symbol->string symbol? table-ref table-set!)))

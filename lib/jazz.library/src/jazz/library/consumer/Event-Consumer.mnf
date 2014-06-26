@@ -1,0 +1,5 @@
+(manifest jazz.library.consumer.Event-Consumer
+
+  (version 207012)
+  (digest "7614b76d659cec0ebc4b22e94a2995c684c09cd0")
+  (references (jazz.library.consumer.Consumer Consumer)))

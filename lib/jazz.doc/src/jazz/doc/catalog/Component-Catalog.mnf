@@ -1,0 +1,10 @@
+(manifest jazz.doc.catalog.Component-Catalog
+
+  (version 207012)
+  (digest "51e8157b34f83ed2d4a206ae85c80d56e487178a")
+  (references (jazz.catalog.catalog.Catalog Catalog (Catalog get-definitions) (Catalog get-references) (Catalog initialize))
+              (jazz.language.runtime.format format format-plural)
+              (jazz.language.runtime.functional Object-Class table-add)
+              (jazz.language.runtime.kernel table-length)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel eq? make-table table-ref)))

@@ -1,0 +1,14 @@
+(manifest jazz.schema.data.Data-Container
+
+  (version 207012)
+  (digest "061401a3b129f2defab58ee95a61a39a86df8646")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class collect join true? truth?)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.schema sql-sanitize-string)
+              (jazz.tie.syntax tie)
+              (scheme.language.runtime.kernel equal? map not number->string number? string-append string?)
+              (time present-date-day)
+              (time.exports date?)))

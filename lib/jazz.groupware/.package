@@ -1,0 +1,9 @@
+(package jazz.groupware
+  
+  (root "src")
+  (install jazz.groupware.install)
+  (products (jazz.groupware (update jazz.groupware
+                                    jazz.groupware.install
+                                    jazz.groupware.services)
+                            (dependencies jazz)))
+  (project ".project"))

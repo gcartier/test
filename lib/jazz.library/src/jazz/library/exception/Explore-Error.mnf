@@ -1,0 +1,10 @@
+(manifest jazz.library.exception.Explore-Error
+
+  (version 207012)
+  (digest "78c2b3c8bd6b5b0119615423f4af89f0158f22e8")
+  (references (jazz.language.runtime.exception Error (Error initialize))
+              (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.runtime.geometry Range)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (scheme.language.runtime.kernel apply)))

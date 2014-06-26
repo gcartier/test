@@ -1,0 +1,17 @@
+(module jazz.library.display.Indented-Column-Preferences jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Indented-Column-Preferences extends Column-Preferences
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property indentation accessors generate)
+    (property use-contouring? accessors generate)
+    (method protected override (column-class))
+    (method protected override (new-column display)))
+  (class Indented-Column-Preferences-Descriptor extends Column-Preferences-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

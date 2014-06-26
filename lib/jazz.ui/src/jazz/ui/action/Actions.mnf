@@ -1,0 +1,14 @@
+(manifest jazz.ui.action.Actions
+
+  (version 207012)
+  (digest "da479686247939967e15a0dda3f5be5a507fda2e")
+  (references (jazz.designer.descriptor.Component-Descriptor Component-Descriptor (Component-Descriptor component-get-addable-details) (Component-Descriptor component-get-categorized-addable-classes) (Component-Descriptor~Class get-class-form) (Component-Descriptor~Class get-class-forms) (Component-Descriptor~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component Component (Component~Class get-class-descriptor))
+              (jazz.ui.action.Action-Item Action-Item)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

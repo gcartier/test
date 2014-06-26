@@ -1,0 +1,5 @@
+(module world.debuggee jazz
+  (import (jazz.jrm))
+  (import (world.debuggee.implementation))
+  (import (world.debuggee.stub))
+  (definition public (make-world-debuggee)))

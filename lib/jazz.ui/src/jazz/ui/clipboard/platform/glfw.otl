@@ -1,0 +1,11 @@
+(module jazz.ui.clipboard.platform.glfw jazz
+  (import (jazz.platform))
+  (definition package (initialize-clipboard))
+  (definition public (get-clipboard-text (format: format (unspecified))))
+  (definition public (set-clipboard-text text (format: format (unspecified))))
+  (definition public (register-clipboard-format name format))
+  (definition public (clipboard-format-available? format))
+  (definition public (available-clipboard-formats))
+  (definition public (available-clipboard-ids))
+  (definition package (mouse-select-copy proc))
+  (definition package (middle-mouse-paste proc)))

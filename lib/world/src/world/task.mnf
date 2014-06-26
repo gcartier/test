@@ -1,0 +1,13 @@
+(manifest world.task
+
+  (version 207012)
+  (digest "e322f7bc3c2d01a0bd54079675c5704420bcc2be")
+  (references (gambit.log log-cleanup log-stop log-transition)
+              (jazz.debuggee add-debugger-release)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class new-thread)
+              (jazz.language.runtime.kernel continuation-return current-thread make-mutex make-parameter mutex-lock! mutex-owner mutex-unlock! new thread-join! thread-receive thread-send thread-start!)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros prog1 when)
+              (scheme.language.runtime.kernel eq? iterate-table make-table table-ref table-set!)
+              (world.log current-log-context sleeping-state waiting-state)))

@@ -1,0 +1,8 @@
+(module jazz.editor.sql.history.History-Request-Item jazz
+  (import (jazz.editor.sql.view))
+  (import (jazz.library))
+  (class History-Request-Item extends History-Item
+    (slot request)
+    (method protected override (initialize request))
+    (method protected override (open-item))
+    (method protected override (present))))

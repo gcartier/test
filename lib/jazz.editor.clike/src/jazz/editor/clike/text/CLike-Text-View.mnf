@@ -1,0 +1,12 @@
+(manifest jazz.editor.clike.text.CLike-Text-View
+
+  (version 207012)
+  (digest "d75cc1aacbec1f2618cd5bfe93d5e85b68e029ee")
+  (references (jazz.editor.clike.text.CLike-Syntax CLike-Syntax)
+              (jazz.language.runtime.functional Object-Class concatenate)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros constant)
+              (jazz.ui.outline.Outline-View (Outline-View model))
+              (jazz.ui.text.Code-Text-View Code-Text-View (Code-Text-View install) (Code-Text-View new-syntax) (Code-Text-View preferences) (Code-Text-View tabulate))
+              (jazz.ui.text.Text-View (Text-View add-style) (Text-View get-end) (Text-View get-headers) (Text-View get-start) (Text-View insert-string) (Text-View mouse-insert) (Text-View return-press))
+              (scheme.language.runtime.kernel list string)))

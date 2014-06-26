@@ -1,0 +1,6 @@
+(manifest world.defaults
+
+  (version 207012)
+  (digest "2bc06ea1318328b425d153d783f50d31cdcc7cf4")
+  (references (world.geometry.base vertex-normalize)
+              (world.geometry.classes vertex)))

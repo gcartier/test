@@ -1,0 +1,6 @@
+(manifest jazz.doc.doc.Unit-Doc
+
+  (version 207012)
+  (digest "d2618c8f7be8cc70cdc5960f8bcb2cf9d85cab96")
+  (references (jazz.doc.doc.Doc Doc)
+              (jazz.language.runtime.functional Object-Class)))

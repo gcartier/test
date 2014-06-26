@@ -1,0 +1,5 @@
+(module jazz.ui.print.Preview-Job jazz
+  (import (jazz.ui))
+  (class Preview-Job extends Print-Job
+    (method protected override (printed-page))
+    (method protected override (print-orientation))))

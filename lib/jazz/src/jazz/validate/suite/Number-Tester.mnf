@@ -1,0 +1,14 @@
+(manifest jazz.validate.suite.Number-Tester
+
+  (version 207012)
+  (digest "77d81142f11d46e9770f4ff12c5dd0df1c545ce5")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional /= Object-Class)
+              (jazz.language.runtime.kernel bitwise-and bitwise-ior)
+              (jazz.language.syntax.macros unless)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.syntax validate)
+              (jazz.validation.tester.Tester Tester (Tester invoke) (Tester test) (Tester validate-failed))
+              (scheme.language.runtime.kernel * + - / < = cons list list->table max min not)
+              (scheme.syntax declaration-path)))

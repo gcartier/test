@@ -1,0 +1,9 @@
+(module jazz.designer.editors.Color-Editor jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Color-Editor extends Color-Combo
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property value-row accessors generate)
+    (method protected override (content-change origin))))

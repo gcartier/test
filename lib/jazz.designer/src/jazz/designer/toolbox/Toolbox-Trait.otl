@@ -1,0 +1,10 @@
+(module jazz.designer.toolbox.Toolbox-Trait jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (class Toolbox-Trait extends Toolbox-Model
+    (method meta protected override (get-class-descriptor (context: context (unspecified)))))
+  (class Toolbox-Trait-Descriptor extends Toolbox-Model-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

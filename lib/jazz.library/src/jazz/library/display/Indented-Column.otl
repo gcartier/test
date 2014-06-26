@@ -1,0 +1,12 @@
+(module jazz.library.display.Indented-Column jazz
+  (import (jazz.library))
+  (class Indented-Column extends Display-Column
+    (slot indentation <fx> accessors generate)
+    (slot use-contouring? <bool> accessors generate)
+    (slot max-data <fx>)
+    (slot max-width <fx>)
+    (method protected override (initialize displayer . rest))
+    (method protected override (put-data data (level (unspecified))))
+    (method protected override (empty-replacement previous-column previous-data))
+    (method protected override (prepare-print))
+    (method protected override (print-to info previous-column previous-data output))))

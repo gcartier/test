@@ -1,0 +1,3 @@
+(module jazz.ui.action.Bindings jazz
+  (import (jazz.library))
+  (class Bindings extends Component))

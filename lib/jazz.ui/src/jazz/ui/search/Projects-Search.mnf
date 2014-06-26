@@ -1,0 +1,11 @@
+(manifest jazz.ui.search.Projects-Search
+
+  (version 207012)
+  (digest "06e527164e5a9e0ec94ab883f9ba0de41817f47d")
+  (references (jazz.language.runtime.functional Object-Class sort)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.search.Search Search (Search dynamic-search?) (Search get-icon) (Search initialize) (Search install-results) (Search supports-drill-down?))
+              (scheme.language.runtime.kernel car cdr cons eq? for-each list make-table not set-cdr! string<? table-ref table-set!)))

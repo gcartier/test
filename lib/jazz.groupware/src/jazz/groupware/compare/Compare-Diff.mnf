@@ -1,0 +1,8 @@
+(manifest jazz.groupware.compare.Compare-Diff
+
+  (version 207012)
+  (digest "df213f897f736829655ae30be4abb362f96d0a5d")
+  (references (jazz.groupware.compare.Compare-Run Compare-Run (Compare-Run get-end) (Compare-Run get-start))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

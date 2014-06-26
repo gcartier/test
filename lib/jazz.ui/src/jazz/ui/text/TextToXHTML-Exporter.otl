@@ -1,0 +1,13 @@
+(module jazz.ui.text.TextToXHTML-Exporter jazz
+  (import (jazz.ui))
+  (class TextToXHTML-Exporter extends Object
+    (slot text)
+    (method protected override (initialize text))
+    (method public final (export-html))
+    (method protected final (export-head))
+    (method protected final (export-body))
+    (method protected final (export-element element in-table?))
+    (method protected final (export-text element in-table?))
+    (method protected final (export-paragraph paragraph in-table?))
+    (method protected final (export-runs paragraph in-table?))
+    (method protected final (export-run run in-table?))))

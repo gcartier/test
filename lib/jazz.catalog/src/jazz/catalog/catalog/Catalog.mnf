@@ -1,0 +1,8 @@
+(manifest jazz.catalog.catalog.Catalog
+
+  (version 207012)
+  (digest "a649f5a851a8d6bb43e2a25960e2bf484b3d7d69")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)))

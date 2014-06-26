@@ -1,0 +1,8 @@
+(manifest world.parameters
+
+  (version 207012)
+  (digest "b11fc1d7df558c58f3340e843e061a883cbef0e5")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object (Object initialize))
+              (scheme.language.runtime.kernel eq? make-table table-ref table-set!)))

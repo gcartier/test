@@ -1,0 +1,10 @@
+(manifest jazz.console.autoload
+
+  (version 207012)
+  (digest "5c5e78d0e4f9a0591671f47590c7ba0218c20c73")
+  (references (jazz.console.Console-Manager Console-Manager)
+              (jazz.console.Console-Preferences Console-Preferences)
+              (jazz.console.Console-Text-Actions Console-Text-Actions)
+              (jazz.console.Console-Text-Preferences Console-Text-Preferences)
+              (jazz.console.Console-Text-View Console-Text-View)
+              (jazz.console.Console-View Console-View)))

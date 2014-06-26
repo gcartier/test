@@ -1,0 +1,5 @@
+(manifest jazz.backend.scheme.runtime.core.pathname
+
+  (version 207012)
+  (digest "40bc6f56fa7ad1817b9abe7876b564d1ec28b421")
+  (references))

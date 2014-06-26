@@ -1,0 +1,9 @@
+(manifest jazz.jrm.remote.Local-Proxy
+
+  (version 207012)
+  (digest "3cab800252522a011a8385d56f721a82e006e8df")
+  (references (jazz.jrm marshall-local-proxy unmarshall-proxy)
+              (jazz.jrm.remote.Proxy Proxy (Proxy live?))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional (Class marshall-object) (Class unmarshall-object) Object-Class)
+              (jazz.language.runtime.object (Object initialize) (Object print) print-unreadable)))

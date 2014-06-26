@@ -1,0 +1,16 @@
+(manifest jazz.library.component.Form
+
+  (version 207012)
+  (digest "67cbf207147445afdcc8a37da6ea9dd472ea87c8")
+  (references (jazz.jml.model.JML-Element JML-Element (JML-Element add-child) (JML-Element children) (JML-Element find-by) (JML-Element find-name) (JML-Element get-child-location) (JML-Element get-children) (JML-Element get-properties) (JML-Element get-property) (JML-Element has-property?) (JML-Element initialize) (JML-Element print) (JML-Element properties) (JML-Element set-property))
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class append! box-list find find-keyword for-each-property get-rank getf insert! keyword->symbol keywordize-properties read-property remove! sort unbox-list)
+              (jazz.language.runtime.kernel class-of dispatch listify new not-null? resolve-runtime-reference subtype? unspecified)
+              (jazz.language.runtime.object (Object copy-object) (Object setup-context) copy print-unreadable subcopy)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.macros when while ~)
+              (jazz.library resolve-trait)
+              (jazz.library.component.Restore-Form Restore-Form)
+              (jazz.library.utility.Environment-Provider Environment-Provider)
+              (scheme.language.runtime.kernel + apply car cddr cdr cons eq? equal? for-each length list map null? set-car! values)))

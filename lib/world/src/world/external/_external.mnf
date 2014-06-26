@@ -1,0 +1,14 @@
+(manifest world.external
+
+  (version 207012)
+  (digest "12bfdae27460e5d7aa715be969b960d10875ed4b")
+  (references (jazz.io File path-settings)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel close-port f64vector-length get-output-u8vector make-u8vector open-u8vector read-subu8vector subu8vector u8vector-length u8vector-ref u8vector-set! write-string write-subu8vector)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize))
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros prog1 when)
+              (scheme.language.runtime.kernel * + >= call-with-input-file call-with-output-file car cdr input-port-byte-position pair?)
+              (world.binary put-double put-double-big-endian put-float put-float-big-endian put-s16 put-s16-big-endian put-s32 put-s32-big-endian put-s64 put-s64-big-endian put-s8 put-u16 put-u8 scan-double scan-double-big-endian scan-float scan-float-big-endian scan-floats64! scan-s16 scan-s16-big-endian scan-s32 scan-s32-big-endian scan-s64 scan-s64-big-endian scan-s8 scan-string scan-u16 scan-u8 scan-utf-8-string)
+              (world.foreign double-size float-size)
+              (zlib deflate-u8vector gunzip-u8vector)))

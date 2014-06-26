@@ -1,0 +1,18 @@
+(manifest jazz.validate.suite.Walk-Tester
+
+  (version 207012)
+  (digest "e962cd5d1b6af63ead71f351179cdd479e6f3ddc")
+  (references (jazz.debuggee.view.Exception-Log-Node Exception-Log-Node)
+              (jazz.dialect.classes.foundation Walk-Problems)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.debug debug)
+              (jazz.language.runtime.exception call-with-catch)
+              (jazz.language.runtime.functional Object-Class serialize-class)
+              (jazz.language.runtime.kernel walk-unit)
+              (jazz.language.syntax.macros catch)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.runtime iterate-units)
+              (jazz.validation.tester.Tester Tester (Tester test) (Tester validation-failed))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,13 @@
+(manifest jazz.ui.text.Plain-Text-View
+
+  (version 207012)
+  (digest "405d416b36c2cac2e82dfa2b44ca2987e1053cf4")
+  (references (jazz.language.runtime.functional (Class external-name) Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros constant)
+              (jazz.system get-preferences)
+              (jazz.ui.literals construct-text-style)
+              (jazz.ui.text.Text-Model Text-Model)
+              (jazz.ui.text.Text-Style Text-Style)
+              (jazz.ui.text.Text-View Text-View (Text-View get-headers) (Text-View host-workspaces) (Text-View new-model) (Text-View preferences))
+              (scheme.language.runtime.kernel list make-string string-append)))

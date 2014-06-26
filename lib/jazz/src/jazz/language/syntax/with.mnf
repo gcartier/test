@@ -1,0 +1,6 @@
+(manifest jazz.language.syntax.with
+
+  (version 207012)
+  (digest "4a84da59b89b3f54d72e9f048fd028a03ce4efe3")
+  (references (jazz.language.runtime.kernel binding-specifier)
+              (scheme.language.runtime.kernel caddr cadr car cddr map source-code sourcify-if)))

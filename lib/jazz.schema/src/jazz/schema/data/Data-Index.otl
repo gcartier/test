@@ -1,0 +1,6 @@
+(module jazz.schema.data.Data-Index jazz
+  (import (jazz.schema))
+  (class Data-Index extends Data-Object
+    (method protected final (print-schema output))
+    (method protected override (get-kind))
+    (method protected override (property-names))))

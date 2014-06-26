@@ -1,0 +1,11 @@
+(manifest jazz.library.display.Display-Column
+
+  (version 207012)
+  (digest "854c782514c3fdad70651de98cd2179d0072d3df")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional List-Factory Object-Class)
+              (jazz.language.runtime.kernel new unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.increase increase!)
+              (jazz.language.syntax.macros prog1 when while)
+              (scheme.language.runtime.kernel < car cdr null? set-car!)))

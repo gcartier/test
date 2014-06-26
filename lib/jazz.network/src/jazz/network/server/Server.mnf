@@ -1,0 +1,5 @@
+(manifest jazz.network.server.Server
+
+  (version 207012)
+  (digest "4ce23d02cf95d578ce030765ff00d76011a1f9ac")
+  (references))

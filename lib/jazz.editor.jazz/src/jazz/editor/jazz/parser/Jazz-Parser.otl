@@ -1,0 +1,8 @@
+(module jazz.editor.jazz.parser.Jazz-Parser jazz
+  (import (jazz.editor.jazz))
+  (import (jazz.editor.lisp))
+  (class Jazz-Parser extends Lisp-Parser
+    (method meta protected override (iterate-references name <string> proc <procedure>))
+    (method meta protected override (get-constituent-test))
+    (method protected override (text-view-class))
+    (method protected override (explorer-class file))))

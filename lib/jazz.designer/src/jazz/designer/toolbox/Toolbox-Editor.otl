@@ -1,0 +1,4 @@
+(module jazz.designer.toolbox.Toolbox-Editor jazz
+  (import (jazz.designer))
+  (class Toolbox-Editor extends Descendants-Editor
+    (method protected override (form-model form))))

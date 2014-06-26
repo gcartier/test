@@ -1,0 +1,8 @@
+(module world.info jazz
+  (import (world.syntax (phase syntax)))
+  (definition public (registered-infos))
+  (definition public (registered-info? name))
+  (definition public (registered-info name))
+  (definition public (unregister-info name))
+  (definition public (register-info name proc))
+  (definition protected (reset-infos)))

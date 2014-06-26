@@ -1,0 +1,17 @@
+(manifest jazz.jml.parser.JML-Parser
+
+  (version 207012)
+  (digest "965a4a4d4d4e47e10b7203bc8ade0a5493d6859f")
+  (references (jazz.jml.model.JML-Element JML-Element (JML-Element set-children) (JML-Element set-properties))
+              (jazz.jml.model.JML-Node JML-Node (JML-Node set-parent-value))
+              (jazz.jml.model.JML-Text JML-Text)
+              (jazz.jml.parse tag->name tag?)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional Object-Class for-each-property keyword->symbol null/pair?)
+              (jazz.language.runtime.kernel class-of enqueue find-dispatch is? new new-queue port? queue-list)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless)
+              (jazz.library parse-attributes)
+              (jazz.library.path.Path Path)
+              (scheme.language.runtime.kernel append apply car cdr cons eq? for-each map not pair? read string?)))

@@ -1,0 +1,6 @@
+(manifest jazz.website.server.JazzScheme-Server
+
+  (version 207012)
+  (digest "7c81de63310d476b0e5765a8f13867b47e955d77")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.network.http.Web-Server Web-Server)))

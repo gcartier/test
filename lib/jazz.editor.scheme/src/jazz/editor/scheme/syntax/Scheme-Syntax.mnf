@@ -1,0 +1,12 @@
+(manifest jazz.editor.scheme.syntax.Scheme-Syntax
+
+  (version 207012)
+  (digest "3bb896ea11e160ae8780f790ae59de067bd7657b")
+  (references (jazz.editor.lisp.text.Lisp-Syntax Lisp-Syntax (Lisp-Syntax declaration-style) (Lisp-Syntax get-constituent-test) (Lisp-Syntax translate-lisp-key))
+              (jazz.editor.scheme.text.Scheme-Explorer Scheme-Explorer)
+              (jazz.language.runtime.functional Object-Class scheme-constituent?)
+              (jazz.language.runtime.kernel scheme-readtable)
+              (jazz.system get-preferences)
+              (jazz.ui.syntax.Code-Syntax (Code-Syntax explorer-class) (Code-Syntax get-readtable))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax default-extension) (Text-Syntax extensions) (Text-Syntax preferences) (Text-Syntax translate-key))
+              (scheme.language.runtime.kernel not)))

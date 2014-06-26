@@ -1,0 +1,6 @@
+(module jazz.ui.skin.Scrollbar-Look jazz
+  (import (jazz.ui))
+  (class Scrollbar-Look extends Look
+    (property background accessors generate)
+    (property thumb accessors generate)
+    (property flat? accessors generate)))

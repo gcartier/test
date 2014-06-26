@@ -1,0 +1,9 @@
+(module jazz.ui.layout.Border-Layout jazz
+  (import (jazz.ui))
+  (import (jazz.ui.layout))
+  (class Border-Layout extends Layout
+    (property insets <Rect> accessors generate)
+    (property padding <fx> accessors generate)
+    (property fit accessors generate)
+    (property justification accessors generate)
+    (method protected override (layout figures width height))))

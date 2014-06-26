@@ -1,0 +1,5 @@
+(module jazz.doc.catalog.Doc-Catalog jazz
+  (import (jazz.doc))
+  (class Doc-Catalog extends Component-Catalog
+    (slot project getter generate)
+    (method protected override (initialize name client project))))

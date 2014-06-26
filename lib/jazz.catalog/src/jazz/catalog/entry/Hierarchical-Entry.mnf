@@ -1,0 +1,9 @@
+(manifest jazz.catalog.entry.Hierarchical-Entry
+
+  (version 207012)
+  (digest "f06c25f5eafb52727bf31b4fac111d254329579c")
+  (references (jazz.catalog.entry.Indexed-Entry Indexed-Entry (Indexed-Entry column) (Indexed-Entry end-column) (Indexed-Entry end-line) (Indexed-Entry initialize) (Indexed-Entry line) (Indexed-Entry name) (Indexed-Entry print-catalog) (Indexed-Entry print-definitions))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) category-name first intersection memq?)
+              (jazz.language.runtime.kernel class-of)
+              (scheme.language.runtime.kernel * apply null?)))

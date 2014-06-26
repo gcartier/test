@@ -1,0 +1,13 @@
+(manifest jazz.editor.jazz.log.User-Log
+
+  (version 207012)
+  (digest "9b6f10db441d8917d277e581d856be4021e4204e")
+  (references (jazz.debuggee.view.Log-View Log-View)
+              (jazz.language.runtime.functional (Class external-name) Object-Class)
+              (jazz.language.runtime.geometry Dimension)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.library.component.Component (Component finish) (Component locate))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.literals construct-dimension)
+              (jazz.ui.view.View (View focus-default) (View get-tools-view) (View~Class host-icon) (View~Class host-title))))

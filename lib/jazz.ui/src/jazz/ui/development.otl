@@ -1,0 +1,12 @@
+(module jazz.ui.development jazz
+  (import (jazz.designer))
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.io))
+  (import (jazz.jml))
+  (import (jazz.system))
+  (import (jazz.ui))
+  (definition public (pt obj (rect (unspecified))))
+  (generic (view-debug view pos))
+  (generic (view-describe view pos))
+  (generic (view-describe-state view pos)))

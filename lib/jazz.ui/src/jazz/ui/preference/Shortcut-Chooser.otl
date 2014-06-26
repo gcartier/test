@@ -1,0 +1,11 @@
+(module jazz.ui.preference.Shortcut-Chooser jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Shortcut-Chooser extends Shortcut-Viewer
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-title))
+    (property action-name accessors generate)
+    (method protected override (setup-description))
+    (method protected override (choose-hook shortcut bindings))))

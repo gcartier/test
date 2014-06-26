@@ -1,0 +1,33 @@
+(package jazz.platform
+  
+  (root "src")
+  (products (platform (alias jazz.platform))
+            (jazz.platform (unit jazz.platform.product)
+                           (update jazz.platform
+                                   jazz.platform.odbc
+                                   jazz.platform.odbc.odbc-lowlevel
+                                   jazz.platform.product
+                                   jazz.platform.cairo
+                                   (cond
+                                     (windows)
+                                     (else jazz.platform.freetype))
+                                   jazz.platform.minilzo
+                                   jazz.platform.types
+                                   jazz.platform.types-syntax
+                                   jazz.platform.crash
+                                   (cond
+                                     (mac jazz.platform.carbon.carbon-types
+                                          jazz.platform.carbon.clipboard)))
+                           (library
+                             (link-options
+                                (windows (libdir "~~jazz/foreign/cairo/lib/windows")
+                                         (libdir "~~jazz/foreign/windows/lib")
+                                         "-lcairo"
+                                         "-mwindows"
+                                         "-lole32" "-loleaut32"
+                                         "-lwinmm" "-lpdh" "-lpsapi")
+                                (mac  (pkg-config "--libs" "cairo") "-framework" "Carbon")
+                                (else (pkg-config "--libs" "cairo"))))
+                           (dependencies jazz
+                                         jazz.foreign)))
+  (project ".project"))

@@ -1,0 +1,4 @@
+(module jazz.designer.surrogate.Tab-View-Surrogate jazz
+  (import (jazz.designer))
+  (class Tab-View-Surrogate extends View-Surrogate
+    (method protected override (mouse-down evt))))

@@ -1,0 +1,10 @@
+(manifest world.procedural
+
+  (version 207012)
+  (digest "a4ccc93a66230f7b87050dff1a66ded9eb7a50b3")
+  (references (jazz.geometry PI)
+              (jazz.language.runtime.functional Object-Class fxtruncate)
+              (jazz.language.runtime.kernel bitwise-and f64vector-ref f64vector-set! make-f64vector random-real)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel * + - / < cos sin sqrt vector-length vector-ref)))

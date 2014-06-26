@@ -1,0 +1,7 @@
+(module world.opengl jazz
+  (import (jazz.graphic.opengl.glew))
+  (import (world.dye))
+  (import (world.geometry))
+  (definition public (gl-colorize-dye dye))
+  (definition public (gl-reset-color))
+  (definition public (gl-plane-normal v1 v2 v3)))

@@ -1,0 +1,5 @@
+(manifest webserver.implementation.http
+
+  (version 207012)
+  (digest "ddcfb1770b9f263062ad5b6f1e7bd8fc7efc4806")
+  (references))

@@ -1,0 +1,9 @@
+(module jazz.designer.clipboard.Component-Parcel jazz
+  (import (jazz.library.component))
+  (import (jazz.ui))
+  (class Component-Parcel extends Entity-Parcel
+    (slot imports getter generate)
+    (method protected override (initialize process-id object-id imports content))
+    (method public final (get-master))
+    (method public final (get-master-model))
+    (method public final (get-master-name))))

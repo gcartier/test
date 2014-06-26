@@ -1,0 +1,10 @@
+(package jazz.io
+  
+  (root "src")
+  (install jazz.io.install)
+  (products (jazz.io (update jazz.io
+                             jazz.io.install
+                             jazz.io.literals
+                             jazz.io.protocol)
+                     (dependencies jazz)))
+  (project ".project"))

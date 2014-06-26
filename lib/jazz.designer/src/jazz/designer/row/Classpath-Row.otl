@@ -1,0 +1,3 @@
+(module jazz.designer.row.Classpath-Row jazz
+  (import (jazz.designer))
+  (class Classpath-Row extends String-Row))

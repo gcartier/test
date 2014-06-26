@@ -1,0 +1,11 @@
+(manifest world.mesh
+
+  (version 207012)
+  (digest "b91ee6243267a53c26252e57cfb2c444f106e484")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize))
+              (jazz.language.syntax.macros constant)
+              (scheme.language.runtime.kernel +)
+              (world.buffer Buffer (Buffer draw) (Buffer empty?) (Buffer free-buffer) (Buffer generate-buffer) (Buffer get-floats))
+              (world.material Material)))

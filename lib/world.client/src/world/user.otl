@@ -1,0 +1,9 @@
+(module world.user jazz
+  (import (world))
+  (import (world.autoload))
+  (import (world.dye))
+  (import (world.geometry))
+  (import (world.light))
+  (import (world.syntax (phase syntax)))
+  (definition public (new-template x y z))
+  (definition public (set-template-properties light)))

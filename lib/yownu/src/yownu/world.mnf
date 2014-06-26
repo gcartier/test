@@ -1,0 +1,15 @@
+(manifest yownu.world
+
+  (version 207012)
+  (digest "469758f9adb2b2896f361fc66875125283eaba3c")
+  (references (jazz.io Directory (Moniker compare-pathname) pathname=?)
+              (jazz.io.literals construct-directory)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-last) last split)
+              (jazz.ui.window.Window (Window set-title))
+              (scheme.language.runtime.kernel append cons list not)
+              (world *current-zone*)
+              (world.io zone-filename)
+              (world.live World (World get-world-directory) (World get-zones-directories) (World new-zone-file) (World newable?) (World update-title) (World window) (World writable?) (World zone-based?) (World zone-container) (World zone-writable?))
+              (world.syntax current-zone+)
+              (world.zone Zone (Zone get-modified?) (Zone get-moniker))))

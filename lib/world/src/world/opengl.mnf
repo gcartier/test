@@ -1,0 +1,9 @@
+(manifest world.opengl
+
+  (version 207012)
+  (digest "f5a3bccd7f88aff51dae27aa9b191ffe5ea1a554")
+  (references (jazz.graphic.opengl.glew.header glColor4f glNormal3f)
+              (world.dye dye-alpha dye-blue dye-green dye-red)
+              (world.geometry plane-normal!)
+              (world.geometry.classes make-vertex vertex-x vertex-y vertex-z)
+              (world.geometry.syntax make-vertex& plane-normal&)))

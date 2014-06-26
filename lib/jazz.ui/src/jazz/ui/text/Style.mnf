@@ -1,0 +1,11 @@
+(manifest jazz.ui.text.Style
+
+  (version 207012)
+  (digest "701efa951899c9b51d87a9c2e2e8915a6717e911")
+  (references (jazz.graphic.Surface Surface)
+              (jazz.language.runtime.functional Object-Class Sequence fxceiling/ fxround/)
+              (jazz.language.runtime.kernel not-null? specified? unspecified)
+              (jazz.language.syntax.attributes attributes)
+              (jazz.library.exemplar Exemplar (Exemplar attribute=?) (Exemplar default-domain) (Exemplar get) (Exemplar get-ascendants) (Exemplar get-attribute) (Exemplar get-attribute-default) (Exemplar get-attribute-no-default) (Exemplar get-attributes) (Exemplar set) (Exemplar set-attribute))
+              (jazz.ui styles-domain)
+              (scheme.language.runtime.kernel + - <= car cdr)))

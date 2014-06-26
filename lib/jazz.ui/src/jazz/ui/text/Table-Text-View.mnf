@@ -1,0 +1,8 @@
+(manifest jazz.ui.text.Table-Text-View
+
+  (version 207012)
+  (digest "f9513e823448513aa992cda3c82cba2ee4047f7c")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.ui.text.Formatted-Text-Model Formatted-Text-Model)
+              (jazz.ui.text.Formatted-Text-View Formatted-Text-View (Formatted-Text-View new-model))))

@@ -1,0 +1,2 @@
+(module world.colors jazz
+  (import (jazz.graphic)))

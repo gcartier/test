@@ -1,0 +1,8 @@
+(module jazz.system.application.Application-Bindings jazz
+  (import (jazz.jml))
+  (import (jazz.system.application))
+  (import (jazz.ui))
+  (class Application-Bindings extends Bindings
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

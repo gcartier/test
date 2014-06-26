@@ -1,0 +1,5 @@
+(manifest jazz.editor.lisp.install
+
+  (version 207012)
+  (digest "3344ab6864a8a43fbd0f04e9ec92ce5a0fd537e7")
+  (references))

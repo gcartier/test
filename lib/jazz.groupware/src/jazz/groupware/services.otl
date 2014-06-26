@@ -1,0 +1,2 @@
+(module jazz.groupware.services jazz
+  (import (jazz.groupware)))

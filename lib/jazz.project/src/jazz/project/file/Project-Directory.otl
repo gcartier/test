@@ -1,0 +1,12 @@
+(module jazz.project.file.Project-Directory jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.project))
+  (class Project-Directory extends Project-Group
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property directory accessors generate))
+  (class Project-Directory-Descriptor extends Project-Group-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (component-get-presentation component))))

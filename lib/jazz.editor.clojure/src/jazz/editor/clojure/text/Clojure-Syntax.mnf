@@ -1,0 +1,10 @@
+(manifest jazz.editor.clojure.text.Clojure-Syntax
+
+  (version 207012)
+  (digest "3a0cb06be64619b90c8fffb4d5dc9135f1ad2e3e")
+  (references (jazz.editor.clojure.text.Clojure-Explorer Clojure-Explorer)
+              (jazz.editor.lisp.text.Lisp-Syntax Lisp-Syntax (Lisp-Syntax declaration-style))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.system get-preferences)
+              (jazz.ui.syntax.Code-Syntax (Code-Syntax explorer-class))
+              (jazz.ui.syntax.Text-Syntax (Text-Syntax default-extension) (Text-Syntax extensions) (Text-Syntax preferences))))

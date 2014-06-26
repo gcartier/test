@@ -1,0 +1,6 @@
+(manifest jazz.library.entity.Entity-Factory
+
+  (version 207012)
+  (digest "f4738f4a04c75891489355d4d815087abfdd656b")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.object Object)))

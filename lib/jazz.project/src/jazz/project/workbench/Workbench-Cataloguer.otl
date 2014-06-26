@@ -1,0 +1,9 @@
+(module jazz.project.workbench.Workbench-Cataloguer jazz
+  (import (jazz.catalog))
+  (import (jazz.project))
+  (class Workbench-Cataloguer extends Cataloguer
+    (slot catalog-table getter generate)
+    (method protected override (for-each-active-catalog context proc))
+    (method protected override (add-catalog catalog))
+    (method protected override (remove-catalog catalog))
+    (method protected override (find-catalogs key))))

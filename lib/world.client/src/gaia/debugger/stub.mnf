@@ -1,0 +1,12 @@
+(manifest gaia.debugger.stub
+
+  (version 207012)
+  (digest "e32f273b5dedf796aa14e8199bd75c20897c9ea1")
+  (references (jazz.jrm post-remote)
+              (jazz.jrm.remote.Local-Proxy Local-Proxy (Local-Proxy object))
+              (jazz.jrm.remote.Remotable-Stub Remotable-Stub)
+              (jazz.jrm.remote.Remote-Proxy Remote-Proxy)
+              (jazz.jrm.remote.Stub-Interface Stub-Interface (Stub-Interface local-class) (Stub-Interface remote-class))
+              (jazz.jrm.syntax remotable-stub)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified)))

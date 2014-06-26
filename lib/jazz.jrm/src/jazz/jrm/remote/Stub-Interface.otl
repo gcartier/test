@@ -1,0 +1,4 @@
+(module jazz.jrm.remote.Stub-Interface jazz
+  (class Stub-Interface extends Interface
+    (method public virtual (local-class))
+    (method public virtual (remote-class))))

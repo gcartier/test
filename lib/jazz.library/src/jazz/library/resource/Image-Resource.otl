@@ -1,0 +1,3 @@
+(module jazz.library.resource.Image-Resource jazz
+  (import (jazz.library))
+  (class Image-Resource extends Resource))

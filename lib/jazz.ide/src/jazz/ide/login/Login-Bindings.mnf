@@ -1,0 +1,15 @@
+(manifest jazz.ide.login.Login-Bindings
+
+  (version 207012)
+  (digest "39666845a36bcd0b0dd8d6828be55cb655a3eac1")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.action.Actions Actions)
+              (jazz.ui.action.Bindings Bindings)
+              (jazz.ui.preference.Text-Actions Text-Actions (Text-Actions~Class get-class-form) (Text-Actions~Class get-class-forms) (Text-Actions~Class set-class-form))
+              (jazz.ui.preference.View-Actions View-Actions (View-Actions~Class get-class-form) (View-Actions~Class get-class-forms) (View-Actions~Class set-class-form))
+              (jazz.ui.tree.Tree-Actions Tree-Actions (Tree-Actions~Class get-class-form) (Tree-Actions~Class get-class-forms) (Tree-Actions~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

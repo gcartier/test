@@ -1,0 +1,11 @@
+(manifest jazz.tie.syntax
+
+  (version 207012)
+  (digest "0506236f2a9b6789ef4bf196282db1fa8b38e409")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional List-Factory (List-Factory get-output) memq? read-delimited)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros unless when)
+              (scheme.language.runtime.kernel apply call-with-input-string car cdr cons display eof-object? get-output-string not null? open-output-string read-char string-append symbol?)))

@@ -1,0 +1,13 @@
+(manifest jazz.network.http.Session
+
+  (version 207012)
+  (digest "2ab7332425710d09c77e218e2f44ea1763ebe961")
+  (references (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class addf getf getprop neq? setf)
+              (jazz.language.runtime.kernel real-time unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object print) print-unreadable)
+              (jazz.language.syntax.macros when)
+              (jazz.library.literals construct-box)
+              (jazz.library.utility.Box Box)
+              (scheme.language.runtime.kernel - <)))

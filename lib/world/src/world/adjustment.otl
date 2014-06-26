@@ -1,0 +1,3 @@
+(module world.adjustment jazz
+  (import (world.syntax (phase syntax)))
+  (class Adjustment extends Object))

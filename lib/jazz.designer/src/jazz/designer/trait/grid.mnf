@@ -1,0 +1,18 @@
+(manifest jazz.designer.trait.grid
+
+  (version 207012)
+  (digest "1b9fde3a936db4316432ca4ae5db79e30b750013")
+  (references (jazz.designer.editor.grid classes-properties/presentations/domains)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class neq?)
+              (jazz.language.runtime.kernel category-field class-of new unspecified)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros when)
+              (jazz.library get-descriptor resolve-trait)
+              (jazz.library.component.Component Component (Component get-parent) (Component locate))
+              (jazz.ui.tree.grid Data-Provider Grid-Controller Grid-Tree-Column Grid-Tree-Widget (Grid-Tree-Widget~Class get-class-form) (Grid-Tree-Widget~Class get-class-forms) (Grid-Tree-Widget~Class set-class-form) Provider-Data)
+              (scheme.language.runtime.kernel cadr car cdr cons eq? for-each list list->table map)
+              (scheme.syntax declaration-path)))

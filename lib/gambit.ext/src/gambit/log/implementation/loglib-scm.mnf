@@ -1,0 +1,5 @@
+(manifest gambit.log.implementation.loglib-scm
+
+  (version 207012)
+  (digest "6d29d5a4ab87531cf9947d4ed6e7b7a2f5571e86")
+  (references))

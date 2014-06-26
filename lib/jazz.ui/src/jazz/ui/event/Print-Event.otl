@@ -1,0 +1,8 @@
+(module jazz.ui.event.Print-Event jazz
+  (import (jazz.library))
+  (class Print-Event extends Event
+    (slot surface)
+    (slot context getter generate)
+    (method protected override (initialize kind sender modifiers surface context))
+    (method public final (get-dc))
+    (method public final (get-hdc))))

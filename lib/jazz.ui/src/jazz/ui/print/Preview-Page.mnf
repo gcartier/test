@@ -1,0 +1,12 @@
+(manifest jazz.ui.print.Preview-Page
+
+  (version 207012)
+  (digest "994b322a8ec1653d0b9c1f196f4383e0b49da881")
+  (references (jazz.language.runtime.functional Object-Class nu-)
+              (jazz.language.syntax.macros when)
+              (jazz.system.access get-toplevel)
+              (jazz.ui.print.Preview-Toolbar Preview-Toolbar)
+              (jazz.ui.view get-mouse-down?)
+              (jazz.ui.view.Drawing (Drawing draw))
+              (jazz.ui.view.View View (View acquire-capture) (View cursor-update) (View double-click) (View drag-move) (View drag-up) (View get-guest) (View invalidate-view) (View mouse-down) (View release-capture))
+              (jazz.ui.window.platform.glfw set-cursor)))

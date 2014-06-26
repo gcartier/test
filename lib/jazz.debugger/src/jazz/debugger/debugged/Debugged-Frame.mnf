@@ -1,0 +1,7 @@
+(manifest jazz.debugger.debugged.Debugged-Frame
+
+  (version 207012)
+  (digest "385d0b70eaa36eb2752ae0cdc5857b91ed09ea5b")
+  (references (jazz.debugger.debugged.Debugged Debugged (Debugged debugger) (Debugged get-reference) (Debugged process) (Debugged reference) (Debugged same?))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is?)))

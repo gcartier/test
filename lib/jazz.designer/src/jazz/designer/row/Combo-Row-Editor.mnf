@@ -1,0 +1,11 @@
+(manifest jazz.designer.row.Combo-Row-Editor
+
+  (version 207012)
+  (digest "29070da11ed3c97a08763cacef20a9168f5b3ac4")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.component.Component (Component form-model) (Component locate))
+              (jazz.ui.text.Text-View (Text-View down-arrow-move) (Text-View end-completion) (Text-View focus-lose) (Text-View has-ambiguous-completion?) (Text-View tab-press) (Text-View up-arrow-move))
+              (jazz.ui.view.Combo-Box Combo-Box (Combo-Box button-action) (Combo-Box combo-choice))
+              (jazz.ui.view.Combo-Text-View Combo-Text-View)
+              (jazz.ui.view.View (View content-change) (View focus-master))))

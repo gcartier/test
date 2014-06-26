@@ -1,0 +1,15 @@
+(manifest jazz.project.repositories.Repositories
+
+  (version 207012)
+  (digest "c5d6f2ff13f641655d790d37f496917bb6d68b4f")
+  (references (jazz.designer.descriptor.Component-Descriptor Component-Descriptor (Component-Descriptor~Class get-class-form) (Component-Descriptor~Class get-class-forms) (Component-Descriptor~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component Component (Component~Class get-class-descriptor))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

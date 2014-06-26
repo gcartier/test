@@ -1,0 +1,11 @@
+(manifest jazz.library.integrity.Integrity-Violation
+
+  (version 207012)
+  (digest "0350a878c15d84444a8a75944f1e2011de15f998")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name join)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print))
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (scheme.language.runtime.kernel null?)))

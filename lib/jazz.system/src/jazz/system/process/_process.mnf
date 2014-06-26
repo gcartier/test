@@ -1,0 +1,9 @@
+(manifest jazz.system.process
+
+  (version 207012)
+  (digest "36570cd89bbc21ffd25145e75acbcd2bf9a24dd9")
+  (references (jazz.system.process.Command-Line Command-Line)
+              (jazz.system.process.Exit-Listener Exit-Listener)
+              (jazz.system.process.Process Process)
+              (jazz.system.process.Process-Preferences Process-Preferences Process-Preferences-Descriptor)
+              (jazz.system.process.Save-Environment-Listener Save-Environment-Listener)))

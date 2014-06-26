@@ -1,0 +1,6 @@
+(manifest jazz.ide.application.IDE-Toplevel
+
+  (version 207012)
+  (digest "315221a9d30324f4157663b3ca5899615ba0606b")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.window.Toplevel Toplevel)))

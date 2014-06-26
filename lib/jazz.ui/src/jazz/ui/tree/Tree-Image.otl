@@ -1,0 +1,7 @@
+(module jazz.ui.tree.Tree-Image jazz
+  (import (jazz.ui))
+  (class Tree-Image extends Tree-Label
+    (slot protected image accessors generate)
+    (method protected override (initialize . rest))
+    (method protected override (print output readably))
+    (method protected override (get-sort-value))))

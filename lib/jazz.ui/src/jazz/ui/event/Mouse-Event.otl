@@ -1,0 +1,7 @@
+(module jazz.ui.event.Mouse-Event jazz
+  (import (jazz.library))
+  (class Mouse-Event extends Event
+    (method public final (get-position))
+    (method protected final (get-position-value))
+    (method public final (get-h))
+    (method public final (get-v))))

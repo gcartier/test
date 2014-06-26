@@ -1,0 +1,7 @@
+(manifest jazz.editor.c.catalog.C-Entry
+
+  (version 207012)
+  (digest "820a2b26d02670716008588bd659132cef5ab37f")
+  (references (jazz.catalog.entry.Indexed-Entry Indexed-Entry (Indexed-Entry source-frame-type))
+              (jazz.editor.c.text.C-Text-View C-Text-View)
+              (jazz.language.runtime.functional Object-Class)))

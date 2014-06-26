@@ -1,0 +1,3 @@
+(module jazz.ui.text.Filterable jazz
+  (interface Filterable
+    (method public virtual (filter filter-search))))

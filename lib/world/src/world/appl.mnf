@@ -1,0 +1,18 @@
+(manifest world.appl
+
+  (version 207012)
+  (digest "4cb68be41e79e3b2ccd26647271ea1eb55567964")
+  (references (jazz.io Directory)
+              (jazz.io.literals construct-directory)
+              (jazz.language.runtime.functional Object-Class word-constituent?)
+              (jazz.language.runtime.kernel enqueue find-repository new new-queue package-products product-descriptor-name queue-list repository-binary? repository-packages unspecified)
+              (jazz.language.syntax.bind bind)
+              (jazz.system.application.Application Application (Application activate) (Application deactivate) (Application dispatch-shortcut) (Application prepare-window-manager) (Application resources-dir) (Application show-toplevel))
+              (jazz.system.process.Process (Process runtime-products))
+              (jazz.ui.view get-focus)
+              (jazz.ui.window set-window-manager)
+              (scheme.language.runtime.kernel car cdr char? equal? for-each iterate-table not null?)
+              (world *current-world*)
+              (world.live World (World get-installed-modules) (World process-shortcut))
+              (world.manager World-Window-Manager)
+              (world.syntax current-world)))

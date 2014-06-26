@@ -1,0 +1,15 @@
+(manifest jazz.ui.view.Status-Label
+
+  (version 207012)
+  (digest "d1bc44f31a5a0723a89c6c26f2b4e90c69a4699a")
+  (references (jazz.geometry inflate-rect inflate-rectRectfxfx)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.font.Font Font)
+              (jazz.graphic.literals construct-color construct-font)
+              (jazz.language.runtime.functional Object-Class empty-string?)
+              (jazz.language.syntax.macros unless when)
+              (jazz.locale localize)
+              (jazz.system.access get-application)
+              (jazz.ui.skin find-look)
+              (jazz.ui.view.Drawing (Drawing draw) (Drawing get-bounds))
+              (jazz.ui.view.View View (View background) (View draw-background) (View get-look) (View mouse-activate?) (View mouse-up) (View process-action) (View set-title) (View title))))

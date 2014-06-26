@@ -1,0 +1,8 @@
+(manifest jazz.catalog.entry.Definition-Entry
+
+  (version 207012)
+  (digest "9ad543683fdc64536ec0af5e1f9b26d639ef8693")
+  (references (jazz.catalog.entry.Hierarchical-Entry Hierarchical-Entry (Hierarchical-Entry initialize))
+              (jazz.catalog.entry.Indexed-Entry (Indexed-Entry name) (Indexed-Entry references) (Indexed-Entry update-index) (Indexed-Entry update-indexes))
+              (jazz.language.runtime.functional Object-Class)
+              (scheme.language.runtime.kernel for-each)))

@@ -1,0 +1,14 @@
+(manifest jazz.designer.domain.Cell-Domain
+
+  (version 207012)
+  (digest "4a671b389c16c76e3469efc4dfe8b6803cacfb24")
+  (references (jazz.designer.domain.Literal-Domain Literal-Domain)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.geometry Cell)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.library.literals construct-class-reference)
+              (jazz.library.utility.Class-Reference Class-Reference)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,7 @@
+(module jazz.ui.view.Tooltip-Text-View jazz
+  (import (jazz.graphic))
+  (import (jazz.ui))
+  (class Tooltip-Text-View extends Formatted-Text-View
+    (method protected override (new-model))
+    (method protected override (install rest))
+    (method protected override (get-context-menu))))

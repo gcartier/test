@@ -1,0 +1,15 @@
+(manifest jazz.ui.view.Tooltip-Text
+
+  (version 207012)
+  (digest "eb82fe8d37699b5272b69ddc92e551f64261d796")
+  (references (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component locate) (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.ui.view.Layout-View Layout-View)
+              (jazz.ui.view.Scroller-View Scroller-View)
+              (jazz.ui.view.Tooltip-Text-View Tooltip-Text-View)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

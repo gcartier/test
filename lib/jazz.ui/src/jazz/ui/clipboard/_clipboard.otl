@@ -1,0 +1,19 @@
+(module jazz.ui.clipboard jazz
+  (export (jazz.ui.clipboard.platform.glfw))
+  (import (jazz.ui.clipboard.platform.glfw))
+  (definition public (get-clipboard))
+  (definition public (set-clipboard clipboard))
+  (class Clipboard extends Object
+    (slot text getter generate)
+    (slot format getter generate)
+    (method protected override (initialize text format))
+    (method public final (present)))
+  (definition package (register-jazz-clipboard-formats prefix))
+  (definition package (get-clipboard-element format))
+  (definition package (get-jazz-parcels))
+  (definition package (get-jazz-tool))
+  (class Clipboard-Parcel extends Object
+    (slot process-id getter generate)
+    (slot object-id getter generate)
+    (slot content getter generate)
+    (method protected override (initialize process-id object-id content))))

@@ -1,0 +1,6 @@
+(manifest jazz.language.syntax.bind-keywords
+
+  (version 207012)
+  (digest "45da5d0a1b2d9ed01c6d613154cced0bc0db1bb9")
+  (references (jazz.language.runtime.kernel binding-specifier new-queue proper-list string->keyword unspecified)
+              (scheme.language.runtime.kernel caddr cadr car cddr cdr generate-symbol map source-code sourcify-if symbol->string symbol?)))

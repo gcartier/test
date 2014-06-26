@@ -1,0 +1,11 @@
+(manifest jazz.library.automata
+
+  (version 207012)
+  (digest "5d54863f5826381dec0f79f5c4c34248d3538403")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class (Sequence sequence-element) (Sequence sequence-set-element!) cardinality downcase element iterate lower-case? neq? set-element! upcase)
+              (jazz.language.runtime.kernel enqueue new new-queue queue-list unspecified)
+              (jazz.language.runtime.object Object (Object initialize) (Object object-downcase) (Object object-lower-case?) (Object object-upcase) (Object print) print-unreadable)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros prog1 when)
+              (scheme.language.runtime.kernel + < = > car char->integer for-each integer->char list make-vector not string-length)))

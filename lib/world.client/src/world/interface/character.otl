@@ -1,0 +1,8 @@
+(module world.interface.character jazz
+  (import (jazz.graphic))
+  (import (world))
+  (import (world.interface.pane))
+  (import (world.player))
+  (import (world.syntax (phase syntax)))
+  (class Character-Pane extends World-Pane
+    (method protected override (draw surface context))))

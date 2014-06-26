@@ -1,0 +1,5 @@
+(manifest core.unit.build
+
+  (version 207012)
+  (digest "d8212b144c44771bb05e53cd1757f0a76175bfdf")
+  (references))

@@ -1,0 +1,5 @@
+(manifest jazz.ui.listener.Runtime-Listener
+
+  (version 207012)
+  (digest "5f250c7e65ea0d2a82f99faae46d849c6c87d23d")
+  (references (jazz.ui.listener.Listener Listener)))

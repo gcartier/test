@@ -1,0 +1,8 @@
+(manifest jazz.designer.property.Property-Violation
+
+  (version 207012)
+  (digest "66c6f35011571b7736a1db25d07457ef953a4e76")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name)
+              (jazz.language.runtime.kernel class-of)
+              (jazz.language.runtime.object Object (Object initialize) (Object print))))

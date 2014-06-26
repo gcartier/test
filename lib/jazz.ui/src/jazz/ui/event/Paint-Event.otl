@@ -1,0 +1,7 @@
+(module jazz.ui.event.Paint-Event jazz
+  (import (jazz.library))
+  (class Paint-Event extends Event
+    (slot surface)
+    (method protected override (initialize kind sender modifiers surface))
+    (method public final (get-dc))
+    (method public final (get-hdc))))

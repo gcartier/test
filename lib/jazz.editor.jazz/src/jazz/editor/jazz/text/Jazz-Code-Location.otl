@@ -1,0 +1,13 @@
+(module jazz.editor.jazz.text.Jazz-Code-Location jazz
+  (import (jazz.catalog))
+  (import (jazz.editor.jazz))
+  (import (jazz.runtime))
+  (import (jazz.system))
+  (class Jazz-Code-Location extends Code-Location
+    (slot unit-name)
+    (slot sublocation)
+    (method protected override (initialize location))
+    (method protected override (print output readably))
+    (method protected override (edit (workspace: workspace (unspecified)) (activate-focus?: activate-focus? (unspecified)) (error?: error? (unspecified))))
+    (method public final (find-source))
+    (method public final (find-location (workspace: workspace (unspecified)) (error?: error? (unspecified))))))

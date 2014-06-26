@@ -1,0 +1,10 @@
+(manifest world.keys
+
+  (version 207012)
+  (digest "fd1be641312e581c49ce56f79b76fe0400bcca11")
+  (references (jazz.language.syntax.macros when)
+              (jazz.ui require-action-item shortcut-hash shortcut=?)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.action.Shortcut Shortcut)
+              (jazz.ui.literals construct-action construct-shortcut)
+              (scheme.language.runtime.kernel iterate-table make-table table-set!)))

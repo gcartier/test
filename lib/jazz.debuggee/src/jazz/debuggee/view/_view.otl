@@ -1,0 +1,9 @@
+(module jazz.debuggee.view jazz
+  (import (jazz.designer))
+  (import (jazz.designer.view))
+  (import (jazz.system))
+  (import (jazz.ui.view))
+  (definition public (edit object))
+  (definition public (design target))
+  (definition public (design-in-place view))
+  (definition public (reprint class/component)))

@@ -1,0 +1,9 @@
+(module jazz.ui.action.Figure-Mover jazz
+  (import (jazz.library))
+  (class Figure-Mover extends Component
+    (property client accessors generate)
+    (slot dragging?)
+    (slot base-position)
+    (method protected final (on-mouse-down evt))
+    (method protected final (on-drag-move evt))
+    (method protected final (on-drag-up evt))))

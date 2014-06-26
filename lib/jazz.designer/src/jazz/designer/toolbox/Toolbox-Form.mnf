@@ -1,0 +1,12 @@
+(manifest jazz.designer.toolbox.Toolbox-Form
+
+  (version 207012)
+  (digest "f041eb5de22ebae42196530ad50233269cdd6baf")
+  (references (jazz.designer.toolbox.Toolbox-Model Toolbox-Model (Toolbox-Model get-class) (Toolbox-Model get-reference) Toolbox-Model-Descriptor (Toolbox-Model-Descriptor~Class get-class-form) (Toolbox-Model-Descriptor~Class get-class-forms) (Toolbox-Model-Descriptor~Class set-class-form) (Toolbox-Model~Class get-class-descriptor))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new resolve-runtime-reference)
+              (jazz.language.syntax.macros submodule)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

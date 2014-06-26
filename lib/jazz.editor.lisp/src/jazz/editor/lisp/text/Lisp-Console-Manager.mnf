@@ -1,0 +1,6 @@
+(manifest jazz.editor.lisp.text.Lisp-Console-Manager
+
+  (version 207012)
+  (digest "a5871b3e751304184e5325cf5263cb16beede32f")
+  (references (jazz.console.Console-Manager Console-Manager)
+              (jazz.language.runtime.functional Object-Class)))

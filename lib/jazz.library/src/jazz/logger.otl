@@ -1,0 +1,13 @@
+(module jazz.logger jazz
+  (import (jazz.io))
+  (definition public (logger-directory))
+  (definition public (set-logger-directory dir))
+  (definition public (make-logger-file))
+  (definition public (logger-file))
+  (definition public (with-logger-output proc))
+  (definition public (logger-log . rest))
+  (definition public (logger-line line))
+  (definition public (logger-expr expr))
+  (definition public (logger-debug . rest))
+  (definition public (logger-exception exc))
+  (definition public (logger-backtrace cont)))

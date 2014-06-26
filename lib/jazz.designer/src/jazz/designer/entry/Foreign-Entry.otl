@@ -1,0 +1,5 @@
+(module jazz.designer.entry.Foreign-Entry jazz
+  (import (jazz.designer))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Foreign-Entry extends Property-Entry))

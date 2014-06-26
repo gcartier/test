@@ -1,0 +1,3 @@
+(module jazz.project.project.Project-Container jazz
+  (interface Project-Container
+    (method public virtual (catalog-name))))

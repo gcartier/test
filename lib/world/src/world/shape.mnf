@@ -1,0 +1,16 @@
+(manifest world.shape
+
+  (version 207012)
+  (digest "d3e58d5ef0aea7d170b21cd765bac08e142d286a")
+  (references (jazz.geometry PI*2)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.syntax.loop loop)
+              (jazz.language.syntax.macros unless)
+              (scheme.language.runtime.kernel * + - / < = cos sin)
+              (world *current-world*)
+              (world.atlas (Atlas image-rect))
+              (world.generate generate-mesh)
+              (world.geometry.classes vertex)
+              (world.live World (World get-block-atlas))
+              (world.syntax current-world)
+              (world.texture uv-bottom uv-depth uv-left uv-right uv-top uv/bottom uv/left uv/right uv/top)))

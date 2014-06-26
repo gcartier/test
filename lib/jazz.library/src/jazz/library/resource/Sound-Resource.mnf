@@ -1,0 +1,6 @@
+(manifest jazz.library.resource.Sound-Resource
+
+  (version 207012)
+  (digest "f2489b4435989a32c13263f3a61a1f181353368f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.library.resource.Resource Resource)))

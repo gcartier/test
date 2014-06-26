@@ -1,0 +1,14 @@
+(manifest jazz.ui.text.Column-Menu
+
+  (version 207012)
+  (digest "328a6ff769f1d2c9aca1b17dc56fe47ea558e100")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.action.Action Action)
+              (jazz.ui.literals construct-action)
+              (jazz.ui.menu.Context-Menu Context-Menu)
+              (jazz.ui.menu.Label-Item Label-Item)
+              (jazz.ui.menu.Menu (Menu~Class get-class-form) (Menu~Class get-class-forms) (Menu~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

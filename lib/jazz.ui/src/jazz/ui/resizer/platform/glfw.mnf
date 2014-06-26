@@ -1,0 +1,5 @@
+(manifest jazz.ui.resizer.platform.glfw
+
+  (version 207012)
+  (digest "0db5cacc9c0a535b69faed92054d450c36c17ff7")
+  (references (jazz.language.syntax.macros constant)))

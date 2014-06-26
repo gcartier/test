@@ -1,0 +1,11 @@
+(module world.dyes jazz
+  (import (world.dye))
+  (definition public black-dye)
+  (definition public white-dye)
+  (definition public red-dye)
+  (definition public green-dye)
+  (definition public blue-dye)
+  (definition public yellow-dye)
+  (definition public orange-dye)
+  (definition public purple-dye)
+  (definition public ochre-dye))

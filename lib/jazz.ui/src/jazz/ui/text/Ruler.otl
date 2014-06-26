@@ -1,0 +1,16 @@
+(module jazz.ui.text.Ruler jazz
+  (import (jazz.geometry))
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.ui.window))
+  (class Ruler extends Header-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (get-header-height))
+    (method protected override (draw surface context))
+    (method protected override (cursor-update evt))
+    (method protected override (mouse-down evt))
+    (method protected override (drag-move evt))
+    (method protected override (drag-up evt . rest))))

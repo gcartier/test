@@ -1,0 +1,9 @@
+(module jazz.editor.commonlisp.text.CommonLisp-Explorer jazz
+  (require (jazz.editor.commonlisp.forms))
+  (import (jazz.editor.lisp))
+  (class CommonLisp-Explorer extends Lisp-Explorer
+    (method protected override (find-named-walker name))
+    (method protected final (walk-define context symbol form declaration keyword expression doc))
+    (method protected final (walk-define-macro context symbol form declaration keyword expression doc))
+    (method protected final (walk-define-variable context symbol form declaration keyword expression doc))
+    (method protected final (walk-eval-when context symbol form declaration keyword expression doc))))

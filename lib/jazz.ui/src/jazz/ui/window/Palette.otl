@@ -1,0 +1,11 @@
+(module jazz.ui.window.Palette jazz
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.ui.window))
+  (class Palette extends Overlapped
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (default-parent))
+    (method protected override (new-root))
+    (method protected override (mouse-activate?))))

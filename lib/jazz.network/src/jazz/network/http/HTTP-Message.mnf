@@ -1,0 +1,10 @@
+(manifest jazz.network.http.HTTP-Message
+
+  (version 207012)
+  (digest "ac3d7a1d3a3f2f8f9ae2732d4c29f6c2dc20e1e5")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel unspecified write-subu8vector)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel assoc car cdr cons equal? make-table map set-cdr! string-length string? table-ref table-set!)))

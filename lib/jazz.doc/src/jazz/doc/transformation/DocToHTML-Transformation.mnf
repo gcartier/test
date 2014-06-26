@@ -1,0 +1,16 @@
+(manifest jazz.doc.transformation.DocToHTML-Transformation
+
+  (version 207012)
+  (digest "5b89c3403ead80db7866fb74d5b9413d48175948")
+  (references (jazz.doc.transformation.Doc-Transformation Doc-Transformation)
+              (jazz.jml.model.JML-Element JML-Element (JML-Element ->jml) (JML-Element get-children) (JML-Element get-tag))
+              (jazz.jml.model.JML-Text JML-Text (JML-Text get-text))
+              (jazz.jml.syntax pattern)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional ->string Object-Class)
+              (jazz.language.runtime.kernel is? not-null?)
+              (jazz.language.runtime.object Object)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.loop loop)
+              (scheme.language.runtime.kernel car cdr cons eq? map not null? set-cdr!)))

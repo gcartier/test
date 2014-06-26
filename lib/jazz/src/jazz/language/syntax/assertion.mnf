@@ -1,0 +1,5 @@
+(manifest jazz.language.syntax.assertion
+
+  (version 207012)
+  (digest "7f89401191bcf9e011aa492b721f56f5d89d4a91")
+  (references (scheme.language.runtime.kernel cadr car cddr cdr debug-user? desourcify display generate-symbol get-output-string list not null? open-output-string simplify-begin source-code sourcify-if symbol? write)))

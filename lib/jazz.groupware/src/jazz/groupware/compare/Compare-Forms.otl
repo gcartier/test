@@ -1,0 +1,18 @@
+(module jazz.groupware.compare.Compare-Forms jazz
+  (import (jazz.groupware))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.system))
+  (class Compare-Forms extends Compare-Trees
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (host-icon))
+    (method meta protected override (host-title))
+    (method protected override (new-comparer))
+    (method protected override (scan-feedback left right))
+    (method protected override (moniker->tree moniker))
+    (method protected override (present-root left right))
+    (method protected override (present-item item))
+    (method protected override (present-value kind value))
+    (method protected override (entry-image entry ref))))

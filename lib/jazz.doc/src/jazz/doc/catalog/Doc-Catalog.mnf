@@ -1,0 +1,6 @@
+(manifest jazz.doc.catalog.Doc-Catalog
+
+  (version 207012)
+  (digest "87a8c16cd4e95d1babd05456d2bac285336bf977")
+  (references (jazz.doc.catalog.Component-Catalog Component-Catalog (Component-Catalog initialize))
+              (jazz.language.runtime.functional Object-Class)))

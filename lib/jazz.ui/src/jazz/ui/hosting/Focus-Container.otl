@@ -1,0 +1,15 @@
+(module jazz.ui.hosting.Focus-Container jazz
+  (import (jazz.ui))
+  (class Focus-Container extends View
+    (slot focused)
+    (method protected override (mouse-activate?))
+    (method public virtual (mouse-activate))
+    (method protected override (get-focus-container))
+    (method public final (get-focused))
+    (method public final (set-focused view))
+    (method public virtual (focus-host))
+    (method public final (preserve-focused focus))
+    (method public virtual (container-focusable?))
+    (method public virtual (ensure-container-focusable))
+    (method protected override (focus-default))
+    (method protected final (view-destroyed view))))

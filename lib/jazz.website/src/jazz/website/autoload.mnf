@@ -1,0 +1,7 @@
+(manifest jazz.website.autoload
+
+  (version 207012)
+  (digest "7814197b004d7313712518402e64b36efbdc998f")
+  (references (jazz.website.server.JazzScheme-Server JazzScheme-Server)
+              (jazz.website.server.JazzScheme-Site JazzScheme-Site)
+              (jazz.website.transformation.JazzWebsite-Transformation JazzWebsite-Transformation)))

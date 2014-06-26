@@ -1,0 +1,8 @@
+(manifest jazz.graphic.literals.colors
+
+  (version 207012)
+  (digest "e9add7ea4f3cda9a454df44aad12ec844c4633a2")
+  (references (jazz.graphic register-color)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.syntax define-color)
+              (jazz.language.runtime.kernel new)))

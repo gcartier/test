@@ -1,0 +1,6 @@
+(manifest jazz.designer.row.Period-Row
+
+  (version 207012)
+  (digest "f4c1082a3f27cb8a8b4fe3da5806c91822523ac6")
+  (references (jazz.designer.row.Value-Row Value-Row)
+              (jazz.language.runtime.functional Object-Class)))

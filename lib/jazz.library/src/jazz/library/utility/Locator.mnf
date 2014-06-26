@@ -1,0 +1,9 @@
+(manifest jazz.library.utility.Locator
+
+  (version 207012)
+  (digest "ebf98493f6b4edac1341b5d340608bdfc4260afa")
+  (references (jazz.language.runtime.functional Object-Class (Sequence sequence-cardinality) cardinality concatenate di=? subseq)
+              (jazz.language.runtime.kernel continuation-capture continuation-return current-seconds unspecified)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel + > >= not string)))

@@ -1,0 +1,9 @@
+(module jazz.ui.history.History-Document-Item jazz
+  (import (jazz.library))
+  (class History-Document-Item extends History-Item
+    (slot document)
+    (slot selection)
+    (method protected override (initialize document selection))
+    (method protected override (valid?))
+    (method protected override (open-item))
+    (method protected override (present))))

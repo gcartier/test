@@ -1,0 +1,10 @@
+(manifest jazz.syntax
+
+  (version 207012)
+  (digest "4c901d9f90ef8652dc23a4b4f0b8516fa1f80bb9")
+  (references (dialect.core define-walker-special)
+              (jazz.dialect.classes.foundation Any Expression (Expression emit-expression) (Expression initialize))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new new-code)
+              (scheme.core.kernel emit emit-one-expression new-special-form register-binding walk)
+              (scheme.language.runtime.kernel apply caddr cadr cddr null? strip-syntactic-closures)))

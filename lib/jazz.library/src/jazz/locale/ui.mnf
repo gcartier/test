@@ -1,0 +1,13 @@
+(manifest jazz.locale.ui
+
+  (version 207012)
+  (digest "ea30775e791d56553adb82c2ceb313f541c6f66d")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros when)
+              (jazz.library.component.Component (Component install))
+              (jazz.library.handler.Event-Handler Event-Handler)
+              (jazz.locale get-locale-state)
+              (jazz.ui.menu.Check-Item Check-Item (Check-Item set-checked?))
+              (jazz.ui.menu.Context-Menu Context-Menu)
+              (scheme.language.runtime.kernel eq? for-each list)))

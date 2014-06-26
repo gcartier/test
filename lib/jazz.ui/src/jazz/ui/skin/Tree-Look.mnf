@@ -1,0 +1,6 @@
+(manifest jazz.ui.skin.Tree-Look
+
+  (version 207012)
+  (digest "c4dda4c9665d3564285f827246ebf41ab2b47cd8")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.skin.Look Look)))

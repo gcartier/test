@@ -1,0 +1,5 @@
+(unit core.exception
+  (require (core.class))
+  (require (core.exception.syntax.classes))
+  (require (core.exception.runtime.exception))
+  (require (core.exception.runtime.error)))

@@ -1,0 +1,3 @@
+(module jazz.jrm.remote.Proxy jazz
+  (class Proxy extends Object
+    (method public virtual (live?))))

@@ -1,0 +1,10 @@
+(manifest jazz.library.display.Aligned-Column
+
+  (version 207012)
+  (digest "463cb58072c393c3e7993b941650ffc9d26136f3")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class box-list find-keyword unbox-list)
+              (jazz.language.syntax.bind-keywords bind-keywords)
+              (jazz.language.syntax.macros when)
+              (jazz.library.display.Display-Column Display-Column (Display-Column border) (Display-Column border-after) (Display-Column content) (Display-Column initialize) (Display-Column prepare-print) (Display-Column print-to))
+              (scheme.language.runtime.kernel - > apply for-each length)))

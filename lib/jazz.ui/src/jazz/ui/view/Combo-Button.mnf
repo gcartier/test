@@ -1,0 +1,18 @@
+(manifest jazz.ui.view.Combo-Button
+
+  (version 207012)
+  (digest "623cdc54ecbfb4a643c97cf4cf1ab492b1054551")
+  (references (jazz.geometry justify-lazy)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.literals construct-color)
+              (jazz.language.runtime.functional Object-Class memq?)
+              (jazz.language.runtime.geometry (Dimension get-height) (Dimension get-width))
+              (jazz.language.syntax.macros unless when)
+              (jazz.library.component.Component (Component parent) (Component surrogate))
+              (jazz.ui.layout.Figure (Figure size))
+              (jazz.ui.view.Drawing (Drawing get-bounds) (Drawing get-size))
+              (jazz.ui.view.Image-Tool (Image-Tool draw-tool))
+              (jazz.ui.view.Push-Tool Push-Tool (Push-Tool up))
+              (jazz.ui.view.Tool-Button (Tool-Button dark-color) (Tool-Button down) (Tool-Button drag-up) (Tool-Button draw-inactive) (Tool-Button get-state) (Tool-Button light-color) (Tool-Button mouse-down) (Tool-Button mouse-enter) (Tool-Button mouse-leave))
+              (jazz.ui.view.View (View close-popups) (View invalidate-view) (View process-action) (View record-actions?) (View view-enabled?))
+              (scheme.language.runtime.kernel + - eq? quotient)))

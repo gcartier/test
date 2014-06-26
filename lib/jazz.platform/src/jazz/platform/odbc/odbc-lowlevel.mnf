@@ -1,0 +1,5 @@
+(manifest jazz.platform.odbc.odbc-lowlevel
+
+  (version 207012)
+  (digest "3eec1ee88ea6f0c4f8903a5bbf175d969c63d7c2")
+  (references))

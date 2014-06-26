@@ -1,0 +1,9 @@
+(manifest jazz.ui.text.Symbol-Completer
+
+  (version 207012)
+  (digest "9fa6531b9f9ccb0096e4e29c713e85aedd32a755")
+  (references (jazz.language.runtime.functional List-Factory (List-Factory get-output) (List-Factory put) Object-Class (Sequence sequence-cardinality) cardinality compare-n)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.runtime.object Object (Object initialize))
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel eqv? for-each)))

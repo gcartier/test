@@ -1,0 +1,7 @@
+(module jazz.system.application.autoload jazz
+  (export (jazz.system.application.Application (autoload Application Application)))
+  (export (jazz.system.application.Application-Actions (autoload Application-Actions Application-Actions)))
+  (export (jazz.system.application.Application-Bindings (autoload Application-Bindings Application-Bindings)))
+  (export (jazz.system.application.Application-Event (autoload Application-Event Application-Event)))
+  (export (jazz.system.application.Application-Preferences (autoload Application-Preferences Application-Preferences)))
+  (export (jazz.system.application.Exception-Presenter (autoload Exception-Presenter Exception-Presenter))))

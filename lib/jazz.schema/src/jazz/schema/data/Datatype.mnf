@@ -1,0 +1,9 @@
+(manifest jazz.schema.data.Datatype
+
+  (version 207012)
+  (digest "c6dd36b60a6928c4e021a5f798ce3835fa207fb8")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class category-name find-if is-not? subseq substitute-alist)
+              (jazz.language.runtime.kernel boolean class-of new)
+              (jazz.language.runtime.object Object (Object compare-object) (Object initialize) (Object print))
+              (scheme.language.runtime.kernel - = >= eq? length null? number? string?)))

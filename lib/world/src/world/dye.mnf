@@ -1,0 +1,9 @@
+(manifest world.dye
+
+  (version 207012)
+  (digest "9aa53e1abe30f19954a36d6343f82fc37f4fe51c")
+  (references (jazz.graphic.Color Color (Color get-alpha) (Color get-blue) (Color get-green) (Color get-red))
+              (jazz.language.runtime.format format)
+              (jazz.language.runtime.homogeneous F32Vector)
+              (jazz.language.runtime.kernel f32vector f32vector-ref f32vector-set! f32vector? make-f32vector new)
+              (scheme.language.runtime.kernel =)))

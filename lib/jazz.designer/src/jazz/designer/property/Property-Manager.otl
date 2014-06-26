@@ -1,0 +1,9 @@
+(module jazz.designer.property.Property-Manager jazz
+  (interface Property-Manager
+    (method public virtual (editor-focus-gained editor))
+    (method public virtual (editor-focus-lose editor))
+    (method public virtual (editor-left-arrow editor))
+    (method public virtual (editor-right-arrow editor))
+    (method public virtual (editor-up-arrow editor))
+    (method public virtual (editor-down-arrow editor))
+    (method public virtual (editor-return editor))))

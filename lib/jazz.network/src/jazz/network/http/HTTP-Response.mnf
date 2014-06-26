@@ -1,0 +1,14 @@
+(manifest jazz.network.http.HTTP-Response
+
+  (version 207012)
+  (digest "10c50441610da9ce4048f624ebcbba001ccfa9ce")
+  (references (jazz.language.runtime.format format)
+              (jazz.language.runtime.functional Object-Class concatenate numeric? write-u8-content)
+              (jazz.language.runtime.kernel read-substring)
+              (jazz.language.runtime.object (Object object-numeric?))
+              (jazz.language.runtime.parse parse-hexadecimal)
+              (jazz.language.syntax.bind bind)
+              (jazz.language.syntax.macros prog1 unless when)
+              (jazz.network.http parse-code response-code-info split-header-line)
+              (jazz.network.http.HTTP-Message HTTP-Message (HTTP-Message content) (HTTP-Message cookies) (HTTP-Message crlf!) (HTTP-Message get-header) (HTTP-Message initialize) (HTTP-Message parse) (HTTP-Message print-headers) (HTTP-Message protocol) (HTTP-Message send) (HTTP-Message set-header!))
+              (scheme.language.runtime.kernel - = >= car cdr char-ready? cons eof-object? eq? iterate-table list->string list? make-string not read-char read-line reverse string->number string=? substring)))

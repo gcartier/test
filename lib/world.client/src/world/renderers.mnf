@@ -1,0 +1,9 @@
+(manifest world.renderers
+
+  (version 207012)
+  (digest "e517d180467bd6dd50b31989b824f9b9321b2dfc")
+  (references (jazz.language.runtime.debug debug)
+              (jazz.language.runtime.exception error)
+              (jazz.language.runtime.functional (Axis get-size))
+              (scheme.language.runtime.kernel eq? iterate-table make-table table-ref table-set!)
+              (world.renderer Mesh-Renderer (Mesh-Renderer get-entities) (Mesh-Renderer get-meshes) (Mesh-Renderer reset))))

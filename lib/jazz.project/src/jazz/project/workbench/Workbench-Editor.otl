@@ -1,0 +1,5 @@
+(module jazz.project.workbench.Workbench-Editor jazz
+  (import (jazz.designer))
+  (import (jazz.project))
+  (class Workbench-Editor extends Descendants-Editor
+    (method protected override (form-model form))))

@@ -1,0 +1,6 @@
+(manifest jazz.language.syntax.state
+
+  (version 207012)
+  (digest "a4aefa85b763dc20c6b7f3b6b8e0206dbfa38032")
+  (references (jazz.language.syntax.marshall expand-marshalling)
+              (scheme.language.runtime.kernel cdr)))

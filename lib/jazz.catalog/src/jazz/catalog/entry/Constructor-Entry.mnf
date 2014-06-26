@@ -1,0 +1,8 @@
+(manifest jazz.catalog.entry.Constructor-Entry
+
+  (version 207012)
+  (digest "870fa59a24907b47960c11872e81a5f5398ed081")
+  (references (jazz.catalog.entry.Method-Entry Method-Entry (Method-Entry get-image))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)))

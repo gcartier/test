@@ -1,0 +1,67 @@
+(module world.models jazz
+  (import (jazz.geometry))
+  (import (world))
+  (import (world.autoload))
+  (import (world.dye))
+  (import (world.dyes))
+  (import (world.entity))
+  (import (world.face))
+  (import (world.geometry))
+  (import (world.material))
+  (import (world.mesh))
+  (import (world.model))
+  (import (world.object))
+  (import (world.quad))
+  (import (world.renderers))
+  (import (world.syntax (phase syntax)))
+  (import (world.texture))
+  (import (world.triangle))
+  (definition public (make-model faces (class: class (unspecified)) (rotation: rotation (unspecified)) (bounds: bounds (unspecified))))
+  (definition public (make-circle-model))
+  (class Color-Sphere-Model extends Model
+    (property color accessors generate)
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (definition public (make-color-sphere-model slices stacks color (class: class (unspecified))))
+  (definition public (make-camera-model class))
+  (class Camera-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Light-Model extends Color-Sphere-Model
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Sun-Model extends Color-Sphere-Model
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Body-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Eye-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Wheel-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Saucer-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Rocket-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Enemy-Body-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (class Enemy-Eye-Model extends Model
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (definition public (make-enemy-model))
+  (class Missile-Model extends Model
+    (property color accessors generate)
+    (method protected override (model-renderer))
+    (method protected override (model-bind-uniforms entity program mesh <Mesh> matrix moment)))
+  (definition public (generate-floor-model image width depth))
+  (definition public (generate-floor x y z width depth))
+  (definition public (generate-wall-model image width height))
+  (definition public (generate-wall x y z width height))
+  (definition public (generate-slope-model image height x-count z-count))
+  (definition public (generate-slope x y z height x-count z-count))
+  (definition public (generate-stairs-model image stairs width height depth x-count y-count z-count))
+  (definition public (generate-stairs stairs x y z width height depth x-count y-count z-count)))

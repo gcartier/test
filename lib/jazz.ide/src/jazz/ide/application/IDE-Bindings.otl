@@ -1,0 +1,17 @@
+(module jazz.ide.application.IDE-Bindings jazz
+  (import (jazz.console))
+  (import (jazz.designer))
+  (import (jazz.editor.jazz))
+  (import (jazz.editor.lisp))
+  (import (jazz.editor.scheme))
+  (import (jazz.groupware))
+  (import (jazz.ide))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.project))
+  (import (jazz.system.application))
+  (import (jazz.ui))
+  (class IDE-Bindings extends Application-Bindings
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

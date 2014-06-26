@@ -1,0 +1,8 @@
+(manifest world.colors
+
+  (version 207012)
+  (digest "f56e0a789deb604ed022d726d81c8057ad4dd8d8")
+  (references (jazz.graphic register-color)
+              (jazz.graphic.Color Color)
+              (jazz.graphic.syntax define-color)
+              (jazz.language.runtime.kernel new)))

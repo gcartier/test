@@ -1,0 +1,5 @@
+(manifest core.class.syntax.define-method-expander
+
+  (version 207012)
+  (digest "decd3229147e8cf8ce4229b137021b5375461c34")
+  (references))

@@ -1,0 +1,5 @@
+(manifest jazz.ui.print.platform.glfw
+
+  (version 207012)
+  (digest "b1ffc13e2266efb5a04adab27d0140c148d2c91d")
+  (references (jazz.language.runtime.kernel unspecified)))

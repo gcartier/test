@@ -1,0 +1,12 @@
+(module jazz.jrm.remote.Remote-Proxy jazz
+  (import (jazz.jrm))
+  (class Remote-Proxy extends Proxy
+    (method meta protected override (marshall-object object))
+    (method meta protected override (unmarshall-object content))
+    (slot ior getter generate)
+    (slot values getter generate)
+    (method protected override (initialize ior values))
+    (method protected override (print output readably))
+    (method public final (set-values lst))
+    (method public final (proxy-value keyword thunk))
+    (method protected override (live?))))

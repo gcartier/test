@@ -1,0 +1,9 @@
+(module jazz.ui.hosting.Palette-Host jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (class Palette-Host extends Host-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (on-close evt))))

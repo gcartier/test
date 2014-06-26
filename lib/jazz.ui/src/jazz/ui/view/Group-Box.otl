@@ -1,0 +1,20 @@
+(module jazz.ui.view.Group-Box jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.locale))
+  (import (jazz.platform.cairo))
+  (import (jazz.ui))
+  (import (jazz.ui.skin))
+  (import (jazz.designer))
+  (class Group-Box extends Base-Container
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property flat? accessors generate)
+    (method protected override (set-title value))
+    (method protected override (layout))
+    (method protected override (draw surface context))
+    (method protected override (get-look))
+    (method protected final (flat-look? look)))
+  (class Group-Box-Descriptor extends Layout-View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

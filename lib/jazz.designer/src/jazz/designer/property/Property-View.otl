@@ -1,0 +1,19 @@
+(module jazz.designer.property.Property-View jazz
+  (import (jazz.graphic))
+  (import (jazz.jml))
+  (import (jazz.ui))
+  (import (jazz.designer))
+  (class Property-View extends Layout-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method meta protected override (get-class-descriptor (context: context (unspecified))))
+    (property id accessors generate)
+    (property editor accessors generate)
+    (property editable? accessors generate)
+    (method protected override (add-child child))
+    (method public virtual (get-entry)))
+  (class Property-View-Descriptor extends Layout-View-Descriptor
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))))

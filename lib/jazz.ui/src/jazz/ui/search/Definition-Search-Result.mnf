@@ -1,0 +1,9 @@
+(manifest jazz.ui.search.Definition-Search-Result
+
+  (version 207012)
+  (digest "d7525427c1e21d6ca8c761ac086e17895bfac6ba")
+  (references (jazz.editor.lisp.catalog.Lisp-Entry Lisp-Entry (Lisp-Entry get-kind) (Lisp-Entry get-signature) (Lisp-Entry present) (Lisp-Entry present-name))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel is?)
+              (jazz.ui.search.Search-Result Search-Result (Search-Result edit) (Search-Result get-icon) (Search-Result initialize) (Search-Result location-sort-value) (Search-Result present-location) (Search-Result present-name) (Search-Result present-type))
+              (scheme.language.runtime.kernel cons not)))

@@ -1,0 +1,6 @@
+(manifest jazz.ui.text.Date-Text-View
+
+  (version 207012)
+  (digest "574d11f931482e20c9f2121b28c14b3dc32e74b5")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.text.Text-View Text-View)))

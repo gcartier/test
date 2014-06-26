@@ -1,0 +1,8 @@
+(manifest world.info
+
+  (version 207012)
+  (digest "6544782f926b19a1021d09521c069cec8f95dac5")
+  (references (jazz.language.runtime.functional append! remove!)
+              (jazz.language.runtime.kernel boolean)
+              (jazz.language.syntax.macros when)
+              (scheme.language.runtime.kernel assq cdr cons list set-cdr!)))

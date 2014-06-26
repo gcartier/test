@@ -1,0 +1,11 @@
+(manifest jazz.validate.suite.Enumeration-Tester
+
+  (version 207012)
+  (digest "627e599e29ee8a61e317c4bbf0cd4a01b2508869")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.library.component.Component (Component~Class get-class-form) (Component~Class get-class-forms) (Component~Class set-class-form))
+              (jazz.validation.tester.Tester Tester)
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

@@ -1,0 +1,6 @@
+(module world.tick jazz
+  (class Tick extends Object
+    (slot client getter generate)
+    (slot commands getter generate)
+    (slot elapse getter generate)
+    (method protected override (initialize client commands elapse))))

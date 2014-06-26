@@ -1,0 +1,5 @@
+(unit foundation.dialect
+  (require (dialect))
+  (require (foundation.dialect.runtime))
+  (require (backend.scheme))
+  (require (foundation.backend.scheme.emit)))

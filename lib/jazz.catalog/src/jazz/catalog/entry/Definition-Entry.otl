@@ -1,0 +1,7 @@
+(module jazz.catalog.entry.Definition-Entry jazz
+  (import (jazz.catalog))
+  (class Definition-Entry extends Hierarchical-Entry
+    (slot type accessors generate)
+    (slot literal? getter generate)
+    (method protected override (initialize modifiers name type literal? line column end-line end-column definitions references))
+    (method protected override (update-indexes definitions-index references-index))))

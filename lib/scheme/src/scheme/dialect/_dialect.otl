@@ -1,0 +1,4 @@
+(module scheme.dialect foundation
+  (require (foundation))
+  (require (scheme.dialect.runtime))
+  (require (scheme.backend.scheme.emit)))

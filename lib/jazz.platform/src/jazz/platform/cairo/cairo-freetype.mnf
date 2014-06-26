@@ -1,0 +1,9 @@
+(manifest jazz.platform.cairo.cairo-freetype
+
+  (version 207012)
+  (digest "bee12bcaccbb2f97321b7c21d06c3cc035681e95")
+  (references (jazz.foreign.syntax c-external)
+              (jazz.language.syntax.macros prog1)
+              (jazz.platform.cairo.cairo-base cairo_font_face_t* cairo_scaled_font_t*)
+              (jazz.platform.freetype FT_Face FT_Face* FcPattern*)
+              (jazz.platform.types int uint ulong void)))

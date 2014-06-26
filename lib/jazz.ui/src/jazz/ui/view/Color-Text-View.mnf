@@ -1,0 +1,6 @@
+(manifest jazz.ui.view.Color-Text-View
+
+  (version 207012)
+  (digest "15603c22cf5e6e0d428fb09526065ede5e246c5f")
+  (references (jazz.language.runtime.functional Object-Class)
+              (jazz.ui.view.Combo-Text-View Combo-Text-View)))

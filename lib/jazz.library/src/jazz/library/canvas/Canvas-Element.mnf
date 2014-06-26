@@ -1,0 +1,13 @@
+(manifest jazz.library.canvas.Canvas-Element
+
+  (version 207012)
+  (digest "f2fece5bb20b59f91207e0516766bc8cd0a1d20d")
+  (references (jazz.designer.descriptor.Component-Descriptor Component-Descriptor (Component-Descriptor class-name->presentation) (Component-Descriptor class-presentation->name) (Component-Descriptor component-get-addable-details) (Component-Descriptor get-name-mandatory?) (Component-Descriptor~Class get-class-form) (Component-Descriptor~Class get-class-forms) (Component-Descriptor~Class set-class-form))
+              (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class empty-string?)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component Component (Component~Class get-class-descriptor))
+              (scheme.language.runtime.kernel = cons list list->table not)
+              (scheme.syntax declaration-path)))

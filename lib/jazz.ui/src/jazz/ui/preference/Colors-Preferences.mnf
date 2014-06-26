@@ -1,0 +1,14 @@
+(manifest jazz.ui.preference.Colors-Preferences
+
+  (version 207012)
+  (digest "ba1d530d1a00f1e97f06a228caac8064824708ac")
+  (references (jazz.jml construct-form get-class-form-with-origin locators-ref)
+              (jazz.jml.syntax <form> form)
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.literals construct-image-resource)
+              (jazz.library.resource.Image-Resource Image-Resource)
+              (jazz.ui.preference.Exemplars-Preferences Exemplars-Preferences Exemplars-Preferences-Descriptor (Exemplars-Preferences-Descriptor~Class get-class-form) (Exemplars-Preferences-Descriptor~Class get-class-forms) (Exemplars-Preferences-Descriptor~Class set-class-form) (Exemplars-Preferences~Class get-class-descriptor) (Exemplars-Preferences~Class get-class-form) (Exemplars-Preferences~Class get-class-forms) (Exemplars-Preferences~Class set-class-form))
+              (scheme.language.runtime.kernel cons list list->table)
+              (scheme.syntax declaration-path)))

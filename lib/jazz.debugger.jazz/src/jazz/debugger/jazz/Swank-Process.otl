@@ -1,0 +1,11 @@
+(module jazz.debugger.jazz.Swank-Process jazz
+  (class Swank-Process extends Object
+    (slot port getter generate)
+    (slot title accessors generate)
+    (slot console accessors generate)
+    (slot console-resource accessors generate)
+    (slot package-name accessors generate)
+    (slot process-id accessors generate)
+    (slot unique-id)
+    (method protected override (initialize port))
+    (method public final (generate-unique-id))))

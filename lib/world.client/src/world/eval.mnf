@@ -1,0 +1,8 @@
+(manifest world.eval
+
+  (version 207012)
+  (digest "92cade592b999e202d15df19d0cf8980d9d1bf3b")
+  (references (jazz.language.runtime.kernel ?)
+              (world.dyes white-dye)
+              (world.evaluate show-properties show-target update-alpha update-color update-position)
+              (world.geometry.classes vertex)))

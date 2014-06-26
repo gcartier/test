@@ -1,0 +1,9 @@
+(manifest jazz.graphic.Font-Metrics
+
+  (version 207012)
+  (digest "ea79a368aa0ea5638539eeb52f782134ea3c1d7d")
+  (references (jazz.language.runtime.functional Object-Class fxceiling fxround)
+              (jazz.language.runtime.kernel unspecified)
+              (jazz.language.runtime.object Object (Object destroy) (Object initialize) (Object print) print-unreadable)
+              (jazz.platform.cairo cairo_font_extents_t-ascent-ref cairo_font_extents_t-free cairo_font_extents_t-height-ref cairo_font_extents_t-max_x_advance-ref)
+              (scheme.language.runtime.kernel +)))

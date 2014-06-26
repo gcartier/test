@@ -1,0 +1,23 @@
+(module jazz.ui.search.Directories-Search-View jazz
+  (import (jazz.ide))
+  (import (jazz.graphic))
+  (import (jazz.io))
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (import (jazz.ui.search))
+  (import (jazz.ui.window))
+  (class Directories-Search-View extends Search-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected override (search-targets find replace))
+    (method protected final (search-threaded search))
+    (method protected final (on-action evt))
+    (method protected override (get-tab-stops))
+    (method protected override (setup-search-reporter reporter count)))
+  (class Directories-Text-View extends IDE-Text-View
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (method protected final (on-receive-files evt))))

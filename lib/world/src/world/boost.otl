@@ -1,0 +1,10 @@
+(module world.boost jazz
+  (import (jazz.graphic))
+  (import (world.draw))
+  (import (world.entity))
+  (import (world.geometry))
+  (import (world.syntax (phase syntax)))
+  (class Boost extends Entity
+    (method protected override (element-radiuses))
+    (method protected override (element-radius))
+    (method protected override (draw))))

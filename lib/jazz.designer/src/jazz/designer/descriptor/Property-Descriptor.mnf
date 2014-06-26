@@ -1,0 +1,10 @@
+(manifest jazz.designer.descriptor.Property-Descriptor
+
+  (version 207012)
+  (digest "a883f7f1c7b59c145567adc96eb5c1750f7d853d")
+  (references (jazz.designer.descriptor Property-Meta-Descriptor)
+              (jazz.designer.descriptor.Component-Descriptor Component-Descriptor (Component-Descriptor~Class get-class-descriptor))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.language.runtime.kernel new)
+              (jazz.language.syntax.macros submodule)
+              (jazz.library.component.Component Component (Component find-component) (Component~Class get-class-descriptor))))

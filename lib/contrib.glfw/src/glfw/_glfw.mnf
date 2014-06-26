@@ -1,0 +1,8 @@
+(manifest glfw
+
+  (version 207012)
+  (digest "dc8ae3a9397a3b75bd565a4ed9dbad5f2fea4c9f")
+  (references (jazz.foreign.syntax c-constant c-enumerant c-external)
+              (jazz.language.runtime.kernel make-parameter terminal)
+              (jazz.platform.types bool char-string double float int nonnull-UTF-8-string nonnull-char-string unsigned-int32 void)
+              (scheme.language.runtime.kernel >= append string-length string=? string? substring)))

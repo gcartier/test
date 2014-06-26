@@ -1,0 +1,8 @@
+(manifest jazz.graphic.Memory-Surface
+
+  (version 207012)
+  (digest "48468cf9a55bb387c049650a8fc1b55c68ae5b34")
+  (references (jazz.graphic.Surface Surface (Surface context) (Surface destroy-context) (Surface handle) (Surface initialize))
+              (jazz.language.runtime.functional Object-Class)
+              (jazz.platform.cairo cairo_create)
+              (jazz.platform.cairo.cairo-quartz create-cairo-image-surface)))

@@ -1,0 +1,3 @@
+(module jazz.doc.transformation.Doc-Transformation jazz
+  (import (jazz.jml))
+  (class Doc-Transformation extends JML-Transformation))

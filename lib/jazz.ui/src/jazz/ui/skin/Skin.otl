@@ -1,0 +1,10 @@
+(module jazz.ui.skin.Skin jazz
+  (import (jazz.jml))
+  (import (jazz.library))
+  (import (jazz.ui))
+  (class Skin extends Component
+    (method meta protected override (set-class-form form))
+    (method meta protected override (get-class-form))
+    (method meta protected override (get-class-forms))
+    (property title accessors generate)
+    (method public virtual (present))))
