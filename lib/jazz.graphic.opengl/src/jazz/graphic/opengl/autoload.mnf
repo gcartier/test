@@ -1,0 +1,5 @@
+(manifest jazz.graphic.opengl.autoload
+
+  (version 207012)
+  (digest "e6d4d9b3623f72d3fb3a1aa72a9164063d9a5487")
+  (references (jazz.graphic.opengl.window OpenGL-Window)))

@@ -1,0 +1,2 @@
+(module jazz.graphic.opengl.autoload jazz
+  (export (jazz.graphic.opengl.window (autoload OpenGL-Window OpenGL-Window))))
